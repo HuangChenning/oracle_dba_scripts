@@ -1,0 +1,22 @@
+declare
+username dba_users.username%type;
+begin
+for x in (select * from dba_users where account_status='LOCKED')
+loop
+dbms_output.put_line(x.username||'   '||x.account_status);
+if x.account_status='LOCKED' then
+username:=x.username;
+execute immediate 'alter user '||username||' account unlock';
+end if;
+end loop;
+end;
+
+
+begin                                                           
+for x in (select * from dba_users where account_status='LOCKED')
+loop                                                            
+execute immediate 'alter user '||x.username||' account unlock';  
+dbms_output.put_line(x.username||' is open');
+end loop;                                                       
+end;                                                            
+/                                                               

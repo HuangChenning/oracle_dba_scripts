@@ -1,0 +1,12 @@
+/*9i*/
+select recovery_estimated_ios         reio,
+       actual_redo_blks               arb,
+       target_redo_blks               trb,
+       log_file_size_redo_blks        lfsrb,
+       log_chkpt_timeout_redo_blks    lctrb,
+       log_chkpt_interval_redo_blks   lcirb,
+       fast_start_io_target_redo_blks fsiotrb,
+       target_mttr                    tmttr,
+       estimated_mttr                 emttr,
+       ckpt_block_writes              cbw
+  from v$instance_recovery;

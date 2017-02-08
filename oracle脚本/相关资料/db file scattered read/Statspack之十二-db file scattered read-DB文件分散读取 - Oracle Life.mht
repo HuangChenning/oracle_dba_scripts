@@ -1,0 +1,1672 @@
+From: "Saved by Windows Internet Explorer 9"
+Subject: =?gb2312?B?U3RhdHNwYWNr1q7Krrb+LWRiIGZpbGUgc2NhdHRlcmVkIHJlYWQtRELOxLz+?=
+	=?gb2312?B?t9bJorbByKEgLSBPcmFjbGUgTGlmZQ==?=
+Date: Tue, 14 Feb 2012 14:12:50 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCEB22.BC383F40"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7600.16807
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCEB22.BC383F40
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.eygle.com/statspack/statspack12.htm
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" =
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD>
+<META content=3D"text/html; charset=3Dutf-8" =
+http-equiv=3D"Content-Type">
+<META name=3D"GENERATOR" content=3D"MSHTML =
+9.00.8112.16440"><TITLE>Statspack=E4=B9=8B=E5=8D=81=E4=BA=8C-db=20
+file scattered =
+read-DB=E6=96=87=E4=BB=B6=E5=88=86=E6=95=A3=E8=AF=BB=E5=8F=96 - Oracle =
+Life</TITLE><LINK rel=3D"stylesheet" type=3D"text/css"=20
+href=3D"http://www.eygle.com/blog/styles-site.css"><LINK title=3D"RSS" =
+rel=3D"alternate"=20
+type=3D"application/rss+xml" =
+href=3D"http://www.eygle.com/blog/index.rdf"><LINK=20
+title=3D"Atom" rel=3D"alternate" type=3D"application/atom+xml" =
+href=3D"http://www.eygle.com/blog/atom.xml"><LINK=20
+title=3D"Home" rel=3D"start" href=3D"http://www.eygle.com/blog/"><LINK =
+title=3D"=E4=B8=A2=E5=A4=B1=E6=89=80=E6=9C=89=E6=96=87=E4=BB=B6=E3=80=81=E6=
+=8B=A5=E6=9C=89=E5=85=A8=E5=A4=87=E4=BB=BD,=E7=BC=BA=E5=B0=91=E5=90=8E=E5=
+=A2=9E=E5=8A=A0=E7=9A=84=E6=96=87=E4=BB=B6"=20
+rel=3D"prev" =
+href=3D"http://www.eygle.com/archives/2004/10/recover_backup_missing_data=
+file.html"><LINK=20
+title=3D"Statspack=E4=B9=8B=E5=8D=81=E4=B8=89-Enqueue" rel=3D"next" =
+href=3D"http://www.eygle.com/archives/2004/10/statspack13.html">
+<SCRIPT language=3D"javascript" type=3D"text/javascript">=0A=
+<!--=0A=
+=0A=
+var HOST =3D 'www.eygle.com';=0A=
+=0A=
+// Copyright (c) 1996-1997 Athenia Associates.=0A=
+// http://www.webreference.com/js/=0A=
+// License is granted if and only if this entire=0A=
+// copyright notice is included. By Tomer Shiran.=0A=
+=0A=
+function setCookie (name, value, expires, path, domain, secure) {=0A=
+    var curCookie =3D name + "=3D" + escape(value) + (expires ? "; =
+expires=3D" + expires : "") + (path ? "; path=3D" + path : "") + (domain =
+? "; domain=3D" + domain : "") + (secure ? "secure" : "");=0A=
+    document.cookie =3D curCookie;=0A=
+}=0A=
+=0A=
+function getCookie (name) {=0A=
+    var prefix =3D name + '=3D';=0A=
+    var c =3D document.cookie;=0A=
+    var nullstring =3D '';=0A=
+    var cookieStartIndex =3D c.indexOf(prefix);=0A=
+    if (cookieStartIndex =3D=3D -1)=0A=
+        return nullstring;=0A=
+    var cookieEndIndex =3D c.indexOf(";", cookieStartIndex + =
+prefix.length);=0A=
+    if (cookieEndIndex =3D=3D -1)=0A=
+        cookieEndIndex =3D c.length;=0A=
+    return unescape(c.substring(cookieStartIndex + prefix.length, =
+cookieEndIndex));=0A=
+}=0A=
+=0A=
+function deleteCookie (name, path, domain) {=0A=
+    if (getCookie(name))=0A=
+        document.cookie =3D name + "=3D" + ((path) ? "; path=3D" + path =
+: "") + ((domain) ? "; domain=3D" + domain : "") + "; expires=3DThu, =
+01-Jan-70 00:00:01 GMT";=0A=
+}=0A=
+=0A=
+function fixDate (date) {=0A=
+    var base =3D new Date(0);=0A=
+    var skew =3D base.getTime();=0A=
+    if (skew > 0)=0A=
+        date.setTime(date.getTime() - skew);=0A=
+}=0A=
+=0A=
+function rememberMe (f) {=0A=
+    var now =3D new Date();=0A=
+    fixDate(now);=0A=
+    now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000);=0A=
+    now =3D now.toGMTString();=0A=
+    if (f.author !=3D undefined)=0A=
+       setCookie('mtcmtauth', f.author.value, now, '/', '', '');=0A=
+    if (f.email !=3D undefined)=0A=
+       setCookie('mtcmtmail', f.email.value, now, '/', '', '');=0A=
+    if (f.url !=3D undefined)=0A=
+       setCookie('mtcmthome', f.url.value, now, '/', '', '');=0A=
+}=0A=
+=0A=
+function forgetMe (f) {=0A=
+    deleteCookie('mtcmtmail', '/', '');=0A=
+    deleteCookie('mtcmthome', '/', '');=0A=
+    deleteCookie('mtcmtauth', '/', '');=0A=
+    f.email.value =3D '';=0A=
+    f.author.value =3D '';=0A=
+    f.url.value =3D '';=0A=
+}=0A=
+=0A=
+//-->=0A=
+</SCRIPT>
+</HEAD>
+<BODY>
+<DIV align=3D"center">
+<TABLE class=3D"left-right" border=3D"0" cellSpacing=3D"0" =
+cellPadding=3D"0" width=3D"100%"><!--=E7=AC=AC=E4=B8=80=E8=A1=8C-->
+  <TBODY>
+  <TR>
+    <TD vAlign=3D"top" colSpan=3D"3">
+      <TABLE border=3D"0" cellSpacing=3D"0" cellPadding=3D"0" =
+width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD height=3D"20" vAlign=3D"top" =
+background=3D"http://www.eygle.com/images/cell-1.gif"=20
+          =
+width=3D"3"></TD></TR></TBODY></TABLE></TD></TR><!--=E7=AC=AC=E4=BA=8C=E8=
+=A1=8C-->
+  <TR>
+    <TD vAlign=3D"top" colSpan=3D"3">
+      <TABLE border=3D"0" cellSpacing=3D"0" cellPadding=3D"0" =
+width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD rowSpan=3D"3" width=3D"105">&nbsp;</TD>
+          <TD height=3D"31" vAlign=3D"top" width=3D"103"><A =
+href=3D"http://www.eygle.com/"><IMG=20
+            border=3D"0" alt=3D"eygle.com" =
+src=3D"http://www.eygle.com/images/a-1.jpg"=20
+            width=3D"103" height=3D"31"></A></TD>
+          <TD width=3D"310" colSpan=3D"2"></TD>
+          <TD rowSpan=3D"2" width=3D"239">&nbsp;</TD>
+          <TD rowSpan=3D"2" width=3D"239"><SPAN class=3D"new"><A =
+href=3D"http://www.eygle.com/"><IMG=20
+            border=3D"0" alt=3D"eygle.com" =
+src=3D"http://www.eygle.com/images/eygle.jpg"=20
+            width=3D"60" height=3D"60"></A></SPAN></TD></TR>
+        <TR>
+          <TD height=3D"29" vAlign=3D"top" width=3D"103"><A =
+href=3D"http://www.eygle.com/"><IMG=20
+            border=3D"0" src=3D"http://www.eygle.com/images/a-2.jpg" =
+width=3D"103"=20
+            height=3D"29"></A></TD>
+          <TD rowSpan=3D"2"><A href=3D"http://www.eygle.com/">
+            <DIV id=3D"banner">
+            <DIV id=3D"banner-inner" class=3D"pkg">
+            <H1 id=3D"banner-header"></H1></DIV></DIV></A>
+            <DIV id=3D"banner">
+            <DIV id=3D"banner-inner" class=3D"pkg">
+            <H1 id=3D"banner-header"><A accessKey=3D"1"=20
+            =
+href=3D"http://www.eygle.com/">http://www.eygle.com/</A></H1></DIV></DIV>=
+</TD></TR>
+        <TR>
+          <TD height=3D"44" vAlign=3D"top" width=3D"103"><A =
+href=3D"http://www.eygle.com/"><IMG=20
+            border=3D"0" alt=3D"eygle.com" =
+src=3D"http://www.eygle.com/images/a-3.jpg"=20
+            width=3D"103" height=3D"44"></A></TD>
+          <TD =
+colSpan=3D"3">&nbsp;</TD></TR></TBODY></TABLE></TD></TR><!--=E7=AC=AC=E4=B8=
+=89=E8=A1=8C-->
+  <TR>
+    <TD vAlign=3D"top" colSpan=3D"3">
+      <TABLE class=3D"topnav" border=3D"0" cellSpacing=3D"1" =
+cellPadding=3D"3" width=3D"100%">
+        <TBODY>
+        <TR align=3D"middle" bgColor=3D"#ff0000">
+          <TD onmouseover=3D"this.bgColor=3D'#B83936';" =
+onmouseout=3D"this.bgColor=3D'#ff0000';"=20
+          width=3D"64" noWrap=3D""><A =
+href=3D"http://www.eygle.com/"></A></TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"46" =
+noWrap=3D"">
+            <DIV align=3D"center"><A =
+href=3D"http://www.eygle.com/"><FONT =
+color=3D"#ffffff">=E9=A6=96=E9=A1=B5</FONT></A></DIV></TD>
+          <TD onmouseover=3D"this.bgColor=3D'#B83936';" =
+onmouseout=3D"this.bgColor=3D'#ff0000';"=20
+          width=3D"66" noWrap=3D"">
+            <DIV align=3D"center"><A class=3D"colheader" =
+href=3D"http://www.eygle.com/index-tech.htm"><FONT=20
+            =
+color=3D"#ffffff">=E6=8A=80=E6=9C=AF=E5=9F=BA=E7=A1=80</FONT></A></DIV></=
+TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"66" =
+noWrap=3D"">
+            <DIV align=3D"center"><A=20
+            href=3D"http://www.eygle.com/index-ha.htm"><FONT=20
+            =
+color=3D"#ffffff">=E5=A4=87=E4=BB=BD=E6=81=A2=E5=A4=8D</FONT></A></DIV></=
+TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"66" =
+noWrap=3D"">
+            <DIV align=3D"center"><A=20
+            href=3D"http://www.eygle.com/index-sql.htm"><FONT=20
+            =
+color=3D"#ffffff">SQL=E4=BC=98=E5=8C=96</FONT></A></DIV></TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"66" =
+noWrap=3D"">
+            <DIV align=3D"center"><A=20
+            href=3D"http://www.eygle.com/index-case.htm"><FONT=20
+            =
+color=3D"#ffffff">=E8=AF=8A=E6=96=AD=E6=A1=88=E4=BE=8B</FONT></A></DIV></=
+TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"49" =
+noWrap=3D"">
+            <DIV align=3D"center"><A =
+href=3D"http://www.eygle.com/blog"><FONT =
+color=3D"#ffffff">BLOG</FONT></A></DIV></TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"49" =
+noWrap=3D"">
+            <DIV align=3D"center"><A class=3D"colheader" =
+href=3D"http://www.eygle.com/gbook/index.html"><FONT=20
+            =
+color=3D"#ffffff">=E7=95=99=E8=A8=80=E6=9D=BF</FONT></A></DIV></TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"39" =
+noWrap=3D"">
+            <DIV align=3D"center"><A=20
+            href=3D"http://www.eygle.com/index-sv.htm"><FONT=20
+            color=3D"#ffffff">=E6=9C=8D=E5=8A=A1</FONT></A></DIV></TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"39" =
+noWrap=3D"">
+            <DIV align=3D"center"><A=20
+            href=3D"http://www.eygle.com/index-hist.htm"><FONT=20
+            color=3D"#ffffff">=E7=94=9F=E6=B4=BB</FONT></A></DIV></TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"39" =
+noWrap=3D"">
+            <DIV align=3D"center"><A =
+href=3D"http://www.eygle.com/digest"><FONT=20
+            color=3D"#ffffff"> =E7=BD=91=E6=91=98</FONT></A></DIV></TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"39" =
+noWrap=3D"">
+            <DIV align=3D"center"><A=20
+            href=3D"http://www.eygle.com/index-f&amp;l.htm"><FONT=20
+            color=3D"#ffffff">=E9=98=85=E8=AF=BB</FONT></A></DIV></TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"39" =
+noWrap=3D"">
+            <DIV align=3D"center"><A =
+href=3D"http://www.eygle.com/index-download.htm"><FONT=20
+            color=3D"#ffffff">=E4=B8=8B=E8=BD=BD</FONT></A></DIV></TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"39" =
+noWrap=3D"">
+            <DIV align=3D"center"><A =
+href=3D"http://www.eygle.com/rss"><FONT =
+color=3D"#ffffff">eRss</FONT></A></DIV></TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"66" =
+noWrap=3D"">
+            <DIV align=3D"center"><A =
+href=3D"http://www.eygle.com/en"><FONT =
+color=3D"#ffffff">English</FONT></A></DIV></TD>
+          <TD class=3D"colheader" =
+onmouseover=3D"this.bgColor=3D'#B83936';"=20
+          onmouseout=3D"this.bgColor=3D'#ff0000';" width=3D"67"=20
+        =
+noWrap=3D"">&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV id=3D"container">
+<DIV class=3D"content">
+<P align=3D"left"><A =
+href=3D"http://www.eygle.com/archives/2004/10/recover_backup_missing_data=
+file.html">=C2=AB=20
+=E4=B8=A2=E5=A4=B1=E6=89=80=E6=9C=89=E6=96=87=E4=BB=B6=E3=80=81=E6=8B=A5=E6=
+=9C=89=E5=85=A8=E5=A4=87=E4=BB=BD,=E7=BC=BA=E5=B0=91=E5=90=8E=E5=A2=9E=E5=
+=8A=A0=E7=9A=84=E6=96=87=E4=BB=B6</A> |<A =
+href=3D"http://www.eygle.com/blog/">Blog=E9=A6=96=E9=A1=B5</A>| <A=20
+href=3D"http://www.eygle.com/archives/2004/10/statspack13.html">Statspack=
+=E4=B9=8B=E5=8D=81=E4=B8=89-Enqueue=20
+=C2=BB</A></P>
+<H3>Statspack=E4=B9=8B=E5=8D=81=E4=BA=8C-db file scattered =
+read-DB=E6=96=87=E4=BB=B6=E5=88=86=E6=95=A3=E8=AF=BB=E5=8F=96</H3>=E4=BD=9C=
+=E8=80=85=EF=BC=9A<A href=3D"http://www.eygle.com/">eygle</A>=20
+|
+<SCRIPT type=3D"text/javascript" =
+src=3D"http://www.eygle.com/English.js"></SCRIPT>
+=E3=80=90<A=20
+href=3D"http://creativecommons.org/licenses/by-sa/2.5/">=E7=89=88=E6=9D=83=
+=E5=A3=B0=E6=98=8E</A>=EF=BC=9A=E8=BD=AC=E8=BD=BD=E6=97=B6=E8=AF=B7=E5=8A=
+=A1=E5=BF=85=E4=BB=A5=E8=B6=85=E9=93=BE=E6=8E=A5=E5=BD=A2=E5=BC=8F=E6=A0=87=
+=E6=98=8E=E6=96=87=E7=AB=A0<A=20
+class=3D"permalink"=20
+href=3D"http://www.eygle.com/archives/2004/10/statspack12.html">=E5=8E=9F=
+=E5=A7=8B=E5=87=BA=E5=A4=84</A>=E5=92=8C=E4=BD=9C=E8=80=85=E4=BF=A1=E6=81=
+=AF=E5=8F=8A<A=20
+href=3D"http://www.eygle.com/archives/2006/12/eygle_copyright.html">=E6=9C=
+=AC=E5=A3=B0=E6=98=8E</A>=E3=80=91<BR>
+=E9=93=BE=E6=8E=A5=EF=BC=9A<A class=3D"permalink" =
+href=3D"http://www.eygle.com/archives/2004/10/statspack12.html">http://ww=
+w.eygle.com/archives/2004/10/statspack12.html</A>
+<HR align=3D"center" SIZE=3D"1" noShade=3D"">
+
+<DIV class=3D"relatedtopic">
+<DIV style=3D"width: 270px;" class=3D"relatedcontent">
+<DIV =
+class=3D"relatedhead"><STRONG>=E7=AB=99=E5=86=85=E7=9B=B8=E5=85=B3=E6=96=87=
+=E7=AB=A0|Related Articles</STRONG> </DIV>
+<DIV class=3D"relatedlist">
+<LI><A =
+href=3D"http://www.eygle.com/archives/2005/10/statspack_unique_constraint=
+_violated.html">Statspack=20
+ORA-00001 =E9=94=99=E8=AF=AF=E7=9A=84=E8=A7=A3=E5=86=B3</A><BR></LI>
+<LI><A=20
+href=3D"http://www.eygle.com/archives/2004/11/statspack_list.html">Statsp=
+ack=E4=B8=93=E9=A2=98</A><BR></LI>
+<LI><A=20
+href=3D"http://www.eygle.com/archives/2004/10/statspack14-logfilesync.htm=
+l">Statspack=E4=B9=8B=E5=8D=81=E5=9B=9B-"log=20
+file sync" =E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6</A><BR></LI>
+<LI><A=20
+href=3D"http://www.eygle.com/archives/2004/10/statspack13.html">Statspack=
+=E4=B9=8B=E5=8D=81=E4=B8=89-Enqueue</A><BR></LI>
+<LI><A=20
+href=3D"http://www.eygle.com/archives/2004/06/statspack11.html">Statspack=
+=E4=B9=8B=E5=8D=81=E4=B8=80-Statspack=E6=8A=A5=E5=91=8A=E5=90=84=E9=83=A8=
+=E5=88=86=E7=AE=80=E8=A6=81=E8=AF=B4=E6=98=8E</A><BR></LI></DIV></DIV></D=
+IV>
+<P class=3D"style25"=20
+align=3D"left">=E8=BF=99=E7=A7=8D=E6=83=85=E5=86=B5=E9=80=9A=E5=B8=B8=E6=98=
+=BE=E7=A4=BA=E4=B8=8E=E5=85=A8=E8=A1=A8=E6=89=AB=E6=8F=8F=E7=9B=B8=E5=85=B3=
+=E7=9A=84=E7=AD=89=E5=BE=85=E3=80=82<BR>=E5=BD=93=E6=95=B0=E6=8D=AE=E5=BA=
+=93=E8=BF=9B=E8=A1=8C=E5=85=A8=E8=A1=A8=E6=89=AB=E6=97=B6=EF=BC=8C=E5=9F=BA=
+=E4=BA=8E=E6=80=A7=E8=83=BD=E7=9A=84=E8=80=83=E8=99=91=EF=BC=8C=E6=95=B0=E6=
+=8D=AE=E4=BC=9A=E5=88=86=E6=95=A3(scattered)=E8=AF=BB=E5=85=A5Buffer=20
+Cache=E3=80=82=E5=A6=82=E6=9E=9C=E8=BF=99=E4=B8=AA=E7=AD=89=E5=BE=85=E4=BA=
+=8B=E4=BB=B6=E6=AF=94=E8=BE=83=E6=98=BE=E8=91=97=EF=BC=8C<BR>=E5=8F=AF=E8=
+=83=BD=E8=AF=B4=E6=98=8E=E5=AF=B9=E4=BA=8E=E6=9F=90=E4=BA=9B=E5=85=A8=E8=A1=
+=A8=E6=89=AB=E6=8F=8F=E7=9A=84=E8=A1=A8=EF=BC=8C=E6=B2=A1=E6=9C=89=E5=88=9B=
+=E5=BB=BA=E7=B4=A2=E5=BC=95=E6=88=96=E8=80=85=E6=B2=A1=E6=9C=89=E5=88=9B=E5=
+=BB=BA=E5=90=88=E9=80=82=E7=9A=84=E7=B4=A2=E5=BC=95=EF=BC=8C=E6=88=91=E4=BB=
+=AC=E5=8F=AF=E8=83=BD=E9=9C=80=E8=A6=81=E6=A3=80=E6=9F=A5=E8=BF=99=E4=BA=9B=
+=E6=95=B0=E6=8D=AE=E8=A1=A8=E5=B7=B2=E7=A1=AE=E5=AE=9A=E6=98=AF=E5=90=A6=E8=
+=BF=9B<BR>=E8=A1=8C=E4=BA=86=E6=AD=A3=E7=A1=AE=E7=9A=84=E8=AE=BE=E7=BD=AE=
+=E3=80=82</P>
+<P class=3D"style25"=20
+align=3D"left">=E7=84=B6=E8=80=8C=E8=BF=99=E4=B8=AA=E7=AD=89=E5=BE=85=E4=BA=
+=8B=E4=BB=B6=E4=B8=8D=E4=B8=80=E5=AE=9A=E6=84=8F=E5=91=B3=E7=9D=80=E6=80=A7=
+=E8=83=BD=E4=BD=8E=E4=B8=8B=EF=BC=8C=E5=9C=A8=E6=9F=90=E4=BA=9B=E6=9D=A1=E4=
+=BB=B6=E4=B8=8BOracle=E4=BC=9A=E4=B8=BB=E5=8A=A8=E4=BD=BF=E7=94=A8=E5=85=A8=
+=E8=A1=A8=E6=89=AB=E6=8F=8F=E6=9D=A5=E6=9B=BF=E6=8D=A2=E7=B4=A2=E5=BC=95=E6=
+=89=AB=E6=8F=8F=E4=BB=A5=E6=8F=90=E9=AB=98=E6=80=A7=E8=83=BD=EF=BC=8C=E8=BF=
+=99<BR>=E5=92=8C=E8=AE=BF=E9=97=AE=E7=9A=84=E6=95=B0=E6=8D=AE=E9=87=8F=E6=
+=9C=89=E5=85=B3=EF=BC=8C=E5=9C=A8CBO=E4=B8=8BOracle=E4=BC=9A=E8=BF=9B=E8=A1=
+=8C=E6=9B=B4=E4=B8=BA=E6=99=BA=E8=83=BD=E7=9A=84=E9=80=89=E6=8B=A9=EF=BC=8C=
+=E5=9C=A8RBO=E4=B8=8BOracle=E6=9B=B4=E5=80=BE=E5=90=91=E4=BA=8E=E4=BD=BF=E7=
+=94=A8=E7=B4=A2=E5=BC=95=E3=80=82</P>
+<P class=3D"style25" =
+align=3D"left">=E5=9B=A0=E4=B8=BA=E5=85=A8=E8=A1=A8=E6=89=AB=E6=8F=8F=E8=A2=
+=AB=E7=BD=AE=E4=BA=8ELRU=EF=BC=88Least Recently=20
+Used=EF=BC=8C=E6=9C=80=E8=BF=91=E6=9C=80=E5=B0=91=E9=80=82=E7=94=A8=EF=BC=
+=89=E5=88=97=E8=A1=A8=E7=9A=84=E5=86=B7=E7=AB=AF=EF=BC=88cold =
+end=EF=BC=89=EF=BC=8C=E5=AF=B9=E4=BA=8E=E9=A2=91=E7=B9=81=E8=AE=BF=E9=97=AE=
+=E7=9A=84=E8=BE=83<BR>=E5=B0=8F=E7=9A=84=E6=95=B0=E6=8D=AE=E8=A1=A8=EF=BC=
+=8C=E5=8F=AF=E4=BB=A5=E9=80=89=E6=8B=A9=E6=8A=8A=E4=BB=96=E4=BB=ACCache=E5=
+=88=B0=E5=86=85=E5=AD=98=E4=B8=AD=EF=BC=8C=E4=BB=A5=E9=81=BF=E5=85=8D=E5=8F=
+=8D=E5=A4=8D=E8=AF=BB=E5=8F=96=E3=80=82</P>
+<P class=3D"style25"=20
+align=3D"left">=E5=BD=93=E8=BF=99=E4=B8=AA=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=
+=B6=E6=AF=94=E8=BE=83=E6=98=BE=E8=91=97=E6=97=B6=EF=BC=8C=E5=8F=AF=E4=BB=A5=
+=E7=BB=93=E5=90=88v$session_longops=E5=8A=A8=E6=80=81=E6=80=A7=E8=83=BD=E8=
+=A7=86=E5=9B=BE=E6=9D=A5=E8=BF=9B=E8=A1=8C=E8=AF=8A=E6=96=AD=EF=BC=8C=E8=AF=
+=A5=E8=A7=86=E5=9B=BE=E4=B8=AD=E8=AE=B0=E5=BD=95=E4=BA=86=E9=95=BF=E6=97=B6=
+=E9=97=B4=EF=BC=88=E8=BF=90<BR>=E8=A1=8C=E6=97=B6=E9=97=B4=E8=B6=85=E8=BF=
+=876=E7=A7=92=E7=9A=84=EF=BC=89=E8=BF=90=E8=A1=8C=E7=9A=84=E4=BA=8B=E7=89=
+=A9=EF=BC=8C=E5=8F=AF=E8=83=BD=E5=BE=88=E5=A4=9A=E6=98=AF=E5=85=A8=E8=A1=A8=
+=E6=89=AB=E6=8F=8F=E6=93=8D=E4=BD=9C=EF=BC=88=E4=B8=8D=E7=AE=A1=E6=80=8E=E6=
+=A0=B7=EF=BC=8C=E8=BF=99=E9=83=A8=E5=88=86=E4=BF=A1=E6=81=AF=E9=83=BD=E6=98=
+=AF=E5=80=BC=E5=BE=97=E6=88=91=E4=BB=AC=E6=B3=A8=E6=84=8F=E7=9A=84=EF=BC=89=
+=E3=80=82</P>
+<P class=3D"style25" =
+align=3D"left">=E6=88=91=E4=BB=AC=E9=80=9A=E8=BF=87=E9=80=9A=E8=BF=87=E4=B8=
+=80=E4=B8=AA=E6=A1=88=E4=BE=8B=E5=88=86=E6=9E=90=E6=9D=A5=E7=86=9F=E6=82=89=
+=E4=B8=80=E4=B8=8B=E8=BF=99=E4=B8=AA=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6:=
+<BR></P>
+<DIV class=3D"left style25" align=3D"left">
+<P>&nbsp;</P>
+<TABLE border=3D"0">
+  <TBODY>
+  <TR>
+    <TD bgColor=3D"#999999" width=3D"734"><SPAN class=3D"style6"><PRE>DB =
+Name        DB Id     Instance    Inst Num  Release     OPS   Host       =
+  =0A=
+----------  -----------  ----------  --------  ----------  ----  =
+----------   =0A=
+K2        1999167370      k2              1  8.1.5.0.0   NO      k2      =
+ =0A=
+=0A=
+=0A=
+<STRONG>=E8=BF=99=E6=98=AF=E4=B8=80=E4=B8=AA8.1.5=E7=9A=84=E6=95=B0=E6=8D=
+=AE=E5=BA=93=E7=B3=BB=E7=BB=9F=EF=BC=8C=E9=80=9A=E8=BF=87=E8=84=9A=E6=9C=AC=
+=E5=A2=9E=E5=BC=BA=EF=BC=8C=E6=88=91=E4=BB=AC=E5=8F=AF=E4=BB=A5=E5=9C=A88=
+.1.5=E7=9A=84=E6=95=B0=E6=8D=AE=E5=BA=93=E4=B8=8A=E4=BD=BF=E7=94=A8statsp=
+ack=E6=9D=A5=E8=BF=9B=E8=A1=8C=E6=95=B0=E6=8D=AE=E5=BA=93=E8=AF=8A=E6=96=AD=
+=E3=80=82</STRONG>=0A=
+=0A=
+                                                             Snap Length =
+  =0A=
+Start Id    End Id       Start Time             End Time         =
+(Minutes)    =0A=
+--------  --------  --------------------  --------------------  =
+-----------   =0A=
+     170       176  25-Feb-03 10:00:11    25-Feb-03 15:00:05         =
+299.90   =0A=
+=0A=
+Cache Sizes                                                              =
+     =0A=
+~~~~~~~~~~~                                                              =
+     =0A=
+           db_block_buffers:       64000                                 =
+     =0A=
+              db_block_size:        8192                                 =
+     =0A=
+                 log_buffer:     8388608                                 =
+     =0A=
+           shared_pool_size:   157286400                                 =
+     =0A=
+                                                                         =
+     =0A=
+=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6=E2=80=A6                   =
+ =0A=
+                                                                         =
+     =0A=
+Top 5 Wait Events                                                        =
+     =0A=
+~~~~~~~~~~~~~~~~~                                                     =
+Wait  % Total=0A=
+Event                                          Waits     Time (cs)  Wt =
+Time=0A=
+-------------------------------------------- ------------ =
+----------------------- -------=0A=
+db file scattered read                         16,842,920             =
+3,490,719   43.32=0A=
+latch free                                     844,272      3,270,073   =
+40.58=0A=
+buffer busy waits                               114,421          933,136 =
+  11.58=0A=
+db file sequential read                          2,067,910         =
+117,750    1.46=0A=
+enqueue                                          464          110,840    =
+1.38=0A=
+         -------------------------------------------------------------   =
+     =0A=
+=0A=
+<STRONG>=E8=BF=99=E6=98=AF=E4=B8=80=E4=B8=AA=E5=85=B8=E5=9E=8B=E7=9A=84=E6=
+=80=A7=E8=83=BD=E4=BD=8E=E4=B8=8B=E7=9A=84=E7=B3=BB=E7=BB=9F=EF=BC=8C=E5=87=
+=A0=E4=B8=AA=E9=87=8D=E8=A6=81=E7=9A=84=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=
+=E9=83=BD=E5=9C=A8Top =
+5=E4=B8=AD=E5=87=BA=E7=8E=B0=EF=BC=8C=E5=85=B6=E4=B8=AD=EF=BC=8C=E5=89=8D=
+3=E4=B8=AA=E7=AD=89=E5=BE=85=E6=9E=81=E4=B8=BA=E6=98=BE=E8=91=97=EF=BC=8C=
+=E9=9C=80=E8=A6=81=E8=BF=9B=E8=A1=8C=0A=
+=E7=9B=B8=E5=BA=94=E7=9A=84=E8=B0=83=E6=95=B4=E3=80=82=0A=
+=E5=9C=A85=E5=B0=8F=E6=97=B6=E7=9A=84=E9=87=87=E6=A0=B7=E9=97=B4=E9=9A=94=
+=E5=86=85=EF=BC=8C=E5=85=B6=E4=B8=ADdb file scattered =
+read=E7=B4=AF=E8=AE=A1=E7=AD=89=E5=BE=85=E6=97=B6=E9=97=B4=E7=BA=A610=E5=B0=
+=8F=E6=97=B6=EF=BC=8C=E5=B7=B2=E7=BB=8F=E6=88=90=E4=B8=BA=E5=BD=B1=E5=93=8D=
+=E7=B3=BB=E7=BB=9F=E6=80=A7=E8=83=BD=E7=9A=84=E4=B8=BB=E8=A6=81=E5=8E=9F=E5=
+=9B=A0=E3=80=82=0A=
+=E4=BA=86=E8=A7=A3=E4=BA=86=E8=BF=99=E4=BA=9B=E4=BB=A5=E5=90=8E=E6=88=91=E4=
+=BB=AC=E5=B0=B1=E5=8F=AF=E4=BB=A5=E8=BF=9B=E4=B8=80=E6=AD=A5=E5=AF=9F=E7=9C=
+=8B=E7=9B=B8=E5=85=B3SQL=E7=9C=8B=E6=98=AF=E5=90=A6=E5=AD=98=E5=9C=A8=E5=8F=
+=AF=E4=BB=A5=E7=9A=84SQL=E8=AF=AD=E5=8F=A5=E3=80=82=0A=
+</STRONG>=0A=
+SQL ordered by Gets for DB: K2  Instance: k2  Snaps:     170 -    176   =0A=
+                                                                         =
+     =0A=
+                                Gets       % of                          =
+     =0A=
+   Buffer Gets     Executes   per Exec    Total   Hash Value             =
+     =0A=
+-------------- ------------ ------------ ------ ------------             =
+     =0A=
+SQL statement                                                            =
+     =0A=
+-------------------------------------------------------------------------=
+-----=0A=
+     6,480,163           12    540,013.6    2.4   3791855498             =
+     =0A=
+  SELECT "PROCESS_REQ"."WORK_ID", "PROCESS_REQ"."STOCK_NO",    "PROCESS_R=0A=
+                                                                         =
+     =0A=
+     3,784,566           16    236,535.4    1.4   2932917818             =
+     =0A=
+SELECT * FROM FIND_LATER_WO ORDER BY NOTE,ORDER_NO                       =
+     =0A=
+                                                                         =
+       =0A=
+     1,200,976            3    400,325.3     .4   4122791109             =
+     =0A=
+  SELECT "ITEM_STOCK"."ITEM_NO",              "ITEM"."NOTE",            =
+"ITEM"=0A=
+                                                                         =
+      =0A=
+       923,944            9    102,660.4     .3   2200071737             =
+     =0A=
+  SELECT  "ITEM_STOCK"."ITEM_NO" ,           "ITEM_STOCK"."STOCK_NO" ,   =
+     =0A=
+                                                                         =
+     =0A=
+       921,301            3    307,100.3     .3   2218843294             =
+     =0A=
+  SELECT "ITEM_STOCK"."ITEM_NO",              "ITEM"."NOTE",            =
+"ITEM"=0A=
+                                                                         =
+     =0A=
+       911,285            3    303,761.7     .3   1769130587             =
+     =0A=
+  SELECT  "LISTS"."ITEM_NO" ,           "LISTS"."SUB_ITEM" ,           =
+"LISTS"=0A=
+                                                                         =
+     =0A=
+       831,439            2    415,719.5     .3   1349577999             =
+     =0A=
+  SELECT  "GROUP_OPER"."ITEM_NO" ,           "GROUP_OPER"."PROCESS_ID" , =
+     =0A=
+                                                                         =
+     =0A=
+       802,918            1    802,918.0     .3   3613809507             =
+     =0A=
+  SELECT  "LISTS"."ITEM_NO" ,           "LISTS"."SUB_ITEM" ,           =
+"ITEM".=0A=
+                                                                         =
+     =0A=
+       800,548            2    400,274.0     .3   2643788247             =
+     =0A=
+  SELECT "ITEM_STOCK"."ITEM_NO",              "ITEM"."NOTE",            =
+"ITEM"=0A=
+                                                                         =
+     =0A=
+       666,085            2    333,042.5     .2   3391363608             =
+     =0A=
+  SELECT "ITEM_STOCK"."ITEM_NO",              "ITEM_STOCK"."STOCK_NO",   =
+     =0A=
+          =E2=80=A6=E2=80=A6=E2=80=A6..                                  =
+                             =0A=
+=0A=
+<STRONG>=E6=B3=A8=E6=84=8F=E5=88=B0=E4=BB=A5=E4=B8=8A=E5=BE=88=E5=A4=9A=E6=
+=9F=A5=E8=AF=A2=E5=AF=BC=E8=87=B4=E7=9A=84Buffer =
+Gets=E9=83=BD=E9=9D=9E=E5=B8=B8=E5=BA=9E=E5=A4=A7=EF=BC=8C=E6=88=91=E4=BB=
+=AC=E9=9D=9E=E5=B8=B8=E6=9C=89=E7=90=86=E7=94=B1=E6=80=80=E7=96=91=E7=B4=A2=
+=E5=BC=95=E5=AD=98=E5=9C=A8=E9=97=AE=E9=A2=98=EF=BC=8C=E7=94=9A=E8=87=B3=E7=
+=BC=BA=E5=B0=91=E5=BF=85=E8=A6=81=E7=9A=84=E7=B4=A2=E5=BC=95=E3=80=82=0A=
+=E4=BB=A5=E4=B8=8A=E8=AE=B0=E5=BD=95=E7=9A=84=E6=98=AFSQL=E7=9A=84=E7=89=87=
+=E6=AE=B5=EF=BC=8C=E9=80=9A=E8=BF=87Hash =
+Value=E5=80=BC=E7=BB=93=E5=90=88v$sql_text=E6=88=91=E4=BB=AC=E5=8F=AF=E4=BB=
+=A5=E8=8E=B7=E5=BE=97=E5=AE=8C=E6=95=B4=E7=9A=84SQL=E8=AF=AD=E5=8F=A5=E3=80=
+=82=0A=
+=0A=
+=E5=9C=A8=E8=BF=99=E6=AC=A1=E8=AF=8A=E6=96=AD=E4=B8=AD=EF=BC=8C=E6=88=91=E7=
+=B4=A7=E6=8E=A5=E7=9D=80=E5=8E=BB=E6=9F=A5=E8=AF=A2=E7=9A=84=E6=98=AFv$se=
+ssion_longops=E6=95=B0=E6=8D=AE=E8=A1=A8=EF=BC=8C=E4=B8=80=E4=B8=AA=E5=88=
+=86=E7=BB=84=E6=9F=A5=E8=AF=A2=E7=9A=84=E7=BB=93=E6=9E=9C=E5=A6=82=E4=B8=8B=
+:</STRONG>=0A=
+=0A=
+TARGET                                  COUNT(*)=0A=
+---------------------------------------------------------------- =
+----------=0A=
+SA.PPBT_GRAPHOBJTABLE                  418=0A=
+SA.PPBT_PPBTOBJRELATTABLE              53=0A=
+=0A=
+<STRONG>=E6=88=91=E4=BB=AC=E5=8F=91=E7=8E=B0=E8=BF=99=E4=BA=9B=E9=97=AE=E9=
+=A2=98SQL=E7=9A=84=E5=85=A8=E8=A1=A8=E6=89=AB=E6=8F=8F(=E7=BB=93=E5=90=88=
+v$session_longops=E8=A7=86=E5=9B=BE=E4=B8=AD=E7=9A=84OPNAME)=E4=B8=BB=E8=A6=
+=81=E9=9B=86=E4=B8=AD=E5=9C=A8PPBT_GRAPHOBJTABLE=E5=92=8C=0A=
+PPBT_PPBTOBJRELATTABLE=E4=B8=A4=E5=BC=A0=E6=95=B0=E6=8D=AE=E8=A1=A8=E4=B8=
+=8A=E3=80=82=0A=
+=E8=BF=9B=E4=B8=80=E6=AD=A5=E7=A0=94=E7=A9=B6=E5=8F=91=E7=8E=B0=E8=BF=99=E4=
+=B8=A4=E4=B8=AA=E6=95=B0=E6=8D=AE=E8=A1=A8=E4=B8=8A=E6=B2=A1=E6=9C=89=E4=BB=
+=BB=E4=BD=95=E7=B4=A2=E5=BC=95=EF=BC=8C=E5=B9=B6=E4=B8=94=E6=9C=89=E7=9B=B8=
+=E5=BD=93=E7=9A=84=E6=95=B0=E6=8D=AE=E9=87=8F:=0A=
+</STRONG>=0A=
+SQL&gt; select count(*) from SA.PPBT_PPBTOBJRELATTABLE;=0A=
+=0A=
+  COUNT(*)=0A=
+----------=0A=
+   1209017=0A=
+=E3=80=80SQL&gt; select count(*) from SA.PPBT_GRAPHOBJTABLE;=0A=
+=0A=
+   COUNT(*)=0A=
+----------=0A=
+      2445=0A=
+=0A=
+<STRONG>=E5=9C=A8=E5=88=9B=E5=BB=BA=E4=BA=86=E5=90=88=E9=80=82=E7=9A=84=E7=
+=B4=A2=E5=BC=95=E5=90=8E=EF=BC=8C=E7=B3=BB=E7=BB=9F=E6=80=A7=E8=83=BD=E5=BE=
+=97=E5=88=B0=E4=BA=86=E5=A4=A7=E5=B9=85=E6=8F=90=E9=AB=98!</STRONG>=0A=
+       =0A=
+                      </PRE></SPAN></TD></TR></TBODY></TABLE>
+<P>&nbsp;</P></DIV>
+<DIV id=3D"a000061more">
+<DIV id=3D"more">-----<BR>=E8=BF=99=E7=AF=87 =E3=80=90<A =
+href=3D"http://www.eygle.com/archives/2004/10/statspack12.html">Statspack=
+=E4=B9=8B=E5=8D=81=E4=BA=8C-db=20
+file scattered =
+read-DB=E6=96=87=E4=BB=B6=E5=88=86=E6=95=A3=E8=AF=BB=E5=8F=96</A>=E3=80=91=
+=E6=9D=A5=E8=87=AA <A=20
+href=3D"http://www.eygle.com/">http://www.eygle.com/</A> | =
+=E6=9C=AC=E7=AB=99 <A =
+href=3D"http://creativecommons.org/licenses/by-nc-sa/2.5/deed.zh"><IMG=20
+src=3D"http://www.eygle.com/images/cc.png"></A> =E7=89=88=E6=9D=83| <A =
+title=3D"=E6=94=B6=E8=97=8F=E5=88=B0CSDN=E6=8A=80=E6=9C=AF=E7=BD=91=E6=91=
+=98" =
+href=3D"javascript:d=3Ddocument;t=3Dd.selection?(d.selection.type!=3D'Non=
+e'?d.selection.createRange().text:''):(d.getSelection?d.getSelection():''=
+);void(saveit=3Dwindow.open('http://wz.csdn.net/storeit.aspx?t=3D'+escape=
+(d.title)+'&amp;u=3D'+escape(d.location.href)+'&amp;c=3D'+escape(t),'keyi=
+t','scrollbars=3Dno,width=3D590,height=3D300,left=3D75,top=3D20,status=3D=
+no,resizable=3Dyes'));saveit.focus();">CSDN=E6=8A=80=E6=9C=AF=E7=BD=91=E6=
+=91=98</A>|<A=20
+href=3D"http://del.icio.us/post?url=3Dhttp://www.eygle.com/archives/2004/=
+10/statspack12.html&amp;title=3DStatspack=E4=B9=8B=E5=8D=81=E4=BA=8C-db =
+file scattered =
+read-DB=E6=96=87=E4=BB=B6=E5=88=86=E6=95=A3=E8=AF=BB=E5=8F=96">=20
+del.icio.us</A>|<A title=3D"=E6=94=B6=E8=97=8F=E5=88=B0365Key" =
+href=3D"javascript:d=3Ddocument;t=3Dd.selection?(d.selection.type!=3D'Non=
+e'?d.selection.createRange().text:''):(d.getSelection?d.getSelection():''=
+);void(keyit=3Dwindow.open('http://www.365key.com/storeit.aspx?t=3D'+esca=
+pe(d.title)+'&amp;u=3D'+escape(d.location.href)+'&amp;c=3D'+escape(t),'ke=
+yit','scrollbars=3Dno,width=3D475,height=3D575,left=3D75,top=3D20,status=3D=
+no,resizable=3Dyes'));keyit.focus();"><FONT=20
+color=3D"darkorchid">365K<FONT =
+color=3D"#57c200">e</FONT>y</FONT></A><BR>
+</DIV></DIV>
+<P class=3D"posted">By eygle on 2004-10-14 22:21 | <A =
+href=3D"http://www.eygle.com/archives/2004/10/statspack12.html#comments">=
+Comments=20
+(0)</A> |  Posted to <A=20
+href=3D"http://www.eygle.com/archives/database/statspack/">Statspack</A><=
+/P>
+<DIV =
+class=3D"container">=E7=AB=99=E5=86=85=E7=9B=B8=E5=85=B3=E4=B8=BB=E9=A2=98=
+:</DIV>
+<DIV class=3D"content">
+<LI><A =
+href=3D"http://www.eygle.com/archives/2005/10/statspack_unique_constraint=
+_violated.html">Statspack=20
+ORA-00001 =E9=94=99=E8=AF=AF=E7=9A=84=E8=A7=A3=E5=86=B3</A>(9) =
+<EM>October 16, 2005</EM><BR></LI>
+<LI><A=20
+href=3D"http://www.eygle.com/archives/2004/11/statspack_list.html">Statsp=
+ack=E4=B8=93=E9=A2=98</A>(0)=20
+<EM>November 14, 2004</EM><BR></LI>
+<LI><A=20
+href=3D"http://www.eygle.com/archives/2004/10/statspack14-logfilesync.htm=
+l">Statspack=E4=B9=8B=E5=8D=81=E5=9B=9B-"log=20
+file sync" =E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6</A>(0) <EM>October 14, =
+2004</EM><BR></LI>
+<LI><A=20
+href=3D"http://www.eygle.com/archives/2004/10/statspack13.html">Statspack=
+=E4=B9=8B=E5=8D=81=E4=B8=89-Enqueue</A>(0)=20
+<EM>October 14, 2004</EM><BR></LI>
+<LI><A=20
+href=3D"http://www.eygle.com/archives/2004/06/statspack11.html">Statspack=
+=E4=B9=8B=E5=8D=81=E4=B8=80-Statspack=E6=8A=A5=E5=91=8A=E5=90=84=E9=83=A8=
+=E5=88=86=E7=AE=80=E8=A6=81=E8=AF=B4=E6=98=8E</A>(0)=20
+<EM>June 25, 2004</EM><BR></LI></DIV> <BR>
+<DIV =
+class=3D"container">=E7=BD=91=E4=B8=8A=E7=9B=B8=E5=85=B3=E4=B8=BB=E9=A2=98=
+:</DIV><!-- SiteSearch Google -->
+<FORM method=3D"get" action=3D"http://www.google.cn/custom" =
+target=3D"_top">
+<TABLE border=3D"0" bgColor=3D"#ffffff">
+  <TBODY>
+  <TR>
+    <TD height=3D"32" vAlign=3D"top" noWrap=3D"nowrap" align=3D"left"><A =
+href=3D"http://www.google.cn/">
+      <IMG border=3D"0" alt=3D"Google" align=3D"middle" =
+src=3D"http://www.google.cn/logos/Logo_25wht.gif"></A>
+    </TD>
+    <TD noWrap=3D"nowrap"><INPUT name=3D"domains" =
+value=3D"www.eygle.com" type=3D"hidden">
+      <INPUT name=3D"q" maxLength=3D"255" =
+value=3D"Statspack=E4=B9=8B=E5=8D=81=E4=BA=8C-db file scattered =
+read-DB=E6=96=87=E4=BB=B6=E5=88=86=E6=95=A3=E8=AF=BB=E5=8F=96"=20
+      size=3D"31" type=3D"text"><INPUT name=3D"sa" =
+value=3D"=E6=90=9C=E7=B4=A2" type=3D"submit"></TD></TR>
+  </TBODY></TABLE></FORM><!-- SiteSearch Google -->
+<H2 id=3D"comments">=E7=95=99=E8=A8=80 (0)</H2>
+<H2>=E5=8F=91=E8=A1=A8=E7=95=99=E8=A8=80:</H2>
+<FORM onsubmit=3D"if (this.bakecookie[0].checked) rememberMe(this)" =
+method=3D"post"=20
+name=3D"comments_form"=20
+action=3D"http://www.eygle.com/cgi-bin/mt/mt-mycomments.fcgi"><INPUT =
+name=3D"static"=20
+value=3D"1" type=3D"hidden"><INPUT name=3D"entry_id" value=3D"61" =
+type=3D"hidden">
+<DIV id=3D"name_email"><LABEL for=3D"author">Name(*):</LABEL><INPUT =
+id=3D"author"=20
+tabIndex=3D"1" name=3D"author"><BR><LABEL =
+for=3D"email">Email(*):</LABEL><INPUT id=3D"email"=20
+tabIndex=3D"2" name=3D"email"><BR></DIV><LABEL for=3D"url">You =
+Link:</LABEL><INPUT id=3D"url"=20
+tabIndex=3D"3" name=3D"url" size=3D"30" type=3D"text">Remember Me?<INPUT =
+id=3D"remember"=20
+onclick=3D"rememberMe(this.form)" name=3D"bakecookie" =
+type=3D"radio"><LABEL for=3D"remember">Yes</LABEL><INPUT=20
+style=3D"margin-left: 15px;" id=3D"forget" =
+onclick=3D"forgetMe(this.form)" name=3D"bakecookie"=20
+value=3D"Forget Info" type=3D"radio"><LABEL for=3D"forget">No</LABEL><BR =
+style=3D"clear: both;">
+<LABEL for=3D"scode">=E9=AA=8C=E8=AF=81=E7=A0=81(*):</LABEL><INPUT =
+id=3D"code" name=3D"code" value=3D"46" type=3D"hidden">
+<INPUT id=3D"scode" tabIndex=3D"4" name=3D"scode" size=3D"10"><IMG =
+border=3D"0"=20
+src=3D"">(=E8=BE=93=E5=85=A5=E9=AA=8C=E8=AF=81=E7=A0=81=E5=90=8E=E6=96=B9=
+=E5=8F=AF=E8=AF=84=E8=AE=BA,=E8=B0=A2=E8=B0=A2=E6=94=AF=E6=8C=81)<BR><LAB=
+EL for=3D"text">Comments:</LABEL> <BR><TEXTAREA id=3D"text" =
+tabIndex=3D"5" cols=3D"50" rows=3D"10" name=3D"text"></TEXTAREA><BR>
+<DIV align=3D"left"><INPUT style=3D"font-weight: bold;" tabIndex=3D"7" =
+name=3D"post" value=3D"&nbsp;=E6=8F=90=E4=BA=A4=E7=95=99=E8=A8=80&nbsp;" =
+type=3D"submit">
+</DIV></FORM>
+<SCRIPT language=3D"javascript" type=3D"text/javascript">=0A=
+<!--=0A=
+if (document.comments_form.email !=3D undefined)=0A=
+    document.comments_form.email.value =3D getCookie("mtcmtmail");=0A=
+if (document.comments_form.author !=3D undefined)=0A=
+    document.comments_form.author.value =3D getCookie("mtcmtauth");=0A=
+if (document.comments_form.url !=3D undefined)=0A=
+    document.comments_form.url.value =3D getCookie("mtcmthome");=0A=
+if (getCookie("mtcmtauth") || getCookie("mtcmthome")) {=0A=
+    document.comments_form.bakecookie[0].checked =3D true;=0A=
+} else {=0A=
+    document.comments_form.bakecookie[1].checked =3D true;=0A=
+}=0A=
+//-->=0A=
+</SCRIPT>
+</DIV></DIV>
+<HR align=3D"center" SIZE=3D"1" noShade=3D"">
+
+<P class=3D"style57" align=3D"center">CopyRight =C2=A9 2004 <A =
+href=3D"http://www.eygle.com/">eygle.com</A>,=20
+All rights reserved. </P></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CCEB22.BC383F40
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.eygle.com/images/a-1.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAZAAA/+IMWElDQ19QUk9GSUxFAAEB
+AAAMSExpbm8CEAAAbW50clJHQiBYWVogB84AAgAJAAYAMQAAYWNzcE1TRlQAAAAASUVDIHNSR0IA
+AAAAAAAAAAAAAAEAAPbWAAEAAAAA0y1IUCAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAARY3BydAAAAVAAAAAzZGVzYwAAAYQAAABsd3RwdAAAAfAAAAAUYmtw
+dAAAAgQAAAAUclhZWgAAAhgAAAAUZ1hZWgAAAiwAAAAUYlhZWgAAAkAAAAAUZG1uZAAAAlQAAABw
+ZG1kZAAAAsQAAACIdnVlZAAAA0wAAACGdmlldwAAA9QAAAAkbHVtaQAAA/gAAAAUbWVhcwAABAwA
+AAAkdGVjaAAABDAAAAAMclRSQwAABDwAAAgMZ1RSQwAABDwAAAgMYlRSQwAABDwAAAgMdGV4dAAA
+AABDb3B5cmlnaHQgKGMpIDE5OTggSGV3bGV0dC1QYWNrYXJkIENvbXBhbnkAAGRlc2MAAAAAAAAA
+EnNSR0IgSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAASc1JHQiBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAADzUQABAAAA
+ARbMWFlaIAAAAAAAAAAAAAAAAAAAAABYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAA
+t4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9kZXNjAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMu
+Y2gAAAAAAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMuY2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZGVzYwAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZhdWx0
+IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZhdWx0
+IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRlc2MAAAAAAAAA
+LFJlZmVyZW5jZSBWaWV3aW5nIENvbmRpdGlvbiBpbiBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAAACxS
+ZWZlcmVuY2UgVmlld2luZyBDb25kaXRpb24gaW4gSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAB2aWV3AAAAAAATpP4AFF8uABDPFAAD7cwABBMLAANcngAAAAFYWVogAAAAAABM
+CVYAUAAAAFcf521lYXMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAKPAAAAAnNpZyAAAAAAQ1JU
+IGN1cnYAAAAAAAAEAAAAAAUACgAPABQAGQAeACMAKAAtADIANwA7AEAARQBKAE8AVABZAF4AYwBo
+AG0AcgB3AHwAgQCGAIsAkACVAJoAnwCkAKkArgCyALcAvADBAMYAywDQANUA2wDgAOUA6wDwAPYA
++wEBAQcBDQETARkBHwElASsBMgE4AT4BRQFMAVIBWQFgAWcBbgF1AXwBgwGLAZIBmgGhAakBsQG5
+AcEByQHRAdkB4QHpAfIB+gIDAgwCFAIdAiYCLwI4AkECSwJUAl0CZwJxAnoChAKOApgCogKsArYC
+wQLLAtUC4ALrAvUDAAMLAxYDIQMtAzgDQwNPA1oDZgNyA34DigOWA6IDrgO6A8cD0wPgA+wD+QQG
+BBMEIAQtBDsESARVBGMEcQR+BIwEmgSoBLYExATTBOEE8AT+BQ0FHAUrBToFSQVYBWcFdwWGBZYF
+pgW1BcUF1QXlBfYGBgYWBicGNwZIBlkGagZ7BowGnQavBsAG0QbjBvUHBwcZBysHPQdPB2EHdAeG
+B5kHrAe/B9IH5Qf4CAsIHwgyCEYIWghuCIIIlgiqCL4I0gjnCPsJEAklCToJTwlkCXkJjwmkCboJ
+zwnlCfsKEQonCj0KVApqCoEKmAquCsUK3ArzCwsLIgs5C1ELaQuAC5gLsAvIC+EL+QwSDCoMQwxc
+DHUMjgynDMAM2QzzDQ0NJg1ADVoNdA2ODakNww3eDfgOEw4uDkkOZA5/DpsOtg7SDu4PCQ8lD0EP
+Xg96D5YPsw/PD+wQCRAmEEMQYRB+EJsQuRDXEPURExExEU8RbRGMEaoRyRHoEgcSJhJFEmQShBKj
+EsMS4xMDEyMTQxNjE4MTpBPFE+UUBhQnFEkUahSLFK0UzhTwFRIVNBVWFXgVmxW9FeAWAxYmFkkW
+bBaPFrIW1hb6Fx0XQRdlF4kXrhfSF/cYGxhAGGUYihivGNUY+hkgGUUZaxmRGbcZ3RoEGioaURp3
+Gp4axRrsGxQbOxtjG4obshvaHAIcKhxSHHscoxzMHPUdHh1HHXAdmR3DHeweFh5AHmoelB6+Hukf
+Ex8+H2kflB+/H+ogFSBBIGwgmCDEIPAhHCFIIXUhoSHOIfsiJyJVIoIiryLdIwojOCNmI5QjwiPw
+JB8kTSR8JKsk2iUJJTglaCWXJccl9yYnJlcmhya3JugnGCdJJ3onqyfcKA0oPyhxKKIo1CkGKTgp
+aymdKdAqAio1KmgqmyrPKwIrNitpK50r0SwFLDksbiyiLNctDC1BLXYtqy3hLhYuTC6CLrcu7i8k
+L1ovkS/HL/4wNTBsMKQw2zESMUoxgjG6MfIyKjJjMpsy1DMNM0YzfzO4M/E0KzRlNJ402DUTNU01
+hzXCNf02NzZyNq426TckN2A3nDfXOBQ4UDiMOMg5BTlCOX85vDn5OjY6dDqyOu87LTtrO6o76Dwn
+PGU8pDzjPSI9YT2hPeA+ID5gPqA+4D8hP2E/oj/iQCNAZECmQOdBKUFqQaxB7kIwQnJCtUL3QzpD
+fUPARANER0SKRM5FEkVVRZpF3kYiRmdGq0bwRzVHe0fASAVIS0iRSNdJHUljSalJ8Eo3Sn1KxEsM
+S1NLmkviTCpMcky6TQJNSk2TTdxOJU5uTrdPAE9JT5NP3VAnUHFQu1EGUVBRm1HmUjFSfFLHUxNT
+X1OqU/ZUQlSPVNtVKFV1VcJWD1ZcVqlW91dEV5JX4FgvWH1Yy1kaWWlZuFoHWlZaplr1W0VblVvl
+XDVchlzWXSddeF3JXhpebF69Xw9fYV+zYAVgV2CqYPxhT2GiYfViSWKcYvBjQ2OXY+tkQGSUZOll
+PWWSZedmPWaSZuhnPWeTZ+loP2iWaOxpQ2maafFqSGqfavdrT2una/9sV2yvbQhtYG25bhJua27E
+bx5veG/RcCtwhnDgcTpxlXHwcktypnMBc11zuHQUdHB0zHUodYV14XY+dpt2+HdWd7N4EXhueMx5
+KnmJeed6RnqlewR7Y3vCfCF8gXzhfUF9oX4BfmJ+wn8jf4R/5YBHgKiBCoFrgc2CMIKSgvSDV4O6
+hB2EgITjhUeFq4YOhnKG14c7h5+IBIhpiM6JM4mZif6KZIrKizCLlov8jGOMyo0xjZiN/45mjs6P
+No+ekAaQbpDWkT+RqJIRknqS45NNk7aUIJSKlPSVX5XJljSWn5cKl3WX4JhMmLiZJJmQmfyaaJrV
+m0Kbr5wcnImc951kndKeQJ6unx2fi5/6oGmg2KFHobaiJqKWowajdqPmpFakx6U4pammGqaLpv2n
+bqfgqFKoxKk3qamqHKqPqwKrdavprFys0K1ErbiuLa6hrxavi7AAsHWw6rFgsdayS7LCszizrrQl
+tJy1E7WKtgG2ebbwt2i34LhZuNG5SrnCuju6tbsuu6e8IbybvRW9j74KvoS+/796v/XAcMDswWfB
+48JfwtvDWMPUxFHEzsVLxcjGRsbDx0HHv8g9yLzJOsm5yjjKt8s2y7bMNcy1zTXNtc42zrbPN8+4
+0DnQutE80b7SP9LB00TTxtRJ1MvVTtXR1lXW2Ndc1+DYZNjo2WzZ8dp22vvbgNwF3IrdEN2W3hze
+ot8p36/gNuC94UThzOJT4tvjY+Pr5HPk/OWE5g3mlucf56noMui86Ubp0Opb6uXrcOv77IbtEe2c
+7ijutO9A78zwWPDl8XLx//KM8xnzp/Q09ML1UPXe9m32+/eK+Bn4qPk4+cf6V/rn+3f8B/yY/Sn9
+uv5L/tz/bf///+4ADkFkb2JlAGTAAAAAAf/bAIQAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+AQEBAQEBAQEBAQEBAQEBAQICAgICAgICAgICAwMDAwMDAwMDAwEBAQEBAQECAQECAgIBAgIDAwMD
+AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD/8AAEQgAHwBnAwER
+AAIRAQMRAf/EAKUAAAIBBAMAAAAAAAAAAAAAAAcJCAIDBQYBBAoBAAEEAwEAAAAAAAAAAAAAAAMB
+AgQFAAYHCBAAAAcAAQMCBAQFBQAAAAAAAQIDBAUGBwgAERIhEzEUFQlBURYXYXEiMiORwXKmGBEA
+AgECBAQDBAUJCAMAAAAAAQIDEQQAIRIFMUETBlFhInGR0RSBoTJSsvCxwUJigiMzFeFywkNTdDUH
+c5MW/9oADAMBAAIRAxEAPwD3t2ez1+mV+XtdqlmUFXYFitJTEvILAgzYMm5fJVdZQ3wD4AAB3MYw
+gUAERAOnxxvK4jjFXY0AxnDPA1gdlC1MmkrXM01F/DSKaS8dLPK/HwDd81XADt3qLSwzUXLEZrpm
+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
+
+------=_NextPart_000_0000_01CCEB22.BC383F40
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.eygle.com/images/eygle.jpg
+
+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
+
+------=_NextPart_000_0000_01CCEB22.BC383F40
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.eygle.com/images/a-2.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAZAAA/+IMWElDQ19QUk9GSUxFAAEB
+AAAMSExpbm8CEAAAbW50clJHQiBYWVogB84AAgAJAAYAMQAAYWNzcE1TRlQAAAAASUVDIHNSR0IA
+AAAAAAAAAAAAAAEAAPbWAAEAAAAA0y1IUCAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAARY3BydAAAAVAAAAAzZGVzYwAAAYQAAABsd3RwdAAAAfAAAAAUYmtw
+dAAAAgQAAAAUclhZWgAAAhgAAAAUZ1hZWgAAAiwAAAAUYlhZWgAAAkAAAAAUZG1uZAAAAlQAAABw
+ZG1kZAAAAsQAAACIdnVlZAAAA0wAAACGdmlldwAAA9QAAAAkbHVtaQAAA/gAAAAUbWVhcwAABAwA
+AAAkdGVjaAAABDAAAAAMclRSQwAABDwAAAgMZ1RSQwAABDwAAAgMYlRSQwAABDwAAAgMdGV4dAAA
+AABDb3B5cmlnaHQgKGMpIDE5OTggSGV3bGV0dC1QYWNrYXJkIENvbXBhbnkAAGRlc2MAAAAAAAAA
+EnNSR0IgSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAASc1JHQiBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAADzUQABAAAA
+ARbMWFlaIAAAAAAAAAAAAAAAAAAAAABYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAA
+t4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9kZXNjAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMu
+Y2gAAAAAAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMuY2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZGVzYwAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZhdWx0
+IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZhdWx0
+IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRlc2MAAAAAAAAA
+LFJlZmVyZW5jZSBWaWV3aW5nIENvbmRpdGlvbiBpbiBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAAACxS
+ZWZlcmVuY2UgVmlld2luZyBDb25kaXRpb24gaW4gSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAB2aWV3AAAAAAATpP4AFF8uABDPFAAD7cwABBMLAANcngAAAAFYWVogAAAAAABM
+CVYAUAAAAFcf521lYXMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAKPAAAAAnNpZyAAAAAAQ1JU
+IGN1cnYAAAAAAAAEAAAAAAUACgAPABQAGQAeACMAKAAtADIANwA7AEAARQBKAE8AVABZAF4AYwBo
+AG0AcgB3AHwAgQCGAIsAkACVAJoAnwCkAKkArgCyALcAvADBAMYAywDQANUA2wDgAOUA6wDwAPYA
++wEBAQcBDQETARkBHwElASsBMgE4AT4BRQFMAVIBWQFgAWcBbgF1AXwBgwGLAZIBmgGhAakBsQG5
+AcEByQHRAdkB4QHpAfIB+gIDAgwCFAIdAiYCLwI4AkECSwJUAl0CZwJxAnoChAKOApgCogKsArYC
+wQLLAtUC4ALrAvUDAAMLAxYDIQMtAzgDQwNPA1oDZgNyA34DigOWA6IDrgO6A8cD0wPgA+wD+QQG
+BBMEIAQtBDsESARVBGMEcQR+BIwEmgSoBLYExATTBOEE8AT+BQ0FHAUrBToFSQVYBWcFdwWGBZYF
+pgW1BcUF1QXlBfYGBgYWBicGNwZIBlkGagZ7BowGnQavBsAG0QbjBvUHBwcZBysHPQdPB2EHdAeG
+B5kHrAe/B9IH5Qf4CAsIHwgyCEYIWghuCIIIlgiqCL4I0gjnCPsJEAklCToJTwlkCXkJjwmkCboJ
+zwnlCfsKEQonCj0KVApqCoEKmAquCsUK3ArzCwsLIgs5C1ELaQuAC5gLsAvIC+EL+QwSDCoMQwxc
+DHUMjgynDMAM2QzzDQ0NJg1ADVoNdA2ODakNww3eDfgOEw4uDkkOZA5/DpsOtg7SDu4PCQ8lD0EP
+Xg96D5YPsw/PD+wQCRAmEEMQYRB+EJsQuRDXEPURExExEU8RbRGMEaoRyRHoEgcSJhJFEmQShBKj
+EsMS4xMDEyMTQxNjE4MTpBPFE+UUBhQnFEkUahSLFK0UzhTwFRIVNBVWFXgVmxW9FeAWAxYmFkkW
+bBaPFrIW1hb6Fx0XQRdlF4kXrhfSF/cYGxhAGGUYihivGNUY+hkgGUUZaxmRGbcZ3RoEGioaURp3
+Gp4axRrsGxQbOxtjG4obshvaHAIcKhxSHHscoxzMHPUdHh1HHXAdmR3DHeweFh5AHmoelB6+Hukf
+Ex8+H2kflB+/H+ogFSBBIGwgmCDEIPAhHCFIIXUhoSHOIfsiJyJVIoIiryLdIwojOCNmI5QjwiPw
+JB8kTSR8JKsk2iUJJTglaCWXJccl9yYnJlcmhya3JugnGCdJJ3onqyfcKA0oPyhxKKIo1CkGKTgp
+aymdKdAqAio1KmgqmyrPKwIrNitpK50r0SwFLDksbiyiLNctDC1BLXYtqy3hLhYuTC6CLrcu7i8k
+L1ovkS/HL/4wNTBsMKQw2zESMUoxgjG6MfIyKjJjMpsy1DMNM0YzfzO4M/E0KzRlNJ402DUTNU01
+hzXCNf02NzZyNq426TckN2A3nDfXOBQ4UDiMOMg5BTlCOX85vDn5OjY6dDqyOu87LTtrO6o76Dwn
+PGU8pDzjPSI9YT2hPeA+ID5gPqA+4D8hP2E/oj/iQCNAZECmQOdBKUFqQaxB7kIwQnJCtUL3QzpD
+fUPARANER0SKRM5FEkVVRZpF3kYiRmdGq0bwRzVHe0fASAVIS0iRSNdJHUljSalJ8Eo3Sn1KxEsM
+S1NLmkviTCpMcky6TQJNSk2TTdxOJU5uTrdPAE9JT5NP3VAnUHFQu1EGUVBRm1HmUjFSfFLHUxNT
+X1OqU/ZUQlSPVNtVKFV1VcJWD1ZcVqlW91dEV5JX4FgvWH1Yy1kaWWlZuFoHWlZaplr1W0VblVvl
+XDVchlzWXSddeF3JXhpebF69Xw9fYV+zYAVgV2CqYPxhT2GiYfViSWKcYvBjQ2OXY+tkQGSUZOll
+PWWSZedmPWaSZuhnPWeTZ+loP2iWaOxpQ2maafFqSGqfavdrT2una/9sV2yvbQhtYG25bhJua27E
+bx5veG/RcCtwhnDgcTpxlXHwcktypnMBc11zuHQUdHB0zHUodYV14XY+dpt2+HdWd7N4EXhueMx5
+KnmJeed6RnqlewR7Y3vCfCF8gXzhfUF9oX4BfmJ+wn8jf4R/5YBHgKiBCoFrgc2CMIKSgvSDV4O6
+hB2EgITjhUeFq4YOhnKG14c7h5+IBIhpiM6JM4mZif6KZIrKizCLlov8jGOMyo0xjZiN/45mjs6P
+No+ekAaQbpDWkT+RqJIRknqS45NNk7aUIJSKlPSVX5XJljSWn5cKl3WX4JhMmLiZJJmQmfyaaJrV
+m0Kbr5wcnImc951kndKeQJ6unx2fi5/6oGmg2KFHobaiJqKWowajdqPmpFakx6U4pammGqaLpv2n
+bqfgqFKoxKk3qamqHKqPqwKrdavprFys0K1ErbiuLa6hrxavi7AAsHWw6rFgsdayS7LCszizrrQl
+tJy1E7WKtgG2ebbwt2i34LhZuNG5SrnCuju6tbsuu6e8IbybvRW9j74KvoS+/796v/XAcMDswWfB
+48JfwtvDWMPUxFHEzsVLxcjGRsbDx0HHv8g9yLzJOsm5yjjKt8s2y7bMNcy1zTXNtc42zrbPN8+4
+0DnQutE80b7SP9LB00TTxtRJ1MvVTtXR1lXW2Ndc1+DYZNjo2WzZ8dp22vvbgNwF3IrdEN2W3hze
+ot8p36/gNuC94UThzOJT4tvjY+Pr5HPk/OWE5g3mlucf56noMui86Ubp0Opb6uXrcOv77IbtEe2c
+7ijutO9A78zwWPDl8XLx//KM8xnzp/Q09ML1UPXe9m32+/eK+Bn4qPk4+cf6V/rn+3f8B/yY/Sn9
+uv5L/tz/bf///+4ADkFkb2JlAGTAAAAAAf/bAIQAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+AQEBAQEBAQEBAQEBAQEBAQICAgICAgICAgICAwMDAwMDAwMDAwEBAQEBAQECAQECAgIBAgIDAwMD
+AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD/8AAEQgAHQBnAwER
+AAIRAQMRAf/EAKMAAAIDAAMAAAAAAAAAAAAAAAgJBgcKAwQFAQACAwEBAQAAAAAAAAAAAAAEBQMG
+BwIBCBAAAAcAAQQBAwMDAwUAAAAAAQIDBAUGBwgREhMJABQVFyExFiIzGEFhcVGBMiMkEQABAwID
+BAUIBggHAAAAAAABEQIDEgQAIQUxQRMGUWFxIhTwgZHBMiMVB6GxUmIzFuHxQnLCUzQ1gpKiskNz
+JP/aAAwDAQACEQMRAD8A3S3khjXTIjAHUpLTO9w/6B1p04Adf+R+TxD3ch+6P9wx4doxn440wkBs
+d54C1RuSRVjahH8k7bHSrGSFuRzKqaa/ibQ0ckE6RiN45vSOhDEHzdxgAOvTp83PmOWXTrPXLopV
+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
+r/3+Uab+8BNvFb6VGCx+D1U4/9k=
+
+------=_NextPart_000_0000_01CCEB22.BC383F40
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.eygle.com/images/a-3.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAZAAA/+IMWElDQ19QUk9GSUxFAAEB
+AAAMSExpbm8CEAAAbW50clJHQiBYWVogB84AAgAJAAYAMQAAYWNzcE1TRlQAAAAASUVDIHNSR0IA
+AAAAAAAAAAAAAAEAAPbWAAEAAAAA0y1IUCAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAARY3BydAAAAVAAAAAzZGVzYwAAAYQAAABsd3RwdAAAAfAAAAAUYmtw
+dAAAAgQAAAAUclhZWgAAAhgAAAAUZ1hZWgAAAiwAAAAUYlhZWgAAAkAAAAAUZG1uZAAAAlQAAABw
+ZG1kZAAAAsQAAACIdnVlZAAAA0wAAACGdmlldwAAA9QAAAAkbHVtaQAAA/gAAAAUbWVhcwAABAwA
+AAAkdGVjaAAABDAAAAAMclRSQwAABDwAAAgMZ1RSQwAABDwAAAgMYlRSQwAABDwAAAgMdGV4dAAA
+AABDb3B5cmlnaHQgKGMpIDE5OTggSGV3bGV0dC1QYWNrYXJkIENvbXBhbnkAAGRlc2MAAAAAAAAA
+EnNSR0IgSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAASc1JHQiBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAADzUQABAAAA
+ARbMWFlaIAAAAAAAAAAAAAAAAAAAAABYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAA
+t4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9kZXNjAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMu
+Y2gAAAAAAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMuY2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZGVzYwAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZhdWx0
+IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZhdWx0
+IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRlc2MAAAAAAAAA
+LFJlZmVyZW5jZSBWaWV3aW5nIENvbmRpdGlvbiBpbiBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAAACxS
+ZWZlcmVuY2UgVmlld2luZyBDb25kaXRpb24gaW4gSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAB2aWV3AAAAAAATpP4AFF8uABDPFAAD7cwABBMLAANcngAAAAFYWVogAAAAAABM
+CVYAUAAAAFcf521lYXMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAKPAAAAAnNpZyAAAAAAQ1JU
+IGN1cnYAAAAAAAAEAAAAAAUACgAPABQAGQAeACMAKAAtADIANwA7AEAARQBKAE8AVABZAF4AYwBo
+AG0AcgB3AHwAgQCGAIsAkACVAJoAnwCkAKkArgCyALcAvADBAMYAywDQANUA2wDgAOUA6wDwAPYA
++wEBAQcBDQETARkBHwElASsBMgE4AT4BRQFMAVIBWQFgAWcBbgF1AXwBgwGLAZIBmgGhAakBsQG5
+AcEByQHRAdkB4QHpAfIB+gIDAgwCFAIdAiYCLwI4AkECSwJUAl0CZwJxAnoChAKOApgCogKsArYC
+wQLLAtUC4ALrAvUDAAMLAxYDIQMtAzgDQwNPA1oDZgNyA34DigOWA6IDrgO6A8cD0wPgA+wD+QQG
+BBMEIAQtBDsESARVBGMEcQR+BIwEmgSoBLYExATTBOEE8AT+BQ0FHAUrBToFSQVYBWcFdwWGBZYF
+pgW1BcUF1QXlBfYGBgYWBicGNwZIBlkGagZ7BowGnQavBsAG0QbjBvUHBwcZBysHPQdPB2EHdAeG
+B5kHrAe/B9IH5Qf4CAsIHwgyCEYIWghuCIIIlgiqCL4I0gjnCPsJEAklCToJTwlkCXkJjwmkCboJ
+zwnlCfsKEQonCj0KVApqCoEKmAquCsUK3ArzCwsLIgs5C1ELaQuAC5gLsAvIC+EL+QwSDCoMQwxc
+DHUMjgynDMAM2QzzDQ0NJg1ADVoNdA2ODakNww3eDfgOEw4uDkkOZA5/DpsOtg7SDu4PCQ8lD0EP
+Xg96D5YPsw/PD+wQCRAmEEMQYRB+EJsQuRDXEPURExExEU8RbRGMEaoRyRHoEgcSJhJFEmQShBKj
+EsMS4xMDEyMTQxNjE4MTpBPFE+UUBhQnFEkUahSLFK0UzhTwFRIVNBVWFXgVmxW9FeAWAxYmFkkW
+bBaPFrIW1hb6Fx0XQRdlF4kXrhfSF/cYGxhAGGUYihivGNUY+hkgGUUZaxmRGbcZ3RoEGioaURp3
+Gp4axRrsGxQbOxtjG4obshvaHAIcKhxSHHscoxzMHPUdHh1HHXAdmR3DHeweFh5AHmoelB6+Hukf
+Ex8+H2kflB+/H+ogFSBBIGwgmCDEIPAhHCFIIXUhoSHOIfsiJyJVIoIiryLdIwojOCNmI5QjwiPw
+JB8kTSR8JKsk2iUJJTglaCWXJccl9yYnJlcmhya3JugnGCdJJ3onqyfcKA0oPyhxKKIo1CkGKTgp
+aymdKdAqAio1KmgqmyrPKwIrNitpK50r0SwFLDksbiyiLNctDC1BLXYtqy3hLhYuTC6CLrcu7i8k
+L1ovkS/HL/4wNTBsMKQw2zESMUoxgjG6MfIyKjJjMpsy1DMNM0YzfzO4M/E0KzRlNJ402DUTNU01
+hzXCNf02NzZyNq426TckN2A3nDfXOBQ4UDiMOMg5BTlCOX85vDn5OjY6dDqyOu87LTtrO6o76Dwn
+PGU8pDzjPSI9YT2hPeA+ID5gPqA+4D8hP2E/oj/iQCNAZECmQOdBKUFqQaxB7kIwQnJCtUL3QzpD
+fUPARANER0SKRM5FEkVVRZpF3kYiRmdGq0bwRzVHe0fASAVIS0iRSNdJHUljSalJ8Eo3Sn1KxEsM
+S1NLmkviTCpMcky6TQJNSk2TTdxOJU5uTrdPAE9JT5NP3VAnUHFQu1EGUVBRm1HmUjFSfFLHUxNT
+X1OqU/ZUQlSPVNtVKFV1VcJWD1ZcVqlW91dEV5JX4FgvWH1Yy1kaWWlZuFoHWlZaplr1W0VblVvl
+XDVchlzWXSddeF3JXhpebF69Xw9fYV+zYAVgV2CqYPxhT2GiYfViSWKcYvBjQ2OXY+tkQGSUZOll
+PWWSZedmPWaSZuhnPWeTZ+loP2iWaOxpQ2maafFqSGqfavdrT2una/9sV2yvbQhtYG25bhJua27E
+bx5veG/RcCtwhnDgcTpxlXHwcktypnMBc11zuHQUdHB0zHUodYV14XY+dpt2+HdWd7N4EXhueMx5
+KnmJeed6RnqlewR7Y3vCfCF8gXzhfUF9oX4BfmJ+wn8jf4R/5YBHgKiBCoFrgc2CMIKSgvSDV4O6
+hB2EgITjhUeFq4YOhnKG14c7h5+IBIhpiM6JM4mZif6KZIrKizCLlov8jGOMyo0xjZiN/45mjs6P
+No+ekAaQbpDWkT+RqJIRknqS45NNk7aUIJSKlPSVX5XJljSWn5cKl3WX4JhMmLiZJJmQmfyaaJrV
+m0Kbr5wcnImc951kndKeQJ6unx2fi5/6oGmg2KFHobaiJqKWowajdqPmpFakx6U4pammGqaLpv2n
+bqfgqFKoxKk3qamqHKqPqwKrdavprFys0K1ErbiuLa6hrxavi7AAsHWw6rFgsdayS7LCszizrrQl
+tJy1E7WKtgG2ebbwt2i34LhZuNG5SrnCuju6tbsuu6e8IbybvRW9j74KvoS+/796v/XAcMDswWfB
+48JfwtvDWMPUxFHEzsVLxcjGRsbDx0HHv8g9yLzJOsm5yjjKt8s2y7bMNcy1zTXNtc42zrbPN8+4
+0DnQutE80b7SP9LB00TTxtRJ1MvVTtXR1lXW2Ndc1+DYZNjo2WzZ8dp22vvbgNwF3IrdEN2W3hze
+ot8p36/gNuC94UThzOJT4tvjY+Pr5HPk/OWE5g3mlucf56noMui86Ubp0Opb6uXrcOv77IbtEe2c
+7ijutO9A78zwWPDl8XLx//KM8xnzp/Q09ML1UPXe9m32+/eK+Bn4qPk4+cf6V/rn+3f8B/yY/Sn9
+uv5L/tz/bf///+4ADkFkb2JlAGTAAAAAAf/bAIQAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+AQEBAQEBAQEBAQEBAQEBAQICAgICAgICAgICAwMDAwMDAwMDAwEBAQEBAQECAQECAgIBAgIDAwMD
+AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD/8AAEQgALABnAwER
+AAIRAQMRAf/EAKkAAAEEAwEBAAAAAAAAAAAAAAcABggJBAUKAwIBAAEFAQEAAAAAAAAAAAAAAAAC
+AwQFBwYBEAAABwABAwMCAgYLAQAAAAABAgMEBQYHCAAREhMUCSExFRZBUSIjJBdhgZEyQjNDNbYn
+dxgRAAIBAgQEAgcFBAkFAAAAAAECAxEEACESBTFBUQZhE3GBkbEiMhTwoVIjFULiM3PB0XKSssJj
+JQfh8aI1Fv/aAAwDAQACEQMRAD8A7mNS/wB9xv8A9Taf8StnUu1+Sb+Uf8S4S3L04589JkX63CyU
+rcYxePnWta9gnHyx+1K3KqlnLO8aVqdiZorGQUcC3syEe4j3KJDfvgWIX7CPW4W0ccXest9IQPpb
+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
+wujBhdGDC6MGF0YMf//Z
+
+------=_NextPart_000_0000_01CCEB22.BC383F40
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.eygle.com/images/cc.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA
+B3RJTUUH1goaBRwAnRtlfgAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJ
+ISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVY
+dFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aH
+AAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tIn
+AAABAElEQVR4nJ1U25HDIAxUbtKAUoJaoAW1gEsgJdACLgGXgEsgJdAClKCUwH3ohouJb+Ym+4Xl
+XXnRw5feO3yKr4+VAHA9jbbW9n3XMyIyMxGd8PoRpRRm1lfGmKFh5lrrRD6Ic86ISEQxxhEUkRgj
+ESFiKeVcXEpBROeciPQ3iIgxZtL/io0xxphT5dATETPP4pQSAOSch4txw1rriCttfPxH7L0nomFP
+b+i9jzGOymk6RAwhHMTMrH6ULSK11lqrplAvg+mc0/Pc5+fzqb1FRH3UgzFm4sCYsNFPay0iLsuy
+LMv9fnfO7fu+ruvtdmut6fyMRNcxD9u2tdaIKOf8eDwAwDkHdQ2DwwAAAF5JREFUANu2AUBKiYha
+a8o5TJiIIKK19q8+KdTXSZ9DCADwOlsTtJYppRNx7119eu+nURERa62+eo3PixFC0PIycwghhKB7
+gojvpi797Weg+6g1GyvlnNOkrzgR/x/f1QcsefwivEgAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CCEB22.BC383F40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.google.cn/logos/Logo_25wht.gif
+
+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
+5JRXbvnlNAUEADs=
+
+------=_NextPart_000_0000_01CCEB22.BC383F40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.eygle.com/images/cell-1.gif
+
+R0lGODlhAwAkAKIAANnZ2f8PEP9PUYmJiWZmZv4AAP///wAAACH5BAAAAAAALAAAAAADACQAAAMW
+KGocXjDKSau9JLPNu/8glxFDCZxbAgA7
+
+------=_NextPart_000_0000_01CCEB22.BC383F40
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.eygle.com/blog/styles-site.css
+
+body {
+	background: fixed rgb(255, 255, 255); font: 12px/120% Tahoma, =
+"trebuchet ms", verdana, sans-serif; margin: 0px; padding: 0px; color: =
+rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+a {
+	color: rgb(0, 130, 255); text-decoration: none;
+}
+a img {
+	border: 0px currentColor;
+}
+a:link {
+	padding: 0px; color: rgb(0, 130, 255); text-decoration: none;
+}
+a:visited {
+	padding: 0px; color: rgb(0, 130, 255); text-decoration: none;
+}
+a:hover {
+	background: rgb(187, 208, 249); padding: 0px; color: rgb(0, 0, 0); =
+text-decoration: none;
+}
+a:active {
+	background: rgb(100, 149, 237); color: rgb(0, 0, 0); text-decoration: =
+none;
+}
+h2 {
+	margin: 0px; padding: 0px; line-height: 100%; font-size: 12px; =
+font-weight: normal;
+}
+h3 {
+	margin: 0px; padding: 0px; line-height: 100%; font-size: 12px; =
+font-weight: normal;
+}
+h1 {
+	font: 12px/normal Verdana, sans-serif, Arial, Helvetica; margin: 0px; =
+padding: 0px; color: rgb(0, 0, 204); font-size-adjust: none; =
+font-stretch: normal;
+}
+#container {
+	padding: 0px; border: 0px dotted rgb(255, 255, 255); width: 850px; =
+text-align: left; line-height: 140%; margin-right: auto; margin-left: =
+auto; background-color: rgb(255, 255, 255);
+}
+#banner {
+	padding: 15px 0px; text-align: left; font-family: Verdana, Arial, =
+sans-serif; background-color: rgb(255, 255, 255);
+}
+#banner-img {
+	display: none;
+}
+#banner a {
+	text-decoration: none;
+}
+#banner h1 {
+	font: bold 12px/120% Verdana, sans-serif, Arial, Helvetica; =
+font-size-adjust: none; font-stretch: normal;
+}
+#banner h2 {
+	line-height: 120%; font-size: 12px;
+}
+#center {
+	width: 630px; overflow: hidden; float: left;
+}
+.content {
+	padding: 15px 0px 5px; border: 0px solid rgb(143, 174, 190); color: =
+rgb(51, 51, 51); font-family: Verdana,Sans-serif, arial, Helvetica, =
+Tahoma; font-size: 12px; margin-bottom: 15px; background-color: white;
+}
+#right {
+	width: 220px; overflow: hidden; float: left; background-color: rgb(255, =
+255, 255);
+}
+.content p {
+	text-align: left; line-height: 150%; font-family: Optima,Verdana, =
+Arial, sans-serif, Tahoma, Helvetica; font-size: 12px; font-weight: =
+normal; margin-bottom: 10px;
+}
+.content blockquote {
+	line-height: 150%; font-family: "Courier New", Courier, mono; =
+background-color: rgb(221, 221, 221);
+}
+.content li {
+	line-height: 150%;
+}
+.content h2 {
+	margin: 0px; padding: 5px 15px 5px 0px; text-align: left; color: =
+rgb(102, 102, 102); letter-spacing: 0.1em; font-family: Optima,Verdana, =
+Arial, sans-serif; font-size: 12px; font-weight: bold; background-color: =
+rgb(255, 255, 255);
+}
+.content h3 {
+	text-align: left; color: rgb(102, 102, 102); font-family: =
+Optima,Verdana, Arial, sans-serif; font-size: 12px; font-weight: bold; =
+margin-bottom: 10px;
+}
+.content h4 {
+	text-align: left; color: rgb(102, 102, 102); font-family: =
+Optima,Verdana, Arial, sans-serif; font-size: 12px; font-weight: normal; =
+margin-bottom: 10px;
+}
+.content h5 {
+	text-align: left; color: rgb(102, 102, 102); font-family: =
+Optima,Verdana, Arial, sans-serif; font-size: 12px; font-weight: normal; =
+margin-bottom: 5px;
+}
+.content p.posted {
+	padding: 3px; text-align: left; color: rgb(153, 153, 153); line-height: =
+normal; font-family: Optima,Verdana, Tahoma, Arial, sans-serif; =
+font-size: 12px; margin-bottom: 25px; border-top-color: rgb(143, 174, =
+190); border-top-width: 1px; border-top-style: solid;
+}
+.sidebar {
+	padding: 10px;
+}
+#calendar {
+	padding: 2px; text-align: center; color: rgb(102, 102, 102); =
+line-height: 140%; font-family: Optima,Verdana, Arial, sans-serif; =
+font-size: x-small; margin-bottom: 30px;
+}
+#calendar table {
+	padding: 2px; border: 0px currentColor; width: 100%; border-collapse: =
+collapse;
+}
+#calendar caption {
+	text-align: center; color: rgb(102, 102, 102); text-transform: =
+uppercase; letter-spacing: 0.3em; font-family: Optima,Verdana, Arial, =
+sans-serif; font-size: x-small; font-weight: bold;
+}
+#calendar th {
+	text-align: center; font-weight: normal;
+}
+#calendar td {
+	text-align: center;
+}
+.sidebar h2 {
+	margin: 0px; padding: 5px 10px; text-align: center; color: rgb(0, 0, =
+0); text-transform: uppercase; letter-spacing: 0.1em; font-family: =
+Optima,Verdana, Arial, sans-serif; font-size: 12px; font-weight: normal; =
+background-color: rgb(239, 239, 239);
+}
+.box {
+	margin: 5px 0px 5px 5px; border: 1px solid rgb(239, 239, 239);
+}
+.sidebar .inner {
+	padding: 0px 10px;
+}
+.sidebar ul {
+	margin: 0px 0px 10px; padding-left: 0px;
+}
+.sidebar ul ul {
+	margin-bottom: 0px;
+}
+.sidebar #categories ul {
+	padding-left: 15px;
+}
+.sidebar li {
+	text-align: left; color: rgb(102, 102, 102); line-height: 12px; =
+font-family: Optima,Verdana, Arial, sans-serif; font-size: 12px; =
+margin-top: 8px; list-style-type: none;
+}
+.sidebar #categories li {
+	list-style-type: none;
+}
+.sidebar img {
+	border: 3px solid rgb(255, 255, 255);
+}
+.photo {
+	text-align: left; margin-bottom: 20px;
+}
+.link-note {
+	padding: 2px; text-align: left; line-height: 150%; font-family: =
+Optima,Verdana, Arial, sans-serif; font-size: 12px; margin-bottom: 15px;
+}
+.search {
+	padding: 0px; text-align: left; font-family: Optima,Verdana, Arial, =
+sans-serif; font-size: 12px; margin-bottom: 0px;
+}
+#powered {
+	text-align: left; color: rgb(102, 102, 102); line-height: 150%; =
+font-family: Optima,Verdana, Arial, sans-serif; font-size: 12px; =
+margin-top: 50px;
+}
+#comment-data {
+	width: 180px; text-align: left; padding-right: 15px; margin-right: =
+15px; border-right-color: rgb(187, 187, 187); border-right-width: 1px; =
+border-right-style: dotted; float: left;
+}
+textarea[id=3D'comment-text'] {
+	width: 80%;
+}
+.commenter-profile img {
+	border-width: 0px; vertical-align: middle;
+}
+pre {
+	width: 70%; letter-spacing: normal; font-family: "Courier New", =
+Courier, mono; font-size: 12px; font-weight: normal; word-spacing: =
+normal; white-space: pre;
+}
+hr {
+	width: 100%; height: 1px; visibility: visible; position: relative;
+}
+.asset-copyright {
+	color: rgb(191, 191, 191); line-height: 120%; padding-top: 2px; =
+padding-bottom: 0.3em; font-size: 12px; font-weight: normal; margin-top: =
+0.25em; border-top-color: rgb(216, 232, 245); border-top-width: 1px; =
+border-top-style: dashed; display: block;
+}
+.asset-copyright a {
+	color: rgb(191, 191, 191);
+}
+acronym {
+	border-bottom-color: black; border-bottom-width: 1px; =
+border-bottom-style: dotted; cursor: help;
+}
+.myunderline {
+	background: url("http://www.eygle.com/images/blog/1.jpg") repeat-x 50% =
+bottom white; padding: 4px 2px 2px 0px; line-height: 22px; =
+letter-spacing: 6px;
+}
+.myunderlineHL {
+	background: url("http://www.eygle.com/images/blog/2.jpg") repeat-x 50% =
+bottom white; padding: 4px 2px 2px 0px; line-height: 22px; =
+letter-spacing: 6px;
+}
+.entry-tags {
+	margin: 0px 0px 5px 5px;
+}
+.entry-tags-header {
+	display: inline;
+}
+.entry-tags-list {
+	display: inline;
+}
+.entry-tag {
+	display: inline;
+}
+.entry-tags-list {
+	list-style: none; padding: 0px;
+}
+.tag1 {
+	color: rgb(101, 136, 199); font-size: xx-large;
+}
+.tag2 {
+	color: rgb(85, 120, 167); font-size: x-large;
+}
+.tag3 {
+	color: rgb(69, 104, 167); font-size: large;
+}
+.tag4 {
+	color: rgb(64, 96, 151); font-size: medium;
+}
+.tag5 {
+	color: rgb(53, 88, 151); font-size: small;
+}
+.tag6 {
+	color: rgb(48, 80, 135); font-size: x-small;
+}
+.tag7 {
+	color: rgb(37, 72, 135); font-size: xx-small;
+}
+.relatedtopic {
+	padding-bottom: 20px; padding-left: 20px; float: right; =
+background-color: rgb(255, 255, 255);
+}
+.relatedhead {
+	background: rgb(187, 208, 249); margin: 0px; padding: 3px 9px 4px; =
+height: 1.2em;
+}
+.relatedcontent {
+	border: 1px solid rgb(187, 208, 249); margin-top: 5px;
+}
+.relatedlist {
+	padding: 9px;
+}
+.colheader {
+	font-family: Verdana, Tahoma, "Courier New"; font-size: 12px;
+}
+#banner-header {
+	margin: 5px 0px 0px 10px; padding: 0px; line-height: 1.3; font-family: =
+Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size: 16pt; font-weight: =
+700; text-decoration: none;
+}
+#banner h1 {
+	padding-top: 3px; font-family: =
+Garamond,verdana,Tahoma,helvetica,arial,sans-serif; font-size: 2.5em; =
+font-weight: 700;
+}
+#banner a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+#banner a:hover {
+	color: rgb(0, 0, 0);
+}
+
+------=_NextPart_000_0000_01CCEB22.BC383F40
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.eygle.com/English.js
+
+var =
+u=3D'http://translate.google.com/translate?langpair=3Dzh-CN%7Cen&hl=3Dzh-=
+CN&ie=3DUTF8&u=3D';=0A=
+u +=3D escape(location.href);=0A=
+document.writeln('<a href=3D"'+u+'" target=3D"_blank" =
+class=3D"English">English Version</a> ');=0A=
+document.writeln('<a href=3D"http://www.eygle.com/" title=3D"By =
+eygle.com"></a>');=0A=
+
+------=_NextPart_000_0000_01CCEB22.BC383F40--

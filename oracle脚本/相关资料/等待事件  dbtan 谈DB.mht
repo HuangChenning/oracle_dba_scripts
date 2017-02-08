@@ -1,0 +1,2370 @@
+From: "Saved by Windows Internet Explorer 9"
+Subject: =?gb2312?B?tci0/crCvP4gfCBkYnRhbiDMuERC?=
+Date: Tue, 14 Feb 2012 10:39:37 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCEB04.F2BA3D70"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7600.16807
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCEB04.F2BA3D70
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.dbtan.com/2010/03/wait-event.html
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" =
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD =
+profile=3D"http://gmpg.org/xfn/11">
+<META content=3D"text/html; charset=3DUTF-8" =
+http-equiv=3D"Content-Type"><TITLE>=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6 =
+|=20
+dbtan =E8=B0=88DB</TITLE>
+<META name=3D"GENERATOR" content=3D"MSHTML 9.00.8112.16440"><LINK =
+title=3D"dbtan =E8=B0=88DB RSS Feed"=20
+rel=3D"alternate" type=3D"application/rss+xml"=20
+href=3D"http://www.dbtan.com/feed"><LINK rel=3D"pingback" =
+href=3D"http://www.dbtan.com/xmlrpc.php"><LINK=20
+title=3D"dbtan =E8=B0=88DB =C2=BB =E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6 =
+=E8=AF=84=E8=AE=BA Feed" rel=3D"alternate" type=3D"application/rss+xml"=20
+href=3D"http://www.dbtan.com/2010/03/wait-event.html/feed"><LINK =
+title=3D"RSD" rel=3D"EditURI"=20
+type=3D"application/rsd+xml" =
+href=3D"http://www.dbtan.com/xmlrpc.php?rsd"><LINK rel=3D"wlwmanifest"=20
+type=3D"application/wlwmanifest+xml" =
+href=3D"http://www.dbtan.com/wp-includes/wlwmanifest.xml"><LINK=20
+title=3D"=E5=9B=9E=E6=BB=9A=E6=AE=B5=E6=8D=9F=E5=9D=8F=E7=9A=84=E6=81=A2=E5=
+=A4=8D" rel=3D"prev" =
+href=3D"http://www.dbtan.com/2010/02/recover-rollback-segment-mangle.html=
+"><LINK=20
+title=3D"=E4=BB=8E=E7=AD=89=E5=BE=85=E5=8F=91=E7=8E=B0=E7=93=B6=E9=A2=88"=
+ rel=3D"next" =
+href=3D"http://www.dbtan.com/2010/03/find-bottleneck-from-event.html">
+<META name=3D"generator" content=3D"WordPress 3.3.1"><LINK =
+rel=3D"shortlink" href=3D"http://www.dbtan.com/?p=3D158">
+<META name=3D"description" =
+content=3D"=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=EF=BC=9A"><LINK =
+rel=3D"canonical" =
+href=3D"http://www.dbtan.com/2010/03/wait-event.html"><LINK=20
+rel=3D"stylesheet" type=3D"text/css" =
+href=3D"http://www.dbtan.com/wp-content/cache/autoptimize/autoptimize_1a8=
+2de1a1b615ec33a4f43ade17b309e.php"=20
+media=3D"screen"><LINK rel=3D"stylesheet" type=3D"text/css" =
+href=3D"http://www.dbtan.com/wp-content/cache/autoptimize/autoptimize_6ef=
+79a411e9159ecd22bda467cbf3d6e.php"=20
+media=3D"print"><LINK rel=3D"stylesheet" type=3D"text/css" =
+href=3D"http://www.dbtan.com/wp-content/cache/autoptimize/autoptimize_5dd=
+2cfb2e107b782565bfe7574cd0e2b.php"=20
+media=3D"all"></HEAD>
+<BODY>
+<DIV id=3D"header">
+<DIV id=3D"headerimg">
+<H1><A href=3D"http://www.dbtan.com/">dbtan =E8=B0=88DB</A></H1>
+<DIV =
+class=3D"description">dbtan=E7=9A=84=E7=94=9F=E6=B4=BB=E3=80=81Oracle=E5=8F=
+=8ALinux=E5=AD=A6=E4=B9=A0=E7=AC=94=E8=AE=B0=E3=80=81=E8=A7=82=E7=82=B9  =
+=E8=AF=B4=EF=BC=8C=E6=B0=B8=E8=BF=9C=E6=98=93=E4=BA=8E=E5=81=9A=EF=BC=81<=
+/DIV>
+<DIV id=3D"search">
+<FORM id=3D"searchform" method=3D"get" action=3D"http://www.dbtan.com/">
+<DIV><INPUT id=3D"s" name=3D"s" type=3D"text"> <INPUT =
+id=3D"searchsubmit" value=3D"Go" =
+type=3D"submit"></DIV></FORM></DIV></DIV>
+<DIV id=3D"navi">
+<UL id=3D"nav">
+  <LI class=3D"page_item"><A title=3D"Home"=20
+  href=3D"http://www.dbtan.com/">Home</A></LI>
+  <LI class=3D"page_item page-item-2"><A title=3D"=E5=85=B3=E4=BA=8E" =
+href=3D"http://www.dbtan.com/aboutme">=E5=85=B3=E4=BA=8E</A></LI>
+  <LI class=3D"page_item page-item-183"><A title=3D"=E5=AD=98=E6=A1=A3" =
+href=3D"http://www.dbtan.com/archives">=E5=AD=98=E6=A1=A3</A></LI></UL></=
+DIV></DIV>
+<DIV id=3D"wrapper">
+<DIV id=3D"page">=20
+<SCRIPT type=3D"text/javascript" =
+src=3D"https://apis.google.com/js/plusone.js">{lang: 'zh-CN'}</SCRIPT>
+=20
+<DIV id=3D"content">
+<DIV class=3D"alignleft">=E4=B8=8A=E4=B8=80=E7=AF=87=EF=BC=9A<A =
+href=3D"http://www.dbtan.com/2010/02/recover-rollback-segment-mangle.html=
+"=20
+rel=3D"prev">=E5=9B=9E=E6=BB=9A=E6=AE=B5=E6=8D=9F=E5=9D=8F=E7=9A=84=E6=81=
+=A2=E5=A4=8D</A></DIV>
+<DIV class=3D"alignright">=E4=B8=8B=E4=B8=80=E7=AF=87=EF=BC=9A<A =
+href=3D"http://www.dbtan.com/2010/03/find-bottleneck-from-event.html"=20
+rel=3D"next">=E4=BB=8E=E7=AD=89=E5=BE=85=E5=8F=91=E7=8E=B0=E7=93=B6=E9=A2=
+=88</A></DIV>
+<DIV id=3D"post-158" class=3D"post">
+<H2><A title=3D"Permanent Link: =E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6" =
+href=3D"http://www.dbtan.com/2010/03/wait-event.html"=20
+rel=3D"bookmark">=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6</A></H2> <SPAN =
+class=3D"post-cat"><A title=3D"=E6=9F=A5=E7=9C=8B Oracle =
+=E4=B8=AD=E7=9A=84=E5=85=A8=E9=83=A8=E6=96=87=E7=AB=A0"=20
+href=3D"http://www.dbtan.com/category/oracle" rel=3D"category =
+tag">Oracle</A>, <A=20
+title=3D"=E6=9F=A5=E7=9C=8B =E6=B7=B1=E5=85=A5=E8=A7=A3=E6=9E=90Oracle =
+=E4=B8=AD=E7=9A=84=E5=85=A8=E9=83=A8=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/study-note/parse-oracle"=20
+rel=3D"category tag">=E6=B7=B1=E5=85=A5=E8=A7=A3=E6=9E=90Oracle</A>, <A =
+title=3D"=E6=9F=A5=E7=9C=8B =E8=AF=BB=E4=B9=A6=E7=AC=94=E8=AE=B0 =
+=E4=B8=AD=E7=9A=84=E5=85=A8=E9=83=A8=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/study-note"=20
+rel=3D"category tag">=E8=AF=BB=E4=B9=A6=E7=AC=94=E8=AE=B0</A></SPAN> =
+<SPAN class=3D"post-calendar">=E4=B8=89=E6=9C=88 16th,=20
+2010</SPAN>
+<DIV class=3D"post-content">
+<DIV width=3D"100%">
+<DIV style=3D"width: 90%; float: left;"> <FONT =
+color=3D"#bfbfbf">=E4=BD=9C=E8=80=85=EF=BC=9A<A style=3D"color: rgb(191, =
+191, 191);"=20
+href=3D"http://www.dbtan.com/">dbtan</A> =
+|=E3=80=90=E8=BD=AC=E8=BD=BD=E6=97=B6=E8=AF=B7=E4=BB=A5=E8=B6=85=E9=93=BE=
+=E6=8E=A5=E5=BD=A2=E5=BC=8F=E6=A0=87=E6=98=8E=E6=96=87=E7=AB=A0<A =
+style=3D"color: rgb(191, 191, 191);"=20
+href=3D"http://www.dbtan.com/2010/03/wait-event.html">=E5=87=BA=E5=A4=84<=
+/A>=E5=92=8C<A style=3D"color: rgb(191, 191, 191);"=20
+href=3D"http://www.dbtan.com/">=E4=BD=9C=E8=80=85</A>=E4=BF=A1=E6=81=AF=E3=
+=80=91<BR> </FONT></DIV>
+<DIV style=3D"width: 10%; float: right;"> <g:plusone size=3D"small" =
+href=3D"http://www.dbtan.com/2010/03/wait-event.html"></g:plusone></DIV>
+<P></P>
+<DIV style=3D"width: 90%; float: left;"> <FONT =
+color=3D"#bfbfbf">=E9=93=BE=E6=8E=A5=EF=BC=9A<A style=3D"color: rgb(191, =
+191, 191);"=20
+href=3D"http://www.dbtan.com/2010/03/wait-event.html">http://www.dbtan.co=
+m/2010/03/wait-event.html</A><BR>=20
+</FONT></DIV>
+<P></P></DIV>
+<P>
+<HR align=3D"center" color=3D"#ccccff" SIZE=3D"1" noShade=3D"">
+
+<P>=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=EF=BC=9A
+<P>=E5=BE=88=E9=95=BF=E6=97=B6=E9=97=B4=E4=BB=A5=E6=9D=A5=EF=BC=8C=E9=80=9A=
+=E8=BF=87=E4=BB=80=E4=B9=88=E6=A0=B7=E7=9A=84=E6=89=8B=E6=AE=B5=E6=9D=A5=E8=
+=A1=A1=E9=87=8F=E6=95=B0=E6=8D=AE=E5=BA=93=E7=9A=84=E7=8A=B6=E5=86=B5=EF=BC=
+=8C=E5=8F=91=E7=8E=B0=E6=95=B0=E6=8D=AE=E5=BA=93=E7=9A=84=E9=97=AE=E9=A2=98=
+=EF=BC=8C=E4=BC=98=E5=8C=96=E6=95=B0=E6=8D=AE=E5=BA=93=E7=9A=84=E6=80=A7=E8=
+=83=BD=E4=B8=80=E7=9B=B4=E6=98=AF=E4=BA=BA=E4=BB=AC=E5=B9=BF=E4=B8=BA=E4=BA=
+=89=E8=AE=BA=E7=9A=84=E8=AF=9D=E9=A2=98=E3=80=82=E4=BB=8EOracle=20
+7.0.12=E5=BC=80=E5=A7=8B=EF=BC=8COracle=E5=BC=95=E5=85=A5=E4=BA=86=E7=AD=89=
+=E5=BE=85=E4=BA=8B=E4=BB=B6=EF=BC=8C=E9=9A=8F=E5=8D=B3=E7=AD=89=E5=BE=85=E4=
+=BA=8B=E4=BB=B6=E6=88=90=E4=B8=BA=E4=BA=86=E6=95=B0=E6=8D=AE=E5=BA=93=E6=80=
+=A7=E8=83=BD=E4=BC=98=E5=8C=96=E7=9A=84=E4=B8=80=E4=B8=AA=E9=87=8D=E8=A6=81=
+=E6=8C=87=E5=AF=BC=E3=80=82
+<P>=E5=BD=93=E4=B8=80=E4=B8=AA=E8=BF=9B=E7=A8=8B=E8=BF=9E=E6=8E=A5=E5=88=B0=
+=E6=95=B0=E6=8D=AE=E5=BA=93=E4=B9=8B=E5=90=8E=EF=BC=8C=E8=BF=9B=E7=A8=8B=E6=
+=89=80=E7=BB=8F=E5=8E=86=E7=9A=84=E7=A7=8D=E7=A7=8D=E7=AD=89=E5=BE=85=E5=B0=
+=B1=E5=BC=80=E5=A7=8B=E8=A2=AB=E8=AE=B0=E5=BD=95=EF=BC=8C=E5=B9=B6=E4=B8=94=
+=E9=80=9A=E8=BF=87=E4=B8=80=E7=B3=BB=E5=88=97=E7=9A=84=E5=8A=A8=E6=80=81=E6=
+=80=A7=E8=83=BD=E8=A7=86=E5=9B=BE=E8=BF=9B=E8=A1=8C=E5=B1=95=E7=8E=B0=E3=80=
+=82=E9=80=9A=E8=BF=87=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=E7=94=A8=E6=88=B7=
+=E5=8F=AF=E4=BB=A5=E5=BE=88=E5=BF=AB=E5=9C=B0=E5=8F=91=E7=8E=B0=E6=95=B0=E6=
+=8D=AE=E5=BA=93=E7=9A=84=E6=80=A7=E8=83=BD=E7=93=B6=E9=A2=88=EF=BC=8C=E4=BB=
+=8E=E8=80=8C=E8=BF=9B=E8=A1=8C=E9=92=88=E5=AF=B9=E6=80=A7=E4=BC=98=E5=8C=96=
+=E5=92=8C=E5=88=86=E6=9E=90=E3=80=82=E4=B8=8B=E9=9D=A2=E5=B0=86=E7=9D=80=E9=
+=87=8D=E4=BB=8B=E7=BB=8D=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=E5=9C=A8Orac=
+le=E7=A0=94=E7=A9=B6=E5=8F=8A=E4=BC=98=E5=8C=96=E8=BF=87=E7=A8=8B=E4=B8=AD=
+=E7=9A=84=E4=BD=9C=E7=94=A8=E3=80=82
+<P>=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=E7=9A=84=E8=B5=B7=E6=BA=90=EF=BC=9A=
+
+<P>=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=E7=9A=84=E6=A6=82=E5=BF=B5=E6=98=AF=
+=E5=9C=A8Oracle =
+7.0.12=E4=B8=AD=E5=BC=95=E5=85=A5=E7=9A=84=EF=BC=8C=E5=A4=A7=E8=87=B4=E6=9C=
+=89100=E4=B8=AA=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=E3=80=82=E5=9C=A8Orac=
+le =
+9.0=E4=B8=AD=E8=BF=99=E4=B8=AA=E6=95=B0=E7=9B=AE=E5=A2=9E=E5=8A=A0=E5=88=B0=
+=E4=BA=86=E5=A4=A7=E7=BA=A6150=E4=B8=AA=EF=BC=8C=E5=9C=A8Oracle=20
+8i=E4=B8=AD=E5=A4=A7=E7=BA=A6=E6=9C=89220=E4=B8=AA=E4=BA=8B=E4=BB=B6=EF=BC=
+=8C=E5=9C=A8Oracle =
+9iR2=E4=B8=AD=E5=A4=A7=E7=BA=A6=E6=9C=89400=E4=B8=AA=E7=AD=89=E5=BE=85=E4=
+=BA=8B=E4=BB=B6=EF=BC=8C=E5=9C=A8Oracle =
+10gR2=E4=B8=AD=E5=A4=A7=E7=BA=A6=E6=9C=89874=E4=B8=AA=E7=AD=89=E5=BE=85=E4=
+=BA=8B=E4=BB=B6=EF=BC=8C=E8=80=8C=E5=9C=A8=E6=9C=80=E8=BF=91=E7=9A=84Orac=
+le=20
+11gR1=E4=B8=AD=EF=BC=8C=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=E7=9A=84=E6=95=
+=B0=E7=9B=AE=E5=B7=B2=E7=BB=8F=E6=8E=A5=E8=BF=911000=E4=B8=AA=E4=BA=86=E3=
+=80=82
+<P>=E8=99=BD=E7=84=B6=E4=B8=8D=E5=90=8C=E7=9A=84=E7=89=88=E6=9C=AC=E5=92=8C=
+=E7=BB=84=E4=BB=B6=E5=AE=89=E8=A3=85=E5=8F=AF=E8=83=BD=E4=BC=9A=E6=9C=89=E4=
+=B8=8D=E5=90=8C=E6=95=B0=E7=9B=AE=E7=9A=84=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=
+=B6=EF=BC=8C=E4=BD=86=E6=98=AF=E8=BF=99=E4=BA=9B=E7=AD=89=E5=BE=85=E4=BA=8B=
+=E4=BB=B6=E9=83=BD=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87=E6=9F=A5=E8=AF=A2<=
+FONT=20
+size=3D"4"><STRONG>V$EVENT_NAME</STRONG></FONT>=E8=A7=86=E5=9B=BE=E8=8E=B7=
+=E5=BE=97=EF=BC=9A</P>
+<BLOCKQUOTE>
+  <P>sys@TQGZS11G&gt; select * from v$version where rownum=20
+  =
+&lt;2;<BR>BANNER<BR>-----------------------------------------------------=
+----------------------<BR>Oracle=20
+  Database 11g Enterprise Edition Release 11.1.0.7.0 -=20
+  Production<BR>sys@TQGZS11G&gt; select count(*) from =
+v$event_name;<BR>&nbsp;=20
+  COUNT(*)<BR>----------<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+997</P></BLOCKQUOTE>
+<P>=E7=A0=94=E7=A9=B6Oracle=E7=9A=84=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=EF=
+=BC=8C<STRONG><FONT=20
+size=3D"4">v$event_name</FONT></STRONG>=E8=A7=86=E5=9B=BE=E6=98=AF=E4=B8=80=
+=E4=B8=AA=E5=BE=88=E5=A5=BD=E7=9A=84=E5=BC=80=E5=A7=8B=EF=BC=8C=E8=BF=99=E4=
+=B8=AA=E8=A7=86=E5=9B=BE=E8=AE=B0=E5=BD=95=E7=9D=80=E5=BD=93=E5=89=8D=E6=95=
+=B0=E6=8D=AE=E5=BA=93=E6=94=AF=E6=8C=81=E7=9A=84=E7=AD=89=E5=BE=85=E4=BA=8B=
+=E4=BB=B6=E5=8F=8A=E5=85=B6=E5=9F=BA=E6=9C=AC=E4=BF=A1=E6=81=AF=E3=80=82
+<P>Oracle=E7=9A=84=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=EF=BC=8C=E4=B8=BB=E8=
+=A6=81=E5=8F=AF=E4=BB=A5=E5=88=86=E4=B8=BA=E4=B8=A4=E7=B1=BB=EF=BC=8C=E5=8D=
+=B3=E7=A9=BA=E9=97=B2=EF=BC=88idle=EF=BC=89=E7=AD=89=E5=BE=85=E4=BA=8B=E4=
+=BB=B6=E5=92=8C=E9=9D=9E=E7=A9=BA=E9=97=B2=EF=BC=88non-idle=EF=BC=89=E7=AD=
+=89=E5=BE=85=E4=BA=8B=E4=BB=B6=E3=80=82=E7=A9=BA=E9=97=B2=E4=BA=8B=E4=BB=B6=
+=E6=8C=87Oracle=E6=AD=A3=E7=AD=89=E5=BE=85=E6=9F=90=E7=A7=8D=E5=B7=A5=E4=BD=
+=9C=EF=BC=8C=E5=9C=A8=E8=AF=8A=E6=96=AD=E5=92=8C=E4=BC=98=E5=8C=96=E6=95=B0=
+=E6=8D=AE=E5=BA=93=E7=9A=84=E6=97=B6=E5=80=99=EF=BC=8C=E6=88=91=E4=BB=AC=E4=
+=B8=8D=E7=94=A8=E8=BF=87=E5=A4=9A=E6=B3=A8=E6=84=8F=E8=BF=99=E9=83=A8=E5=88=
+=86=E4=BA=8B=E4=BB=B6=E3=80=82=E9=9D=9E=E7=A9=BA=E9=97=B2=E7=AD=89=E5=BE=85=
+=E4=BA=8B=E4=BB=B6=E4=B8=93=E9=97=A8=E9=92=88=E5=AF=B9Oracle=E7=9A=84=E6=B4=
+=BB=E5=8A=A8=EF=BC=8C=E6=8C=87=E6=95=B0=E6=8D=AE=E5=BA=93=E4=BB=BB=E5=8A=A1=
+=E6=88=96=E5=BA=94=E7=94=A8=E8=BF=90=E8=A1=8C=E8=BF=87=E7=A8=8B=E4=B8=AD=E5=
+=8F=91=E7=94=9F=E7=9A=84=E7=AD=89=E5=BE=85=EF=BC=8C=E8=BF=99=E4=BA=9B=E7=AD=
+=89=E5=BE=85=E4=BA=8B=E4=BB=B6=E6=98=AF=E6=88=91=E4=BB=AC=E5=9C=A8=E8=B0=83=
+=E6=95=B4=E6=95=B0=E6=8D=AE=E5=BA=93=E7=9A=84=E6=97=B6=E5=80=99=E5=BA=94=E8=
+=AF=A5=E5=85=B3=E6=B3=A8=E4=B8=8E=E7=A0=94=E7=A9=B6=E7=9A=84=E3=80=82
+<P>=E5=9C=A8Oracle =
+10g=E4=B9=8B=E4=B8=AD=EF=BC=8COracle=E7=9A=84Statspack=E4=BC=9A=E5=88=9B=E5=
+=BB=BA=E4=B8=80=E4=B8=AA=E8=A7=86=E5=9B=BE<STRONG><FONT=20
+size=3D"4">stats$idle_event</FONT></STRONG>=E8=AE=B0=E5=BD=95=E7=A9=BA=E9=
+=97=B2=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=EF=BC=9A</P>
+<BLOCKQUOTE>
+  <P>sys@TQGZS&gt; select * from=20
+  =
+stats$idle_event;<BR>EVENT<BR>-------------------------------------------=
+---------------------<BR>AQ=20
+  Proxy Cleanup Wait<BR>ASM background timer<BR>DIAG idle wait<BR>EMON =
+idle=20
+  wait<BR>KSV master wait<BR>LNS ASYNC archive log<BR>LNS ASYNC dest=20
+  activation<BR>... ...<BR>rdbms ipc message<BR>slave wait<BR>smon=20
+  timer<BR>virtual circuit status<BR>wait for activate message<BR>wait =
+for=20
+  unread message on broadcast channel<BR>wakeup event for =
+builder<BR>wakeup=20
+  event for preparer<BR>wakeup event for reader<BR>wakeup time =
+manager<BR>70=20
+  rows selected.</P></BLOCKQUOTE>
+<P>=E4=BB=8EOracle =
+10g=E5=BC=80=E5=A7=8B=EF=BC=8COracle=E5=AF=B9=E7=AD=89=E5=BE=85=E4=BA=8B=E4=
+=BB=B6=E8=BF=9B=E8=A1=8C=E4=BA=86=E6=9B=B4=E4=B8=BA=E8=AF=A6=E7=BB=86=E7=9A=
+=84=E5=88=86=E7=B1=BB=EF=BC=8C<STRONG><FONT=20
+size=3D"4">v$event_name</FONT></STRONG>=E8=A7=86=E5=9B=BE=E4=B9=9F=E5=A2=9E=
+=E5=8A=A0=E4=BA=86=E7=9B=B8=E5=85=B3=E5=88=86=E7=B1=BB=E7=9A=84=E5=AD=97=E6=
+=AE=B5=EF=BC=9A</P>
+<BLOCKQUOTE>
+  <P>sys@TQGZS&gt; desc v$event_name<BR>=20
+  =
+Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;=20
+  Null?&nbsp;&nbsp;&nbsp; Type<BR> ----------------- --------=20
+  ------------------<BR>=20
+  =
+EVENT#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  NUMBER<BR>=20
+  =
+EVENT_ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  NUMBER<BR>=20
+  =
+NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  VARCHAR2(64)<BR>=20
+  =
+PARAMETER1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  VARCHAR2(64)<BR>=20
+  =
+PARAMETER2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  VARCHAR2(64)<BR>=20
+  =
+PARAMETER3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  VARCHAR2(64)<BR>=20
+  =
+WAIT_CLASS_ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;=20
+  NUMBER<BR>=20
+  =
+WAIT_CLASS#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  NUMBER<BR>=20
+  =
+WAIT_CLASS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  VARCHAR2(64)</P></BLOCKQUOTE>
+<P><STRONG><FONT=20
+size=3D"4">v$event_name</FONT></STRONG>=E8=A7=86=E5=9B=BE=E4=B8=AD=E7=9A=84=
+PARAMETER1=E3=80=81PARAMETER2=E3=80=81PARAMETER3=E9=9D=9E=E5=B8=B8=E9=87=8D=
+=E8=A6=81=EF=BC=8C=E5=AF=B9=E4=BA=8E=E4=B8=8D=E5=90=8C=E7=9A=84=E7=AD=89=E5=
+=BE=85=E4=BA=8B=E4=BB=B6=E5=8F=82=E6=95=B0=E5=85=B6=E6=84=8F=E4=B9=89=E5=90=
+=84=E4=B8=8D=E7=9B=B8=E5=90=8C=EF=BC=9A</P>
+<BLOCKQUOTE>
+  <P>sys@TQGZS&gt; select name,PARAMETER1,PARAMETER2,PARAMETER3 from=20
+  v$event_name<BR>&nbsp; 2&nbsp; where name =3D 'db file scattered=20
+  =
+read';<BR>NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  PARAMETER1 PARAMETER2 PARAMETER3<BR>------------------------- =
+----------=20
+  ---------- ----------<BR>db file scattered read&nbsp;&nbsp;&nbsp;=20
+  file#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; block#&nbsp;&nbsp;&nbsp;&nbsp;=20
+blocks</P></BLOCKQUOTE>
+<P>=E7=9C=8B=E4=B8=80=E4=B8=8BOracle =
+11gR1=E4=B8=AD=E4=B8=BB=E8=A6=81=E5=88=86=E7=B1=BB=E5=8F=8A=E5=90=84=E7=B1=
+=BB=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=E7=9A=84=E4=B8=AA=E6=95=B0=EF=BC=9A=
+</P>
+<BLOCKQUOTE>
+  <P>sys@CCDB&gt; select wait_class#,wait_class_id,wait_class,count(*) =
+as=20
+  "count"<BR>&nbsp; 2&nbsp; from=20
+  =
+v$event_name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  <BR>&nbsp; 3&nbsp; group by =
+wait_class#,wait_class_id,wait_class<BR>&nbsp;=20
+  4&nbsp; order by=20
+  =
+wait_class#;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;=20
+  <BR>WAIT_CLASS# WAIT_CLASS_ID=20
+  WAIT_CLASS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+
+  count<BR>----------- ------------- ---------------=20
+  ----------<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  0&nbsp;&nbsp;&nbsp; 1893977003=20
+  =
+Other&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  632<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  1&nbsp;&nbsp;&nbsp; 4217450380=20
+  =
+Application&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;=20
+  15<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  2&nbsp;&nbsp;&nbsp; 3290255840=20
+  =
+Configuration&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+=20
+  21<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  3&nbsp;&nbsp;&nbsp; 4166625743=20
+  Administrative&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  51<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  4&nbsp;&nbsp;&nbsp; 3875070507=20
+  =
+Concurrency&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;=20
+  26<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  5&nbsp;&nbsp;&nbsp; 3386400367=20
+  =
+Commit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  2<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  6&nbsp;&nbsp;&nbsp; 2723168908=20
+  =
+Idle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  80<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  7&nbsp;&nbsp;&nbsp; 2000153315=20
+  =
+Network&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  35<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  8&nbsp;&nbsp;&nbsp; 1740759767 User=20
+  =
+I/O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;=20
+  22<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  9&nbsp;&nbsp;&nbsp; 4108307767 System=20
+  =
+I/O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;=20
+  23<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+10&nbsp;&nbsp;&nbsp;=20
+  2396326234=20
+  =
+Scheduler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  3<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+11&nbsp;&nbsp;&nbsp;=20
+  3871361733=20
+  =
+Cluster&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  47<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  12&nbsp;&nbsp;&nbsp;&nbsp; 644977587=20
+  =
+Queueing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  4<BR>13 rows selected.</P></BLOCKQUOTE>
+<P>=E4=B9=9F=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87=E6=9F=A5=E8=AF=A2<STRONG=
+><FONT=20
+size=3D"4">v$system_wait_class</FONT></STRONG>=E8=A7=86=E5=9B=BE=E8=8E=B7=
+=E5=BE=97=E5=90=84=E7=B1=BB=E4=B8=BB=E8=A6=81=E7=AD=89=E5=BE=85=E4=BA=8B=E4=
+=BB=B6=E7=9A=84=E7=AD=89=E5=BE=85=E6=97=B6=E9=97=B4=E5=92=8C=E7=AD=89=E5=BE=
+=85=E6=AC=A1=E6=95=B0=E7=AD=89=E4=BF=A1=E6=81=AF=EF=BC=8C=E9=80=9A=E8=BF=87=
+=E5=88=86=E7=B1=BB=E4=BB=A5=E5=8F=8A=E7=BB=9F=E8=AE=A1=E4=BF=A1=E6=81=AF=EF=
+=BC=8C=E5=8F=AF=E4=BB=A5=E5=BE=88=E7=9B=B4=E8=A7=82=E5=9C=B0=E5=BF=AB=E9=80=
+=9F=E8=8E=B7=E5=BE=97=E6=95=B0=E6=8D=AE=E5=BA=93=E7=9A=84=E6=95=B4=E4=BD=93=
+=E5=8D=B0=E8=B1=A1=EF=BC=8C=E5=9C=A8=E4=BB=A5=E4=B8=8B=E8=BE=93=E5=87=BA=E4=
+=B8=AD=EF=BC=8C=E5=8F=AF=E4=BB=A5=E7=9C=8B=E5=87=BA=E6=95=B0=E6=8D=AE=E5=BA=
+=93=E7=9A=84=E4=B8=BB=E8=A6=81=E7=AD=89=E5=BE=85=E6=B6=88=E8=80=97=E5=9C=A8=
+User=20
+I/O=E6=93=8D=E4=BD=9C=E4=B8=8A=EF=BC=9A</P>
+<BLOCKQUOTE>
+  <P>sys@CCDB&gt; select * from v$system_wait_class order by=20
+  time_waited;<BR>WAIT_CLASS_ID WAIT_CLASS#=20
+  WAIT_CLASS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TOTAL_WAITS TIME_WAITED=20
+  TOTAL_WAITS_FG TIME_WAITED_FG<BR>------------- ----------- =
+---------------=20
+  ----------- ----------- -------------- --------------<BR>&nbsp;&nbsp;=20
+  2000153315&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+7=20
+  =
+Network&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+=20
+  11535832&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  8306&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  11483262&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  8110<BR>&nbsp;&nbsp;=20
+  3290255840&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+2=20
+  Configuration&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  456184&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  25674&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  451609&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  20704<BR>&nbsp;&nbsp;=20
+  4217450380&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+1=20
+  =
+Application&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;=20
+  3984&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  59682&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  3647&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  59273<BR>&nbsp;&nbsp;&nbsp;=20
+  644977587&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12=20
+  =
+Queueing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  17&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  =
+123524&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;=20
+  5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  265<BR>&nbsp;&nbsp;=20
+  2396326234&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10=20
+  =
+Scheduler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;=20
+  64048&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  337478&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  61590&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+311334<BR>&nbsp;&nbsp;=20
+  1893977003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+0=20
+  =
+Other&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+  147742&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  391129&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  87429&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+301171<BR>&nbsp;&nbsp;=20
+  3386400367&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+5=20
+  =
+Commit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;=20
+  4112399&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  709998&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  4110596&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+705566<BR>&nbsp;&nbsp;=20
+  4108307767&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+9=20
+  System I/O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  15470338&nbsp;&nbsp;&nbsp;&nbsp;=20
+  1884575&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  376478&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  3002<BR>&nbsp;&nbsp;=20
+  3875070507&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+4=20
+  Concurrency&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  29235041&nbsp;&nbsp;&nbsp;&nbsp;=20
+  2342427&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  9841084&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+1233264<BR>&nbsp;&nbsp;=20
+  1740759767&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+8 User=20
+  I/O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  5517505&nbsp;&nbsp;&nbsp;&nbsp;=20
+  3054163&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  5167892&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+2632608<BR>&nbsp;&nbsp;=20
+  2723168908&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+6=20
+  =
+Idle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;=20
+  45845622&nbsp; 4.8606E+10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  12138330&nbsp;&nbsp;&nbsp;&nbsp; 3.7588E+10<BR>11 rows=20
+selected.</P></BLOCKQUOTE>
+<P>=E4=BB=8EOracle =
+11g=E5=BC=80=E5=A7=8B=EF=BC=8C=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87=E5=A6=82=
+=E4=B8=8B=E6=9F=A5=E8=AF=A2=E6=9D=A5=E9=A6=96=E5=85=88=E4=BA=86=E8=A7=A3=E6=
+=95=B0=E6=8D=AE=E5=BA=93=E7=9A=84=E7=A9=BA=E9=97=B2=E7=AD=89=E5=BE=85=E4=BA=
+=8B=E4=BB=B6=EF=BC=9A</P>
+<BLOCKQUOTE>
+  <P><EM><STRONG>select name,wait_class from v$event_name where=20
+  wait_class=3D'Idle';</STRONG></EM></P></BLOCKQUOTE>
+<P>=E5=9C=A8Oracle =
+11g=E4=B8=AD=EF=BC=8C=E7=A9=BA=E9=97=B2=E7=AD=89=E5=BE=85=E5=B7=B2=E7=BB=8F=
+=E5=A2=9E=E5=8A=A0=E5=88=B080=E4=B8=AA=E5=B7=A6=E5=8F=B3=E3=80=82</P>
+<P>- The End -</P>
+<H4 =
+class=3D"related_post_title">=E7=9B=B8=E5=85=B3=E6=97=A5=E5=BF=97</H4>
+<UL class=3D"related_post">
+  <LI>2010/05/13 -- <A title=3D"Oracle 10g/11g =
+Latch=E6=9C=BA=E5=88=B6=E7=9A=84=E5=8F=98=E5=8C=96" =
+href=3D"http://www.dbtan.com/2010/05/oracle-10g11g-latch.html">Oracle=20
+  10g/11g Latch=E6=9C=BA=E5=88=B6=E7=9A=84=E5=8F=98=E5=8C=96</A></LI>
+  <LI>2010/05/13 -- <A title=3D"Latch =
+Free=EF=BC=88=E9=97=A9=E9=94=81=E9=87=8A=E6=94=BE=EF=BC=89" =
+href=3D"http://www.dbtan.com/2010/05/latch-free.html">Latch=20
+  Free=EF=BC=88=E9=97=A9=E9=94=81=E9=87=8A=E6=94=BE=EF=BC=89</A></LI>
+  <LI>2010/05/13 -- <A title=3D"Enqueue =
+=EF=BC=88=E9=98=9F=E5=88=97=E7=AD=89=E5=BE=85=EF=BC=89" =
+href=3D"http://www.dbtan.com/2010/05/enqueue.html">Enqueue=20
+  =EF=BC=88=E9=98=9F=E5=88=97=E7=AD=89=E5=BE=85=EF=BC=89</A></LI>
+  <LI>2010/05/13 -- <A =
+title=3D"=E6=97=A5=E5=BF=97=E6=96=87=E4=BB=B6=E7=9B=B8=E5=85=B3=E7=AD=89=E5=
+=BE=85" =
+href=3D"http://www.dbtan.com/2010/05/event-about-log.html">=E6=97=A5=E5=BF=
+=97=E6=96=87=E4=BB=B6=E7=9B=B8=E5=85=B3=E7=AD=89=E5=BE=85</A></LI>
+  <LI>2010/04/12 -- <A title=3D"direct path read/write =
+=EF=BC=88=E7=9B=B4=E6=8E=A5=E8=B7=AF=E5=BE=84=E8=AF=BB=EF=BC=8F=E5=86=99=EF=
+=BC=89" =
+href=3D"http://www.dbtan.com/2010/04/direct-path-readwrite.html">direct=20
+  path read/write =
+=EF=BC=88=E7=9B=B4=E6=8E=A5=E8=B7=AF=E5=BE=84=E8=AF=BB=EF=BC=8F=E5=86=99=EF=
+=BC=89</A></LI></UL></DIV>
+<DIV class=3D"alignleft">=E4=B8=8A=E4=B8=80=E7=AF=87=EF=BC=9A<A =
+href=3D"http://www.dbtan.com/2010/02/recover-rollback-segment-mangle.html=
+"=20
+rel=3D"prev">=E5=9B=9E=E6=BB=9A=E6=AE=B5=E6=8D=9F=E5=9D=8F=E7=9A=84=E6=81=
+=A2=E5=A4=8D</A></DIV>
+<DIV class=3D"alignright">=E4=B8=8B=E4=B8=80=E7=AF=87=EF=BC=9A<A =
+href=3D"http://www.dbtan.com/2010/03/find-bottleneck-from-event.html"=20
+rel=3D"next">=E4=BB=8E=E7=AD=89=E5=BE=85=E5=8F=91=E7=8E=B0=E7=93=B6=E9=A2=
+=88</A></DIV>
+<H3 id=3D"respond">Leave a Reply</H3>
+<FORM id=3D"commentform" method=3D"post" =
+action=3D"http://www.dbtan.com/wp-comments-post.php">
+<P><INPUT id=3D"author" tabIndex=3D"1" name=3D"author" size=3D"22" =
+type=3D"text"> <LABEL=20
+for=3D"author"><STRONG>Name</STRONG> (required)</LABEL></P>
+<P><INPUT id=3D"email" tabIndex=3D"2" name=3D"email" size=3D"22" =
+type=3D"text"> <LABEL=20
+for=3D"email"><STRONG>Mail</STRONG> (will not be published) =
+(required)</LABEL></P>
+<P><INPUT id=3D"url" tabIndex=3D"3" name=3D"url" size=3D"22" =
+type=3D"text"> <LABEL for=3D"url"><STRONG>Website</STRONG></LABEL></P>
+<P><TEXTAREA id=3D"comment" tabIndex=3D"4" cols=3D"100" rows=3D"10" =
+name=3D"comment"></TEXTAREA></P>
+<P><g:plusone href=3D"http://www.dbtan.com/2010/03/wait-event.html" =
+annotation=3D"inline"></g:plusone><INPUT id=3D"submit" tabIndex=3D"5" =
+name=3D"submit" value=3D"Submit Comment" type=3D"submit">=20
+<INPUT name=3D"comment_post_ID" value=3D"158" type=3D"hidden"></P>
+<P style=3D"display: none;"><INPUT id=3D"akismet_comment_nonce" =
+name=3D"akismet_comment_nonce"=20
+value=3D"1369c669a0" type=3D"hidden"></P>
+<P><INPUT id=3D"comment_reply_ID" name=3D"comment_reply_ID" value=3D"0"=20
+type=3D"hidden"><INPUT id=3D"comment_reply_dp" name=3D"comment_reply_dp" =
+value=3D"0"=20
+type=3D"hidden"></P>
+<DIV style=3D"display: none;" id=3D"cancel_reply"><A style=3D"color: =
+red;" onclick=3D"movecfm(null,0,1,null);"=20
+href=3D"javascript:void(0)">=E7=82=B9=E5=87=BB=E5=8F=96=E6=B6=88=E5=9B=9E=
+=E5=A4=8D</A></DIV>
+<SCRIPT type=3D"text/javascript">/*  */=0A=
+var commentformid =3D "commentform";=0A=
+var USERINFO =3D false;=0A=
+var atreply =3D "author";=0A=
+/*  */</SCRIPT>
+=20
+<SCRIPT type=3D"text/javascript" =
+src=3D"http://www.dbtan.com/wp-content/plugins/wp-thread-comment/wp-threa=
+d-comment.js.php?jsver=3Dcommon"></SCRIPT>
+ </FORM></DIV></DIV>
+<DIV id=3D"sidebar">
+<UL>
+  <DIV id=3D"categories-3" class=3D"widget widget_categories">
+  <H2 class=3D"sidebartitle">=E5=88=86=E7=B1=BB=E7=9B=AE=E5=BD=95 | =
+Catalog</H2>
+  <UL>
+    <LI class=3D"cat-item cat-item-12"><A title=3D"=E6=9F=A5=E7=9C=8B =
+Linux =E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/linux">Linux</A>=20
+    (9)</LI>
+    <LI class=3D"cat-item cat-item-3"><A title=3D"=E6=9F=A5=E7=9C=8B =
+Oracle =E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/oracle">Oracle</A>=20
+    (82)
+    <UL class=3D"children">
+      <LI class=3D"cat-item cat-item-17"><A title=3D"=E6=9F=A5=E7=9C=8B =
+Oracle=E5=A4=87=E4=BB=BD=E4=B8=8E=E6=81=A2=E5=A4=8D =
+=E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/oracle/backup_recovery">Oracle=E5=A4=
+=87=E4=BB=BD=E4=B8=8E=E6=81=A2=E5=A4=8D</A>=20
+      (2)</LI>
+      <LI class=3D"cat-item cat-item-20"><A title=3D"=E6=9F=A5=E7=9C=8B =
+Oracle=E6=95=B0=E6=8D=AE=E5=BA=93=E7=AE=A1=E7=90=86 =
+=E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/oracle/oraman">Oracle=E6=95=B0=E6=8D=
+=AE=E5=BA=93=E7=AE=A1=E7=90=86</A>=20
+      (3)</LI>
+      <LI class=3D"cat-item cat-item-18"><A title=3D"=E6=9F=A5=E7=9C=8B =
+Trouble Shooting =E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+
+      href=3D"http://www.dbtan.com/category/oracle/oratrouble">Trouble=20
+      Shooting</A> (3)</LI></UL></LI>
+    <LI class=3D"cat-item cat-item-5"><A title=3D"=E6=9F=A5=E7=9C=8B =
+=E8=AF=BB=E4=B9=A6=E7=AC=94=E8=AE=B0 =
+=E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/study-note">=E8=AF=BB=E4=B9=A6=E7=AC=
+=94=E8=AE=B0</A>=20
+    (73)
+    <UL class=3D"children">
+      <LI class=3D"cat-item cat-item-11"><A title=3D"=E6=9F=A5=E7=9C=8B =
+=E6=B7=B1=E5=85=A5=E8=A7=A3=E6=9E=90Oracle =
+=E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/study-note/parse-oracle">=E6=B7=B1=E5=
+=85=A5=E8=A7=A3=E6=9E=90Oracle</A>=20
+      (73)</LI></UL></LI>
+    <LI class=3D"cat-item cat-item-1"><A title=3D"=E6=9F=A5=E7=9C=8B =
+=E9=BB=98=E8=AE=A4=E5=88=86=E7=B1=BB =
+=E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/default">=E9=BB=98=E8=AE=A4=E5=88=86=
+=E7=B1=BB</A>=20
+    (2)</LI></UL></DIV>
+  <DIV id=3D"tag_cloud-3" class=3D"widget widget_tag_cloud">
+  <H2 class=3D"sidebartitle">=E6=A0=87=E7=AD=BE=E4=BA=91 | Tag =
+Cloud</H2>
+  <DIV class=3D"tagcloud"><A style=3D"font-size: 8pt;" =
+class=3D"tag-link-32" title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  href=3D"http://www.dbtan.com/tag/apache">apache</A> <A =
+style=3D"font-size: 8pt;"=20
+  class=3D"tag-link-16" title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/backup-politic">backup=20
+  politic</A> <A style=3D"font-size: 8pt;" class=3D"tag-link-48" =
+title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/binding-variable-and-cursor_sharing">Bin=
+ding=20
+  variable and cursor_sharing</A> <A style=3D"font-size: 8pt;" =
+class=3D"tag-link-42"=20
+  title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/buffer-cache">Buffer Cache</A> <A=20
+  style=3D"font-size: 8pt;" class=3D"tag-link-28" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/dns">dns</A>=20
+  <A style=3D"font-size: 16.575pt;" class=3D"tag-link-59" title=3D"18 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/event">Event</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-19" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/exp-00091">EXP-00091</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-49" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/flush-shared-pool">Flush=20
+  Shared Pool</A> <A style=3D"font-size: 8pt;" class=3D"tag-link-30" =
+title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  href=3D"http://www.dbtan.com/tag/ftp">ftp</A> <A style=3D"font-size: =
+8pt;" class=3D"tag-link-39"=20
+  title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/imp">imp</A> <A style=3D"font-size: =
+8pt;"=20
+  class=3D"tag-link-35" title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  href=3D"http://www.dbtan.com/tag/lamp">LAMP</A> <A style=3D"font-size: =
+11.5pt;"=20
+  class=3D"tag-link-52" title=3D"4 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/library-cache-pin-and-library-cache-lock=
+">Library=20
+  Cache Pin and Library Cache Lock</A> <A style=3D"font-size: 14.125pt;" =
+class=3D"tag-link-12"=20
+  title=3D"9 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/linux">Linux</A> <A style=3D"font-size: =
+8pt;"=20
+  class=3D"tag-link-26" title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/linux-log-manager-and-item-integration">=
+linux=20
+  log manager and item integration</A> <A style=3D"font-size: 8pt;" =
+class=3D"tag-link-27"=20
+  title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/linux-troubleshooting">linux=20
+  troubleshooting</A> <A style=3D"font-size: 8pt;" class=3D"tag-link-31" =
+title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  href=3D"http://www.dbtan.com/tag/nfs">nfs</A> <A style=3D"font-size: =
+8pt;" class=3D"tag-link-23"=20
+  title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/nologging">nologging</A> <A=20
+  style=3D"font-size: 8pt;" class=3D"tag-link-36" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/oem">OEM</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-51" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/ora-04031">ORA-04031</A>=20
+  <A style=3D"font-size: 22pt;" class=3D"tag-link-3" title=3D"79 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/oracle">Oracle</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-4" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/select-oracle-base-info">Oracle=E5=9F=BA=
+=E6=9C=AC=E4=BF=A1=E6=81=AF=E6=A3=80=E6=9F=A5</A>=20
+  <A style=3D"font-size: 9.575pt;" class=3D"tag-link-45" title=3D"2 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/oracle%e5%ad%90%e7%bc%93%e5%86%b2%e6%b1%=
+a0subpool">Oracle=E5=AD=90=E7=BC=93=E5=86=B2=E6=B1=A0SubPool</A>=20
+  <A style=3D"font-size: 16.575pt;" class=3D"tag-link-55" title=3D"18 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/redo">Redo</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-44" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/result-cache">Result=20
+  Cache</A> <A style=3D"font-size: 8pt;" class=3D"tag-link-29" =
+title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/samba">samba</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-34" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/sendmail">sendmail</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-47" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/shared-pool-dump-and-analysis">Shared=20
+  Pool dump and analysis</A> <A style=3D"font-size: 8pt;" =
+class=3D"tag-link-53"=20
+  title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/shared-pool-latch%e5%92%8clibrary-cache-=
+latch%e7%ab%9e%e4%ba%89">Shared=20
+  Pool Latch=E5=92=8CLibrary Cache Latch=E7=AB=9E=E4=BA=89</A> <A =
+style=3D"font-size: 8pt;" class=3D"tag-link-43"=20
+  title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/shared-pool-%e7%9a%84%e5%9f%ba%e6%9c%ac%=
+e5%8e%9f%e7%90%86">Shared=20
+  Pool =E7=9A=84=E5=9F=BA=E6=9C=AC=E5=8E=9F=E7=90=86</A> <A =
+style=3D"font-size: 8pt;" class=3D"tag-link-50" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  =
+href=3D"http://www.dbtan.com/tag/shared_pool_reserved_size">SHARED_POOL_R=
+ESERVED_SIZE</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-24" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/sqlloader">sqlloader</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-33" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/squid">squid</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-18" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/oratrouble">Trouble=20
+  Shooting</A> <A style=3D"font-size: 16.75pt;" class=3D"tag-link-57" =
+title=3D"19 =E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  href=3D"http://www.dbtan.com/tag/undo">Undo</A> <A style=3D"font-size: =
+8pt;"=20
+  class=3D"tag-link-25" title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/usbloading-for-linux">usbloading=20
+  for linux</A> <A style=3D"font-size: 8pt;" class=3D"tag-link-60" =
+title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  href=3D"http://www.dbtan.com/tag/vsession">v$session</A> <A =
+style=3D"font-size: 8pt;"=20
+  class=3D"tag-link-61" title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/vsession_wait">v$session_wait</A>=20
+  <A style=3D"font-size: 9.575pt;" class=3D"tag-link-54" title=3D"2 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/vsql%e5%92%8cvsqlarea%e8%a7%86%e5%9b%be"=
+>v$sql=E5=92=8Cv$sqlarea=E8=A7=86=E5=9B=BE</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-38" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/windows">windows</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-46" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/xksmsp">x$ksmsp</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-56" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/%e6%95%b0%e5%80%bc%e5%9c%a8oracle%e7%9a%=
+84%e5%86%85%e9%83%a8%e5%ad%98%e5%82%a8">=E6=95=B0=E5=80=BC=E5=9C=A8Oracle=
+=E7=9A=84=E5=86=85=E9=83=A8=E5=AD=98=E5=82=A8</A>=20
+  <A style=3D"font-size: 21.737pt;" class=3D"tag-link-41" title=3D"73 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/%e6%b7%b1%e5%85%a5%e8%a7%a3%e6%9e%90orac=
+le">=E6=B7=B1=E5=85=A5=E8=A7=A3=E6=9E=90Oracle</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-37" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/%e7%8e%af%e5%a2%83%e5%8f%98%e9%87%8f">=E7=
+=8E=AF=E5=A2=83=E5=8F=98=E9=87=8F</A>=20
+  <A style=3D"font-size: 21.737pt;" class=3D"tag-link-40" title=3D"73 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/%e8%af%bb%e4%b9%a6%e7%ac%94%e8%ae%b0">=E8=
+=AF=BB=E4=B9=A6=E7=AC=94=E8=AE=B0</A>=20
+  <A style=3D"font-size: 10.625pt;" class=3D"tag-link-64" title=3D"3 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/%e9%87%8d%e8%a6%81%e7%ad%89%e5%be%85%e4%=
+ba%8b%e4%bb%b6">=E9=87=8D=E8=A6=81=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6</A=
+></DIV></DIV>
+  <DIV id=3D"archives-3" class=3D"widget widget_archive">
+  <H2 class=3D"sidebartitle">=E6=97=A5=E5=BF=97=E5=BD=92=E6=A1=A3 | =
+Archived logs</H2>
+  <UL>
+    <LI><A title=3D"2010 =E5=B9=B4=E4=B9=9D=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/09">2010=20
+    =E5=B9=B4=E4=B9=9D=E6=9C=88</A>&nbsp;(1)</LI>
+    <LI><A title=3D"2010 =E5=B9=B4=E5=85=AD=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/06">2010=20
+    =E5=B9=B4=E5=85=AD=E6=9C=88</A>&nbsp;(1)</LI>
+    <LI><A title=3D"2010 =E5=B9=B4=E4=BA=94=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/05">2010=20
+    =E5=B9=B4=E4=BA=94=E6=9C=88</A>&nbsp;(4)</LI>
+    <LI><A title=3D"2010 =E5=B9=B4=E5=9B=9B=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/04">2010=20
+    =E5=B9=B4=E5=9B=9B=E6=9C=88</A>&nbsp;(11)</LI>
+    <LI><A title=3D"2010 =E5=B9=B4=E4=B8=89=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/03">2010=20
+    =E5=B9=B4=E4=B8=89=E6=9C=88</A>&nbsp;(3)</LI>
+    <LI><A title=3D"2010 =E5=B9=B4=E4=BA=8C=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/02">2010=20
+    =E5=B9=B4=E4=BA=8C=E6=9C=88</A>&nbsp;(3)</LI>
+    <LI><A title=3D"2010 =E5=B9=B4=E4=B8=80=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/01">2010=20
+    =E5=B9=B4=E4=B8=80=E6=9C=88</A>&nbsp;(4)</LI>
+    <LI><A title=3D"2009 =E5=B9=B4=E5=8D=81=E4=BA=8C=E6=9C=88" =
+href=3D"http://www.dbtan.com/2009/12">2009=20
+    =E5=B9=B4=E5=8D=81=E4=BA=8C=E6=9C=88</A>&nbsp;(39)</LI>
+    <LI><A title=3D"2009 =E5=B9=B4=E5=8D=81=E4=B8=80=E6=9C=88" =
+href=3D"http://www.dbtan.com/2009/11">2009=20
+    =E5=B9=B4=E5=8D=81=E4=B8=80=E6=9C=88</A>&nbsp;(11)</LI>
+    <LI><A title=3D"2009 =E5=B9=B4=E5=8D=81=E6=9C=88" =
+href=3D"http://www.dbtan.com/2009/10">2009=20
+    =E5=B9=B4=E5=8D=81=E6=9C=88</A>&nbsp;(9)</LI>
+    <LI><A title=3D"2009 =E5=B9=B4=E4=B9=9D=E6=9C=88" =
+href=3D"http://www.dbtan.com/2009/09">2009=20
+    =E5=B9=B4=E4=B9=9D=E6=9C=88</A>&nbsp;(4)</LI>
+    <LI><A title=3D"2009 =E5=B9=B4=E5=85=AB=E6=9C=88" =
+href=3D"http://www.dbtan.com/2009/08">2009=20
+    =E5=B9=B4=E5=85=AB=E6=9C=88</A>&nbsp;(2)</LI></UL></DIV>
+  <DIV id=3D"text-4" class=3D"widget widget_text">
+  <H2 class=3D"sidebartitle">=E6=88=91=E7=9A=84=E9=93=BE=E6=8E=A5 | My =
+Links</H2>
+  <DIV class=3D"textwidget">
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://asktom.oracle.com/" target=3D"_blank">Ask =
+Tom</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.anysql.net/" =
+target=3D"_blank">D.C.B.A</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.oracledba.com.cn/"=20
+  target=3D"_blank">David.Guo</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.ixdba.com/" target=3D"_blank">DBA =
+story</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.dbaroad.com/" =
+target=3D"_blank">DBA=E4=B9=8B=E8=B7=AF</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.eygle.com/" =
+target=3D"_blank">eygle</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.itpub.net/list.html"=20
+  target=3D"_blank">ITPUB=E8=AE=BA=E5=9D=9B</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.dbform.com/" =
+target=3D"_blank">Kamus</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.ningoo.net/" =
+target=3D"_blank">NinGoo</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.oracleblog.org/" =
+target=3D"_blank">=E5=A4=A9=E5=A0=82=E5=90=91=E5=B7=A6=20
+  DBA=E5=90=91=E5=8F=B3</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.zhihong.org/" =
+target=3D"_blank">=E6=95=B0=E6=8D=AE=E5=B7=A5=E4=BA=BA</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://laoxiong.net/" =
+target=3D"_blank">=E8=80=81=E7=86=8A=E7=9A=84=E4=B8=89=E5=88=86=E5=9C=B0<=
+/A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.niubro.com/" =
+target=3D"_blank">=E7=89=9B=E5=93=A5=E7=9A=84=E8=8C=B6=E5=87=A0</A></LI><=
+/UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.oracledatabase12g.com/" =
+target=3D"_blank">Maclean=20
+    =
+Liu=E7=9A=84=E4=B8=AA=E4=BA=BA=E6=8A=80=E6=9C=AF=E5=8D=9A=E5=AE=A2</A></L=
+I></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://space.itpub.net/16179598/"=20
+    target=3D"_blank">yellowlee</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.kinggoo.com/" =
+target=3D"_blank">Kinggoo</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.dbasky.com/"=20
+  target=3D"_blank">dbasky</A></LI></UL></DIV></DIV>
+  <DIV id=3D"text-3" class=3D"widget widget_text">
+  <H2 class=3D"sidebartitle">=E8=AE=A2=E9=98=85=E6=9B=B4=E6=96=B0 | =
+Feed</H2>
+  <DIV class=3D"textwidget">=20
+<SCRIPT language=3D"javascript">/*<![CDATA[*/<!-- main_sub=3D"c1s13"; -->=0A=
+more_subs=3D"google_02,xianguo_02,zhuaxia_02,youdao_02,yahoo_02,nazha_02,=
+qq_02";=0A=
+is_new=3D"yes";/*]]>*/</SCRIPT>
+  =20
+<SCRIPT language=3D"javascript" =
+src=3D"http://www.feedsky.com/jsout/publishlist_v2.js?burl=3Ddbtan&amp;ou=
+t_html=3Dtrue"></SCRIPT>
+  =20
+  <LI class=3D"rss"><A href=3D"http://www.dbtan.com/feed">All Posts =
+Feed</A></LI>
+  <LI class=3D"rss"><A href=3D"http://www.dbtan.com/comments/feed">All =
+Comments=20
+  Feed</A></LI></DIV></DIV></UL></DIV> =EF=BB=BF
+<HR class=3D"clear">
+</DIV></DIV>
+<DIV id=3D"footerbg">
+<DIV id=3D"footer">
+<DIV class=3D"footer-recent-posts">
+<H4>Recent Posts</H4>
+<UL>
+  <LI> <STRONG><A title=3D"Permanent link to How To Automate Cleanup Of =
+Dead Connections And INACTIVE Sessions [ID 206007.1]"=20
+  =
+href=3D"http://www.dbtan.com/2010/09/dead-connections-_or_inactive-sessio=
+ns.html"=20
+  rel=3D"bookmark">How To Automate Cleanup Of Dead Connections And =
+INACTIVE=20
+  Sessions [ID 206007.1]</A></STRONG><BR> <SMALL>09-15-2010</SMALL></LI>
+  <LI> <STRONG><A title=3D"Permanent link to =
+=E8=AE=A4=E9=A2=86=E5=8D=9A=E5=AE=A2 dbtan =E8=B0=88DB" =
+href=3D"http://www.dbtan.com/2010/06/claim-blog.html"=20
+  rel=3D"bookmark">=E8=AE=A4=E9=A2=86=E5=8D=9A=E5=AE=A2 dbtan =
+=E8=B0=88DB</A></STRONG><BR> <SMALL>06-20-2010</SMALL></LI>
+  <LI> <STRONG><A title=3D"Permanent link to Oracle 10g/11g =
+Latch=E6=9C=BA=E5=88=B6=E7=9A=84=E5=8F=98=E5=8C=96" =
+href=3D"http://www.dbtan.com/2010/05/oracle-10g11g-latch.html"=20
+  rel=3D"bookmark">Oracle 10g/11g =
+Latch=E6=9C=BA=E5=88=B6=E7=9A=84=E5=8F=98=E5=8C=96</A></STRONG><BR>=20
+  <SMALL>05-13-2010</SMALL></LI>
+  <LI> <STRONG><A title=3D"Permanent link to Latch =
+Free=EF=BC=88=E9=97=A9=E9=94=81=E9=87=8A=E6=94=BE=EF=BC=89" =
+href=3D"http://www.dbtan.com/2010/05/latch-free.html"=20
+  rel=3D"bookmark">Latch =
+Free=EF=BC=88=E9=97=A9=E9=94=81=E9=87=8A=E6=94=BE=EF=BC=89</A></STRONG><B=
+R>=20
+<SMALL>05-13-2010</SMALL></LI>
+  <LI> <STRONG><A title=3D"Permanent link to Enqueue =
+=EF=BC=88=E9=98=9F=E5=88=97=E7=AD=89=E5=BE=85=EF=BC=89" =
+href=3D"http://www.dbtan.com/2010/05/enqueue.html"=20
+  rel=3D"bookmark">Enqueue =
+=EF=BC=88=E9=98=9F=E5=88=97=E7=AD=89=E5=BE=85=EF=BC=89</A></STRONG><BR>=20
+<SMALL>05-13-2010</SMALL></LI></UL></DIV>
+<DIV class=3D"footer-recent-comments">
+<H4>Recent Comments</H4>
+<UL>
+  <LI><STRONG><A title=3D"on direct path read/write =
+=EF=BC=88=E7=9B=B4=E6=8E=A5=E8=B7=AF=E5=BE=84=E8=AF=BB=EF=BC=8F=E5=86=99=EF=
+=BC=89" =
+href=3D"http://www.dbtan.com/2010/04/direct-path-readwrite.html#comment-9=
+681">dongcs</A></STRONG>:=20
+  =
+=E6=AD=A4=E6=96=87=E5=86=99=E7=9A=84=E5=BE=88=E5=A5=BD=EF=BC=8C=E5=BE=88=E5=
+=A5=BD=EF=BC=81...</LI>
+  <LI><STRONG><A title=3D"on =
+commit=E5=81=9A=E4=BA=86=E4=BB=80=E4=B9=88=EF=BC=9F" =
+href=3D"http://www.dbtan.com/2009/12/what-has-commit-made.html#comment-86=
+71">xiejitao</A></STRONG>:=20
+  =
+=E5=86=99=E7=9A=84=E4=B8=8D=E9=94=99=EF=BC=8C=E9=A1=B6=E9=A1=B6=E3=80=82=E3=
+=80=82=E3=80=82=E3=80=82=E3=80=82=E3=80=82=E3=80=82=E3=80=82=E3=80=82=E3=80=
+=82=E3=80=82...</LI>
+  <LI><STRONG><A title=3D"on =E8=AE=A4=E9=A2=86=E5=8D=9A=E5=AE=A2 dbtan =
+=E8=B0=88DB" =
+href=3D"http://www.dbtan.com/2010/06/claim-blog.html#comment-7328">dbtan<=
+/A></STRONG>:=20
+  @chen, =
+=E6=84=9F=E8=B0=A2=E4=BD=A0=E7=9A=84=E5=85=B3=E6=B3=A8=EF=BC=8C=E6=88=91=E4=
+=BC=9A=E5=B0=BD=E5=BF=AB=E5=A4=84=E7=90=86=E7=9A=84=E3=80=82...</LI>
+  <LI><STRONG><A title=3D"on =E8=AE=A4=E9=A2=86=E5=8D=9A=E5=AE=A2 dbtan =
+=E8=B0=88DB" =
+href=3D"http://www.dbtan.com/2010/06/claim-blog.html#comment-7327">chen</=
+A></STRONG>:=20
+  =
+=E6=82=A8=E5=A5=BD=EF=BC=8C=E6=88=91=E8=AF=95=E7=9D=80=E5=9C=A8QQ=E9=82=AE=
+=E7=AE=B1=E9=87=8C=E8=AE=A2=E9=98=85=E4=BA=86=E6=82=A8=E7=9A=84=E5=8D=9A=E5=
+=AE=A2=EF=BC=8C=E4=BD=86=E6=98=AF=E5=8F=91=E7=8E=B0=E5=85=B6=E4=B8=AD=E7=9A=
+=84=E5=9B=BE=E7=89=87=E5=9D=87=E6=97=A0=E6=B3=95=E6=98=BE=E7=A4=BA=EF=BC=8C=
+=E7=82=B9=E5=87=BB=E5=9B=BE=E7=89=87=E6=89=93=E5=BC=80=E5=90=8E=E6=9C=89=E9=
+=98=B2=E7=9B=97=E9=93=BE=E6=8F=90=E7=A4=BA=EF=BC=8C=E5=B9=B6=E7=9B=B4=E6=8E=
+=A5=E8=B7=B3=E8=BD=AC=E5=9B=9E=E5=88=B0=E9=A6=96=E9=A1=B5=E3=80=82...</LI=
+>
+  <LI><STRONG><A title=3D"on db file sequential read =
+=EF=BC=88=E6=95=B0=E6=8D=AE=E6=96=87=E4=BB=B6=E9=A1=BA=E5=BA=8F=E8=AF=BB=E5=
+=8F=96=EF=BC=89" =
+href=3D"http://www.dbtan.com/2010/04/db-file-sequential-read.html#comment=
+-3573">dbtan</A></STRONG>:=20
+  =E8=B0=A2=E8=B0=A2 =E6=9C=A8=E5=8C=A0Charlie =
+=E7=9A=84=E9=BC=93=E5=8A=B1=EF=BC=8C=E7=BB=A7=E7=BB=AD=E5=8A=AA=E5=8A=9B=EF=
+=BC=81...</LI></UL></DIV>
+<DIV class=3D"footer-meta">
+<H4>Meta</H4>
+<UL>
+  <LI><A =
+href=3D"http://www.dbtan.com/wp-login.php">=E7=99=BB=E5=BD=95</A></LI>
+  <LI><A title=3D"This page validates as XHTML 1.0 Transitional" =
+href=3D"http://validator.w3.org/check/referer">Valid=20
+  <ABBR title=3D"eXtensible HyperText Markup =
+Language">XHTML</ABBR></A></LI>
+  <LI><A =
+href=3D"http://www.anysystem.com/workgroup-servers-sunfire-v440.html">Sun=
+=20
+  Fire V440</A></LI>
+  <LI><A title=3D"Powered by WordPress, state-of-the-art semantic =
+personal publishing platform."=20
+  href=3D"http://wordpress.org/">WordPress</A></LI>
+  <LI class=3D"rss"><A href=3D"http://dbtan.com/feed">Entries =
+RSS</A></LI>
+  <LI class=3D"rss"><A href=3D"http://dbtan.com/comments/feed">Comments=20
+RSS</A></LI></UL></DIV>
+<HR class=3D"clear">
+</DIV>
+<DIV id=3D"credits">
+<DIV class=3D"alignleft"><A title=3D"Wordpress Themes" =
+href=3D"http://www.justskins.com/themes/wordpress-themes/">Wordpress=20
+Themes</A> by <A title=3D"Windows Vista Install" =
+href=3D"http://www.realgeek.com/forums/sitemap/f-16.html">Windows=20
+Vista Installation</A> Forums</DIV>
+<DIV class=3D"alignright">Copyright =C2=A9 2010 <A=20
+href=3D"http://dbtan.com/">http://dbtan.com/</A>. All rights=20
+reserved.</DIV></DIV></DIV>=20
+<SCRIPT type=3D"text/javascript">var gaJsHost =3D (("https:" =3D=3D =
+document.location.protocol) ? "https://ssl." : "http://www.");=0A=
+document.write(unescape("%3Cscript src=3D'" + gaJsHost + =
+"google-analytics.com/ga.js' =
+type=3D'text/javascript'%3E%3C/script%3E"));</SCRIPT>
+=20
+<SCRIPT type=3D"text/javascript">try {=0A=
+var pageTracker =3D _gat._getTracker("UA-10742085-2");=0A=
+pageTracker._trackPageview();=0A=
+} catch(err) {}</SCRIPT>
+<!-- Dynamic page generated in 0.565 seconds. --><!-- Cached page =
+generated by WP-Super-Cache on 2012-02-13 13:59:52 --><!-- Compression =
+=3D gzip --></BODY></HTML>
+
+------=_NextPart_000_0000_01CCEB04.F2BA3D70
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.dbtan.com/wp-content/cache/autoptimize/autoptimize_1a82de1a1b615ec33a4f43ade17b309e.php
+
+body {
+	background: rgb(243, 253, 238); font: 75%/150% "Trebuchet MS", Tahoma, =
+Arial; margin: 0px auto; padding: 0px; text-align: center; color: =
+rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+a {
+	color: rgb(0, 102, 204); text-decoration: none;
+}
+a:visited {
+	color: rgb(0, 102, 204); text-decoration: none;
+}
+a:hover {
+	background: rgb(255, 255, 204); color: rgb(12, 114, 162); =
+border-bottom-color: rgb(221, 221, 170); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+img {
+	border: currentColor;
+}
+p {
+	margin: 0px; padding: 6px 0px;
+}
+h1 {
+	font: lighter 2.4em/1.2em Georgia, "Times New Roman", Times, serif; =
+margin: 0px; height: 60px; color: rgb(255, 255, 255); font-size-adjust: =
+none; font-stretch: normal;
+}
+h1 a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+h1 a:visited {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+h1 a:hover {
+	border: currentColor; color: rgb(255, 255, 255); text-decoration: none;
+}
+h2 {
+	font: lighter 2em/1em Georgia, "Times New Roman", Times, serif; margin: =
+0px 0px 2px; width: 100%; color: rgb(53, 101, 32); padding-bottom: 3px; =
+border-bottom-color: rgb(53, 101, 32); border-bottom-width: 1px; =
+border-bottom-style: dotted; font-size-adjust: none; font-stretch: =
+normal;
+}
+h2 a {
+	color: rgb(53, 101, 32); text-decoration: none;
+}
+h2 a:visited {
+	color: rgb(53, 101, 32); text-decoration: none;
+}
+h2 a:hover {
+	color: rgb(53, 101, 32); text-decoration: none;
+}
+h3 {
+	font: 140%/100% "Trebuchet MS", Tahoma, Arial; margin: 10px 0px 5px; =
+color: rgb(12, 114, 162); font-size-adjust: none; font-stretch: normal;
+}
+h4 {
+	font: 130%/100% "Trebuchet MS", Tahoma, Arial; margin: 10px 0px 5px; =
+color: rgb(117, 141, 56); font-size-adjust: none; font-stretch: normal;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+#wrapper {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/content=
+-bg.gif") repeat-x rgb(255, 255, 255); margin: 0px auto; width: 1000px; =
+text-align: left; border-top-color: rgb(255, 255, 255); =
+border-top-width: 1px; border-top-style: solid;
+}
+#page {
+	margin: 0px auto; width: 100%; text-align: left;
+}
+#header {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/head-bg=
+.gif") repeat-x rgb(106, 170, 78); margin: 0px auto; width: 1000px; =
+height: 110px; text-align: left; color: rgb(209, 102, 131); =
+border-top-color: rgb(34, 45, 45); border-top-width: 5px; =
+border-top-style: solid; position: relative;
+}
+#headerimg {
+	margin: 0px auto; padding: 10px 0px 0px 10px; width: 970px; height: =
+60px; text-align: left; position: relative;
+}
+#headerimg .description {
+	text-align: left; bottom: 3px; color: rgb(246, 245, 238); font-size: =
+14px; position: absolute;
+}
+#navi {
+	margin: 10px auto 0px; width: 970px; height: 30px; text-align: left; =
+line-height: normal;
+}
+#nav {
+	list-style: none; margin: 0px 3px; padding: 0px; text-align: left; =
+float: right;
+}
+#nav li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/navtabr=
+.png") no-repeat right top; margin: 0px 3px; height: 30px; float: left; =
+white-space: nowrap;
+}
+#nav .page_item a {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/navtabl=
+.png") no-repeat left top; font: bold 12px/30px Arial, Helvetica, =
+sans-serif; padding: 0px 10px; color: rgb(53, 101, 32); text-decoration: =
+none; display: block; font-size-adjust: none; font-stretch: normal;
+}
+#nav li:hover {
+	background-position: 100% -30px;
+}
+#nav .page_item a:hover {
+	background-position: 0px -30px; border: currentColor;
+}
+#nav li.current_page_item {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/navtaba=
+ctiver.png") no-repeat right top; color: rgb(53, 101, 32); =
+text-decoration: none; border-bottom-color: rgb(238, 252, 231); =
+border-bottom-width: 1px; border-bottom-style: solid;
+}
+#nav .current_page_item a {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/navtaba=
+ctivel.png") no-repeat left top; color: rgb(53, 101, 32); =
+text-decoration: none;
+}
+#nav .current_page_item a:visited {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/navtaba=
+ctivel.png") no-repeat left top; color: rgb(53, 101, 32); =
+text-decoration: none;
+}
+#content {
+	padding: 10px 0px 30px 13px; width: 765px; text-align: left; overflow: =
+hidden; float: left;
+}
+#content img {
+	padding: 5px; border: 1px solid rgb(211, 234, 243);
+}
+.post {
+	text-align: left; padding-top: 15px; clear: both;
+}
+.post-date {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/date-bg=
+.gif") no-repeat; width: 45px; height: 49px; float: left;
+}
+.post-month {
+	text-align: center; color: rgb(255, 255, 255); text-transform: =
+uppercase; line-height: 11px; padding-top: 2px; font-size: 11px; =
+margin-left: -3px; display: block;
+}
+.post-day {
+	text-align: center; color: rgb(153, 153, 153); text-transform: =
+uppercase; line-height: 18px; padding-top: 7px; font-size: 18px; =
+margin-left: -3px; display: block;
+}
+.entry {
+=09
+}
+.post-cat {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-ca=
+tegory.gif") no-repeat left; padding-left: 20px; float: left;
+}
+.post-tag {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-ca=
+tegory.gif") no-repeat left; padding-left: 20px; margin-left: 40px; =
+float: left;
+}
+.post-comments {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-co=
+mments.gif") no-repeat left bottom; padding-left: 20px; float: right;
+}
+.post-calendar {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-ca=
+lendar.gif") no-repeat left; color: rgb(153, 153, 153); padding-left: =
+20px; font-size: 95%; float: right;
+}
+.post-content {
+	padding-top: 10px; clear: both;
+}
+.post-info {
+	background: rgb(243, 252, 230); font: bold 12px/normal "Trebuchet MS", =
+"Tahoma", sans-serif; padding: 10px; height: 15px; color: rgb(120, 157, =
+71); border-top-color: rgb(219, 239, 193); border-bottom-color: rgb(219, =
+239, 193); border-top-width: 1px; border-bottom-width: 3px; =
+border-top-style: solid; border-bottom-style: solid; font-size-adjust: =
+none; font-stretch: normal;
+}
+.post-info a {
+	color: rgb(120, 157, 71); text-decoration: underline;
+}
+.post-info a:hover {
+	border: currentColor; color: rgb(70, 106, 24); text-decoration: =
+underline;
+}
+.post-content blockquote {
+	background: 0px 0px rgb(238, 243, 247); margin: 0px; padding: 3px; =
+border: 1px solid rgb(196, 209, 230); font-family: "Courier New"; =
+overflow-y: hidden; -moz-background-clip: border; =
+-moz-background-inline-policy: continuous; -moz-background-origin: =
+padding;
+}
+.post-content blockquote p {
+	padding: 3px;
+}
+.navigation {
+	padding: 10px 0px; text-align: left; clear: both;
+}
+.navigation a {
+	color: rgb(89, 119, 14);
+}
+.navigation a:visited {
+	color: rgb(89, 119, 14);
+}
+.previous-entries a {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-na=
+v-left.gif") no-repeat left; padding-left: 18px; float: left;
+}
+.next-entries a {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-na=
+v-right.gif") no-repeat right; padding-right: 18px; float: right;
+}
+#comments {
+	padding: 10px 0px 5px; text-align: left; clear: both; =
+border-bottom-color: rgb(67, 149, 188); border-bottom-width: 1px; =
+border-bottom-style: dotted;
+}
+#respond {
+	padding: 10px 0px 5px; text-align: left; clear: both; =
+border-bottom-color: rgb(67, 149, 188); border-bottom-width: 1px; =
+border-bottom-style: dotted;
+}
+.commentlist {
+	margin: 10px 0px; text-align: left; line-height: 130%; padding-left: =
+20px;
+}
+.commentlist li {
+	padding: 10px 10px 0px;
+}
+.commentlist .alt {
+	background: rgb(243, 252, 230); border: 1px dotted rgb(219, 239, 193);
+}
+.commentlist cite {
+	font-size: 120%; font-style: normal; font-weight: bold;
+}
+.commentlist cite a {
+	font-size: 120%; font-style: normal; font-weight: bold;
+}
+.commentlist cite a:visited {
+	font-size: 120%; font-style: normal; font-weight: bold;
+}
+.commentlist small {
+	font-size: 87%; margin-bottom: 5px; display: block;
+}
+#commentform {
+	font: 110%/normal Arial, Helvetica, sans-serif; text-align: left; =
+margin-top: 10px; font-size-adjust: none; font-stretch: normal;
+}
+#commentform p {
+	margin: 0px; padding: 6px 0px;
+}
+#commentform label {
+	color: rgb(120, 120, 120); font-size: 87%;
+}
+#commentform input {
+	background: rgb(243, 252, 230); padding: 3px; border: 1px dotted =
+rgb(208, 208, 191); width: 200px; margin-top: 3px;
+}
+#commentform textarea {
+	background: rgb(243, 252, 230); padding: 2px; border: 1px solid =
+rgb(219, 239, 193); width: 485px; height: 115px; margin-top: 3px;
+}
+#commentform textarea:focus {
+	background: rgb(255, 255, 255);
+}
+#commentform input[type=3D'text']:focus {
+	background: rgb(255, 255, 255);
+}
+#commentform #submit {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/btn-bg.=
+gif") no-repeat; font: bold 12px/normal Arial, Helvetica, sans-serif; =
+border: 1px solid rgb(171, 213, 150); width: 144px; height: 28px; color: =
+rgb(53, 101, 32); float: right; cursor: pointer; font-size-adjust: none; =
+font-stretch: normal;
+}
+#sidebar {
+	padding: 7px 10px 20px 0px; width: 200px; text-align: left; color: =
+rgb(102, 102, 102); overflow: hidden; float: right;
+}
+#sidebar h2 {
+	font: bold 1em/normal Arial, Helvetica, FreeSans, clean, sans-serif; =
+color: rgb(53, 101, 32); margin-bottom: 5px; border-bottom-color: =
+rgb(219, 239, 193); border-bottom-width: 1px; border-bottom-style: =
+solid; font-size-adjust: none; font-stretch: normal;
+}
+#sidebar .sidebartitle {
+	font: bold 1em/normal Arial, Helvetica, FreeSans, clean, sans-serif; =
+color: rgb(53, 101, 32); margin-bottom: 5px; border-bottom-color: =
+rgb(219, 239, 193); border-bottom-width: 1px; border-bottom-style: =
+solid; font-size-adjust: none; font-stretch: normal;
+}
+#sidebar a:hover {
+	border: currentColor;
+}
+#sidebar a {
+	color: rgb(53, 101, 32); text-decoration: none;
+}
+#sidebar a:visited {
+	color: rgb(53, 101, 32); text-decoration: none;
+}
+#sidebar li a:hover {
+	color: rgb(53, 101, 32); text-decoration: none; border-bottom-color: =
+rgb(221, 221, 170); border-bottom-width: 1px; border-bottom-style: =
+solid;
+}
+.widget {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/widget-=
+bg.gif") repeat-x right bottom rgb(255, 255, 255); padding: 5px 10px =
+10px; border: 2px solid rgb(219, 239, 193); text-align: left; =
+margin-bottom: 10px;
+}
+#sidebar ul {
+	margin: 0px; padding: 0px;
+}
+#sidebar ul li {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor;
+}
+#sidebar ul li ul {
+	margin: 0px; padding: 0px;
+}
+#sidebar ul li ul li {
+	padding: 2px 0px; border-bottom-color: rgb(219, 239, 193); =
+border-bottom-width: 1px; border-bottom-style: solid;
+}
+#sidebar ul li ul li ul li {
+	padding: 1px 0px 1px 10px; border: currentColor;
+}
+ul.linkcat li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-bl=
+ogroll.gif") no-repeat left !important; padding-left: 20px !important;
+}
+div.linkcat li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-bl=
+ogroll.gif") no-repeat left !important; padding-left: 20px !important;
+}
+ul.list-cat li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-ca=
+tegory.gif") no-repeat left !important; padding-left: 20px !important;
+}
+div.widget_categories li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-ca=
+tegory.gif") no-repeat left !important; padding-left: 20px !important;
+}
+ul.list-archives div {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-mo=
+nthly-archive.gif") no-repeat !important; padding-left: 20px !important;
+}
+li.widget_archives li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-mo=
+nthly-archive.gif") no-repeat !important; padding-left: 20px !important;
+}
+ul.list-page li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-pa=
+ge.gif") no-repeat left !important; padding-left: 20px !important;
+}
+div.widget_pages li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-pa=
+ge.gif") no-repeat left !important; padding-left: 20px !important;
+}
+li.widget_recent_entries li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-pa=
+ge.gif") no-repeat left !important; padding-left: 20px !important;
+}
+ul.list-page li ul div {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-pa=
+ge-arrow.gif") no-repeat !important; padding-left: 10px !important;
+}
+li.widget_pages li ul li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-pa=
+ge-arrow.gif") no-repeat !important; padding-left: 10px !important;
+}
+div.widget_recent_comments li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-re=
+cent-comments.gif") no-repeat !important; padding-left: 20px !important;
+}
+div.widget_calendar td {
+	padding: 1px 5px;
+}
+.textwidget {
+	padding-top: 5px;
+}
+#search {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/search-=
+bg.png") no-repeat; margin: -70px 20px 0px 0px; width: 200px; height: =
+31px; text-align: center; float: right;
+}
+#searchform {
+	margin: 3px 0px 0px; text-align: left;
+}
+#searchform br {
+	display: none;
+}
+#searchform #s {
+	background: rgb(255, 255, 255); padding: 3px 5px 0px; border: 1px solid =
+rgb(106, 169, 78); width: 130px; height: 17px; color: rgb(0, 0, 0); =
+font-weight: normal; margin-right: 2px;
+}
+#searchform input {
+	font: bold 12px/normal Arial, Helvetica, sans-serif; border: =
+currentColor; height: 16px; color: rgb(255, 255, 255); vertical-align: =
+middle; font-size-adjust: none; font-stretch: normal;
+}
+#footerbg {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/footer-=
+bg.gif") repeat-x rgb(255, 255, 255); margin: 0px auto; width: 1000px; =
+text-align: left; padding-bottom: 20px; clear: both; border-top-color: =
+rgb(171, 213, 150); border-top-width: 1px; border-top-style: solid;
+}
+#footer {
+	margin: 0px auto; width: 970px; text-align: left; color: rgb(48, 48, =
+48); line-height: 130%; font-size: 95%;
+}
+#footer a {
+	color: rgb(53, 101, 32);
+}
+#footer a:visited {
+	color: rgb(53, 101, 32);
+}
+#footer h4 {
+	font: 146%/100% "Trebuchet MS", Tahoma, Arial; margin: 10px 0px 5px; =
+color: rgb(53, 101, 32); font-size-adjust: none; font-stretch: normal;
+}
+.footer-recent-comments {
+	width: 240px; margin-left: 10px; float: left;
+}
+.footer-recent-comments ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.footer-recent-comments ul li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-fo=
+oter-icon.gif") no-repeat 5px 4px; padding: 0px 0px 10px 20px;
+}
+.footer-recent-posts {
+	width: 240px; margin-left: 10px; float: left;
+}
+.footer-recent-posts strong {
+	line-height: 135%; font-size: 107%; font-weight: bold;
+}
+.footer-recent-posts ul {
+	list-style: none; margin: 0px; padding: 0px; line-height: 110%; =
+font-size: 92%;
+}
+.footer-recent-posts ul li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-fo=
+oter-icon.gif") no-repeat 5px 4px; padding: 0px 0px 10px 20px;
+}
+.footer-meta {
+	width: 220px; margin-left: 10px; float: right;
+}
+.footer-meta strong {
+	line-height: 135%; font-size: 107%; font-weight: bold;
+}
+.footer-meta ul {
+	list-style: none; margin: 0px; padding: 0px; line-height: 110%; =
+font-size: 92%;
+}
+.footer-meta ul li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-fo=
+oter-icon.gif") no-repeat 5px 4px; padding: 0px 0px 10px 20px; =
+line-height: 135%; font-size: 107%; font-weight: bold;
+}
+#credits {
+	margin: 0px auto; width: 970px; text-align: left; color: rgb(48, 48, =
+48); line-height: 120%; font-size: 85%;
+}
+#credits a {
+	color: rgb(53, 101, 32);
+}
+#credit a:visited {
+	color: rgb(53, 101, 32);
+}
+.footer-meta ul li.rss {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-rs=
+s.gif") no-repeat left 2px; padding: 0px 0px 10px 20px;
+}
+.loginout {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-lo=
+ginout.gif") no-repeat left; padding-bottom: 2px; padding-left: 18px; =
+margin-left: 8px;
+}
+.center {
+	text-align: center;
+}
+img.center {
+	margin-right: auto; margin-left: auto; display: block;
+}
+img[align=3D'center'] {
+	margin-right: auto; margin-left: auto; display: block;
+}
+.alignleft {
+	float: left;
+}
+img.alignleft {
+	margin: 2px 10px 5px 0px; float: left;
+}
+img[align=3D'left'] {
+	margin: 2px 10px 5px 0px; float: left;
+}
+.alignright {
+	float: right;
+}
+img.alignright {
+	margin: 2px 0px 5px 10px; float: right;
+}
+img[align=3D'right'] {
+	margin: 2px 0px 5px 10px; float: right;
+}
+.clear {
+	clear: both;
+}
+hr.clear {
+	margin: 0px; padding: 0px; clear: both; visibility: hidden;
+}
+#easy-archives .ea-closed {
+	display: none;
+}
+#easy-archives .ea-open-button {
+	width: 16px; height: 16px; float: left; display: block; cursor: =
+pointer;
+}
+#easy-archives .ea-closed-button {
+	width: 16px; height: 16px; float: left; display: block; cursor: =
+pointer;
+}
+#easy-archives .ea-open-button {
+	background: =
+url("http://www.dbtan.com/wp-content/plugins/wp-easyarchives/img/icons.pn=
+g") no-repeat 0px -100px;
+}
+#easy-archives .ea-closed-button {
+	background: =
+url("http://www.dbtan.com/wp-content/plugins/wp-easyarchives/img/icons.pn=
+g") no-repeat 0px 0px;
+}
+#easy-archives .ea-detail {
+	font-weight: bolder;
+}
+#easy-archives .ea-month {
+	padding-bottom: 10px;
+}
+#easy-archives .ea-month li {
+	list-style: none;
+}
+#easy-archives em {
+	color: rgb(153, 153, 153); font-size: 90%; font-style: normal; =
+margin-left: 5px;
+}
+#easy-archives .ea-filter {
+	height: 24px; padding-bottom: 10px;
+}
+#easy-archives .ea-year {
+	font-weight: bolder;
+}
+#easy-archives .ea-author {
+	font-weight: bolder;
+}
+#easy-archives .ea-loader {
+	background: =
+url("http://www.dbtan.com/wp-content/plugins/wp-easyarchives/img/ajax-loa=
+der.gif") no-repeat left; height: 16px; line-height: 16px; padding-left: =
+24px; margin-left: 10px;
+}
+#easy-archives .ea-filter select {
+	margin-right: 10px;
+}
+#easy-archives .ea-filter input {
+	margin-right: 10px;
+}
+
+------=_NextPart_000_0000_01CCEB04.F2BA3D70
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.dbtan.com/wp-content/cache/autoptimize/autoptimize_6ef79a411e9159ecd22bda467cbf3d6e.php
+
+body {
+	font: 75%/150% "Trebuchet MS", Tahoma, Arial; margin: 0px 20px; =
+padding: 0px; color: rgb(0, 0, 0); font-size-adjust: none; font-stretch: =
+normal;
+}
+a {
+	color: rgb(12, 114, 162); text-decoration: none;
+}
+a:visited {
+	color: rgb(12, 114, 162); text-decoration: none;
+}
+p {
+	margin: 0px; padding: 0px 0px 15px;
+}
+h1 {
+	font: bold 36px/100% "Trebuchet MS", Tahoma, Arial; margin: 0px; =
+text-align: right; padding-bottom: 3px; font-size-adjust: none; =
+font-stretch: normal;
+}
+h1 a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+h1 a:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+h2 {
+	font: 190%/100% "Trebuchet MS", Tahoma, Arial; margin: 0px; color: =
+rgb(12, 114, 162); letter-spacing: -1px; font-size-adjust: none; =
+font-stretch: normal;
+}
+h2 a {
+	color: rgb(12, 114, 162); text-decoration: none;
+}
+h2 a:visited {
+	color: rgb(12, 114, 162); text-decoration: none;
+}
+h3 {
+	font: 140%/100% "Trebuchet MS", Tahoma, Arial; margin: 10px 0px 5px; =
+color: rgb(12, 114, 162); font-size-adjust: none; font-stretch: normal;
+}
+h4 {
+	font: 130%/100% "Trebuchet MS", Tahoma, Arial; margin: 10px 0px 5px; =
+font-size-adjust: none; font-stretch: normal;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+#header {
+	border-bottom-color: rgb(89, 120, 10); border-bottom-width: 3px; =
+border-bottom-style: solid;
+}
+#headerimg {
+	width: auto;
+}
+#headerimg .description {
+	text-align: right; color: rgb(102, 102, 102); padding-bottom: 3px; =
+font-size: 14px;
+}
+#nav {
+	display: none;
+}
+#content {
+	padding: 10px 0px 30px; width: 100%;
+}
+.post {
+	padding-top: 10px; clear: both;
+}
+.post-date {
+	color: rgb(102, 102, 102); text-transform: uppercase; font-size: 11px;
+}
+.post-cat {
+	font-size: 95%; float: left;
+}
+.post-comments {
+	font-size: 95%; float: right;
+}
+.post-calendar {
+	font-size: 95%; float: right;
+}
+.post-content {
+	padding-top: 10px; clear: both;
+}
+.navigation {
+	clear: both; margin-top: 10px; border-top-color: rgb(153, 153, 153); =
+border-top-width: 1px; border-top-style: solid;
+}
+.navigation a {
+	color: rgb(12, 114, 162);
+}
+.navigation a:visited {
+	color: rgb(12, 114, 162);
+}
+.previous-entries {
+	float: left;
+}
+.next-entries {
+	float: right;
+}
+#comments {
+	display: none;
+}
+#respond {
+	display: none;
+}
+.commentlist {
+	margin: 10px 0px; line-height: 130%; padding-left: 20px;
+}
+.commentlist li {
+	padding: 5px 10px;
+}
+.commentlist .alt {
+	background: rgb(241, 254, 219);
+}
+.commentlist cite {
+	color: rgb(24, 136, 184); font-size: 120%; font-style: normal; =
+font-weight: bold;
+}
+.commentlist cite a {
+	color: rgb(24, 136, 184); font-size: 120%; font-style: normal; =
+font-weight: bold;
+}
+.commentlist cite a:visited {
+	color: rgb(24, 136, 184); font-size: 120%; font-style: normal; =
+font-weight: bold;
+}
+.commentlist small {
+	font-size: 87%; margin-bottom: 5px; display: block;
+}
+#commentform {
+	display: none;
+}
+#sidebar {
+	display: none;
+}
+#searchform {
+	display: none;
+}
+#footer {
+	display: none;
+}
+#credits {
+	display: none;
+}
+.center {
+	text-align: center;
+}
+img.center {
+	margin-right: auto; margin-left: auto; display: block;
+}
+a img.center {
+	margin-right: auto; margin-left: auto; display: block;
+}
+.alignleft {
+	float: left;
+}
+img.alignleft {
+	margin: 4px 10px 5px 0px; float: left;
+}
+a img.alignleft {
+	margin: 4px 10px 5px 0px; float: left;
+}
+.alignright {
+	float: right;
+}
+img.alignright {
+	margin: 4px 10px 5px 0px; float: right;
+}
+a img.alignright {
+	margin: 4px 10px 5px 0px; float: right;
+}
+.clear {
+	clear: both;
+}
+hr.clear {
+	margin: 0px; padding: 0px; clear: both; visibility: hidden;
+}
+
+------=_NextPart_000_0000_01CCEB04.F2BA3D70
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.dbtan.com/wp-content/cache/autoptimize/autoptimize_5dd2cfb2e107b782565bfe7574cd0e2b.php
+
+.wp-pagenavi {
+	clear: both;
+}
+.wp-pagenavi a {
+	margin: 2px; padding: 3px 5px; border: 1px solid rgb(191, 191, 191); =
+text-decoration: none;
+}
+.wp-pagenavi span {
+	margin: 2px; padding: 3px 5px; border: 1px solid rgb(191, 191, 191); =
+text-decoration: none;
+}
+.wp-pagenavi a:hover {
+	border-color: rgb(0, 0, 0);
+}
+.wp-pagenavi span.current {
+	border-color: rgb(0, 0, 0);
+}
+.wp-pagenavi span.current {
+	font-weight: bold;
+}
+.editComment {
+	display: inline;
+}
+.editableComment {
+	display: inline;
+}
+.textComment {
+	display: inline;
+}
+.comment-childs {
+	margin: 5px 2px 2px 4px; padding: 4px 2px 2px 4px; border: 1px solid =
+rgb(153, 153, 153); background-color: white;
+}
+.chalt {
+	background-color: rgb(226, 226, 226);
+}
+#newcomment {
+	border: 1px dashed rgb(119, 119, 119); width: 90%;
+}
+#newcommentsubmit {
+	color: red;
+}
+.adminreplycomment {
+	margin: 4px; padding: 4px; border: 1px dashed rgb(119, 119, 119); =
+width: 99%;
+}
+.mvccls {
+	color: rgb(153, 153, 153);
+}
+
+------=_NextPart_000_0000_01CCEB04.F2BA3D70
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://apis.google.com/js/plusone.js
+
+window.___jsl=3Dwindow.___jsl||{};=0A=
+window.___jsl.h=3Dwindow.___jsl.h||'m;\/_\/apps-static\/_\/js\/gapi\/__fe=
+atures__\/rt=3Dj\/ver=3DG1zB9acKasY.zh_CN.\/sv=3D1\/am=3D!Hh2SKJ9l_2-Ii1H=
+tmg\/d=3D1\/';=0A=
+window.___jsl.l=3D[];=0A=
+window.___gpq=3D[];=0A=
+window.gapi=3Dwindow.gapi||{};=0A=
+window.gapi.plusone=3Dwindow.gapi.plusone||(function(){=0A=
+  function f(n){return function(){window.___gpq.push(n,arguments)}}=0A=
+  return{go:f('go'),render:f('render')}})();=0A=
+function __bsld(){var =
+p=3Dwindow.gapi.plusone=3Dwindow.googleapisv0.plusone;var =
+f;while(f=3Dwindow.___gpq.shift()){=0A=
+  p[f]&&p[f].apply(p,window.___gpq.shift())}=0A=
+p=3Dwindow.gapi.plus=3Dwindow.googleapisv0.plus;while(f=3Dwindow.___gbq.s=
+hift()){=0A=
+  p[f]&&p[f].apply(p,window.___gbq.shift())}=0A=
+var parseTags =3D gapi.config.get('parsetags') || =
+gapi.config.get('gwidget/parsetags');if =
+(parseTags!=3D=3D'explicit'){gapi.plusone.go();}}=0A=
+window.___gbq=3D[];=0A=
+window.gapi.plus=3Dwindow.gapi.plus||(function(){=0A=
+  function f(n){return function(){window.___gbq.push(n,arguments)}}=0A=
+  return{go:f('go'),render:f('render')}})();=0A=
+window['___jsl'] =3D window['___jsl'] || {};window['___jsl']['uc'] =3D =
+'https:\/\/apis.google.com\/js\/plusone.js';window['___jsl']['u'] =3D =
+'https:\/\/apis.google.com\/js\/plusone.js';window['___jsl']['f'] =3D =
+['googleapis.client','plusone','gcm_ppb'];window['___jsl']['ms'] =3D =
+'https://apis.google.com';(window['___jsl']['ci'] =3D =
+(window['___jsl']['ci'] || =
+[])).push({"gwidget":{"parsetags":"onload"},"lexps":[17,33,38,36,7,40,41,=
+29,46,47,44,15],"report":{},"iframes":{"additnow":{"url":"https://apis.go=
+ogle.com/additnow/additnow.html"},"sharebox":{"params":{"json":"&"},"url"=
+:":socialhost:/:session_prefix:_/sharebox/dialog"},"plus":{"url":":social=
+host:/u/:session_index:/_/pages/badge"},":socialhost:":"https://plusone.g=
+oogle.com","plusone_m":{"url":":socialhost:/:session_prefix:_/+1/fastbutt=
+on","params":{"count":"","size":"","url":""}},"card":{"params":{"s":"#","=
+userid":"&"},"url":":socialhost:/u/:session_index:/_/hovercard/card"},":s=
+ignuphost:":"https://plus.google.com","plusone":{"url":":socialhost:/:ses=
+sion_prefix:_/+1/fastbutton","params":{"count":"","size":"","url":""}}},"=
+isPlusUser":false,"googleapis.config":{"requestCache":{"enabled":true},"m=
+ethods":{"chili.people.list":true,"pos.plusones.list":true,"pos.plusones.=
+get":true,"chili.people.get":true,"pos.plusones.insert":true,"chili.activ=
+ities.list":true,"pos.plusones.delete":true,"chili.activities.get":true,"=
+chili.activities.search":true,"pos.plusones.getSignupState":true},"versio=
+ns":{"chili":"v1","pos":"v1"},"rpc":"/rpc","transport":{"isProxyShared":t=
+rue},"sessionCache":{"enabled":true},"root-1p":"https://clients6.google.c=
+om","root":"https://www.googleapis.com","xd3":"/static/proxy.html","devel=
+operKey":"AIzaSyCKSbrvQasunBoV16zDH9R33D88CeLr9gQ","auth":{"useInterimAut=
+h":false}}});var =
+gapi=3Dwindow.gapi||{};gapi.client=3Dwindow.gapi&&window.gapi.client||{};=0A=
+window.gapi=3Dwindow.gapi||{};=0A=
+(function(){var A=3Dvoid 0,B=3Dvoid =
+0,C=3D"___jsl",U=3D"h",D=3D"l",V=3D"m",E=3D"ms",W=3D"ci",X=3D"cu",Y=3D"c"=
+,Z=3D"cm",$=3D"o",n=3D"p",o=3D"q",F=3D"lc",G=3D"Q",s=3D"I",t=3D"il",u=3D"=
+_",v=3D"https://ssl.gstatic.com",aa=3D"/webclient/js",ba=3D"/webclient/js=
+x/",H=3D"https://apis.google.com",I=3D".js",ca=3D"gcjs-3p",da=3D/^(https?=
+:)?\/\/([^/:@]*)(:[0-9]+)?(\/[\w.,:!=3D/-]*)(\?[^#]*)?(#.*)?$/,J=3D/^[?#]=
+([^&]*&)*jsh=3D([^&]*)/,K=3D"d",p=3D"r",ea=3D"f",q=3D"m",L=3D"n",fa=3D"sy=
+nc",ga=3D"callback",ha=3D"config",ia=3D"_ci",w=3D"nodep",M=3D"gapi.load: =
+",N=3Dfunction(a,b){A&&A(a,b);throw M+=0A=
+a+(b&&" "+b);},O=3Dfunction(a){B&&B(a);var =
+b=3Dwindow.console;b&&b.warn(M+a)},ja=3Dfunction(a,b,c){a=3Da[U];if(b=3Db=
+&&J.exec(b)||c&&J.exec(c))try{a=3DdecodeURIComponent(b[2])}catch(d){O("In=
+valid hint "+b[2])}return a},P=3Dfunction(a){a.sort();for(var =
+b=3D0;b<a.length;)!a[b]||b&&a[b]=3D=3Da[b-1]?a.splice(b,1):++b},Q=3Dfunct=
+ion(a,b){for(var =
+c=3D{},d=3D0;d<b.length;d++)c[b[d]]=3D!0;for(d=3D0;d<a.length;d++)if(!c.h=
+asOwnProperty(a[d]))return!1;return!0},ka=3Dfunction(a){if("loading"!=3Dd=
+ocument.readyState)return!1;if("undefined"!=3Dtypeof =
+window.___gapisync)return window.___gapisync;=0A=
+if(a&&(a=3Da[fa],"undefined"!=3Dtypeof a))return a;for(var =
+a=3Ddocument.getElementsByTagName("meta"),b=3D0,c;c=3Da[b];++b)if("genera=
+tor"=3D=3Dc.getAttribute("name")&&"blogger"=3D=3Dc.getAttribute("content"=
+))return!0;return!1},R=3Dfunction(a,b){if(ka(a))document.write('<script =
+src=3D"'+encodeURI(b)+'"><\/script>');else{var =
+c=3Db,d=3Ddocument.createElement("script");d.setAttribute("src",c);d.asyn=
+c=3D!0;c=3Ddocument.getElementsByTagName("script")[0];c.parentNode.insert=
+Before(d,c)}},S=3Dfunction(a,b,c,d,e,f){var g=3Dc.shift(),h;h=3Dg=3D=3D=0A=
+p?v:g=3D=3Dq?d[E]||H:(h=3Dc.shift())&&h.replace(/\/+$/,"");var =
+j;g=3D=3Dp?(j=3Dc.shift(),j=3D(j.indexOf(ba)?aa+"/":"")+j):j=3Dc.shift();=
+var =
+i=3Dg=3D=3DK,k=3Di&&c.shift()||ca,c=3Di&&c.shift();if(g=3D=3DK)f=3Db,b=3D=
+j,e=3Dk,a=3D"/"+a.join(":")+(f.length?"!"+f.join(":"):"")+I+"?container=3D=
+"+e+"&c=3D2&jsload=3D0",b&&(a+=3D"&r=3D"+b),"d"=3D=3Dc&&(a+=3D"&debug=3D1=
+");else =
+if(g=3D=3Dp||g=3D=3Dea)f=3Db,b=3Dj,a=3D(b.indexOf("/")?"/":"")+b+"/"+a.jo=
+in("__")+(f.length?"--"+f.join("__"):"")+I;else =
+if(g=3D=3Dq||g=3D=3DL)b=3Dj,a=3Da.join(",").replace(/\./g,"_").replace(/-=
+/g,"_"),a=3Db.replace("__features__",=0A=
+a),a=3De[w]?a.replace("/d=3D1/","/d=3D0/"):a,f&&(a.match(/\/$/)||(a+=3D"/=
+"),a+=3D"cb=3Dgapi."+encodeURIComponent(f));else return O("Unknown hint =
+type =
+"+g),"";if(!h)return"";h+=3Da;a=3Dh;f=3Dd;if(b=3Dd=3Dda.exec(a))if(b=3D!/=
+\.\.|\/\//.test(d[4]))b:if(b=3Da,d=3Dd[2],g=3D=3Dp)b=3Db.substr(0,v.lengt=
+h)=3D=3Dv;else =
+if(g=3D=3Dq)d=3Df[E]||H,b=3Db.substr(0,d.length)=3D=3Dd;else{g=3Df[V];if(=
+d&&g){g=3Dg.split(",");f=3D0;for(b=3Dg.length;f<b;++f)if(e=3Dg[f],c=3Dd.l=
+astIndexOf(e),(0=3D=3Dc||"."=3D=3De.charAt(0)||"."=3D=3Dd.charAt(c-1))&&d=
+.length-e.length=3D=3Dc){b=3D!0;break b}}b=3D!1}b||N("Invalid URI",=0A=
+a);return =
+h},x=3Dfunction(a,b,c){c&&(a[b]=3Da[b]||[]).push(c)},y=3Dfunction(a){a[o]=
+&&0<a[o].length&&(window.gapi.load||T).apply(null,a[o].shift())},r=3Dfunc=
+tion(a){if(a)try{a()}catch(b){return b}return =
+null},m=3Dwindow.gapi,la=3Dfunction(){if(m[u])return m[u];var =
+a;if((a=3DObject.create)&&/\[native =
+code\]/.test(a))a=3Da(null);else{a=3D{};for(var b in a)a[b]=3Dvoid =
+0}return m[u]=3Da},ma=3Dfunction(a,b,c,d,e){var =
+f=3De[G]=3De[G]||[],g=3De[F]=3De[F]||{};f.push([a,b,d]);m[c]=3Dfunction(b=
+){m[c]=3Dvoid 0;if(!g[a]){g[a]=3Db;for(var b=3Df,d=3Dg,=0A=
+i=3De,k;b[0]&&d[b[0][0]];){var =
+l=3Db.shift();z(l[2],i);d[l[0]].call(window,la());d[l[0]]=3D!0;(l=3Dr(l[1=
+]))&&!k&&(k=3Dl)}i[n]=3Dvoid 0;y(i);if(k)throw =
+k;}}},z=3Dfunction(a,b){var =
+c=3Da[ia];x(b,W,c);c=3Da[ha];m.config?m.config.update(c):x(b,X,c)},na=3Df=
+unction(a){a[s]||(a[s]=3D0);return"loaded"+a[s]++},T=3Dfunction(a,b){var =
+c,d=3D{};"function"!=3D=3Dtypeof b?(d=3Db||{},c=3Dd[ga]):c=3Db;var =
+e=3Dwindow[C]=3Dwindow[C]||{},f=3Dja(e,window.location.search,window.loca=
+tion.hash),g=3Df&&!!f.match(/\/gapi\/|ms=3Dgapi/);if(e[n])x(e,o,[a,b]);el=
+se{f||N("No hint present",=0A=
+"");var =
+h=3Df.split(";"),j=3Dh[0]=3D=3Dq||h[0]=3D=3DL,f=3D[],i=3D[];e[t]&&"functi=
+on"=3D=3D=3Dtypeof =
+e[t]?(f=3De[t](a),d[w]=3D1):(f=3Da.split(":"),d[w]||P(f),i=3De[D]=3De[D]|=
+|[],P(i));if(g){if(!Q(f,i)&&(g=3Dna(e),h=3DS(f,i,h,e,d,g))){e[n]=3Df;ma(h=
+,c,g,d,e);i.push.apply(i,f);R(d,h);return}z(d,e);if(c)var =
+k=3Dr(c)}else{z(d,e);if(!Q(f,i)){var =
+l=3Dj?Z:Y;if(h=3DS(f,i,h,e,d,null)){e[n]=3Df;e[$]=3D1;e[l]=3Dfunction(){e=
+[n]=3Dvoid 0;e[l]=3Dvoid 0;var a=3Dr(c);y(e);if(a)throw =
+a;};i.push.apply(i,f);R(d,h);return}}k=3Dr(c)}y(e);if(k)throw =
+k;}};gapi.loader=3D{load:T}})();=0A=
+gapi.load=3Dgapi.loader.load;=0A=
+(window.gapi=3Dwindow.gapi||{}).load=3Dwindow.___jsl&&window.___jsl.il&&w=
+indow.gapi.load||gapi.load;=0A=
+gapi.load('googleapis.client:plusone:gcm_ppb', {'callback': =
+window['__bsld']  });
+------=_NextPart_000_0000_01CCEB04.F2BA3D70
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.dbtan.com/wp-content/plugins/wp-thread-comment/wp-thread-comment.js.php?jsver=common
+
+var rpPel =3D null;=0A=
+var Commentarea =3D null;=0A=
+=0A=
+function $s(){=0A=
+	if(arguments.length =3D=3D 1)=0A=
+		return get$(arguments[0]);=0A=
+	=0A=
+	var elements =3D [];=0A=
+	$c(arguments).each(function(el){elements.push(get$(el));});=0A=
+=0A=
+	return elements;=0A=
+}=0A=
+=0A=
+function get$(el){=0A=
+	if(typeof el =3D=3D 'string')=0A=
+		el =3D document.getElementById(el);=0A=
+	return el;=0A=
+}=0A=
+=0A=
+function $c(array){=0A=
+	var nArray =3D [];=0A=
+	for (i=3D0;el=3Darray[i];i++) nArray.push(el);=0A=
+	return nArray;=0A=
+}=0A=
+=0A=
+function commentarea(){=0A=
+	var fi =3D $s(commentformid).getElementsByTagName('textarea');=0A=
+	for(var i=3D0; i<fi.length; i++ ){=0A=
+			if(fi[i].name =3D=3D 'comment'){=0A=
+				return fi[i];=0A=
+			}=0A=
+	}=0A=
+	return null;=0A=
+}=0A=
+=0A=
+function movecfm(event,Id,dp,author){=0A=
+	var cfm =3D $s(commentformid);=0A=
+=0A=
+	if(cfm =3D=3D null){=0A=
+	  	alert("ERROR:\nCan't find the 'commentformid' div.");=0A=
+		return false;=0A=
+	}=0A=
+=0A=
+	var reRootElement =3D $s("cancel_reply");=0A=
+=0A=
+	if(reRootElement =3D=3D null){=0A=
+		alert("Error:\nNo anchor tag called 'cancel_reply'.");=0A=
+		return false;=0A=
+	}=0A=
+	=0A=
+	var replyId =3D $s("comment_reply_ID");=0A=
+	=0A=
+	if(replyId =3D=3D null){=0A=
+		alert("Error:\nNo form field called 'comment_reply_ID'.");=0A=
+		return false;=0A=
+	}=0A=
+=0A=
+	var dpId =3D $s("comment_reply_dp");=0A=
+=0A=
+	if(Commentarea =3D=3D null)=0A=
+		Commentarea =3D commentarea();=0A=
+=0A=
+	if(parseInt(Id)){=0A=
+		if(cfm.style.display =3D=3D "none"){=0A=
+			alert("New Comment is submiting, please wait a moment");=0A=
+			return false;=0A=
+		}=0A=
+=0A=
+		if(event =3D=3D null)=0A=
+              event =3D window.event;=0A=
+=0A=
+		rpPel =3D event.srcElement? event.srcElement : event.target;=0A=
+		rpPel =3D rpPel.parentNode.parentNode;=0A=
+=0A=
+		var OId =3D $s("comment-"+Id);=0A=
+		if(OId =3D=3D null){=0A=
+			//alert("Error:\nNo comment called 'comment-xxx'.");=0A=
+			//return false;=0A=
+			OId =3D rpPel;=0A=
+		}=0A=
+=0A=
+		replyId.value =3D Id;=0A=
+		if(dpId)=0A=
+			dpId.value =3D dp;=0A=
+		reRootElement.style.display =3D "block";=0A=
+=0A=
+		if($s("cfmguid") =3D=3D null){=0A=
+			var c =3D document.createElement("div");=0A=
+			c.id =3D "cfmguid";=0A=
+			c.style.display =3D "none";=0A=
+			cfm.parentNode.insertBefore(c,cfm);=0A=
+		}=0A=
+		cfm.parentNode.removeChild(cfm);=0A=
+		OId.appendChild(cfm);=0A=
+=0A=
+		if(Commentarea && Commentarea.display !=3D "none"){=0A=
+			Commentarea.focus();=0A=
+			if(atreply =3D=3D 'author')=0A=
+				Commentarea.value =3D '@' + author + ', ';=0A=
+			else if(atreply =3D=3D 'authorlink')=0A=
+				Commentarea.value =3D '<a href=3D"#comment-' + Id + '">@' + author + =
+'</a>, ';=0A=
+		}=0A=
+=0A=
+		cfm.style.display =3D "block";=0A=
+	}else{=0A=
+		replyId.value =3D "0";=0A=
+		if(dpId)=0A=
+			dpId.value =3D "0";=0A=
+		reRootElement.style.display =3D "none";=0A=
+			=0A=
+		var c =3D $s("cfmguid");=0A=
+		if(c){=0A=
+			cfm.parentNode.removeChild(cfm);=0A=
+			c.parentNode.insertBefore(cfm,c);=0A=
+		}=0A=
+=0A=
+		if(parseInt(dp) && Commentarea && Commentarea.display !=3D "none"){=0A=
+			Commentarea.focus();=0A=
+			//Commentarea.value =3D '';=0A=
+		}=0A=
+	}=0A=
+	return true;=0A=
+}=0A=
+
+------=_NextPart_000_0000_01CCEB04.F2BA3D70
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.feedsky.com/jsout/publishlist_v2.js?burl=dbtan&out_html=true
+
+=0A=
+burl=3D"dbtan";=0A=
+pub_url=3D"http://feed.dbtan.com";=0A=
+fn_uri=3D"";=0A=
+feed_subs=3D[{c1s11:['c1s11','http://img.feedsky.com/images/icon_sub_c1s1=
+1.gif','http://feed.dbtan.com','feedsky'],c1s13:['c1s13','http://img.feed=
+sky.com/images/icon_sub_c1s13.gif','http://feed.dbtan.com','feedsky'],c1s=
+12:['c1s12','http://img.feedsky.com/images/icon_sub_c1s12.gif','http://fe=
+ed.dbtan.com','feedsky'],c1s14:['c1s14','http://img.feedsky.com/images/ic=
+on_sub_c1s14.gif','http://feed.dbtan.com','feedsky'],c1s14d:['c1s14d','ht=
+tp://img.feedsky.com/images/icon_sub_c1s14_d.gif','http://feed.dbtan.com'=
+,'feedsky'],c1s15:['c1s15','http://img.feedsky.com/images/icon_sub_c1s15.=
+gif','http://feed.dbtan.com','feedsky'],c1s15d:['c1s15d','http://img.feed=
+sky.com/images/icon_sub_c1s15_d.gif','http://feed.dbtan.com','feedsky'],s=
+pace3:['space3','html','<br /><br =
+/>'],c1s66:['c1s66','http://img.feedsky.com/images/icon_sub_c1s66.gif','h=
+ttp://feed.dbtan.com','feedsky'],c1s68:['c1s68','http://img.feedsky.com/i=
+mages/icon_sub_c1s68.gif','http://feed.dbtan.com','feedsky'],c1s67:['c1s6=
+7','http://img.feedsky.com/images/icon_sub_c1s67.gif','http://feed.dbtan.=
+com','feedsky'],c1s16:['c1s16','http://img.feedsky.com/images/icon_sub_c1=
+s16.gif','http://feed.dbtan.com','feedsky'],c1s16d:['c1s16d','http://img.=
+feedsky.com/images/icon_sub_c1s16_d.gif','http://feed.dbtan.com','feedsky=
+'],c1s17:['c1s17','http://img.feedsky.com/images/icon_sub_c1s17.gif','htt=
+p://feed.dbtan.com','feedsky'],c1s17d:['c1s17d','http://img.feedsky.com/i=
+mages/icon_sub_c1s17_d.gif','http://feed.dbtan.com','feedsky']},{zhuaxia_=
+01:['zhuaxia_01','http://img.feedsky.com/images/icon_subshot01_zhuaxia.gi=
+f','http://www.zhuaxia.com/add_channel.php?url=3D'+encodeURI('http://feed=
+.dbtan.com')+'','&#25235;&#34430;'],pageflakes_01:['pageflakes_01','http:=
+//img.feedsky.com/images/icon_subshot01_pageflakes.gif','http://www.pagef=
+lakes.com/subscribe.aspx?url=3D'+encodeURI('http://feed.dbtan.com')+'','p=
+ageflakes'],rojo_01:['rojo_01','http://img.feedsky.com/images/icon_subsho=
+t01_rojo.gif','http://www.rojo.com/add-subscription?resource=3D'+encodeUR=
+I('http://feed.dbtan.com')+'','Rojo'],gougou_01:['gougou_01','http://img.=
+feedsky.com/images/icon_subshot01_gougou.gif',''+encodeURI('http://feed.d=
+btan.com')+'','&#29399;&#29399;'],google_01:['google_01','http://img.feed=
+sky.com/images/icon_subshot01_google.gif','http://fusion.google.com/add?f=
+eedurl=3D'+encodeURI('http://feed.dbtan.com')+'','google =
+reader'],netvibes_01:['netvibes_01','http://img.feedsky.com/images/icon_s=
+ubshot01_netvibes.gif','http://www.netvibes.com/subscribe.php?url=3D'+enc=
+odeURI('http://feed.dbtan.com')+'','netvibes'],yahoo_01:['yahoo_01','http=
+://img.feedsky.com/images/icon_subshot01_yahoo.gif','http://add.my.yahoo.=
+com/rss?url=3D'+encodeURI('http://feed.dbtan.com')+'','my =
+yahoo'],newsgator_01:['newsgator_01','http://img.feedsky.com/images/icon_=
+subshot01_newsgator.gif','http://www.newsgator.com/ngs/subscriber/subfext=
+.aspx?url=3D'+encodeURI('http://feed.dbtan.com')+'','newsgator'],blogline=
+s_01:['bloglines_01','http://img.feedsky.com/images/icon_subshot01_blogli=
+nes.gif','http://www.bloglines.com/sub/'+encodeURI('http://feed.dbtan.com=
+')+'','bloglines'],xianguo_01:['xianguo_01','http://img.feedsky.com/image=
+s/icon_subshot01_xianguo.gif','http://www.xianguo.com/subscribe.php?url=3D=
+'+encodeURI('http://feed.dbtan.com')+'','&#40092;&#26524;'],nazha_01:['na=
+zha_01','http://img.feedsky.com/images/icon_subshot01_nazha.gif','http://=
+inezha.com/add?url=3D'+encodeURI('http://feed.dbtan.com')+'','&#21738;&#2=
+1522;'],youdao_01:['youdao_01','http://img.feedsky.com/images/icon_subsho=
+t01_youdao.gif','http://reader.youdao.com/b.do?keyfrom=3Dfeedsky&url=3D'+=
+encodeURI('http://feed.dbtan.com')+'','&#26377;&#36947;'],qq_01:['qq_01',=
+'http://img.feedsky.com/images/icon_subshot01_qq.gif','http://mail.qq.com=
+/cgi-bin/feed?u=3D'+encodeURI('http://feed.dbtan.com')+'','QQ&#37038;&#31=
+665;'],douban_01:['douban_01','http://img.feedsky.com/images/icon_subshot=
+01_douban.gif','http://9.douban.com/reader/subscribe?url=3D'+encodeURI('h=
+ttp://feed.dbtan.com')+'','&#20061;&#28857;'],bangkan_01:['bangkan_01','h=
+ttp://img.feedsky.com/images/icon_subshot01_580k.gif','http://www.580k.co=
+m/myLook/NewStakeOut_Submit.aspx?cm=3D1&WebUrl=3D'+encodeURI('http://feed=
+.dbtan.com')+'','&#24110;&#30475;'],space3:['space3','html','<br =
+class=3D"cleaner"/>'],zhuaxia_02:['zhuaxia_02','http://img.feedsky.com/im=
+ages/icon_subshot02_zhuaxia.gif','http://www.zhuaxia.com/add_channel.php?=
+url=3D'+encodeURI('http://feed.dbtan.com')+'','&#25235;&#34430;'],pagefla=
+kes_02:['pageflakes_02','http://img.feedsky.com/images/icon_subshot02_pag=
+eflakes.gif','http://www.pageflakes.com/subscribe.aspx?url=3D'+encodeURI(=
+'http://feed.dbtan.com')+'','pageflakes'],rojo_02:['rojo_02','http://img.=
+feedsky.com/images/icon_subshot02_rojo.gif','http://www.rojo.com/add-subs=
+cription?resource=3D'+encodeURI('http://feed.dbtan.com')+'','Rojo'],gougo=
+u_02:['gougou_02','http://img.feedsky.com/images/icon_subshot02_gougou.gi=
+f',''+encodeURI('http://feed.dbtan.com')+'','&#29399;&#29399;'],google_02=
+:['google_02','http://img.feedsky.com/images/icon_subshot02_google.gif','=
+http://fusion.google.com/add?feedurl=3D'+encodeURI('http://feed.dbtan.com=
+')+'','google =
+reader'],netvibes_02:['netvibes_02','http://img.feedsky.com/images/icon_s=
+ubshot02_netvibes.gif','http://www.netvibes.com/subscribe.php?url=3D'+enc=
+odeURI('http://feed.dbtan.com')+'','netvibes'],yahoo_02:['yahoo_02','http=
+://img.feedsky.com/images/icon_subshot02_yahoo.gif','http://add.my.yahoo.=
+com/rss?url=3D'+encodeURI('http://feed.dbtan.com')+'','my =
+yahoo'],newsgator_02:['newsgator_02','http://img.feedsky.com/images/icon_=
+subshot02_newsgator.gif','http://www.newsgator.com/ngs/subscriber/subfext=
+.aspx?url=3D'+encodeURI('http://feed.dbtan.com')+'','newsgator'],blogline=
+s_02:['bloglines_02','http://img.feedsky.com/images/icon_subshot02_blogli=
+nes.gif','http://www.bloglines.com/sub/'+encodeURI('http://feed.dbtan.com=
+')+'','bloglines'],xianguo_02:['xianguo_02','http://img.feedsky.com/image=
+s/icon_subshot02_xianguo.gif','http://www.xianguo.com/subscribe.php?url=3D=
+'+encodeURI('http://feed.dbtan.com')+'','&#40092;&#26524;'],nazha_02:['na=
+zha_02','http://img.feedsky.com/images/icon_subshot02_nazha.gif','http://=
+inezha.com/add?url=3D'+encodeURI('http://feed.dbtan.com')+'','&#21738;&#2=
+1522;'],youdao_02:['youdao_02','http://img.feedsky.com/images/icon_subsho=
+t02_youdao.gif','http://reader.youdao.com/b.do?keyfrom=3Dfeedsky&url=3D'+=
+encodeURI('http://feed.dbtan.com')+'','&#26377;&#36947;'],qq_02:['qq_02',=
+'http://img.feedsky.com/images/icon_subshot02_qq.gif','http://mail.qq.com=
+/cgi-bin/feed?u=3D'+encodeURI('http://feed.dbtan.com')+'','QQ&#37038;&#31=
+665;'],douban_02:['douban_02','http://img.feedsky.com/images/icon_subshot=
+02_douban.gif','http://9.douban.com/reader/subscribe?url=3D'+encodeURI('h=
+ttp://feed.dbtan.com')+'','&#20061;&#28857;'],bangkan_02:['bangkan_02','h=
+ttp://img.feedsky.com/images/icon_subshot02_580k.gif','http://www.580k.co=
+m/myLook/NewStakeOut_Submit.aspx?cm=3D1&WebUrl=3D'+encodeURI('http://feed=
+.dbtan.com')+'','&#24110;&#30475;']}];=0A=
+=0A=
+function fs_render_publish_pic(div){=0A=
+	if(typeof(main_sub)!=3D"string"){=0A=
+		main_sub=3D"";=0A=
+	}=0A=
+	if(typeof(more_subs)!=3D"string"){=0A=
+		more_subs=3D"";=0A=
+	}=0A=
+	if(typeof(is_new)!=3D"string"){=0A=
+		is_new=3D"no";=0A=
+	}=0A=
+	var html=3Dnew Array();=0A=
+	var sub=3Dfeed_subs[0][main_sub];=0A=
+	if(sub){=0A=
+		var k=3Dsub[0]; //sub key=0A=
+		var s=3Dsub[1]; //image src=0A=
+		var l=3Dsub[2]; //sub link=0A=
+		var n=3Dsub[3]; //sub name=0A=
+		if(s){=0A=
+			if(is_new=3D=3D"yes"){=0A=
+				html[html.length]=3D'<a href=3D"'+l+'" target=3D"_blank"><img =
+border=3D"0" src=3D"'+s+'" alt=3D"'+n+'" vspace=3D"2"  =
+style=3D"margin-bottom:3px" ></a>';=0A=
+			}else{=0A=
+				html[html.length]=3D'<a href=3D"'+l+'"><img border=3D"0" =
+src=3D"'+s+'" alt=3D"'+n+'" vspace=3D"2"  style=3D"margin-bottom:3px" =
+></a>';=0A=
+			}=0A=
+		}else{=0A=
+			if(is_new=3D=3D"yes"){=0A=
+				html[html.length]=3D'<a href=3D"'+l+'" target=3D"_blank">'+n+'</a>';=0A=
+			}else{=0A=
+				html[html.length]=3D'<a href=3D"'+l+'">'+n+'</a>';=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+	if(more_subs!=3D""){=0A=
+		selecteds=3Dmore_subs.split(",");=0A=
+		for(i=3D0;i<selecteds.length;i++){=0A=
+			var sub=3Dfeed_subs[1][selecteds[i]];=0A=
+			var k=3Dsub[0]; //sub key=0A=
+			var s=3Dsub[1]; //image src=0A=
+			var l=3Dsub[2]; //sub link=0A=
+			var n=3Dsub[3]; //sub name=0A=
+			if(sub){=0A=
+				if(is_new=3D=3D"yes"){=0A=
+					html[html.length]=3D'<a href=3D"'+l+'" target=3D"_blank"><img =
+border=3D"0" src=3D"'+s+'" alt=3D"'+n+'" vspace=3D"2" =
+style=3D"margin-bottom:3px" ></a>';=0A=
+				}else{=0A=
+					html[html.length]=3D'<a href=3D"'+l+'"><img border=3D"0" =
+src=3D"'+s+'" alt=3D"'+n+'" vspace=3D"2" style=3D"margin-bottom:3px" =
+></a>';=0A=
+				}=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+	if(typeof(div)=3D=3D"string"){=0A=
+		var box=3Ddocument.getElementById(div);=0A=
+	}else{=0A=
+		var box=3Ddiv;=0A=
+	}=0A=
+	if(box){=0A=
+		box.innerHTML=3Dhtml.join("<br />");=0A=
+	}else{=0A=
+		document.write(html.join("<br />"));=0A=
+	}=0A=
+}=0A=
+fs_render_publish_pic()
+------=_NextPart_000_0000_01CCEB04.F2BA3D70--

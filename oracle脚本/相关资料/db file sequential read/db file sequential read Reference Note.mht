@@ -1,0 +1,1599 @@
+From: "Saved by Windows Internet Explorer 9"
+Subject: 
+Date: Tue, 14 Feb 2012 10:55:29 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0011_01CCEB07.2A83C940"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7600.16807
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0011_01CCEB07.2A83C940
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://support.oracle.com/CSP/main/article?cmd=show&type=NOT&doctype=REFERENCE&id=34559.1
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META content=3D"text/javascript; charset=3DUTF-8" =
+http-equiv=3DContent-Script-Type><!--[if IE 7]>=0A=
+<link rel=3D"stylesheet" type=3D"text/css" =
+href=3D"/CSP/ui/css/kmstyles_ie7.css?MOS_6.0.0.1.0FLASH_GENERIC_120205.1"=
+>=0A=
+<![endif]--><LINK=20
+rel=3Dstylesheet type=3Dtext/css=20
+href=3D"https://support.oracle.com/CSP/ui/css/kmstyles.css?MOS_6.0.0.1.0F=
+LASH_GENERIC_120205.1"=20
+target=3Dnew><LINK rel=3Dstylesheet type=3Dtext/css=20
+href=3D"https://support.oracle.com/CSP/ui/css/kmstyles_print.css?MOS_6.0.=
+0.1.0FLASH_GENERIC_120205.1"=20
+media=3Dprint>
+<STYLE type=3Dtext/css>BODY {
+	FONT-SIZE: 10pt !important
+}
+</STYLE>
+
+<SCRIPT language=3DJavaScript type=3Dtext/javascript>=0A=
+ =0A=
+  var currentContainer =3D null;=0A=
+  var currentLink =3D null;=0A=
+  var sessId =3D =
+"WSPlP5MJrW6FVcsh6Z5nd2NYRwyWn8Bh7QVpPs4yS0fVh71ywCjg!1398818066!13291878=
+92475";=0A=
+=0A=
+  var expandIcon =3D =
+"/CSP/ui/images/expand_white.png?MOS_6.0.0.1.0FLASH_GENERIC_120205.1";=0A=
+  var collapseIcon =3D =
+"/CSP/ui/images/collapse_white.png?MOS_6.0.0.1.0FLASH_GENERIC_120205.1";=0A=
+  var multipleArticles =3D false;=0A=
+=0A=
+  var bugsContent =3D new Object();=0A=
+  //in case of duplicate bug ids, save all bug bodies as fields of =
+bugsContent=0A=
+=0A=
+  function mosSearch(query)=0A=
+  {=0A=
+     var error =3D false;=0A=
+    =0A=
+     if (parent.mosSearch)=0A=
+     {=0A=
+       parent.mosSearch(query);=0A=
+     }=0A=
+     else if (window.opener)=0A=
+     {=0A=
+       if (window.opener.mosSearch)=0A=
+       {=0A=
+         window.opener.mosSearch(query);=0A=
+         window.close();=0A=
+       }=0A=
+       else=0A=
+       {=0A=
+         error =3D true;=0A=
+       }=0A=
+     }=0A=
+     else=0A=
+     {=0A=
+       error =3D true;=0A=
+     }  =0A=
+    =0A=
+     if (error)=0A=
+        alert('=E6=97=A0=E6=B3=95=E8=BF=90=E8=A1=8C My Oracle Support =
+=E6=90=9C=E7=B4=A2=E3=80=82=E8=AF=B7=E7=A1=AE=E4=BF=9D=E6=82=A8=E6=AD=A3=E5=
+=9C=A8=E4=BB=8E My Oracle Support =
+=E4=B8=AD=E6=9F=A5=E7=9C=8B=E6=AD=A4=E6=96=87=E6=A1=A3');=0A=
+  }=0A=
+=0A=
+   function getDocumentDetails() {=0A=
+       var docDetails =3D new Object();=0A=
+       docDetails =3D {category:"KM", docID:"34559.1", =
+docTitle:"WAITEVENT: \"db file sequential read\" Reference Note", =
+docType:"REFERENCE", docDataGroup:"NOT", =
+remarks:"%3Cremarks%3E%0A%3C%2Fremarks%3E%0A"};=0A=
+       return docDetails;=0A=
+   }=0A=
+</SCRIPT>
+
+<SCRIPT language=3DJavaScript type=3Dtext/javascript=20
+src=3D"https://support.oracle.com/CSP/ui/scripts/kmviewer.js?MOS_6.0.0.1.=
+0FLASH_GENERIC_120205.1"></SCRIPT>
+
+<SCRIPT language=3DJavaScript type=3Dtext/javascript=20
+src=3D"https://support.oracle.com/CSP/ui/scripts/dynamicTools.js?MOS_6.0.=
+0.1.0FLASH_GENERIC_120205.1"></SCRIPT>
+
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16440"></HEAD>
+<BODY onload=3DdoResize();verifyClickstream(); onresize=3DdoResize();>
+<DIV id=3DmainHtmlDocument><FONT face=3Dhelvetica>
+<P><A name=3Dtop></A></P><BR>
+<TABLE border=3D0 cellSpacing=3D6 cellPadding=3D0 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop colSpan=3D6 align=3Dleft><STRONG>WAITEVENT: "db =
+file sequential=20
+      read" Reference Note [ID 34559.1]</STRONG></TD></TR>
+  <TR>
+    <TD vAlign=3Dtop colSpan=3D6 align=3Dleft>
+      <HR SIZE=3D1>
+    </TD></TR>
+  <TR>
+    <TD vAlign=3Dtop width=3D"25%" colSpan=3D2>&nbsp;</TD>
+    <TD vAlign=3Dtop width=3D"50%" colSpan=3D3 =
+noWrap><EM>=E4=BF=AE=E6=94=B9=E6=97=B6=E9=97=B4</EM>=20
+      =
+21-OCT-2010&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<EM>=E7=B1=BB=E5=9E=8B</EM>=20
+      REFERENCE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<EM>=E7=8A=B6=E6=80=81</EM> =
+PUBLISHED</TD>
+    <TD vAlign=3Dtop>&nbsp;</TD></TR></TBODY></TABLE></FONT>
+<H2><U><FONT color=3D#330099>"db file sequential read" Reference=20
+Note</FONT></U></H2>This is a reference note for the wait event <B>"db =
+file=20
+sequential read"</B> which includes the following subsections:=20
+<UL>
+  <LI><A=20
+  =
+href=3D"https://support.oracle.com/CSP/main/article?cmd=3Dshow&amp;type=3D=
+NOT&amp;doctype=3DREFERENCE&amp;id=3D34559.1#DEF">Brief=20
+  definition</A>=20
+  <LI><A=20
+  =
+href=3D"https://support.oracle.com/CSP/main/article?cmd=3Dshow&amp;type=3D=
+NOT&amp;doctype=3DREFERENCE&amp;id=3D34559.1#ONE">Individual=20
+  wait details</A> <I>(eg: For waits seen in=20
+  &lt;&lt;View:V$SESSION_WAIT&gt;&gt;)</I>=20
+  <LI><A=20
+  =
+href=3D"https://support.oracle.com/CSP/main/article?cmd=3Dshow&amp;type=3D=
+NOT&amp;doctype=3DREFERENCE&amp;id=3D34559.1#AGG">Systemwide=20
+  wait details</A> <I>(eg: For waits seen in=20
+  &lt;&lt;View:V$SYSTEM_EVENT&gt;&gt;)</I>=20
+  <LI><A=20
+  =
+href=3D"https://support.oracle.com/CSP/main/article?cmd=3Dshow&amp;type=3D=
+NOT&amp;doctype=3DREFERENCE&amp;id=3D34559.1#ACT">Reducing=20
+  waits / wait times</A> </LI></UL>See <A=20
+href=3D"https://support.oracle.com/CSP/main/article?cmd=3Dshow&amp;type=3D=
+NOT&amp;id=3D61998.1">Note:61998.1</A>=20
+for an introduction to Wait Events.<BR><A name=3DDEF>
+<H3><FONT color=3D#3333ff><U>Definition:</U></FONT></H3>
+<UL>
+  <LI><FONT color=3D#3333ff><B>Versions:</B></FONT>7.0 - 9.2 <FONT=20
+  color=3D#3333ff><B>Documentation:</B></FONT> <A=20
+  =
+href=3D"http://doc.oracle.com/cd_a91034/DOC/server.901/a87503/instance.ht=
+m#15959"=20
+  target=3D_blank>9.0</A>=20
+  <LI>This signifies a wait for an I/O read request to complete. This =
+call=20
+  differs from <B>"db file scattered read"</B> in that a sequential read =
+reads=20
+  data into contiguous memory (whilst a scattered read reads multiple =
+blocks and=20
+  scatters them into different buffers in the SGA).=20
+  <P>A sequential read is usually a single-block read, although it is =
+possible=20
+  to see sequential reads for more than one block (See <A=20
+  =
+href=3D"https://support.oracle.com/CSP/main/article?cmd=3Dshow&amp;type=3D=
+NOT&amp;doctype=3DREFERENCE&amp;id=3D34559.1#P3">P3</A>).=20
+  This wait may also be seen for reads from datafile headers (P2=3D1 =
+indicates a=20
+  file header read) . </P></LI></UL><A name=3DONE>
+<H3><FONT color=3D#3333ff><U>Individual Waits:</U></FONT></H3><PRE> =
+<FONT color=3D#3333ff><B>Parameters:</B></FONT>=09
+    <B>P1 =3D <A =
+href=3D"https://support.oracle.com/CSP/main/article?cmd=3Dshow&amp;type=3D=
+NOT&amp;doctype=3DREFERENCE&amp;id=3D34559.1#P1">file#</A></B>
+    <B>P2 =3D <A =
+href=3D"https://support.oracle.com/CSP/main/article?cmd=3Dshow&amp;type=3D=
+NOT&amp;doctype=3DREFERENCE&amp;id=3D34559.1#P2">block#</A></B>
+    <B>P3 =3D <A =
+href=3D"https://support.oracle.com/CSP/main/article?cmd=3Dshow&amp;type=3D=
+NOT&amp;doctype=3DREFERENCE&amp;id=3D34559.1#P3">blocks</A></B>
+
+<A name=3DP1>	<B>file#</B>   This is the file# of the file that Oracle =
+is trying to read=20
+                from. In Oracle8/9 it is the ABSOLUTE file number.
+
+<A name=3DP2>        <B>block#</B>  This is the starting block number in =
+the file from where=20
+                Oracle starts reading the blocks. Typically only one =
+block is
+		being read.
+
+                See <A =
+href=3D"https://support.oracle.com/CSP/main/article?cmd=3Dshow&amp;type=3D=
+NOT&amp;id=3D181306.1">Note:181306.1</A> to determine the tablespace, =
+filename
+	        and object for this <B>file#,block#</B> pair.
+
+<A name=3DP3>        <B>blocks</B>  This parameter specifies the number =
+of blocks that Oracle is=20
+                trying to read from the file# starting at block#. This =
+is
+		usually "1" but if P3 &gt; 1 then this is a multiblock read.
+		Multiblock "db file sequential read"s may be seen in=20
+		earlier Oracle versions when reading from a SORT (TEMPORARY)=20
+	        segments.=20
+
+ <FONT color=3D#3333ff><B>Wait Time:</B></FONT>=09
+    The IO is generally issued as a single IO request to the OS - the =
+wait=20
+    blocks until the IO request completes.
+    Note than an Oracle read request to the OS may be satisfied from an
+    OS file system cache so the wait time may be very small.
+
+</PRE><A name=3DAGG>
+<H3><FONT color=3D#3333ff><U>Systemwide Waits:</U></FONT></H3>
+<BLOCKQUOTE>IO is a normal activity so you are really interested in=20
+  unnecessary or slow IO activity. If the TIME spent waiting for IOs is=20
+  significant then we can determine which segment/s Oracle has to go to =
+disk=20
+  for. See the "Tablespace IO" and "File IO" sections of the ESTAT or =
+STATSPACK=20
+  reports to get information on which tablespaces / files are servicing =
+the most=20
+  IO requests, and to get an indication of the speed of the IO =
+subsystem. If the=20
+  TIME spent waiting for reads is significant then it can be helpful to=20
+  determine which segment/s Oracle is performing the reads against. The =
+files=20
+  where the reads are occuring can be found by looking at=20
+  &lt;&lt;View:V$FILESTAT&gt;&gt;.=20
+  <P>It can also be useful to see which sessions are performing reads =
+and trace=20
+  them to see if the IOs are expected or not. This statement can be used =
+to see=20
+  which sessions may be worth tracing: <PRE>  SELECT sid, total_waits, =
+time_waited
+    FROM v$session_event
+   WHERE event=3D'db file sequential read'
+     and total_waits&gt;0
+   ORDER BY 3,2
+  ;
+</PRE>
+  <P>One can also look at:=20
+  <UL>
+    <LI>Statements with high <B>DISK_READS</B> in =
+&lt;&lt;View:V$SQL&gt;&gt;=20
+    <LI>Sessions with high <B>"physical reads"</B> in=20
+    &lt;&lt;View:V$SESSTAT&gt;&gt; </LI></UL></BLOCKQUOTE><A name=3DACT>
+<H3><FONT color=3D#3333ff><U>Reducing Waits / Wait =
+times:</U></FONT></H3>
+<BLOCKQUOTE>Block reads are fairly inevitable so the aim should be to =
+minimise=20
+  un-necessary IO. This is best achieved by good application design and=20
+  efficient execution plans. Changes to execution plans can yield orders =
+of=20
+  magnitude changes in performance. Tweaking at system level usually =
+only=20
+  achieves percentage gains. The following points may help:=20
+  <UL>
+    <LI>Check for SQL using unselective index scans=20
+    <LI>A larger buffer cache can help - test this by actually =
+increasing=20
+    &lt;&lt;Parameter:DB_BLOCK_BUFFERS&gt;&gt; and not by using=20
+    DB_BLOCK_LRU_EXTENDED_STATISTICS. (<I>Never increase the SGA size if =
+it may=20
+    induce additional paging or swapping on the system. </I>).=20
+    <LI>A less obvious issue which can affect the IO rates is how well =
+data is=20
+    clustered physically. Eg: Assume that you frequently fetch rows from =
+a table=20
+    where a column is between two values via an index scan. If there are =
+100=20
+    rows in each index block then the two extremes are:=20
+    <OL>
+      <LI>Each of the table rows is in a different physical block (100 =
+blocks=20
+      need to be read for each index block)=20
+      <LI>The table rows are all located in the few adjacent blocks (a =
+handful=20
+      of blocks need to be read for each index block) =
+</LI></OL>Pre-sorting or=20
+    re-organising data can help to tackle this in severe situations.=20
+    <LI>See if partitioning can be used to reduce the amount of data you =
+need to=20
+    look at.=20
+    <LI>It can help to place files which incur frequent index scans on =
+disks=20
+    which have are buffered by an O/S file system cache. Often this will =
+allow=20
+    some of Oracles read requests to be satisfied from the OS cache =
+rather than=20
+    from a real disk IO. </LI></UL></BLOCKQUOTE>
+<H3><FONT color=3D#3333ff><U>Related:</U></FONT></H3>
+<BLOCKQUOTE>Tracing User sessions <A=20
+  =
+href=3D"https://support.oracle.com/CSP/main/article?cmd=3Dshow&amp;type=3D=
+NOT&amp;id=3D62160.1">Note:62160.1</A>=20
+  <BR>&lt;&lt;Parameter:DB_BLOCK_BUFFERS&gt;&gt; <BR></BLOCKQUOTE>
+<HR>
+<BR>
+<TABLE width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD colSpan=3D2>
+      <P><IMG style=3D"CURSOR: pointer" id=3DcollapseImg2=20
+      onclick=3D"toggleVisibility(this.id, 'collapsibleRelatedData');" =
+alt=3D=E6=98=BE=E7=A4=BA=E7=9B=B8=E5=85=B3=E4=BF=A1=E6=81=AF=20
+      =
+src=3D"https://support.oracle.com/CSP/ui/images/collapse_white.png?MOS_6.=
+0.0.1.0FLASH_GENERIC_120205.1">=20
+      <B>=E7=9B=B8=E5=85=B3=E5=86=85=E5=AE=B9</B><BR>
+      <DIV style=3D"WIDTH: 100%; DISPLAY: inline; MARGIN-LEFT: 20px"=20
+      id=3DcollapsibleRelatedData>
+      <HR SIZE=3D1>
+      <B style=3D"MARGIN-LEFT: 20px">=E4=BA=A7=E5=93=81</B>=20
+      <HR style=3D"MARGIN-LEFT: 20px" SIZE=3D1>
+
+      <UL>
+        <LI>Oracle Database Products &gt; Oracle Database &gt; Oracle =
+Database=20
+        &gt; Oracle Server - Enterprise Edition </LI></UL></DIV><BR>
+      <P></P></TD></TR></TBODY></TABLE>
+<P><A=20
+href=3D"https://support.oracle.com/CSP/main/article?cmd=3Dshow&amp;type=3D=
+NOT&amp;doctype=3DREFERENCE&amp;id=3D34559.1#top"><IMG=20
+id=3DbackToTopImg border=3D0 alt=3D=E8=BF=94=E5=9B=9E=E9=A1=B5=E9=A6=96=20
+src=3D"https://support.oracle.com/CSP/ui/images/top_white.png?MOS_6.0.0.1=
+.0FLASH_GENERIC_120205.1">=E8=BF=94=E5=9B=9E=E9=A1=B5=E9=A6=96</A></P>
+<DIV class=3Dlegalnote>Copyright (c) 2007, 2010, Oracle. All rights =
+reserved.=20
+Legal Notices and Terms of Use | Privacy Statement </DIV></DIV>
+<DIV id=3DfeedbackBottomLeft><A class=3Dlink=20
+href=3D"javascript:displayFeedbackBox()"><IMG border=3D0=20
+src=3D"https://support.oracle.com/CSP/ui/images/rate_article_ovr_16_1.png=
+?MOS_6.0.0.1.0FLASH_GENERIC_120205.1">&nbsp;=E4=B8=BA=E6=AD=A4=E6=96=87=E6=
+=A1=A3=E8=AF=84=E7=BA=A7&nbsp;</A></DIV>
+<DIV style=3D"POSITION: absolute; BACKGROUND-COLOR: #fffeed; DISPLAY: =
+none"=20
+id=3DfeedbackBox>
+<FORM name=3Dfeedback><INPUT id=3DarticleId name=3DarticleId =
+value=3D34559.1=20
+type=3Dhidden> <INPUT id=3DfeedBackText name=3DfeedBackText=20
+value=3D'=E6=84=9F=E8=B0=A2=E6=82=A8=E7=9A=84=E5=8F=8D=E9=A6=88=E3=80=82=E8=
+=AF=B7=E5=B8=AE=E5=8A=A9=E6=88=91=E4=BB=AC=E6=94=B9=E8=BF=9B=E5=86=85=E5=AE=
+=B9; =
+=E5=B0=86=E6=9F=A5=E6=89=BE=E5=8A=9F=E8=83=BD=E8=AF=84=E7=BA=A7=E4=B8=BA =
+"=E5=B7=AE" =E6=88=96 "=E4=B8=8D=E7=AE=80=E5=8D=95" =E6=97=B6, =
+=E9=9C=80=E8=A6=81=E6=8F=90=E4=BE=9B=E6=B3=A8=E9=87=8A=E3=80=82' =
+type=3Dhidden> <INPUT=20
+id=3DinitialCommentText name=3DinitialCommentText=20
+value=3D"=E6=8F=90=E4=BE=9B=E6=AD=A4=E6=96=87=E7=AB=A0=E7=9A=84=E5=8F=8D=E9=
+=A6=88=E3=80=82=E5=A6=82=E6=9C=89=E5=85=B6=E4=BB=96=E5=8F=8D=E9=A6=88, =
+=E8=AF=B7=E4=BD=BF=E7=94=A8 =
+'=E4=B8=8E=E6=88=91=E4=BB=AC=E8=81=94=E7=B3=BB'=E3=80=82" type=3Dhidden> =
+
+<TABLE class=3Dtables border=3D0 width=3D"100%" height=3D"100%">
+  <TBODY>
+  <TR>
+    <TD class=3Dtables height=3D"100%" vAlign=3Dtop width=3D"100%">
+      <DIV style=3D"COLOR: #364a8d; FONT-SIZE: 12px; FONT-WEIGHT: =
+bold">=E6=96=87=E7=AB=A0=E8=AF=84=E7=BA=A7=20
+</DIV>
+      <TABLE border=3D0 width=3D240>
+        <TBODY>
+        <TR>
+          <TD style=3D"FONT-SIZE: 12px; FONT-WEIGHT: =
+bold">=E4=B8=BA=E6=AD=A4=E6=96=87=E6=A1=A3=E8=AF=84=E7=BA=A7</TD></TR>
+        <TR>
+          <TD style=3D"FONT-SIZE: 12px"><INPUT id=3Drating=20
+            onclick=3DquestionAnswered() name=3Drating value=3D3 =
+type=3Dradio>=E4=BC=98</TD></TR>
+        <TR>
+          <TD style=3D"FONT-SIZE: 12px"><INPUT id=3Drating=20
+            onclick=3DquestionAnswered() name=3Drating value=3D2 =
+type=3Dradio>=E8=89=AF</TD></TR>
+        <TR>
+          <TD style=3D"FONT-SIZE: 12px"><INPUT id=3Drating=20
+            onclick=3DquestionAnswered() name=3Drating value=3D1 =
+type=3Dradio>=E5=B7=AE</TD></TR>
+        <TR>
+          <TD class=3DhorizontalLine width=3D"100%"></TD></TR>
+        <TR>
+          <TD style=3D"FONT-SIZE: 12px; FONT-WEIGHT: bold"=20
+            =
+width=3D"100%">=E6=9C=AC=E6=96=87=E6=A1=A3=E6=98=AF=E5=90=A6=E5=AF=B9=E6=82=
+=A8=E6=9C=89=E6=89=80=E5=B8=AE=E5=8A=A9?</TD></TR>
+        <TR>
+          <TD style=3D"FONT-SIZE: 12px"><INPUT id=3Drelevancy=20
+            onclick=3DquestionAnswered() name=3Drelevancy value=3D3 =
+type=3Dradio>=E6=98=AF</TD></TR>
+        <TR>
+          <TD style=3D"FONT-SIZE: 12px"><INPUT id=3Drelevancy=20
+            onclick=3DquestionAnswered() name=3Drelevancy value=3D2 =
+type=3Dradio>=E5=90=A6</TD></TR>
+        <TR>
+          <TD style=3D"FONT-SIZE: 12px"><INPUT id=3Drelevancy=20
+            onclick=3DquestionAnswered() name=3Drelevancy value=3D1=20
+        type=3Dradio>=E4=BB=85=E6=B5=8F=E8=A7=88</TD></TR>
+        <TR>
+          <TD class=3DhorizontalLine width=3D"100%"></TD></TR>
+        <TR>
+          <TD style=3D"FONT-SIZE: 12px; FONT-WEIGHT: bold"=20
+            =
+width=3D"100%">=E6=82=A8=E8=A7=89=E5=BE=97=E6=9C=AC=E6=96=87=E6=A1=A3=E7=9A=
+=84=E9=9A=BE=E6=98=93=E7=A8=8B=E5=BA=A6=E5=A6=82=E4=BD=95?</TD></TR>
+        <TR>
+          <TD style=3D"FONT-SIZE: 12px"><INPUT id=3DeaseOfUse=20
+            onclick=3DquestionAnswered() name=3DeaseOfUse value=3D3=20
+        type=3Dradio>=E9=9D=9E=E5=B8=B8=E7=AE=80=E5=8D=95</TD></TR>
+        <TR>
+          <TD style=3D"FONT-SIZE: 12px"><INPUT id=3DeaseOfUse=20
+            onclick=3DquestionAnswered() name=3DeaseOfUse value=3D2=20
+        type=3Dradio>=E6=9C=89=E4=BA=9B=E7=AE=80=E5=8D=95</TD></TR>
+        <TR>
+          <TD style=3D"FONT-SIZE: 12px"><INPUT id=3DeaseOfUse=20
+            onclick=3DquestionAnswered() name=3DeaseOfUse value=3D1=20
+        =
+type=3Dradio>=E4=B8=8D=E7=AE=80=E5=8D=95</TD></TR></TBODY></TABLE></TD>
+    <TD class=3DverticalLine></TD>
+    <TD height=3D"100%" vAlign=3Dtop width=3D"100%">
+      <DIV style=3D"COLOR: #364a8d; FONT-SIZE: 12px; FONT-WEIGHT: =
+bold">=E6=B3=A8=E9=87=8A</DIV><TEXTAREA style=3D"COLOR: black; =
+FONT-SIZE: 12px" id=3DcommentsInput class=3DlabelTextareaEmpty =
+onfocus=3DactivateBox(this) onkeyup=3DenableSubmit() cols=3D70 rows=3D14 =
+name=3DcommentsInput width=3D"100%" =
+height=3D"100%">=E6=8F=90=E4=BE=9B=E6=AD=A4=E6=96=87=E7=AB=A0=E7=9A=84=E5=
+=8F=8D=E9=A6=88=E3=80=82=E5=A6=82=E6=9C=89=E5=85=B6=E4=BB=96=E5=8F=8D=E9=A6=
+=88, =E8=AF=B7=E4=BD=BF=E7=94=A8 =
+'=E4=B8=8E=E6=88=91=E4=BB=AC=E8=81=94=E7=B3=BB'=E3=80=82</TEXTAREA>=20
+
+      <P style=3D"FONT-SIZE: =
+12px"><B>=E9=87=8D=E8=A6=81=E8=AF=B4=E6=98=8E:</B> =E5=9C=A8=E7=94=B1 =
+Oracle =
+=E6=8A=80=E6=9C=AF=E6=94=AF=E6=8C=81=E5=A4=84=E7=90=86=E4=B9=8B=E5=89=8D,=
+=20
+      =
+=E5=85=B6=E4=BB=96=E5=AE=A2=E6=88=B7=E5=8F=AF=E4=BB=A5=E6=8C=89=E5=8C=BF=E5=
+=90=8D=E6=96=B9=E5=BC=8F=E6=9F=A5=E7=9C=8B=E6=AD=A4=E5=8F=8D=E9=A6=88=E3=80=
+=82</P></TD></TR>
+  <TR>
+    <TD class=3DhorizontalLine width=3D"100%" colSpan=3D3></TD></TR>
+  <TR>
+    <TD width=3D"100%" colSpan=3D3>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD align=3Dleft><A style=3D"FONT-SIZE: 12px"=20
+            =
+href=3D"javascript:cancelFeedbackBox()">=E5=8F=96=E6=B6=88</A></TD>
+          <TD width=3D"99%"></TD>
+          <TD align=3Dright><INPUT style=3D"FONT-SIZE: 12px" =
+id=3DsubmitBtn disabled onclick=3DsubmitFeedback() name=3DsubmitBtn =
+value=3D=E5=8F=91=E9=80=81=E8=AF=84=E7=BA=A7 =
+type=3Dbutton></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM>=
+</DIV>
+<SCRIPT>=0A=
+var rateArticleSuccess =3D =
+"=E6=82=A8=E7=9A=84=E8=AF=84=E7=BA=A7=E5=B7=B2=E5=8F=91=E9=80=81=E5=88=B0=
+ Oracle";=0A=
+var rateArticleFailure =3D =
+"=E6=97=A0=E6=B3=95=E4=B8=BA=E6=96=87=E6=A1=A3=E8=AF=84=E7=BA=A7";=0A=
+checkArticleRatingStatus();=0A=
+</SCRIPT>
+<!--<EMMOS_CONTEXT_STRING><RICTXXMLSTR><ARTICLE><ID>34559.1</ID><context =
+ id =3D "34559.1" doc_type =3D "REFERENCE" title =3D "WAITEVENT: =
+\&quot;db file sequential read\&quot; Reference Note" type =3D "NOT" =
+/></ARTICLE></RICTXXMLSTR></EMMOS_CONTEXT_STRING>--><!--{{FFFFFFFFFFFFFFF=
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}}--></BODY></HTML>
+
+------=_NextPart_000_0011_01CCEB07.2A83C940
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://support.oracle.com/CSP/ui/images/collapse_white.png?MOS_6.0.0.1.0FLASH_GENERIC_120205.1
+
+iVBORw0KGgoAAAANSUhEUgAAAAsAAAAQCAYAAADAvYV+AAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADLSURBVChTY/wPBAzEApBiYgEDsQrBLiBZ
+MbNd039mx/b/LC49/1k9Jv1n8Zr2n9Vn9n9W/7n/WQMWgDHcZGbLyv+iUUv/R/Ru+p81c+f/+uWH
+/0/Zeub/ykPX/kd37wFqmo9QzKTs/p/Zsuq/aPTS/8Fd6/+nTN32v2LRgf8uNVuANsz4z2JbjVAM
+YoE1WFX/FwFq8Gtb+18ra81/Frf+/8wmmXBvoXgQpIEJqoHFoQ2oMB3F/xihwaTqCbYBXSF5QUds
+WJMeKQNvMgAYnUQemc8m6gAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0011_01CCEB07.2A83C940
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://support.oracle.com/CSP/ui/images/top_white.png?MOS_6.0.0.1.0FLASH_GENERIC_120205.1
+
+iVBORw0KGgoAAAANSUhEUgAAAAsAAAAQCAYAAADAvYV+AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMhJREFU
+KFNj/Pfv338GYgFIMbGYgViFYBcMUsXMJun/ma2q/zOpemJ4HMXNIIUsDm3/RaKX/mcCaVB2R9EA
+V8xskvmfxa3/v1bWmv9+bWvBGsA2IGkAK2axrf7P6jPjv0vNlv8Viw78T5m67X9w1/r/oiANllVw
+DWDFrP7z/0d37/m/8tC1/1O2nvlfv/zw/6yZO/9H9G76LxoF0lAJdg5EccACCPafC7Rh9n8Wr2n/
+WT0m/Wdx6fnP7Nj+n9muCaGY2IgZJDEIAJpKQqqGA5DlAAAAAElFTkSuQmCC
+
+------=_NextPart_000_0011_01CCEB07.2A83C940
+Content-Type: image/png
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://support.oracle.com/CSP/ui/images/rate_article_ovr_16_1.png?MOS_6.0.0.1.0FLASH_GENERIC_120205.1
+
+=89PNG
+=1A=0A=
+=00=00=00=0DIHDR=00=00=00=17=00=00=00=10=08=06=00=00=00=FD/=E4=18=00=00=00=
+=19tEXtSoftware=00Adobe =
+ImageReadyq=C9e<=00=00=0D/iTXtXML:com.adobe.xmp=00=00=00=00=00<?xpacket =
+begin=3D"=EF=BB=BF" id=3D"W5M0MpCehiHzreSzNTczkc9d"?>=0A=
+<x:xmpmeta xmlns:x=3D"adobe:ns:meta/" x:xmptk=3D"Adobe XMP Core =
+4.2.2-c063 53.352624, 2008/07/30-18:12:18        ">=0A=
+ <rdf:RDF xmlns:rdf=3D"http://www.w3.org/1999/02/22-rdf-syntax-ns#">=0A=
+  <rdf:Description rdf:about=3D""=0A=
+    xmlns:dc=3D"http://purl.org/dc/elements/1.1/"=0A=
+    xmlns:xmpRights=3D"http://ns.adobe.com/xap/1.0/rights/"=0A=
+    xmlns:photoshop=3D"http://ns.adobe.com/photoshop/1.0/"=0A=
+    xmlns:Iptc4xmpCore=3D"http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"=0A=
+   xmpRights:WebStatement=3D""=0A=
+   photoshop:AuthorsPosition=3D"">=0A=
+   <dc:rights>=0A=
+    <rdf:Alt>=0A=
+     <rdf:li xml:lang=3D"x-default"/>=0A=
+    </rdf:Alt>=0A=
+   </dc:rights>=0A=
+   <dc:creator>=0A=
+    <rdf:Seq>=0A=
+     <rdf:li/>=0A=
+    </rdf:Seq>=0A=
+   </dc:creator>=0A=
+   <dc:title>=0A=
+    <rdf:Alt>=0A=
+     <rdf:li xml:lang=3D"x-default">Web</rdf:li>=0A=
+    </rdf:Alt>=0A=
+   </dc:title>=0A=
+   <xmpRights:UsageTerms>=0A=
+    <rdf:Alt>=0A=
+     <rdf:li xml:lang=3D"x-default"/>=0A=
+    </rdf:Alt>=0A=
+   </xmpRights:UsageTerms>=0A=
+   <Iptc4xmpCore:CreatorContactInfo=0A=
+    Iptc4xmpCore:CiAdrExtadr=3D""=0A=
+    Iptc4xmpCore:CiAdrCity=3D""=0A=
+    Iptc4xmpCore:CiAdrRegion=3D""=0A=
+    Iptc4xmpCore:CiAdrPcode=3D""=0A=
+    Iptc4xmpCore:CiAdrCtry=3D""=0A=
+    Iptc4xmpCore:CiTelWork=3D""=0A=
+    Iptc4xmpCore:CiEmailWork=3D""=0A=
+    Iptc4xmpCore:CiUrlWork=3D""/>=0A=
+  </rdf:Description>=0A=
+ </rdf:RDF>=0A=
+</x:xmpmeta>=0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                           =0A=
+<?xpacket =
+end=3D"w"?>=86=B3[=8E=00=00=03=9DIDATx=DA=B4=94[h=1CU=18=C7=FFs=D9=D9=D9=EC=
+nf=D3=DDusm=D3&=AD6=95VY=C1=06=A9=15=95x=01i=AB=866=88=C4=17=F3=D0=82=0A=
+B=C1=17=F5E=A4=08V=A4j=A2=16=04/=C5z=01=C1>=D4<4=D6k=8B=BB=A5=AD=1A=D3=8D=
+=BB=EE=EC%=9B=CD^=BA=B3=9B=C9=ECef=FCv=EA=C6=F8*d=E0=CFp=BEs=CE=EF|=E7|=17=
+`=9D>=D34=C1=B7=06=C9=F1=1D=9D=B6>=FF=B3&'=EE=D3K=DA =
+=0C=93=05=F3=EFb=B5=AEC=A9=EA`=C9=E6=B6=F3=109=16=D0up=92c=89=15=98ouE;=DE=
+=FD=FA=F9=0Bk=0F=B0=B6=C7=9F=DA=B9=95=0BxO=D9=066=07=CD;=87=A0=F9$=820h=97=
+=DA=E0p=08P=D5*r=B92.=85=A2=08tz04=D4=0B=C9=E3=B4=00z^=81za=16=CB=17=AF=96=
+=CB=C9=D4=B1=1D'=AF=BC=D2=F2=9C=8D=1D=DA=DA=C5J=EE=CF<=07=EE=0E=FA=9F=BE=0F=
+=86=DF=81=F8=BC=8C|6=0B=CE=D4 0U=AC(=D7=B1 =
+=A7=91=92=17=F0=CC=E1I=F8<n=D8`=904=88^=01=1B=1E=DE=85=AE=E7=1Es=BB{=BA_=FC=
+=FA=F1=9B=8F=B4<g=85n=EF=F3=E2P=FF.g=B0=1FL=A3=0A=
+=A3=AE!=1E=CB`=EA=EDo=E0=B2=0B@=C3=B4l=B9=C5=02=E6f=13=18;=B8=87=DCu=90=BD=
+A=AA=AE=8Aw=B1=F0=1F=DA#=F4=B8=9D/=137`=C1=F5=15}?=7F=D76=A4=E5=0Cb=91=14=
+=F2=99=02=92=F1,&=DF=9D=A1M=06P/=A3=94+=A1=AEi=F8=F4=F4E=8C=1E=D8M=B6=0C*=
+=C5=0C=A2=D7=92=96=D2=F2"=D4=92=02~=83=03=1D=83=01=17qG=9Ap=DEP=D4M+=E4=E0=
+=FC\=12=7FD=96=90H=16=91=CE(=D6=B5=A6=CF=FE=88=F4B	=
+=86a"=9E("x=FB&l=E9=F3=E2r(=8C=AB=BF/=A0R=A9=C2=E9=14=B0m=C0=0F=F7=F6N=F0=
+mv8}d=00z-8=C33=14=EC=1A=BA|v=9C=FEB=C6['=7F^=8D=F6=C8=FEI=EB=FF=D2=D1{1=F3=
+}=0CG&=1E=A2=DBh=E8=F1=0B=B8m=E2=E3=D5u=13=E3=C3=98:=FE=04=3D=97F=19=D2h&=
+I=BB=05=E7=3D=F6=8A=B3=A2=B4{=FB<8=F1=EAA=9C8=F6$B=A1K=B8=E3=81=F7a=16>=A4=
+=0D=F4=D6s=B3xs=EA'=8C>=12=04j=05=F8$=11=D3=9F=1F=06=B8v+=E1=B6=F4=FB=01C=
+=80Q=CE=A3QP=CCV=16=F2=B6=CE=B6=B0=FA=C3o=F7=88=FBv=12=88=82d6=03T=BA=E1R=
+-=83+=97=7F=C1=A9=AF"=04=DEN=F3*=BDw=81@*=EE=DF-=11=C2v=03c=16=81j=0E=B5=BF=
+=92(=CBK=04=A0Tj=C2=ED=1B=A57=96=C3=F3{=D5=B0=C1=B4=DD=EA=A3=BA0=11=BC=85=
+=87=998J=87=14=B0=F1&=0D=D3=DF=C51=F5=DA(=81=17IY:=E4=FA=DA2=B1=BEzv=19=CA=
+=8C=8Ck=A2-F=C3=FC=EAl=F4=9D=BD=9F8=13=911!=C0B=1CpA=E8=A5=80=F3=AE=7F=EA=
+=B8=0E2=80=E1;`jQ=02=97,=CF=AD=CDT=AE=8Db=03=EA=AF=15=F2=A3=86=9C=DEQ=1Cy=
+/=F5=91=9CR=CEP=11=9D=B5=CA=7F=F3=A3=C3=E3=E7>X=D1=07=1B=D11%=9C=E2=F4VL=19=
+=EA=00=9C=00V=FC=13=0C=C3=C1=A8R=E6=D4=96=D74=10=CAe[=D3=0F	=
+=11t=CD=BF=F0e=FE=1C=81=E7h=E6=FC=7F=EFE=E1!=0D=93=1E$=D9=FEg=BF=0A=
+53=98Tl=96?=D6=B5+=AE=E7	=
+=7F=0B0=00=AB=11=8CK=91=08=9DP=00=00=00=00IEND=AEB`=82
+------=_NextPart_000_0011_01CCEB07.2A83C940
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://support.oracle.com/CSP/ui/css/kmstyles.css?MOS_6.0.0.1.0FLASH_GENERIC_120205.1
+
+BODY {
+	MARGIN: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif !important; =
+OVERFLOW: hidden
+}
+H1.km {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333; FONT-SIZE: =
+120%; PADDING-TOP: 1em
+}
+H2.km {
+	BORDER-BOTTOM: #c4d1e6 1px solid; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; COLOR: #333333; FONT-SIZE: 105%; PADDING-TOP: 0.5em
+}
+H3.km {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333; FONT-SIZE: =
+105%; FONT-WEIGHT: bold; PADDING-TOP: 0.5em
+}
+H4.km {
+	FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: =
+#000088; FONT-SIZE: 101%; FONT-WEIGHT: bold; PADDING-TOP: 0.5em
+}
+H5.km {
+	FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: =
+#666666; FONT-SIZE: 101%; FONT-WEIGHT: bold; PADDING-TOP: 0.5em
+}
+TABLE.km {
+	BORDER-LEFT: #c4d1e6 1px solid; BORDER-TOP: #c4d1e6 1px solid
+}
+TD.km {
+	BORDER-BOTTOM: #c4d1e6 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: =
+4px; PADDING-RIGHT: 4px; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+FONT-SIZE: 90%; VERTICAL-ALIGN: top; BORDER-RIGHT: #c4d1e6 1px solid; =
+PADDING-TOP: 4px
+}
+TH.km {
+	BORDER-BOTTOM: #c4d1e6 1px solid; TEXT-ALIGN: left; PADDING-BOTTOM: =
+2px; BACKGROUND-COLOR: #dee6ef; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; =
+FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 90%; =
+VERTICAL-ALIGN: top; FONT-WEIGHT: bold; BORDER-RIGHT: #c4d1e6 1px solid; =
+PADDING-TOP: 2px
+}
+.kmnotebox {
+	BORDER-BOTTOM: #c1a90d 2px solid; BORDER-LEFT: #c1a90d 2px solid; =
+PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #fefcee; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+FONT-SIZE: 100%; BORDER-TOP: #c1a90d 2px solid; BORDER-RIGHT: #c1a90d =
+2px solid; PADDING-TOP: 10px
+}
+PRE.km {
+	FONT-FAMILY: "Courier New", Courier, monospace; FONT-SIZE: 90%
+}
+CODE.km {
+	FONT-FAMILY: "Courier New", Courier, monospace; FONT-SIZE: 90%
+}
+DIV.kmcodeblock {
+	BORDER-BOTTOM: #c4d1e6 1px solid; BORDER-LEFT: #c4d1e6 1px solid; =
+PADDING-BOTTOM: 0.5em; BACKGROUND-COLOR: #eef3f7; MARGIN: 5px 0px 0px; =
+PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; OVERFLOW: auto; BORDER-TOP: =
+#c4d1e6 1px solid; BORDER-RIGHT: #c4d1e6 1px solid; PADDING-TOP: 0.5em
+}
+DIV.kmindent1 {
+	PADDING-LEFT: 40px; DISPLAY: block
+}
+DIV.kmindent2 {
+	PADDING-LEFT: 80px; DISPLAY: block
+}
+DIV.legalnote {
+	DISPLAY: none
+}
+SPAN.kmfixedwidthfont {
+	FONT-FAMILY: "Courier New", Courier, monospace
+}
+H2.awiz {
+	BORDER-BOTTOM: #c4d1e6 1px solid; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; COLOR: #333333; FONT-SIZE: 105%
+}
+H3.awiz {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333; FONT-SIZE: =
+103%
+}
+PRE.awiz {
+	FONT-FAMILY: "Courier New", Courier, monospace; FONT-SIZE: 90%
+}
+CODE.awiz {
+	FONT-FAMILY: "Courier New", Courier, monospace; FONT-SIZE: 90%
+}
+FONT {
+	FONT-FAMILY: inherit !important
+}
+TABLE {
+	FONT-FAMILY: Arial, Helvetica, sans-serif !important
+}
+.hparam {
+	FONT-STYLE: italic; COLOR: #666666; FONT-WEIGHT: normal
+}
+.hvalue {
+	FONT-WEIGHT: bold
+}
+.section1 {
+	MARGIN-TOP: 5px; FONT-SIZE: 103%; FONT-WEIGHT: bold
+}
+.section2 {
+	MARGIN-TOP: 5px; FONT-SIZE: 101%; FONT-WEIGHT: bold
+}
+TABLE.mos {
+	BORDER-BOTTOM: #c4d1e6 1px solid; BORDER-LEFT: #c4d1e6 1px solid
+}
+TD.mos {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; =
+FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 90%; =
+VERTICAL-ALIGN: top; BORDER-TOP: #c4d1e6 1px solid; BORDER-RIGHT: =
+#c4d1e6 1px solid; PADDING-TOP: 4px
+}
+TD.mos_lite {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; =
+FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 90%; =
+VERTICAL-ALIGN: top; BORDER-RIGHT: #c4d1e6 1px solid; PADDING-TOP: 4px
+}
+TH.mos {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #dee6ef; =
+PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; FONT-SIZE: 90%; VERTICAL-ALIGN: top; BORDER-TOP: #c4d1e6 1px =
+solid; FONT-WEIGHT: bold; BORDER-RIGHT: #c4d1e6 1px solid; PADDING-TOP: =
+2px
+}
+#mainHtmlDocument {
+	PADDING-BOTTOM: 8px; OVERFLOW-X: auto; OVERFLOW-Y: auto; PADDING-LEFT: =
+8px; PADDING-RIGHT: 8px; PADDING-TOP: 8px
+}
+#feedbackBox {
+	BORDER-BOTTOM: 3px inset; POSITION: absolute; BORDER-LEFT: 0px inset; =
+BACKGROUND-COLOR: #fffeed; WIDTH: 600px; DISPLAY: none; FONT-FAMILY: =
+Tahoma; HEIGHT: 350px; BORDER-TOP: 0px inset; BORDER-RIGHT: 3px inset; =
+LEFT: 40px
+}
+#feedbackBottomLeft {
+	MARGIN: 5px; FONT-FAMILY: Tahoma; HEIGHT: 40px
+}
+TABLE.tables {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; =
+BACKGROUND-COLOR: #fffeed; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 500px; =
+PADDING-RIGHT: 0px; HEIGHT: 350px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+TABLE.tables TR {
+	BACKGROUND-COLOR: #fffeed
+}
+TABLE.tables TD {
+	BACKGROUND-COLOR: #fffeed
+}
+.vLine {
+	BORDER-LEFT: #999999 1px solid; PADDING-LEFT: 3px
+}
+.labelHeading {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #fffeed; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; COLOR: #364a8d; FONT-SIZE: 11px; FONT-WEIGHT: bold; =
+PADDING-TOP: 2px
+}
+.labelField {
+	PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #fffeed; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 0px; COLOR: #666666; FONT-SIZE: 10px; FONT-WEIGHT: =
+normal; PADDING-TOP: 1px
+}
+.labelFieldHLine {
+	PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #fffeed; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 0px; COLOR: #666666; FONT-SIZE: 10px; FONT-WEIGHT: =
+normal; PADDING-TOP: 1px
+}
+.labelFieldHLine {
+	BORDER-TOP: #999999 1px solid
+}
+.labelOption {
+	PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #fffeed; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 1px; COLOR: #262626; FONT-SIZE: 9px; FONT-WEIGHT: normal; =
+PADDING-TOP: 1px
+}
+.labelOption INPUT {
+	HEIGHT: 12px
+}
+.labelTextareaEmpty {
+	WIDTH: 380px; HEIGHT: 220px; COLOR: #666666; FONT-SIZE: 9px; =
+FONT-WEIGHT: normal
+}
+.labelTextareaText {
+	WIDTH: 380px; HEIGHT: 220px; COLOR: #262626; FONT-SIZE: 9px; =
+FONT-WEIGHT: normal
+}
+.buttonsLine {
+	HEIGHT: 30px; BORDER-TOP: #999999 1px solid
+}
+A.linkButton {
+	COLOR: #000099; FONT-SIZE: 11px; FONT-WEIGHT: normal
+}
+.inputButton {
+	COLOR: #000000; FONT-SIZE: 11px; FONT-WEIGHT: normal
+}
+A.rateDocumentLabel {
+	COLOR: #42497d; FONT-SIZE: 11px; FONT-WEIGHT: normal
+}
+
+------=_NextPart_000_0011_01CCEB07.2A83C940
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://support.oracle.com/CSP/ui/css/kmstyles_print.css?MOS_6.0.0.1.0FLASH_GENERIC_120205.1
+
+BODY {
+	OVERFLOW-X: visible; FONT-FAMILY: Arial, Helvetica, sans-serif =
+!important
+}
+H1.km {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333; FONT-SIZE: =
+120%; PADDING-TOP: 1em
+}
+H2.km {
+	BORDER-BOTTOM: #c4d1e6 1px solid; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; COLOR: #333333; FONT-SIZE: 105%; PADDING-TOP: 0.5em
+}
+H3.km {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333; FONT-SIZE: =
+105%; FONT-WEIGHT: bold; PADDING-TOP: 0.5em
+}
+H4.km {
+	FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: =
+#000088; FONT-SIZE: 101%; FONT-WEIGHT: bold; PADDING-TOP: 0.5em
+}
+H5.km {
+	FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: =
+#666666; FONT-SIZE: 101%; FONT-WEIGHT: bold; PADDING-TOP: 0.5em
+}
+TABLE.km {
+	BORDER-LEFT: #c4d1e6 1px solid; BORDER-TOP: #c4d1e6 1px solid
+}
+TD.km {
+	BORDER-BOTTOM: #c4d1e6 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: =
+4px; PADDING-RIGHT: 4px; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+FONT-SIZE: 90%; VERTICAL-ALIGN: top; BORDER-RIGHT: #c4d1e6 1px solid; =
+PADDING-TOP: 4px
+}
+TH.km {
+	BORDER-BOTTOM: #c4d1e6 1px solid; TEXT-ALIGN: left; PADDING-BOTTOM: =
+2px; BACKGROUND-COLOR: #dee6ef; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; =
+FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 90%; =
+VERTICAL-ALIGN: top; FONT-WEIGHT: bold; BORDER-RIGHT: #c4d1e6 1px solid; =
+PADDING-TOP: 2px
+}
+.kmnotebox {
+	BORDER-BOTTOM: #c1a90d 2px solid; BORDER-LEFT: #c1a90d 2px solid; =
+PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #fefcee; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+FONT-SIZE: 100%; BORDER-TOP: #c1a90d 2px solid; BORDER-RIGHT: #c1a90d =
+2px solid; PADDING-TOP: 10px
+}
+PRE.km {
+	FONT-FAMILY: "Courier New", Courier, monospace; FONT-SIZE: 90%
+}
+CODE.km {
+	FONT-FAMILY: "Courier New", Courier, monospace; FONT-SIZE: 90%
+}
+DIV.kmcodeblock {
+	BORDER-BOTTOM: #c4d1e6 1px solid; BORDER-LEFT: #c4d1e6 1px solid; =
+PADDING-BOTTOM: 0.5em; BACKGROUND-COLOR: #eef3f7; MARGIN: 5px 0px 0px; =
+PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; OVERFLOW: visible; =
+BORDER-TOP: #c4d1e6 1px solid; BORDER-RIGHT: #c4d1e6 1px solid; =
+PADDING-TOP: 0.5em
+}
+DIV.kmindent1 {
+	PADDING-LEFT: 40px; DISPLAY: block
+}
+DIV.kmindent2 {
+	PADDING-LEFT: 80px; DISPLAY: block
+}
+DIV.legalnote {
+	DISPLAY: inline
+}
+SPAN.kmfixedwidthfont {
+	FONT-FAMILY: "Courier New", Courier, monospace
+}
+H2.awiz {
+	BORDER-BOTTOM: #c4d1e6 1px solid; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; COLOR: #333333; FONT-SIZE: 105%
+}
+H3.awiz {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333; FONT-SIZE: =
+103%
+}
+PRE.awiz {
+	FONT-FAMILY: "Courier New", Courier, monospace; FONT-SIZE: 90%
+}
+CODE.awiz {
+	FONT-FAMILY: "Courier New", Courier, monospace; FONT-SIZE: 90%
+}
+FONT {
+	FONT-FAMILY: inherit !important
+}
+TABLE {
+	FONT-FAMILY: Arial, Helvetica, sans-serif !important
+}
+.hparam {
+	FONT-STYLE: italic; COLOR: #666666; FONT-WEIGHT: normal
+}
+.hvalue {
+	FONT-WEIGHT: bold
+}
+.section1 {
+	MARGIN-TOP: 5px; FONT-SIZE: 103%; FONT-WEIGHT: bold
+}
+.section2 {
+	MARGIN-TOP: 5px; FONT-SIZE: 101%; FONT-WEIGHT: bold
+}
+TABLE.mos {
+	BORDER-BOTTOM: #c4d1e6 1px solid; BORDER-LEFT: #c4d1e6 1px solid
+}
+TD.mos {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; =
+FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 90%; =
+VERTICAL-ALIGN: top; BORDER-TOP: #c4d1e6 1px solid; BORDER-RIGHT: =
+#c4d1e6 1px solid; PADDING-TOP: 4px
+}
+TD.mos_lite {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; =
+FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 90%; =
+VERTICAL-ALIGN: top; BORDER-RIGHT: #c4d1e6 1px solid; PADDING-TOP: 4px
+}
+TH.mos {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #dee6ef; =
+PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; FONT-SIZE: 90%; VERTICAL-ALIGN: top; BORDER-TOP: #c4d1e6 1px =
+solid; FONT-WEIGHT: bold; BORDER-RIGHT: #c4d1e6 1px solid; PADDING-TOP: =
+2px
+}
+* {
+	OVERFLOW: visible !important
+}
+
+------=_NextPart_000_0011_01CCEB07.2A83C940
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://support.oracle.com/CSP/ui/scripts/kmviewer.js?MOS_6.0.0.1.0FLASH_GENERIC_120205.1
+
+function doResize() { =20
+    if(document.all && !window.XMLHttpRequest && !window.opera){
+        // IE6 only resize problem
+        var w=3Ddocument.documentElement.clientWidth;
+        document.body.style.width =3D (((w-40)/w)*100)+'%';
+    }
+    var clHeight=3D0;
+    var clWidth=3D0;
+    if(typeof(window.innerWidth)=3D=3D"number"){// None -IE
+        clHeight=3Dwindow.innerHeight;
+        clWidth=3Dwindow.innerWidth;
+    }
+    else if(document.documentElement && =
+(document.documentElement.clientWidth =
+||document.documentElement.clientHeight)){
+        clHeight=3Ddocument.documentElement.clientHeight;
+        clWidth=3Ddocument.documentElement.clientWidth;
+    }
+    else if(document.body && (document.body.clientWidth =
+||document.body.clientHeight)){
+        clHeight=3Ddocument.body.clientHeight;
+        clWidth=3Ddocument.body.clientWidth;
+    }
+    var elMain=3Ddocument.getElementById('mainHtmlDocument');
+    var elFBar=3Ddocument.getElementById('feedbackBottomLeft');
+    elMain.style.width=3D(clWidth-16)+'px';
+    if (elFBar!=3Dnull && elFBar.style.display !=3D 'none') {
+        elMain.style.height=3D(clHeight-60)+'px';
+    }
+    else {
+        elMain.style.height=3D(clHeight-16)+'px';
+    }
+    var fBox=3Ddocument.getElementById('feedbackBox');
+    if (fBox!=3Dnull) {
+        fBox.style.top=3D(clHeight-400)+'px';=20
+    }
+}
+
+function toggleVisibility(source, target) {=20
+  var toggledObj =3D document.getElementById(target);
+  var imgObj =3D document.getElementById(source);=20
+  var footerDisplayed =3D (toggledObj.style.display =3D=3D "none");=20
+  if (footerDisplayed) {
+    toggledObj.style.display =3D "block";
+    toggledObj.style.overflow =3D "visible";=20
+    imgObj.src =3D collapseIcon;
+  } else {
+    toggledObj.style.display =3D "none";
+    toggledObj.style.overflow =3D "visible";
+    imgObj.src =3D expandIcon;
+  }
+}
+
+function expandCollapseSections(expand, sectionsList) {
+  var imgObj,sectionObj;
+  for (var i=3D0; i<sectionsList.length; i++) {
+	  try {
+		imgObj =3D document.getElementById(sectionsList[i][0]);=20
+		sectionObj =3D document.getElementById(sectionsList[i][1]);
+		sectionObj.style.display =3D expand ? "block" : "none";=09
+		imgObj.src =3D expand ? collapseIcon : expandIcon;
+	  }catch(err){
+		// ignore wrong sections
+	  }
+  }=09
+}
+
+function displayBug(source, bugProductFamily) {=20
+  if (currentContainer !=3D null) {
+    currentContainer.style.display =3D "none";
+  }
+  if (currentLink !=3D null) {
+    currentLink.style.backgroundColor =3D "";=20
+    //currentLink.style.fontWeight =3D "normal";
+  }
+  if (source !=3D null) {=20
+    source.style.backgroundColor =3D "#ACDEFC";
+    //source.style.fontWeight =3D "bold";
+    currentLink =3D source;
+  }
+  var bugContainer =3D document.getElementById(bugProductFamily);
+  if (bugContainer !=3D null) {=20
+    currentContainer =3D bugContainer;
+    currentContainer.style.display =3D "inline";
+    currentContainer.innerHTML =3D bugsContent[bugProductFamily];
+  }
+}
+
+// On load check to see if we log here clickstream
+function verifyClickstream() {
+//  if( multipleArticles ) return;
+//  if (!parent || !parent.IFrameLoaded) { // not in iframe or in =
+another parent
+//    var docDetails =3D getDocumentDetails();
+//    externalClickstream( docDetails );
+//  }
+}
+=20
+// On tab activate showing one article of many
+function pushDocDetails( docDetails ) {
+//  if( parent && parent.pushDocumentDetails ) {
+//    parent.pushDocumentDetails( docDetails );
+//  }
+//  else {
+    externalClickstream( docDetails );
+//  }
+}
+
+// Clickstream log for opening in external windows of articles
+function externalClickstream( docDetails ) {
+	var clickstreamValue =3D '<Click =
+category=3D"'+docDetails.category+'">';
+	clickstreamValue +=3D '<![CDATA[<entry action_type=3D"show" ';
+	clickstreamValue +=3D ' session_id=3D"' + sessId + '" ';
+	clickstreamValue +=3D 'item_id=3D"';
+	clickstreamValue +=3D docDetails.docID;
+	clickstreamValue +=3D '" note_id=3D"';
+	clickstreamValue +=3D docDetails.docDataGroup=3D=3D"BUG" ? =
+docDetails.productFamily : docDetails.docID;
+	clickstreamValue +=3D '" item_type=3D"';
+	clickstreamValue +=3D docDetails.docDataGroup=3D=3D"NOT" ? "DOCUMENT" : =
+docDetails.docDataGroup=3D=3D"BUG" ? "BUG" : docDetails.docDataGroup;
+	clickstreamValue +=3D '" open_new_window=3D"true" />]]></Click>';
+	sendClickstreamHTTP(clickstreamValue);
+}
+
+function sendClickstreamHTTP(clickstreamValue){
+  var clickstreamUrl =3D window.location.href;
+  var paramIndex =3D clickstreamUrl.indexOf('?');
+  if (paramIndex !=3D -1) {
+    clickstreamUrl =3D clickstreamUrl.substring(0, paramIndex);
+  } =20
+  var baseUrlIndex =3D clickstreamUrl.indexOf("/CSP/");
+  if (baseUrlIndex !=3D -1) {
+    clickstreamUrl =3D clickstreamUrl.substring(0, baseUrlIndex + 5);
+    clickstreamUrl +=3D "main/feedback?clickstream=3D";
+    clickstreamUrl +=3D "<Clickstream>";
+    clickstreamUrl +=3D clickstreamValue;
+    clickstreamUrl +=3D "</Clickstream>";
+    var localXMLHttpRequest;
+    if( typeof XMLHttpRequest!=3D'undefined' ) {
+    	localXMLHttpRequest=3D new XMLHttpRequest();
+    }
+    else {=09
+    	try {
+	    localXMLHttpRequest =3D new ActiveXObject("Msxml2.XMLHTTP");
+ 	} catch (e1) {
+  	    try {
+  		localXMLHttpRequest =3D new ActiveXObject("Microsoft.XMLHTTP");
+   	    } catch (e2) {}
+	}
+    }
+    if( localXMLHttpRequest ) {
+        localXMLHttpRequest.open("POST", clickstreamUrl, true);
+        localXMLHttpRequest.setRequestHeader("Content-type", =
+"application/x-www-form-urlencoded");
+        localXMLHttpRequest.setRequestHeader("Content-length", 0);
+      	localXMLHttpRequest.setRequestHeader("Connection", "close");
+        localXMLHttpRequest.onreadystatechange =3D function() {};
+        localXMLHttpRequest.send(null);
+    }
+  }
+}
+
+/*Methods & variables for the article feedback*/
+var questionIsAnswered =3D false;
+var commentsActivated =3D false;
+var requiresFeedBack =3D false;
+var txtaColor =3D "first";
+
+function questionAnswered()
+{
+	questionIsAnswered =3D true;
+=09
+        var formObj =3D document.forms["feedback"];
+        var rating =3D getCheckedValue(formObj.elements["rating"]);
+	var relevancy =3D getCheckedValue(formObj.elements["relevancy"]);
+	var easeOfUse =3D getCheckedValue(formObj.elements["easeOfUse"]);
+       =20
+	var feedBackTextObj =3D document.getElementById("feedBackText");
+	var initialCommentTextObj =3D =
+document.getElementById("initialCommentText");=09
+        var commentsObj =3D document.getElementById("commentsInput");
+        if(txtaColor =3D=3D "first")
+         =
+txtaColor=3Ddocument.getElementById("commentsInput").style.color;
+               =20
+	if ( (rating =3D=3D 1) || (relevancy =3D=3D 2) || (easeOfUse =3D=3D 1) =
+) {
+		if ( ((commentsObj.value =3D=3D initialCommentTextObj.value) || =
+(commentsObj.value =3D=3D ''))  && (!requiresFeedBack) ) {
+			if (commentsObj.value =3D=3D '') commentsActivated =3D false;
+			commentsObj.value =3D feedBackTextObj.value;
+			commentsObj.style.color=3D"#FF0000";
+			commentsObj.style.fontWeight=3D"bold";
+		}
+		requiresFeedBack =3D true;
+		enableSubmit();
+		return;
+	}
+=09
+	if (commentsObj.value =3D=3D feedBackTextObj.value) {
+		commentsObj.value =3D initialCommentTextObj.value;
+		commentsObj.style.color=3DtxtaColor;
+		commentsObj.style.fontWeight=3D"normal";
+	}
+
+	if (commentsObj.value =3D=3D '') {
+		commentsObj.value =3D initialCommentTextObj.value;
+		commentsObj.style.color=3DtxtaColor;
+		commentsObj.style.fontWeight=3D"normal"
+		commentsActivated =3D false;
+	}
+=09
+	requiresFeedBack =3D false;
+	enableSubmit();
+}
+
+function enableSubmit()
+{=09
+	var submitObj =3D document.getElementById("submitBtn");
+	var commentsObj =3D document.getElementById("commentsInput");
+        var feedBackTextObj =3D document.getElementById("feedBackText");
+       =20
+	if (commentsObj.value !=3D "" || questionIsAnswered) {
+		if (requiresFeedBack) {
+			if ( (commentsObj.value =3D=3D "") || (commentsObj.value =3D=3D =
+feedBackTextObj.value) )
+				submitObj.disabled =3D true;
+			else=09
+				submitObj.disabled =3D false;
+		} else {
+                    submitObj.disabled =3D false;
+                }
+	} else {
+		submitObj.disabled =3D tsrue;
+	}=09
+}
+
+function activateBox(obj){
+	if (commentsActivated) return;=09
+	obj.style.color=3DtxtaColor;
+	obj.style.fontWeight=3D"normal";
+	obj.className =3D "labelTextareaText";
+	obj.value =3D "";
+	commentsActivated =3D true;
+}
+
+function getCheckedValue(radioObj) {
+	if(!radioObj){
+		return "";
+	}
+	var radioLength =3D radioObj.length;
+	if(radioLength =3D=3D undefined){
+		if(radioObj.checked){
+			return radioObj.value;
+		}
+		else{
+			return "";
+		}
+	}
+	for(var i =3D 0; i < radioLength; i++) {
+		if(radioObj[i].checked) {
+			return radioObj[i].value;
+		}
+	}
+	return "";
+}
+
+
+var feedbackXMLHttpRequest =3D null;
+function submitFeedback(){
+	displayFeedbackBox();
+	var formObj =3D document.forms["feedback"];
+	//compose Feedback URL
+	var feedbackValue =3D 'objectType=3DNOTE&';
+	feedbackValue +=3D '&articleId=3D' + =
+formObj.elements["articleId"].value;
+	feedbackValue +=3D '&relevancy=3D' + =
+getCheckedValue(formObj.elements["relevancy"]);
+	feedbackValue +=3D '&rating=3D' + =
+getCheckedValue(formObj.elements["rating"]);
+	feedbackValue +=3D '&easeOfUse=3D' + =
+getCheckedValue(formObj.elements["easeOfUse"]);
+	feedbackValue +=3D '&comments=3D' + =
+formObj.elements["commentsInput"].value;
+	//compose clickstream value
+	//for feedback
+	var clickstreamValue =3D '<Click category=3D"KM"><![CDATA[<entry =
+action_type=3D"submit_feedback" ';
+	clickstreamValue +=3D ' session_id=3D"' + sessId + '" ';
+	clickstreamValue +=3D ' item_id=3D"' + =
+formObj.elements["articleId"].value + '"';
+	clickstreamValue +=3D ' item_type=3D"DOCUMENT" =
+originating_region=3D"dsrvDocDisplay"';
+	clickstreamValue +=3D ' feedback=3D"' + =
+formObj.elements["commentsInput"].value + '"';
+	clickstreamValue +=3D '/>]]></Click>';
+	//for rating
+	clickstreamValue +=3D '<Click category=3D"KM"><![CDATA[<entry =
+action_type=3D"submit_rating" ';
+	clickstreamValue +=3D ' session_id=3D"' + sessId + '" ';
+	clickstreamValue +=3D ' item_id=3D"' + =
+formObj.elements["articleId"].value + '"';
+	clickstreamValue +=3D ' item_type=3D"DOCUMENT"';
+	clickstreamValue +=3D ' rating=3D"' + =
+getCheckedValue(formObj.elements["rating"]) + '"';
+	clickstreamValue +=3D ' problem_solved=3D"' + =
+getCheckedValue(formObj.elements["relevancy"]) + '"';
+	clickstreamValue +=3D ' findability=3D"' + =
+getCheckedValue(formObj.elements["easeOfUse"]) + '"';
+	clickstreamValue +=3D '/>]]></Click>';
+=09
+	var feedbackUrl =3D window.location.href;
+	var paramIndex =3D feedbackUrl.indexOf('?');
+	if (paramIndex !=3D -1) {
+		feedbackUrl =3D feedbackUrl.substring(0, paramIndex);
+	} =20
+	var baseUrlIndex =3D feedbackUrl.indexOf("/CSP/");
+	if (baseUrlIndex !=3D -1) {
+		feedbackUrl =3D feedbackUrl.substring(0, baseUrlIndex + 5);
+		feedbackUrl +=3D "main/article?cmd=3DsendArticleFeedback&" + =
+feedbackValue;
+		feedbackXMLHttpRequest =3D getHttpRequest();
+		if( feedbackXMLHttpRequest ) {
+			feedbackXMLHttpRequest.open("POST", feedbackUrl, true);
+			feedbackXMLHttpRequest.setRequestHeader("Content-type", =
+"application/x-www-form-urlencoded");
+			feedbackXMLHttpRequest.setRequestHeader("Content-length", 0);
+			feedbackXMLHttpRequest.setRequestHeader("Connection", "close");
+			feedbackXMLHttpRequest.onreadystatechange =3D =
+processArticleFeedbackCall;
+			feedbackXMLHttpRequest.send(null);
+			sendClickstreamHTTP(clickstreamValue);
+		}
+	}
+}
+
+function getHttpRequest(){
+	var localXMLHttpRequest;
+	if( typeof XMLHttpRequest!=3D'undefined' ) {
+		localXMLHttpRequest=3D new XMLHttpRequest();
+	}
+	else {=09
+		try {
+			localXMLHttpRequest =3D new ActiveXObject("Msxml2.XMLHTTP");
+		} catch (e1) {
+			try {
+				localXMLHttpRequest =3D new ActiveXObject("Microsoft.XMLHTTP");
+			} catch (e2) {}
+		}
+	}
+=09
+	return localXMLHttpRequest;
+}
+
+function checkArticleRatingStatus(){
+	if (!parent || !parent.IFrameLoaded) {
+	}
+	else{
+		var ratingLinkObj =3D document.getElementById("feedbackBottomLeft");
+		ratingLinkObj.style.display =3D "none";
+	}
+}
+
+function processArticleFeedbackCall(){
+	if ((feedbackXMLHttpRequest!=3Dnull) && =
+(feedbackXMLHttpRequest.readyState=3D=3D4)){
+		if(feedbackXMLHttpRequest.status=3D=3D200){
+			var xmlDoc=3DfeedbackXMLHttpRequest.responseXML;
+			var status =3D -1;
+			var message =3D null;
+			try{
+				var =
+statusAttributes=3DxmlDoc.getElementsByTagName("status")[0].attributes;
+				status =3D statusAttributes.getNamedItem("returnCode").nodeValue;=20
+			}catch(e1){}=20
+			try{
+				message=3DxmlDoc.getElementsByTagName("message")[0].nodeValue;
+			}catch(e2){}
+		=09
+			if(status =3D=3D 0){
+				alert(rateArticleSuccess);
+			}
+			else if(status =3D=3D 1){
+				alert(rateArticleFailure);
+			}
+		}
+		else{
+			alert(rateArticleFailure);
+		}
+	}
+}
+
+var feedbackBoxVisible =3D false;
+
+function displayFeedbackBox(){
+	var divObj =3D document.getElementById("feedbackBox");
+	if(feedbackBoxVisible){
+		divObj.style.display =3D "none";
+		feedbackBoxVisible =3D false;
+	}
+	else{
+		divObj.style.display =3D "inline";
+		feedbackBoxVisible =3D true;
+	}
+}
+
+=20
+var feedbackBoxVisible =3D false;
+
+function displayFeedbackBox(){
+    var divObj =3D document.getElementById("feedbackBox");
+    if(feedbackBoxVisible){
+        divObj.style.display =3D "none";
+        feedbackBoxVisible =3D false;
+    }
+    else{
+        divObj.style.display =3D "block";
+        feedbackBoxVisible =3D true;
+    }
+}
+
+function cancelFeedbackBox() {
+    displayFeedbackBox();
+    resetFeedbackBox();
+}
+
+function resetFeedbackBox() {
+    questionIsAnswered =3D false;
+    commentsActivated =3D false;
+    requiresFeedBack =3D false;
+    var formObj =3D document.forms["feedback"];
+    if (formObj) {
+        resetRadioValue(formObj.elements["relevancy"]);
+        resetRadioValue(formObj.elements["rating"]);
+        resetRadioValue(formObj.elements["easeOfUse"]);
+        var initialCommentTextObj =3D =
+document.getElementById("initialCommentText");
+        var commentsObj =3D formObj.elements["commentsInput"];
+        commentsObj.value =3D initialCommentTextObj.value;
+        commentsObj.style.color=3D"#000000";
+        commentsObj.style.fontWeight=3D"normal";
+    }
+}
+
+function resetRadioValue(radioObj) {
+    if(!radioObj){
+        return;
+    }
+    var radioLength =3D radioObj.length;
+    if(radioLength =3D=3D undefined){
+        radioObj.checked =3D false;
+        return;
+    }
+    for(var i =3D 0; i < radioLength; i++) {
+        radioObj[i].checked =3D false;
+    }
+}
+
+------=_NextPart_000_0011_01CCEB07.2A83C940
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://support.oracle.com/CSP/ui/scripts/dynamicTools.js?MOS_6.0.0.1.0FLASH_GENERIC_120205.1
+
+
+/* Adding usual string processing function to String prototype */
+String.prototype.trim =3D function(){ return (this.replace(/^[\s\xA0]+/, =
+"").replace(/[\s\xA0]+$/, "")); }
+String.prototype.startsWith =3D function(str){ return =
+(this.match("^"+str)=3D=3Dstr); }
+String.prototype.endsWith =3D function(str){ return =
+(this.match(str+"$")=3D=3Dstr); }
+
+var portal =3D '';
+/* Check in which portal is shown the document=20
+ * returns 'MOSF' for Flash, 'MOSH' for MOSHtml and 'ISP' for internal =
+*/
+function checkPortal() {
+    var portalPath =3D window.location.pathname;   =20
+    if (portalPath.startsWith('/CSP'))
+      return 'MOSF';=20
+    if (portalPath.startsWith('/oip'))
+      return 'ISP';
+    if (portalPath.startsWith('/ep'))
+      return 'MOSH';
+    return '';
+}
+
+function getBaseUrl() {
+    var baseUrl =3D window.location.protocol + '//' + =
+window.location.host;
+    switch (portal) {
+      case 'MOSF': baseUrl +=3D '/CSP/main/click?';
+        break;
+      case 'MOSH': baseUrl +=3D =
+'/ep/faces/secure/ml3/common/ClickStreamLog.jspx?';
+        break;
+      case 'ISP': baseUrl +=3D =
+'/oip/faces/secure/ml3/common/ClickStreamLog.jspx?';
+        break;
+      default : baseUrl =3D '';
+    }
+    return baseUrl;
+}
+
+function createHttpRequest(){
+    var localXMLHttpRequest;
+    if (typeof XMLHttpRequest!=3D'undefined') {
+        localXMLHttpRequest=3D new XMLHttpRequest();
+    }
+    else {=09
+        try {
+            localXMLHttpRequest =3D new ActiveXObject("Msxml2.XMLHTTP");
+        } catch (e1) {
+            try {
+                localXMLHttpRequest =3D new =
+ActiveXObject("Microsoft.XMLHTTP");
+            } catch (e2) {}
+        }
+    }
+    return localXMLHttpRequest;
+}
+
+function sendClickstream(asyncHttpRequest, requestUrl, callbackFunction, =
+postAttributes) {
+    if (asyncHttpRequest) {
+        asyncHttpRequest.open("POST", requestUrl, true);
+        asyncHttpRequest.setRequestHeader("Content-type", =
+"application/x-www-form-urlencoded");
+        asyncHttpRequest.setRequestHeader("Content-length", 0);
+        asyncHttpRequest.setRequestHeader("Connection", "close");
+        if (callbackFunction !=3D null)
+            asyncHttpRequest.onreadystatechange =3D callbackFunction;
+        else
+            asyncHttpRequest.onreadystatechange =3D function() {};
+        asyncHttpRequest.send(postAttributes);
+    }   =20
+}
+
+
+function logActionClickstream( docId, activityInfo ) {
+    portal =3D checkPortal();
+   =20
+    var clickstreamValue =3D '';
+    if (portal =3D=3D 'MOSF') {
+        clickstreamValue +=3D 'clickstream=3D';
+        clickstreamValue +=3D '<Click category=3D"KM"><![CDATA[<entry =
+action_type=3D"TOOL" ';
+        if (sessId !=3D 'undefined')
+            clickstreamValue +=3D ' session_id=3D"' + sessId + '" ';
+        clickstreamValue +=3D ' item_id=3D"' + docId + '" ';
+        clickstreamValue +=3D ' search_text=3D"' + activityInfo + '" ';
+        clickstreamValue +=3D ' />]]></Click>';
+    }
+    else {
+        clickstreamValue +=3D 'category=3DKM&type=3DTOOL&p1=3D';
+        clickstreamValue +=3D docId + '&p15=3D';
+        clickstreamValue +=3D activityInfo;
+    }
+    var clickstreamUrl =3D getBaseUrl();
+    var clickstreamRq =3D createHttpRequest();   =20
+    sendClickstream( clickstreamRq, clickstreamUrl, null, =
+clickstreamValue);
+}
+
+/*
+ * Added by shravan.purohit@oracle.com for click stream event logging =
+for Advisor Documents
+ */
+function LogAdvisorClickStream(postArray){
+    var advisorId =3D postArray['advisorId'];
+    var widgetType =3D postArray['widgetType'];
+    var widgetId =3D postArray['widgetId'];
+    var destinationId =3D postArray['destinationId'];
+    var url =3D postArray['url'];
+   =20
+    portal =3D checkPortal();
+   =20
+    var clickstreamValue =3D '';
+    if (portal =3D=3D 'MOSF') {
+        clickstreamValue +=3D 'clickstream=3D';
+        clickstreamValue +=3D '<Click category=3D"KM"><![CDATA[<entry =
+action_type=3D"KM_ADV_LINK" ';
+        if (sessId !=3D 'undefined')
+            clickstreamValue +=3D ' session_id=3D"' + sessId + '" ';
+        if(advisorId) clickstreamValue +=3D ' p1=3D"' + advisorId + '" =
+';
+        if(widgetType) clickstreamValue +=3D ' p2=3D"' + widgetType + '" =
+';
+        if(widgetId) clickstreamValue +=3D ' p3=3D"' + widgetId + '" ';
+        if(url) clickstreamValue +=3D ' p11=3D"' + url + '" ';
+        if(destinationId) clickstreamValue +=3D ' rec_key=3D"' + =
+destinationId + '" ';
+        clickstreamValue +=3D ' />]]></Click>';
+    }
+    else {
+       =20
+        clickstreamValue +=3D 'category=3DKM&type=3DKM_ADV_LINK';
+       =20
+        if(advisorId) clickstreamValue +=3D '&p1=3D' + advisorId;
+        if(widgetType) clickstreamValue +=3D '&p2=3D' + widgetType;
+        if(widgetId) clickstreamValue +=3D '&p3=3D' + widgetId;
+        if(url) clickstreamValue +=3D '&p11=3D' + url;
+        if(destinationId) clickstreamValue +=3D '&id=3D' + =
+destinationId;
+        if(portal =3D=3D 'ISP'){
+            clickstreamValue +=3D '&source=3DOIP';
+        }else{
+            clickstreamValue +=3D '&source=3DMOS';
+        }
+    }
+    var clickstreamUrl =3D getBaseUrl();
+    var clickstreamRq =3D createHttpRequest();   =20
+    sendClickstream( clickstreamRq, clickstreamUrl, null, =
+clickstreamValue);
+}
+------=_NextPart_000_0011_01CCEB07.2A83C940--

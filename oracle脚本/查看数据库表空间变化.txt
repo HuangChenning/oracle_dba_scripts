@@ -1,0 +1,10 @@
+select distinct a.tableapce_name,a.free_space,a.used_percent,
+b.free_space,b.used_percent,b.free_space - a.free_space free_space,
+a.used_percent - b.used_percent add_percent 
+from  
+perfstat.stats$spacestat a,perfstat.stats$spacestat b 
+where trunc(a.start_date)=trunc(sysdate) and
+      trunc(b.start_date)=trunc(sysdate)  -1
+      and a.tableapce_name=b.tableapce_name (+)
+      and a.used_percent>=90
+      and a.used_percent - nvl(b.used_percent,0) >1;

@@ -1,0 +1,238 @@
+Enqueue （队列等待）：
+Enqueue是一种保护共享资源的锁定机制。
+该锁定机制保护共享资源，以避免因并发操作而损坏数据，
+比如通过锁定保护一行记录，避免多个用户同时更新。
+Enqueue采用排队机制，即FIFO（先进先出）来控制资源的使用。
+
+
+Oracle 的锁按照类型可以分为排他锁（Exclusive，缩写为X）与共享锁（Share，缩写为S），
+或者是两者的组合锁。
+排他锁（X）也被称为独占锁，在排他锁释放之前，一个对象上不能施加任何其他类型的锁定；
+而共享锁（S）在释放之前，对象上还可以继续加其他类型的共享锁，但是不能加排他锁。
+
+
+如果按照事务的类型划分，又可以将锁定划分为DML锁，DDL锁以及内存锁（也即通常所说的Latch）。
+Oracle在数据库内部用Enqueue等待来记录锁定，通过Latch Free等待事件来记录闩。
+Enqueue等待常见的有ST、HW、TX、TM等，下面择要进行介绍。
+
+
+
+1. 最重要的锁定：TM与TX锁
+对于数据库来说，最常见的锁定类型是TM以及TX锁定。
+
+TX锁通常被称为事务锁，当一个事务开始时，
+如执行INSERT/DELETE/UPDATE/MERGE等操作或者使用SELECT ... FOR UPDATE语句进行查询时，
+会首先获取事务锁，直到该事务结束。Oracle的TX锁定是在行级获得的，
+每个数据行上都存在一个锁定位（1b-Lock Byte），用于判断该记录是否被锁定，
+同时在每个数据块的头部（Header）存在一个ITL的数据结构，用于记录事务信息等，
+当需要修改数据时，首先需要获得回滚段空间用于存储前镜像信息，
+然后这个事务信息同样被记录在ITL上，通过ITL可以将回滚信息和数据块关联起来，
+所以说Oracle的行级锁定是在数据块上获得的，行级锁只有排他锁没有共享模式。
+
+
+TM锁通常称为表级锁，可以通过手工发出lock命令获得，
+或者通过DML操作以及SELECT FOR UPDATE获得，
+表级锁可以防止其他进程对表加X排他锁，
+防止在对数据修改时，其他任务通过DDL来修改表结构或者truncate、drop表等操作。
+可以通过v$lock视图来观察锁定信息，其中TYPE字段表示锁定类型。
+对于TM锁LMODE字段又代表了不同级别的TM锁，
+这些级别包括2-row-S(SS)、3-row-X(SX)、4-share(S)、5-S/Row-X(SSX)和6-exclusive(X)。
+
+
+当执行DML操作时，首先加TM锁，如果能获得锁定，
+则继续加TX事务锁。在一个会话中，一般只存在一个TX事务锁，
+在提交或回滚之前，该会话的所有DML操作都属于一个事务，
+使用一个回滚段，占用一个回滚段事务槽（Slot）。
+
+
+以下通过SCOTT用户锁定一行记录，暂时不要提交：
+
+
+scott@CCDB> update emp set sal = 4000 where empno = 7788;
+1 row updated.
+
+在另外session通过v$lock视图可以看到相关的锁定信息；
+
+
+sys@CCDB> select sid,username from v$session where username = 'SCOTT';
+       SID USERNAME
+---------- ------------------------------
+      1075 SCOTT
+      
+      
+sys@CCDB> select * from v$lock where sid = 1075;
+ADDR             KADDR                   SID TY        ID1        ID2      LMODE    REQUEST      CTIME      BLOCK
+---------------- ---------------- ---------- -- ---------- ---------- ---------- ---------- ---------- ----------
+000000008F836260 000000008F8362B8       1075 AE         99          0          4          0       1208          0
+00002BA14E74A7F8 00002BA14E74A858       1075 TM      69539          0          3          0         16          0
+000000008DF49A30 000000008DF49AA8       1075 TX      65551      30498          6          0         16          0
+
+
+
+此时表上的行级排他锁会阻塞对于表的DDL语句：
+
+sys@CCDB> truncate table scott.emp;
+truncate table scott.emp
+                     *
+ERROR at line 1:
+ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+
+
+
+
+此外，TM锁定的ID1代表的就是锁定的对象号：
+
+
+sys@CCDB> select owner,object_name from dba_objects where object_id = 69539;
+OWNER           OBJECT_NAME
+--------------- ---------------
+SCOTT           EMP
+
+而TX锁的ID1代表的是事务的回滚段回滚段号、事务槽号，ID2代表的是顺序号：
+
+
+sys@CCDB> select trunc(65551/power(2,16)),mod(65551,power(2,16)) from dual;
+TRUNC(65551/POWER(2,16)) MOD(65551,POWER(2,16))
+------------------------ ----------------------
+                       1                     15
+                       
+
+通过v$transaction视图也可以找到这个事务的信息（注意XIDSQN正是TX锁的ID2信息）：
+
+
+sys@CCDB> select XIDUSN,XIDSLOT,XIDSQN from v$transaction;
+    XIDUSN    XIDSLOT     XIDSQN
+---------- ---------- ----------
+         1         15      30498
+
+如果转储回滚段信息进行分析，再结合ITL事务槽，可以清晰地看到锁定的含义以及整个事务的处理过程。
+
+
+
+
+
+2. 最常见的锁定：MR与AE锁
+可能很多朋友都注意过，在v$lock视图中，最常见的其实是MR锁，也就是介质恢复锁（Media Recovery）：
+
+
+sys@CCDB> select * from v$lock where type = 'MR';
+ADDR             KADDR                   SID TY        ID1        ID2      LMODE    REQUEST      CTIME      BLOCK
+---------------- ---------------- ---------- -- ---------- ---------- ---------- ---------- ---------- ----------
+00000000BC2EE378 00000000BC2EE3D0       1097 MR          1          0          4          0    6984045          0
+00000000BC2EE448 00000000BC2EE4A0       1097 MR          2          0          4          0    6984045          0
+00000000BC2EE518 00000000BC2EE570       1097 MR          3          0          4          0    6984045          0
+00000000BC2EE5E8 00000000BC2EE640       1097 MR          4          0          4          0    6984045          0
+00000000BC2EE6B8 00000000BC2EE710       1097 MR          5          0          4          0    6984045          0
+00000000BC2EE788 00000000BC2EE7E0       1097 MR          6          0          4          0    6984045          0
+00000000BC2EE858 00000000BC2EE8B0       1097 MR          7          0          4          0    6984045          0
+00000000BC2EE940 00000000BC2EE998       1097 MR          8          0          4          0    6984045          0
+00000000BC2EEA10 00000000BC2EEA68       1097 MR        201          0          4          0    6984045          0
+00000000BC2F12F8 00000000BC2F1350       1097 MR          9          0          4          0    1132526          0
+10 rows selected.
+
+MR锁用于保护数据库文件，使得文件在数据库打开、表空间Online时不能执行恢复。
+当进程对数据文件执行恢复时，需要排他的获得MR锁。
+当数据库打开时，每个文件上都分配一个MR锁。注意在以上输出中ID1代表文件号，其中也包含了201号临时文件。
+
+
+从Oracle Database 11g开始，除了每个文件要获得MR锁之外，每个登录数据库的会话现在都会缺省获得一个AE锁：
+
+
+sys@CCDB> select * from v$lock where type = 'AE' and rownum <= 5;
+ADDR             KADDR                   SID TY        ID1        ID2      LMODE    REQUEST      CTIME      BLOCK
+---------------- ---------------- ---------- -- ---------- ---------- ---------- ---------- ---------- ----------
+00000000BC2EDF68 00000000BC2EDFC0        822 AE         99          0          4          0    2761930          0
+00000000BC2EE108 00000000BC2EE160        946 AE         99          0          4          0    3458645          0
+00000000BC2EE1D8 00000000BC2EE230       1003 AE         99          0          4          0     207674          0
+00000000BC2EE2A8 00000000BC2EE300       1092 AE         99          0          4          0    6984538          0
+00000000BC2EEAE0 00000000BC2EEB38        991 AE         99          0          4          0    3458644          0
+
+现在MR锁定和AE锁定是数据库中最为常见的锁定。
+
+
+sys@CCDB> select name from v$event_name where name like '%AE%';
+NAME
+------------------------------------------------------------
+enq: AE - lock
+
+ 
+
+3. ST（空间事务锁）
+ST锁主要用于空间管理和字典管理的表空间（DMT）的区间分配，
+在DMT中典型的是对于uet$和fet$数据字典表的争用。对于支持LMT的版本。
+应该尽量使用本地管理表空间，或者考虑手工预分配一定数量的区（Extent），
+减少动态扩展时发生的严重队列竞争。
+
+以下案例说明了ST锁可能会导致的严重性能问题。
+
+
+DB Name         DB Id    Instance     Inst Num Release     OPS Host 
+------------ ----------- ------------ -------- ----------- --- ------------------ 
+DB           40757346    tqgzs               1 8.1.7.4.0   NO  server 
+                Snap Id     Snap Time      Sessions 
+                ------- ------------------ -------- 
+Begin Snap:       2845 31-10月-03 02:10:16      46 
+  End Snap:       2848 31-10月-03 03:40:05      46 
+   Elapsed:                  89.82 (mins)
+
+对于一个Statspack的report，采样时间是非常重要的维度，离开时间做参考，任何等待都不足以说明问题。
+
+
+Top 5 Wait Events 
+~~~~~~~~~~~~~~~~~                                    Wait               % Total 
+Event                                                Waits  Time (cs)   Wt Time 
+-------------------------------------------- ------------ ------------ ------- 
+enqueue                                            53,793   16,192,686   67.86 
+rdbms ipc message                                  19,999    5,927,350   24.84 
+pmon timer                                          1,754      538,797    2.26 
+smon timer                                             17      522,281    2.19 
+SQL*Net message from client                        94,525      520,104    2.18 
+          -------------------------------------------------------------
+
+在Statspack分析中，Top 5等待事件是我们最为关注的部分。这个系统中，除了enqueue等待事件以外，
+其他4个都属于空闲等待事件，无须关注。来关注一下enqueue等待事件，
+在89.82 (mins)的采样间隔内，累计enqueue等待长达16,192,686(cs)，即45小时左右。
+这个等待已经太过显著，实际上这个系统也正因此遭遇了巨大的困难，观察到队列等待以后，
+这应该关注队列等待在等待什么资源。快速跳转的Statspack的其他部分，看到以下详细内容：
+
+
+Enqueue activity for DB: DB  Instance: aaa  Snaps: 2845 -2848 
+-> ordered by waits desc, gets desc 
+Enqueue            Gets      Waits 
+---------- ------------ ---------- 
+ST                1,554      1,554 
+          -------------------------------------------------------------
+
+看到主要队列等待在等待ST锁定，对于DMT，我们说这个等待和FET$、UET$的争用紧密相关。再回过头来研究捕获SQL语句：
+
+
+-> End Buffer Gets Threshold:   10000 
+-> Note that resources reported for PL/SQL includes the resources used by 
+   all SQL statements called within the PL/SQL code.  As individual SQL 
+   statements are also reported, it is possible and valid for the summed 
+   total % to exceed 100 
+  Buffer Gets    Executions  Gets per Exec  % Total  Hash Value 
+--------------- ------------ -------------- ------- ------------ 
+      4,800,073       10,268          467.5    51.0   2913840444 
+select length from fet$ where file#=:1 and block#=:2 and ts#=:3 
+        803,187       10,223           78.6     8.5    528349613 
+delete from uet$ where ts#=:1 and segfile#=:2 and segblock#=:3 a 
+nd ext#=:4 
+        454,444       10,300           44.1     4.8   1839874543 
+select file#,block#,length from uet$ where ts#=:1 and segfile#=: 
+2 and segblock#=:3 and ext#=:4 
+         23,110       10,230            2.3     0.2   3230982141 
+insert into fet$ (file#,block#,ts#,length) values (:1,:2,:3,:4) 
+         21,201          347           61.1     0.2   1705880752 
+select file# from file$ where ts#=:1 
+…. 
+          9,505           12          792.1     0.1   1714733582 
+select f.file#, f.block#, f.ts#, f.length from fet$ f, ts$ t whe 
+re t.ts#=f.ts# and t.dflextpct!=0 and t.bitmapped=0 
+          6,426          235           27.3     0.1   1877781575 
+delete from fet$ where file#=:1 and block#=:2 and ts#=:3
+
+可以看到数据库频繁操作UET$、FET$系统表已经成为了系统的主要瓶颈。
+
+至此，已经可以准确地为该系统定位问题，相应的解决方案也很容易确定，
+在Oracle 8.1.7中使用LMT代替DMT，这是解决问题的根本办法，当然实施起来还要进行综合考虑，实际情况还要复杂得多。

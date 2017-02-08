@@ -1,0 +1,2930 @@
+From: "Saved by Windows Internet Explorer 9"
+Subject: =?gb2312?B?ZGIgZmlsZSBzY2F0dGVyZWQgcmVhZCC1yLT9ysK8/iB8IGRidGFuIMy4REI=?=
+Date: Tue, 14 Feb 2012 14:13:02 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0015_01CCEB22.C359CF00"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7600.16807
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0015_01CCEB22.C359CF00
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.dbtan.com/2010/04/db-file-scattered-read.html
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" =
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD =
+profile=3D"http://gmpg.org/xfn/11">
+<META content=3D"text/html; charset=3DUTF-8" =
+http-equiv=3D"Content-Type"><TITLE>db=20
+file scattered read =E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6 | dbtan =
+=E8=B0=88DB</TITLE>
+<META name=3D"GENERATOR" content=3D"MSHTML 9.00.8112.16440"><LINK =
+title=3D"dbtan =E8=B0=88DB RSS Feed"=20
+rel=3D"alternate" type=3D"application/rss+xml"=20
+href=3D"http://www.dbtan.com/feed"><LINK rel=3D"pingback" =
+href=3D"http://www.dbtan.com/xmlrpc.php"><LINK=20
+title=3D"dbtan =E8=B0=88DB =C2=BB db file scattered read =
+=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6 =E8=AF=84=E8=AE=BA Feed" =
+rel=3D"alternate" type=3D"application/rss+xml"=20
+href=3D"http://www.dbtan.com/2010/04/db-file-scattered-read.html/feed"><L=
+INK=20
+title=3D"RSD" rel=3D"EditURI" type=3D"application/rsd+xml" =
+href=3D"http://www.dbtan.com/xmlrpc.php?rsd"><LINK=20
+rel=3D"wlwmanifest" type=3D"application/wlwmanifest+xml" =
+href=3D"http://www.dbtan.com/wp-includes/wlwmanifest.xml"><LINK=20
+title=3D"db file sequential read =
+=EF=BC=88=E6=95=B0=E6=8D=AE=E6=96=87=E4=BB=B6=E9=A1=BA=E5=BA=8F=E8=AF=BB=E5=
+=8F=96=EF=BC=89" rel=3D"prev" =
+href=3D"http://www.dbtan.com/2010/04/db-file-sequential-read.html"><LINK =
+
+title=3D"direct path read/write =
+=EF=BC=88=E7=9B=B4=E6=8E=A5=E8=B7=AF=E5=BE=84=E8=AF=BB=EF=BC=8F=E5=86=99=EF=
+=BC=89" rel=3D"next" =
+href=3D"http://www.dbtan.com/2010/04/direct-path-readwrite.html">
+<META name=3D"generator" content=3D"WordPress 3.3.1"><LINK =
+rel=3D"shortlink" href=3D"http://www.dbtan.com/?p=3D175">
+<META name=3D"description" content=3D"db file scattered read =
+=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=EF=BC=9A =
+=E6=88=91=E4=BB=AC=E7=BB=8F=E5=B8=B8=E4=BC=9A=E8=A7=81=E5=88=B0db file =
+scattered"><LINK=20
+rel=3D"canonical"=20
+href=3D"http://www.dbtan.com/2010/04/db-file-scattered-read.html"><LINK =
+rel=3D"stylesheet"=20
+type=3D"text/css" =
+href=3D"http://www.dbtan.com/wp-content/cache/autoptimize/autoptimize_1a8=
+2de1a1b615ec33a4f43ade17b309e.php"=20
+media=3D"screen"><LINK rel=3D"stylesheet" type=3D"text/css" =
+href=3D"http://www.dbtan.com/wp-content/cache/autoptimize/autoptimize_6ef=
+79a411e9159ecd22bda467cbf3d6e.php"=20
+media=3D"print"><LINK rel=3D"stylesheet" type=3D"text/css" =
+href=3D"http://www.dbtan.com/wp-content/cache/autoptimize/autoptimize_5dd=
+2cfb2e107b782565bfe7574cd0e2b.php"=20
+media=3D"all"></HEAD>
+<BODY>
+<DIV id=3D"header">
+<DIV id=3D"headerimg">
+<H1><A href=3D"http://www.dbtan.com/">dbtan =E8=B0=88DB</A></H1>
+<DIV =
+class=3D"description">dbtan=E7=9A=84=E7=94=9F=E6=B4=BB=E3=80=81Oracle=E5=8F=
+=8ALinux=E5=AD=A6=E4=B9=A0=E7=AC=94=E8=AE=B0=E3=80=81=E8=A7=82=E7=82=B9  =
+=E8=AF=B4=EF=BC=8C=E6=B0=B8=E8=BF=9C=E6=98=93=E4=BA=8E=E5=81=9A=EF=BC=81<=
+/DIV>
+<DIV id=3D"search">
+<FORM id=3D"searchform" method=3D"get" action=3D"http://www.dbtan.com/">
+<DIV><INPUT id=3D"s" name=3D"s" type=3D"text"> <INPUT =
+id=3D"searchsubmit" value=3D"Go" =
+type=3D"submit"></DIV></FORM></DIV></DIV>
+<DIV id=3D"navi">
+<UL id=3D"nav">
+  <LI class=3D"page_item"><A title=3D"Home"=20
+  href=3D"http://www.dbtan.com/">Home</A></LI>
+  <LI class=3D"page_item page-item-2"><A title=3D"=E5=85=B3=E4=BA=8E" =
+href=3D"http://www.dbtan.com/aboutme">=E5=85=B3=E4=BA=8E</A></LI>
+  <LI class=3D"page_item page-item-183"><A title=3D"=E5=AD=98=E6=A1=A3" =
+href=3D"http://www.dbtan.com/archives">=E5=AD=98=E6=A1=A3</A></LI></UL></=
+DIV></DIV>
+<DIV id=3D"wrapper">
+<DIV id=3D"page">=20
+<SCRIPT type=3D"text/javascript" =
+src=3D"https://apis.google.com/js/plusone.js">{lang: 'zh-CN'}</SCRIPT>
+=20
+<DIV id=3D"content">
+<DIV class=3D"alignleft">=E4=B8=8A=E4=B8=80=E7=AF=87=EF=BC=9A<A =
+href=3D"http://www.dbtan.com/2010/04/db-file-sequential-read.html"=20
+rel=3D"prev">db file sequential read =
+=EF=BC=88=E6=95=B0=E6=8D=AE=E6=96=87=E4=BB=B6=E9=A1=BA=E5=BA=8F=E8=AF=BB=E5=
+=8F=96=EF=BC=89</A></DIV>
+<DIV class=3D"alignright">=E4=B8=8B=E4=B8=80=E7=AF=87=EF=BC=9A<A =
+href=3D"http://www.dbtan.com/2010/04/direct-path-readwrite.html"=20
+rel=3D"next">direct path read/write =
+=EF=BC=88=E7=9B=B4=E6=8E=A5=E8=B7=AF=E5=BE=84=E8=AF=BB=EF=BC=8F=E5=86=99=EF=
+=BC=89</A></DIV>
+<DIV id=3D"post-175" class=3D"post">
+<H2><A title=3D"Permanent Link: db file scattered read =
+=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6" =
+href=3D"http://www.dbtan.com/2010/04/db-file-scattered-read.html"=20
+rel=3D"bookmark">db file scattered read =
+=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6</A></H2> <SPAN =
+class=3D"post-cat"><A=20
+title=3D"=E6=9F=A5=E7=9C=8B Oracle =
+=E4=B8=AD=E7=9A=84=E5=85=A8=E9=83=A8=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/oracle" rel=3D"category =
+tag">Oracle</A>,=20
+<A title=3D"=E6=9F=A5=E7=9C=8B =
+=E6=B7=B1=E5=85=A5=E8=A7=A3=E6=9E=90Oracle =
+=E4=B8=AD=E7=9A=84=E5=85=A8=E9=83=A8=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/study-note/parse-oracle"=20
+rel=3D"category tag">=E6=B7=B1=E5=85=A5=E8=A7=A3=E6=9E=90Oracle</A>, <A =
+title=3D"=E6=9F=A5=E7=9C=8B =E8=AF=BB=E4=B9=A6=E7=AC=94=E8=AE=B0 =
+=E4=B8=AD=E7=9A=84=E5=85=A8=E9=83=A8=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/study-note"=20
+rel=3D"category tag">=E8=AF=BB=E4=B9=A6=E7=AC=94=E8=AE=B0</A></SPAN> =
+<SPAN class=3D"post-calendar">=E5=9B=9B=E6=9C=88 10th,=20
+2010</SPAN>
+<DIV class=3D"post-content">
+<DIV width=3D"100%">
+<DIV style=3D"width: 90%; float: left;"> <FONT =
+color=3D"#bfbfbf">=E4=BD=9C=E8=80=85=EF=BC=9A<A style=3D"color: rgb(191, =
+191, 191);"=20
+href=3D"http://www.dbtan.com/">dbtan</A> =
+|=E3=80=90=E8=BD=AC=E8=BD=BD=E6=97=B6=E8=AF=B7=E4=BB=A5=E8=B6=85=E9=93=BE=
+=E6=8E=A5=E5=BD=A2=E5=BC=8F=E6=A0=87=E6=98=8E=E6=96=87=E7=AB=A0<A =
+style=3D"color: rgb(191, 191, 191);"=20
+href=3D"http://www.dbtan.com/2010/04/db-file-scattered-read.html">=E5=87=BA=
+=E5=A4=84</A>=E5=92=8C<A style=3D"color: rgb(191, 191, 191);"=20
+href=3D"http://www.dbtan.com/">=E4=BD=9C=E8=80=85</A>=E4=BF=A1=E6=81=AF=E3=
+=80=91<BR> </FONT></DIV>
+<DIV style=3D"width: 10%; float: right;"> <g:plusone size=3D"small" =
+href=3D"http://www.dbtan.com/2010/04/db-file-scattered-read.html"></g:plu=
+sone></DIV>
+<P></P>
+<DIV style=3D"width: 90%; float: left;"> <FONT =
+color=3D"#bfbfbf">=E9=93=BE=E6=8E=A5=EF=BC=9A<A style=3D"color: rgb(191, =
+191, 191);"=20
+href=3D"http://www.dbtan.com/2010/04/db-file-scattered-read.html">http://=
+www.dbtan.com/2010/04/db-file-scattered-read.html</A><BR>=20
+</FONT></DIV>
+<P></P></DIV>
+<P>
+<HR align=3D"center" color=3D"#ccccff" SIZE=3D"1" noShade=3D"">
+
+<P>db file scattered read =E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=EF=BC=9A
+<P>=E6=88=91=E4=BB=AC=E7=BB=8F=E5=B8=B8=E4=BC=9A=E8=A7=81=E5=88=B0<STRONG=
+><FONT size=3D"4">db file scattered=20
+read</FONT></STRONG>=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=EF=BC=8C=E5=9C=A8=
+=E7=94=9F=E4=BA=A7=E7=8E=AF=E5=A2=83=E4=B8=AD=EF=BC=8C=E8=BF=99=E4=B8=AA=E7=
+=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=E5=8F=AF=E8=83=BD=E6=9B=B4=E4=B8=BA=E5=B8=
+=B8=E8=A7=81=E3=80=82=E8=BF=99=E4=B8=AA=E4=BA=8B=E4=BB=B6=E8=A1=A8=E6=98=8E=
+=E7=94=A8=E6=88=B7=E8=BF=9B=E7=A8=8B=E6=AD=A3=E5=9C=A8=E8=AF=BB=E6=95=B0=E6=
+=8D=AE=E5=88=B0Buffer=20
+Cache=E4=B8=AD=EF=BC=8C=E7=AD=89=E5=BE=85=E7=9B=B4=E5=88=B0I/O=E8=B0=83=E7=
+=94=A8=E8=BF=94=E5=9B=9E=E3=80=82db file scattered=20
+read=E5=8F=91=E5=87=BA=E7=A6=BB=E6=95=A3=E8=AF=BB=EF=BC=8C=E5=B0=86=E5=AD=
+=98=E5=82=A8=E4=B8=8A=E8=BF=9E=E6=8E=A5=E7=9A=84=E6=95=B0=E6=8D=AE=E5=9D=97=
+=E7=A6=BB=E6=95=A3=E7=9A=84=E8=AF=BB=E5=85=A5=E5=88=B0=E5=A4=9A=E4=B8=AA=E4=
+=B8=8D=E8=BF=9E=E7=BB=AD=E7=9A=84=E5=86=85=E5=AD=98=E4=BD=8D=E7=BD=AE=E3=80=
+=82<STRONG>Scattered =
+Read=E9=80=9A=E5=B8=B8=E6=98=AF=E5=A4=9A=E5=9D=97=E8=AF=BB=EF=BC=8C=E5=9C=
+=A8Full Table=20
+Scan=E6=88=96Fast Full =
+Scan=E7=AD=89=E8=AE=BF=E9=97=AE=E6=96=B9=E5=BC=8F=E4=B8=8B=E4=BD=BF=E7=94=
+=A8</STRONG>=E3=80=82
+<P><STRONG>Scattered Read=E4=BB=A3=E8=A1=A8Full =
+Scan=EF=BC=8C=E5=BD=93=E6=89=A7=E8=A1=8CFull =
+Scan=E8=AF=BB=E5=8F=96=E6=95=B0=E6=8D=AE=E5=88=B0Buffer=20
+Cache=E6=97=B6=EF=BC=8C=E9=80=9A=E5=B8=B8=E8=BF=9E=E7=BB=AD=E7=9A=84=E6=95=
+=B0=E6=8D=AE=E5=9C=A8=E5=86=85=E5=AD=98=E4=B8=AD=E7=9A=84=E5=AD=98=E5=82=A8=
+=E4=BD=8D=E7=BD=AE=E5=B9=B6=E4=B8=8D=E8=BF=9E=E7=BB=AD=EF=BC=8C=E6=89=80=E4=
+=BB=A5=E8=BF=99=E4=B8=AA=E7=AD=89=E5=BE=85=E8=A2=AB=E5=91=BD=E5=90=8D=E4=B8=
+=BAScattered=20
+Read=EF=BC=88=E7=A6=BB=E6=95=A3=E8=AF=BB=EF=BC=89=E3=80=82=E6=AF=8F=E6=AC=
+=A1=E5=A4=9A=E5=9D=97=E8=AF=BB=E8=AF=BB=E5=8F=96=E7=9A=84=E6=95=B0=E6=8D=AE=
+=E5=9D=97=E6=95=B0=E9=87=8F=E5=8F=97=E5=88=9D=E5=A7=8B=E5=8C=96=E5=8F=82=E6=
+=95=B0DB_FILE_MULTIBLOCK_READ_COUNT=E9=99=90=E5=88=B6</STRONG>=E3=80=82=E4=
+=B8=8B=E5=9B=BE=E7=AE=80=E8=A6=81=E8=AF=B4=E6=98=8E=E4=BA=86Scattered=20
+Read=E7=9A=84=E6=95=B0=E6=8D=AE=E8=AF=BB=E5=8F=96=E6=96=B9=E5=BC=8F=E3=80=
+=82
+<P><A =
+href=3D"http://dbtan.com/dbtan/blog_pic/dbfilescatteredreaddbfilescattere=
+dread_14616/clip_image004.gif"><IMG=20
+style=3D"border: 0px currentColor; margin-right: 0px; margin-left: 0px; =
+display: inline;"=20
+title=3D"Scattered Read=E7=9A=84=E6=95=B0=E6=8D=AE=E8=AF=BB=E5=8F=96" =
+border=3D"0" alt=3D"Scattered =
+Read=E7=9A=84=E6=95=B0=E6=8D=AE=E8=AF=BB=E5=8F=96" align=3D"right"=20
+src=3D"http://dbtan.com/dbtan/blog_pic/dbfilescatteredreaddbfilescattered=
+read_14616/clip_image004_thumb.gif"=20
+width=3D"127" height=3D"254"></A>
+<P>=E4=BB=8Ev$event_name=E8=A7=86=E5=9B=BE=E5=8F=AF=E4=BB=A5=E7=9C=8B=E5=88=
+=B0=EF=BC=8C=E8=AF=A5=E7=AD=89=E5=BE=85=E6=9C=893=E4=B8=AA=E5=8F=82=E6=95=
+=B0=EF=BC=8C=E5=88=86=E5=88=AB=E4=BB=A3=E8=A1=A8=E6=96=87=E4=BB=B6=E5=8F=B7=
+=E3=80=81=E8=B5=B7=E5=A7=8B=E6=95=B0=E6=8D=AE=E5=9D=97=E5=8F=B7=E3=80=81=E6=
+=95=B0=E6=8D=AE=E5=9D=97=E7=9A=84=E6=95=B0=E9=87=8F=EF=BC=9A</P>
+<BLOCKQUOTE>
+  <P>sys@CCDB&gt; select event#,name,parameter1,parameter2,parameter3 =
+<BR>&nbsp;=20
+  2&nbsp; from v$event_name<BR>&nbsp; 3&nbsp; where name =3D 'db file =
+scattered=20
+  read'; <BR>&nbsp;&nbsp;&nbsp; EVENT#=20
+  =
+NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;=20
+  PARAMETER1&nbsp;&nbsp; PARAMETER2&nbsp;&nbsp; PARAMETER3<BR>---------- =
+
+  ------------------------------ ------------ ------------=20
+  ------------<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 132 db file =
+scattered=20
+  read&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  file#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  block#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; blocks</P></BLOCKQUOTE>
+<P>=E6=95=B0=E6=8D=AE=E6=96=87=E4=BB=B6=E5=8F=B7=E3=80=81=E8=B5=B7=E5=A7=8B=
+=E6=95=B0=E6=8D=AE=E5=8F=B7=E5=8A=A0=E4=B8=8A=E6=95=B0=E6=8D=AE=E5=9D=97=E7=
+=9A=84=E6=95=B0=E9=87=8F=EF=BC=8C=E9=80=9A=E8=BF=87=E8=BF=99=E4=BA=9B=E4=BF=
+=A1=E6=81=AF=E5=8F=AF=E4=BB=A5=E7=9F=A5=E9=81=93Oracle =
+Session=E6=AD=A3=E5=9C=A8=E7=AD=89=E5=BE=85=E7=9A=84=E5=AF=B9=E8=B1=A1=E6=
+=96=87=E4=BB=B6=E7=AD=89=E4=BF=A1=E6=81=AF=E3=80=82=E8=AF=A5=E7=AD=89=E5=BE=
+=85=E5=8F=AF=E8=83=BD=E5=92=8C=E5=85=A8=E8=A1=A8=E6=89=AB=E6=8F=8F=EF=BC=88=
+Full=20
+Table =
+Scan=EF=BC=89=E6=88=96=E8=80=85=E5=BF=AB=E9=80=9F=E5=85=A8=E7=B4=A2=E5=BC=
+=95=E6=89=AB=E6=8F=8F=EF=BC=88Index Fast Full =
+Scan=EF=BC=89=E7=9A=84=E8=BF=9E=E7=BB=AD=E8=AF=BB=E5=8F=96=E7=9B=B8=E5=85=
+=B3=EF=BC=8C=E6=A0=B9=E6=8D=AE=E7=BB=8F=E9=AA=8C=EF=BC=8C=E9=80=9A=E5=B8=B8=
+=E5=A4=A7=E9=87=8F=E7=9A=84db file scattered=20
+read=E7=AD=89=E5=BE=85=E5=8F=AF=E8=83=BD=E6=84=8F=E5=91=B3=E7=9D=80=E5=BA=
+=94=E7=94=A8=E9=97=AE=E9=A2=98=E6=88=96=E8=80=85=E7=B4=A2=E5=BC=95=E7=BC=BA=
+=E5=A4=B1=E3=80=82
+<P>=E5=9C=A8=E5=AE=9E=E9=99=85=E7=8E=AF=E5=A2=83=E7=9A=84=E8=AF=8A=E6=96=AD=
+=E8=BF=87=E7=A8=8B=E4=B8=AD=EF=BC=8C=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87v=
+$session_wait=E8=A7=86=E5=9B=BE=E5=8F=91=E7=8E=B0session=E7=9A=84=E7=AD=89=
+=E5=BE=85=EF=BC=8C=E5=86=8D=E7=BB=93=E5=90=88=E5=85=B6=E4=BB=96=E8=A7=86=E5=
+=9B=BE=E6=89=BE=E5=88=B0=E5=AD=98=E5=9C=A8=E9=97=AE=E9=A2=98=E7=9A=84SQL=E7=
+=AD=89=E6=A0=B9=E6=9C=AC=E5=8E=9F=E5=9B=A0=EF=BC=8C=E4=BB=8E=E8=80=8C=E4=BB=
+=8E=E6=A0=B9=E6=9C=AC=E4=B8=8A=E8=A7=A3=E5=86=B3=E9=97=AE=E9=A2=98=E3=80=82=
+
+<P>=E5=BD=93=E8=BF=99=E4=B8=AA=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=E6=AF=94=
+=E8=BE=83=E6=98=BE=E8=91=97=E6=97=B6=EF=BC=8C=E7=94=A8=E6=88=B7=E4=B9=9F=E5=
+=8F=AF=E4=BB=A5=E7=BB=93=E5=90=88<STRONG>v$session_longops</STRONG>=E5=8A=
+=A8=E6=80=81=E6=80=A7=E8=83=BD=E8=A7=86=E5=9B=BE=E6=9D=A5=E8=BF=9B=E8=A1=8C=
+=E8=AF=8A=E6=96=AD=EF=BC=8C<STRONG>=E8=AF=A5=E8=A7=86=E5=9B=BE=E4=B8=AD=E8=
+=AE=B0=E5=BD=95=E4=BA=86=E9=95=BF=E6=97=B6=E9=97=B4=EF=BC=88=E8=BF=90=E8=A1=
+=8C=E6=97=B6=E9=97=B4=E8=B6=85=E8=BF=876=E7=A7=92=E7=9A=84=EF=BC=89=E8=BF=
+=90=E8=A1=8C=E7=9A=84=E4=BA=8B=E5=8A=A1</STRONG>=EF=BC=8C=E5=8F=AF=E8=83=BD=
+=E5=BE=88=E5=A4=9A=E6=98=AF=E5=85=A8=E8=A1=A8=E6=89=AB=E6=8F=8F=E6=93=8D=E4=
+=BD=9C=EF=BC=88=E4=B8=8D=E7=AE=A1=E6=80=8E=E6=A0=B7=EF=BC=8C=E8=BF=99=E9=83=
+=A8=E5=88=86=E4=BF=A1=E6=81=AF=E9=83=BD=E6=98=AF=E5=80=BC=E5=BE=97=E6=88=91=
+=E4=BB=AC=E6=B3=A8=E6=84=8F=E7=9A=84=EF=BC=89=E3=80=82
+<P>=E4=BB=8EOracle =
+9i=E5=BC=80=E5=A7=8B=EF=BC=8COracle=E6=96=B0=E5=A2=9E=E5=8A=A0=E4=BA=86=E4=
+=B8=80=E4=B8=AA=E8=A7=86=E5=9B=BEv$sql_plan=E7=94=A8=E4=BA=8E=E8=AE=B0=E5=
+=BD=95=E5=BD=93=E5=89=8D=E7=B3=BB=E7=BB=9FLibrary=20
+Cache=E4=B8=ADSQL=E8=AF=AD=E5=8F=A5=E7=9A=84=E6=89=A7=E8=A1=8C=E8=AE=A1=E5=
+=88=92=EF=BC=8C=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87=E8=BF=99=E4=B8=AA=E8=A7=
+=86=E5=9B=BE=E6=89=BE=E5=88=B0=E5=AD=98=E5=9C=A8=E9=97=AE=E9=A2=98=E7=9A=84=
+SQL=E8=AF=AD=E5=8F=A5=E3=80=82
+<P>=E5=8F=AF=E4=BB=A5=E8=BF=87=E7=A8=8Bv$sql_plan=E5=92=8Cv$sqltext=E8=81=
+=94=E5=90=88=EF=BC=8C=E8=8E=B7=E5=BE=97=E8=BF=99=E4=BA=9B=E6=9F=A5=E8=AF=A2=
+=E7=9A=84SQL=E8=AF=AD=E5=8F=A5=EF=BC=8C<STRONG>=E6=9F=A5=E6=89=BE=E5=85=A8=
+=E8=A1=A8=E6=89=AB=E6=8F=8F=E7=9A=84SQL=E8=AF=AD=E5=8F=A5</STRONG>=E5=8F=AF=
+=E4=BB=A5=E5=8F=82=E8=80=83=E5=A6=82=E4=B8=8B=E8=AF=AD=E5=8F=A5=EF=BC=9A<=
+/P>
+<BLOCKQUOTE>
+  <P>select sql_text <BR>from v$sqltext t,v$sql_plan p<BR>where =
+t.hash_value =3D=20
+  p.hash_value<BR>&nbsp; and p.operation =3D 'TABLE ACCESS'<BR>&nbsp; =
+and=20
+  p.options =3D 'FULL'<BR>order by =
+p.hash_value,t.piece=EF=BC=9B</P></BLOCKQUOTE>
+<P><STRONG>=E6=9F=A5=E6=89=BEFast Full =
+Index=E6=89=AB=E6=8F=8F=E7=9A=84SQL=E8=AF=AD=E5=8F=A5</STRONG>=E5=8F=AF=E4=
+=BB=A5=E5=8F=82=E8=80=83=E5=A6=82=E4=B8=8B=E8=AF=AD=E5=8F=A5=EF=BC=9A</P>=
+
+<BLOCKQUOTE>
+  <P>select sql_text<BR>from v$sqltext t, v$sql_plan p<BR>where =
+t.hash_value =3D=20
+  p.hash_value<BR>&nbsp; and p.operation =3D 'INDEX'<BR>&nbsp; and =
+p.options =3D=20
+  'FULL SCAN'<BR>order by p.hash_value, =
+t.piece=EF=BC=9B</P></BLOCKQUOTE>
+<P>=E8=BF=99=E4=BA=9B=E4=BF=A1=E6=81=AF=E5=AF=B9=E4=BA=8E=E5=8F=91=E7=8E=B0=
+=E6=95=B0=E6=8D=AE=E5=BA=93=E9=97=AE=E9=A2=98=EF=BC=8C=E4=BC=98=E5=8C=96=E6=
+=95=B0=E6=8D=AE=E5=BA=93=E6=80=A7=E8=83=BD=E5=85=B7=E6=9C=89=E6=9E=81=E5=BC=
+=BA=E7=9A=84=E6=8C=87=E5=AF=BC=E6=84=8F=E4=B9=89=E3=80=82
+<P>=E5=9C=A8Oracle =
+10g=E4=B8=AD=EF=BC=8COracle=E5=AF=B9=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=E8=
+=BF=9B=E8=A1=8C=E4=BA=86=E5=88=86=E7=B1=BB=EF=BC=8C<STRONG>db file =
+scattered read=E4=BA=8B=E4=BB=B6=E8=A2=AB=E5=BD=92=E5=85=A5User=20
+I/O=E4=B8=80=E7=B1=BB</STRONG>=EF=BC=9A</P>
+<BLOCKQUOTE>
+  <P>sys@CCDB&gt; select name,parameter1 p1,parameter2 p2,parameter3=20
+  p3,<BR>&nbsp; 2&nbsp;=20
+  =
+wait_class_id,wait_class#,wait_class&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  <BR>&nbsp; 3&nbsp; from=20
+  =
+v$event_name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;=20
+  <BR>&nbsp; 4&nbsp; where name =3D 'db file scattered=20
+  =
+read';<BR>NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  P1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  P2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  P3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WAIT_CLASS_ID =
+WAIT_CLASS#=20
+  WAIT_CLASS<BR>------------------------- ---------- ---------- =
+----------=20
+  ------------- ----------- ------------<BR>db file scattered=20
+  read&nbsp;&nbsp;&nbsp; file#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  block#&nbsp;&nbsp;&nbsp;&nbsp;=20
+  blocks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+  1740759767&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+8 User=20
+  I/O</P></BLOCKQUOTE>
+<P>=E5=AE=8C=E6=88=90=E5=AF=B9=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6=E7=9A=84=
+=E5=88=86=E7=B1=BB=E4=B9=8B=E5=90=8E=EF=BC=8COracle=20
+10g=E7=9A=84ADDM=E5=8F=AF=E4=BB=A5=E5=BE=88=E5=AE=B9=E6=98=93=E5=9C=B0=E9=
+=80=9A=E8=BF=87=E6=95=85=E9=9A=9C=E5=88=86=E6=9E=90=E5=AE=9A=E4=BD=8D=E5=88=
+=B0=E9=97=AE=E9=A2=98=E6=89=80=E5=9C=A8=EF=BC=8C=E5=B8=AE=E5=8A=A9=E7=94=A8=
+=E6=88=B7=E5=BF=AB=E9=80=9F=E5=8F=91=E7=8E=B0=E6=95=B0=E6=8D=AE=E5=BA=93=E7=
+=9A=84=E7=93=B6=E9=A2=88=E5=8F=8A=E7=93=B6=E9=A2=88=E7=9A=84=E6=A0=B9=E6=BA=
+=90=EF=BC=8C=E8=BF=99=E5=B0=B1=E6=98=AFOracle=E7=9A=84ADDM=E4=B8=93=E5=AE=
+=B6=E7=B3=BB=E7=BB=9F=E7=9A=84=E8=AE=BE=E8=AE=A1=E6=80=9D=E6=83=B3=E3=80=82=
+
+<P>=E9=80=9A=E8=BF=87=E4=B8=8B=E5=9B=BE=E5=8F=AF=E4=BB=A5=E7=9B=B4=E8=A7=82=
+=E6=B8=85=E6=99=B0=E5=9C=B0=E7=9C=8B=E5=88=B0=E8=BF=99=E4=B8=AA=E7=AD=89=E5=
+=BE=85=E6=A8=A1=E5=9E=8B=E5=92=8CADDM=E7=BB=93=E5=90=88=E5=AE=9E=E7=8E=B0=
+=E7=9A=84Oracle=E4=B8=93=E5=AE=B6=E8=AF=8A=E6=96=AD=E7=B3=BB=E7=BB=9F=E3=80=
+=82
+<P><IMG style=3D"border: 0px currentColor; display: inline;" =
+title=3D"Oracle=E4=B8=93=E5=AE=B6=E8=AF=8A=E6=96=AD=E7=B3=BB=E7=BB=9F"=20
+border=3D"0" =
+alt=3D"Oracle=E4=B8=93=E5=AE=B6=E8=AF=8A=E6=96=AD=E7=B3=BB=E7=BB=9F" =
+src=3D"http://dbtan.com/dbtan/blog_pic/dbfilescatteredreaddbfilescattered=
+read_14616/clip_image002.jpg"=20
+width=3D"452" height=3D"298"></P>
+<P>- The End -</P>
+<H4 =
+class=3D"related_post_title">=E7=9B=B8=E5=85=B3=E6=97=A5=E5=BF=97</H4>
+<UL class=3D"related_post">
+  <LI>2010/04/12 -- <A title=3D"direct path read/write =
+=EF=BC=88=E7=9B=B4=E6=8E=A5=E8=B7=AF=E5=BE=84=E8=AF=BB=EF=BC=8F=E5=86=99=EF=
+=BC=89" =
+href=3D"http://www.dbtan.com/2010/04/direct-path-readwrite.html">direct=20
+  path read/write =
+=EF=BC=88=E7=9B=B4=E6=8E=A5=E8=B7=AF=E5=BE=84=E8=AF=BB=EF=BC=8F=E5=86=99=EF=
+=BC=89</A></LI>
+  <LI>2010/04/10 -- <A title=3D"db file sequential read =
+=EF=BC=88=E6=95=B0=E6=8D=AE=E6=96=87=E4=BB=B6=E9=A1=BA=E5=BA=8F=E8=AF=BB=E5=
+=8F=96=EF=BC=89" =
+href=3D"http://www.dbtan.com/2010/04/db-file-sequential-read.html">db=20
+  file sequential read =
+=EF=BC=88=E6=95=B0=E6=8D=AE=E6=96=87=E4=BB=B6=E9=A1=BA=E5=BA=8F=E8=AF=BB=E5=
+=8F=96=EF=BC=89</A></LI>
+  <LI>2010/05/13 -- <A title=3D"Oracle 10g/11g =
+Latch=E6=9C=BA=E5=88=B6=E7=9A=84=E5=8F=98=E5=8C=96" =
+href=3D"http://www.dbtan.com/2010/05/oracle-10g11g-latch.html">Oracle=20
+  10g/11g Latch=E6=9C=BA=E5=88=B6=E7=9A=84=E5=8F=98=E5=8C=96</A></LI>
+  <LI>2010/05/13 -- <A title=3D"Latch =
+Free=EF=BC=88=E9=97=A9=E9=94=81=E9=87=8A=E6=94=BE=EF=BC=89" =
+href=3D"http://www.dbtan.com/2010/05/latch-free.html">Latch=20
+  Free=EF=BC=88=E9=97=A9=E9=94=81=E9=87=8A=E6=94=BE=EF=BC=89</A></LI>
+  <LI>2010/05/13 -- <A title=3D"Enqueue =
+=EF=BC=88=E9=98=9F=E5=88=97=E7=AD=89=E5=BE=85=EF=BC=89" =
+href=3D"http://www.dbtan.com/2010/05/enqueue.html">Enqueue=20
+  =
+=EF=BC=88=E9=98=9F=E5=88=97=E7=AD=89=E5=BE=85=EF=BC=89</A></LI></UL></DIV=
+>
+<DIV class=3D"alignleft">=E4=B8=8A=E4=B8=80=E7=AF=87=EF=BC=9A<A =
+href=3D"http://www.dbtan.com/2010/04/db-file-sequential-read.html"=20
+rel=3D"prev">db file sequential read =
+=EF=BC=88=E6=95=B0=E6=8D=AE=E6=96=87=E4=BB=B6=E9=A1=BA=E5=BA=8F=E8=AF=BB=E5=
+=8F=96=EF=BC=89</A></DIV>
+<DIV class=3D"alignright">=E4=B8=8B=E4=B8=80=E7=AF=87=EF=BC=9A<A =
+href=3D"http://www.dbtan.com/2010/04/direct-path-readwrite.html"=20
+rel=3D"next">direct path read/write =
+=EF=BC=88=E7=9B=B4=E6=8E=A5=E8=B7=AF=E5=BE=84=E8=AF=BB=EF=BC=8F=E5=86=99=EF=
+=BC=89</A></DIV>
+<H3 id=3D"respond">Leave a Reply</H3>
+<FORM id=3D"commentform" method=3D"post" =
+action=3D"http://www.dbtan.com/wp-comments-post.php">
+<P><INPUT id=3D"author" tabIndex=3D"1" name=3D"author" size=3D"22" =
+type=3D"text"> <LABEL=20
+for=3D"author"><STRONG>Name</STRONG> (required)</LABEL></P>
+<P><INPUT id=3D"email" tabIndex=3D"2" name=3D"email" size=3D"22" =
+type=3D"text"> <LABEL=20
+for=3D"email"><STRONG>Mail</STRONG> (will not be published) =
+(required)</LABEL></P>
+<P><INPUT id=3D"url" tabIndex=3D"3" name=3D"url" size=3D"22" =
+type=3D"text"> <LABEL for=3D"url"><STRONG>Website</STRONG></LABEL></P>
+<P><TEXTAREA id=3D"comment" tabIndex=3D"4" cols=3D"100" rows=3D"10" =
+name=3D"comment"></TEXTAREA></P>
+<P><g:plusone =
+href=3D"http://www.dbtan.com/2010/04/db-file-scattered-read.html"=20
+annotation=3D"inline"></g:plusone><INPUT id=3D"submit" tabIndex=3D"5" =
+name=3D"submit" value=3D"Submit Comment" type=3D"submit">=20
+<INPUT name=3D"comment_post_ID" value=3D"175" type=3D"hidden"></P>
+<P style=3D"display: none;"><INPUT id=3D"akismet_comment_nonce" =
+name=3D"akismet_comment_nonce"=20
+value=3D"281126fe3c" type=3D"hidden"></P>
+<P><INPUT id=3D"comment_reply_ID" name=3D"comment_reply_ID" value=3D"0"=20
+type=3D"hidden"><INPUT id=3D"comment_reply_dp" name=3D"comment_reply_dp" =
+value=3D"0"=20
+type=3D"hidden"></P>
+<DIV style=3D"display: none;" id=3D"cancel_reply"><A style=3D"color: =
+red;" onclick=3D"movecfm(null,0,1,null);"=20
+href=3D"javascript:void(0)">=E7=82=B9=E5=87=BB=E5=8F=96=E6=B6=88=E5=9B=9E=
+=E5=A4=8D</A></DIV>
+<SCRIPT type=3D"text/javascript">/*  */=0A=
+var commentformid =3D "commentform";=0A=
+var USERINFO =3D false;=0A=
+var atreply =3D "author";=0A=
+/*  */</SCRIPT>
+=20
+<SCRIPT type=3D"text/javascript" =
+src=3D"http://www.dbtan.com/wp-content/plugins/wp-thread-comment/wp-threa=
+d-comment.js.php?jsver=3Dcommon"></SCRIPT>
+ </FORM></DIV></DIV>
+<DIV id=3D"sidebar">
+<UL>
+  <DIV id=3D"categories-3" class=3D"widget widget_categories">
+  <H2 class=3D"sidebartitle">=E5=88=86=E7=B1=BB=E7=9B=AE=E5=BD=95 | =
+Catalog</H2>
+  <UL>
+    <LI class=3D"cat-item cat-item-12"><A title=3D"=E6=9F=A5=E7=9C=8B =
+Linux =E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/linux">Linux</A>=20
+    (9)</LI>
+    <LI class=3D"cat-item cat-item-3"><A title=3D"=E6=9F=A5=E7=9C=8B =
+Oracle =E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/oracle">Oracle</A>=20
+    (82)
+    <UL class=3D"children">
+      <LI class=3D"cat-item cat-item-17"><A title=3D"=E6=9F=A5=E7=9C=8B =
+Oracle=E5=A4=87=E4=BB=BD=E4=B8=8E=E6=81=A2=E5=A4=8D =
+=E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/oracle/backup_recovery">Oracle=E5=A4=
+=87=E4=BB=BD=E4=B8=8E=E6=81=A2=E5=A4=8D</A>=20
+      (2)</LI>
+      <LI class=3D"cat-item cat-item-20"><A title=3D"=E6=9F=A5=E7=9C=8B =
+Oracle=E6=95=B0=E6=8D=AE=E5=BA=93=E7=AE=A1=E7=90=86 =
+=E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/oracle/oraman">Oracle=E6=95=B0=E6=8D=
+=AE=E5=BA=93=E7=AE=A1=E7=90=86</A>=20
+      (3)</LI>
+      <LI class=3D"cat-item cat-item-18"><A title=3D"=E6=9F=A5=E7=9C=8B =
+Trouble Shooting =E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+
+      href=3D"http://www.dbtan.com/category/oracle/oratrouble">Trouble=20
+      Shooting</A> (3)</LI></UL></LI>
+    <LI class=3D"cat-item cat-item-5"><A title=3D"=E6=9F=A5=E7=9C=8B =
+=E8=AF=BB=E4=B9=A6=E7=AC=94=E8=AE=B0 =
+=E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/study-note">=E8=AF=BB=E4=B9=A6=E7=AC=
+=94=E8=AE=B0</A>=20
+    (73)
+    <UL class=3D"children">
+      <LI class=3D"cat-item cat-item-11"><A title=3D"=E6=9F=A5=E7=9C=8B =
+=E6=B7=B1=E5=85=A5=E8=A7=A3=E6=9E=90Oracle =
+=E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/study-note/parse-oracle">=E6=B7=B1=E5=
+=85=A5=E8=A7=A3=E6=9E=90Oracle</A>=20
+      (73)</LI></UL></LI>
+    <LI class=3D"cat-item cat-item-1"><A title=3D"=E6=9F=A5=E7=9C=8B =
+=E9=BB=98=E8=AE=A4=E5=88=86=E7=B1=BB =
+=E4=B8=8B=E7=9A=84=E6=89=80=E6=9C=89=E6=96=87=E7=AB=A0" =
+href=3D"http://www.dbtan.com/category/default">=E9=BB=98=E8=AE=A4=E5=88=86=
+=E7=B1=BB</A>=20
+    (2)</LI></UL></DIV>
+  <DIV id=3D"tag_cloud-3" class=3D"widget widget_tag_cloud">
+  <H2 class=3D"sidebartitle">=E6=A0=87=E7=AD=BE=E4=BA=91 | Tag =
+Cloud</H2>
+  <DIV class=3D"tagcloud"><A style=3D"font-size: 8pt;" =
+class=3D"tag-link-32" title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  href=3D"http://www.dbtan.com/tag/apache">apache</A> <A =
+style=3D"font-size: 8pt;"=20
+  class=3D"tag-link-16" title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/backup-politic">backup=20
+  politic</A> <A style=3D"font-size: 8pt;" class=3D"tag-link-48" =
+title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/binding-variable-and-cursor_sharing">Bin=
+ding=20
+  variable and cursor_sharing</A> <A style=3D"font-size: 8pt;" =
+class=3D"tag-link-42"=20
+  title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/buffer-cache">Buffer Cache</A> <A=20
+  style=3D"font-size: 8pt;" class=3D"tag-link-28" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/dns">dns</A>=20
+  <A style=3D"font-size: 16.575pt;" class=3D"tag-link-59" title=3D"18 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/event">Event</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-19" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/exp-00091">EXP-00091</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-49" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/flush-shared-pool">Flush=20
+  Shared Pool</A> <A style=3D"font-size: 8pt;" class=3D"tag-link-30" =
+title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  href=3D"http://www.dbtan.com/tag/ftp">ftp</A> <A style=3D"font-size: =
+8pt;" class=3D"tag-link-39"=20
+  title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/imp">imp</A> <A style=3D"font-size: =
+8pt;"=20
+  class=3D"tag-link-35" title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  href=3D"http://www.dbtan.com/tag/lamp">LAMP</A> <A style=3D"font-size: =
+11.5pt;"=20
+  class=3D"tag-link-52" title=3D"4 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/library-cache-pin-and-library-cache-lock=
+">Library=20
+  Cache Pin and Library Cache Lock</A> <A style=3D"font-size: 14.125pt;" =
+class=3D"tag-link-12"=20
+  title=3D"9 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/linux">Linux</A> <A style=3D"font-size: =
+8pt;"=20
+  class=3D"tag-link-26" title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/linux-log-manager-and-item-integration">=
+linux=20
+  log manager and item integration</A> <A style=3D"font-size: 8pt;" =
+class=3D"tag-link-27"=20
+  title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/linux-troubleshooting">linux=20
+  troubleshooting</A> <A style=3D"font-size: 8pt;" class=3D"tag-link-31" =
+title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  href=3D"http://www.dbtan.com/tag/nfs">nfs</A> <A style=3D"font-size: =
+8pt;" class=3D"tag-link-23"=20
+  title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/nologging">nologging</A> <A=20
+  style=3D"font-size: 8pt;" class=3D"tag-link-36" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/oem">OEM</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-51" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/ora-04031">ORA-04031</A>=20
+  <A style=3D"font-size: 22pt;" class=3D"tag-link-3" title=3D"79 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/oracle">Oracle</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-4" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/select-oracle-base-info">Oracle=E5=9F=BA=
+=E6=9C=AC=E4=BF=A1=E6=81=AF=E6=A3=80=E6=9F=A5</A>=20
+  <A style=3D"font-size: 9.575pt;" class=3D"tag-link-45" title=3D"2 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/oracle%e5%ad%90%e7%bc%93%e5%86%b2%e6%b1%=
+a0subpool">Oracle=E5=AD=90=E7=BC=93=E5=86=B2=E6=B1=A0SubPool</A>=20
+  <A style=3D"font-size: 16.575pt;" class=3D"tag-link-55" title=3D"18 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/redo">Redo</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-44" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/result-cache">Result=20
+  Cache</A> <A style=3D"font-size: 8pt;" class=3D"tag-link-29" =
+title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/samba">samba</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-34" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/sendmail">sendmail</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-47" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/shared-pool-dump-and-analysis">Shared=20
+  Pool dump and analysis</A> <A style=3D"font-size: 8pt;" =
+class=3D"tag-link-53"=20
+  title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/shared-pool-latch%e5%92%8clibrary-cache-=
+latch%e7%ab%9e%e4%ba%89">Shared=20
+  Pool Latch=E5=92=8CLibrary Cache Latch=E7=AB=9E=E4=BA=89</A> <A =
+style=3D"font-size: 8pt;" class=3D"tag-link-43"=20
+  title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/shared-pool-%e7%9a%84%e5%9f%ba%e6%9c%ac%=
+e5%8e%9f%e7%90%86">Shared=20
+  Pool =E7=9A=84=E5=9F=BA=E6=9C=AC=E5=8E=9F=E7=90=86</A> <A =
+style=3D"font-size: 8pt;" class=3D"tag-link-50" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  =
+href=3D"http://www.dbtan.com/tag/shared_pool_reserved_size">SHARED_POOL_R=
+ESERVED_SIZE</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-24" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/sqlloader">sqlloader</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-33" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/squid">squid</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-18" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/oratrouble">Trouble=20
+  Shooting</A> <A style=3D"font-size: 16.75pt;" class=3D"tag-link-57" =
+title=3D"19 =E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  href=3D"http://www.dbtan.com/tag/undo">Undo</A> <A style=3D"font-size: =
+8pt;"=20
+  class=3D"tag-link-25" title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/usbloading-for-linux">usbloading=20
+  for linux</A> <A style=3D"font-size: 8pt;" class=3D"tag-link-60" =
+title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98"=20
+  href=3D"http://www.dbtan.com/tag/vsession">v$session</A> <A =
+style=3D"font-size: 8pt;"=20
+  class=3D"tag-link-61" title=3D"1 =E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/vsession_wait">v$session_wait</A>=20
+  <A style=3D"font-size: 9.575pt;" class=3D"tag-link-54" title=3D"2 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/vsql%e5%92%8cvsqlarea%e8%a7%86%e5%9b%be"=
+>v$sql=E5=92=8Cv$sqlarea=E8=A7=86=E5=9B=BE</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-38" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/windows">windows</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-46" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/xksmsp">x$ksmsp</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-56" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/%e6%95%b0%e5%80%bc%e5%9c%a8oracle%e7%9a%=
+84%e5%86%85%e9%83%a8%e5%ad%98%e5%82%a8">=E6=95=B0=E5=80=BC=E5=9C=A8Oracle=
+=E7=9A=84=E5=86=85=E9=83=A8=E5=AD=98=E5=82=A8</A>=20
+  <A style=3D"font-size: 21.737pt;" class=3D"tag-link-41" title=3D"73 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/%e6%b7%b1%e5%85%a5%e8%a7%a3%e6%9e%90orac=
+le">=E6=B7=B1=E5=85=A5=E8=A7=A3=E6=9E=90Oracle</A>=20
+  <A style=3D"font-size: 8pt;" class=3D"tag-link-37" title=3D"1 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/%e7%8e%af%e5%a2%83%e5%8f%98%e9%87%8f">=E7=
+=8E=AF=E5=A2=83=E5=8F=98=E9=87=8F</A>=20
+  <A style=3D"font-size: 21.737pt;" class=3D"tag-link-40" title=3D"73 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/%e8%af%bb%e4%b9%a6%e7%ac%94%e8%ae%b0">=E8=
+=AF=BB=E4=B9=A6=E7=AC=94=E8=AE=B0</A>=20
+  <A style=3D"font-size: 10.625pt;" class=3D"tag-link-64" title=3D"3 =
+=E4=B8=AA=E8=AF=9D=E9=A2=98" =
+href=3D"http://www.dbtan.com/tag/%e9%87%8d%e8%a6%81%e7%ad%89%e5%be%85%e4%=
+ba%8b%e4%bb%b6">=E9=87=8D=E8=A6=81=E7=AD=89=E5=BE=85=E4=BA=8B=E4=BB=B6</A=
+></DIV></DIV>
+  <DIV id=3D"archives-3" class=3D"widget widget_archive">
+  <H2 class=3D"sidebartitle">=E6=97=A5=E5=BF=97=E5=BD=92=E6=A1=A3 | =
+Archived logs</H2>
+  <UL>
+    <LI><A title=3D"2010 =E5=B9=B4=E4=B9=9D=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/09">2010=20
+    =E5=B9=B4=E4=B9=9D=E6=9C=88</A>&nbsp;(1)</LI>
+    <LI><A title=3D"2010 =E5=B9=B4=E5=85=AD=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/06">2010=20
+    =E5=B9=B4=E5=85=AD=E6=9C=88</A>&nbsp;(1)</LI>
+    <LI><A title=3D"2010 =E5=B9=B4=E4=BA=94=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/05">2010=20
+    =E5=B9=B4=E4=BA=94=E6=9C=88</A>&nbsp;(4)</LI>
+    <LI><A title=3D"2010 =E5=B9=B4=E5=9B=9B=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/04">2010=20
+    =E5=B9=B4=E5=9B=9B=E6=9C=88</A>&nbsp;(11)</LI>
+    <LI><A title=3D"2010 =E5=B9=B4=E4=B8=89=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/03">2010=20
+    =E5=B9=B4=E4=B8=89=E6=9C=88</A>&nbsp;(3)</LI>
+    <LI><A title=3D"2010 =E5=B9=B4=E4=BA=8C=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/02">2010=20
+    =E5=B9=B4=E4=BA=8C=E6=9C=88</A>&nbsp;(3)</LI>
+    <LI><A title=3D"2010 =E5=B9=B4=E4=B8=80=E6=9C=88" =
+href=3D"http://www.dbtan.com/2010/01">2010=20
+    =E5=B9=B4=E4=B8=80=E6=9C=88</A>&nbsp;(4)</LI>
+    <LI><A title=3D"2009 =E5=B9=B4=E5=8D=81=E4=BA=8C=E6=9C=88" =
+href=3D"http://www.dbtan.com/2009/12">2009=20
+    =E5=B9=B4=E5=8D=81=E4=BA=8C=E6=9C=88</A>&nbsp;(39)</LI>
+    <LI><A title=3D"2009 =E5=B9=B4=E5=8D=81=E4=B8=80=E6=9C=88" =
+href=3D"http://www.dbtan.com/2009/11">2009=20
+    =E5=B9=B4=E5=8D=81=E4=B8=80=E6=9C=88</A>&nbsp;(11)</LI>
+    <LI><A title=3D"2009 =E5=B9=B4=E5=8D=81=E6=9C=88" =
+href=3D"http://www.dbtan.com/2009/10">2009=20
+    =E5=B9=B4=E5=8D=81=E6=9C=88</A>&nbsp;(9)</LI>
+    <LI><A title=3D"2009 =E5=B9=B4=E4=B9=9D=E6=9C=88" =
+href=3D"http://www.dbtan.com/2009/09">2009=20
+    =E5=B9=B4=E4=B9=9D=E6=9C=88</A>&nbsp;(4)</LI>
+    <LI><A title=3D"2009 =E5=B9=B4=E5=85=AB=E6=9C=88" =
+href=3D"http://www.dbtan.com/2009/08">2009=20
+    =E5=B9=B4=E5=85=AB=E6=9C=88</A>&nbsp;(2)</LI></UL></DIV>
+  <DIV id=3D"text-4" class=3D"widget widget_text">
+  <H2 class=3D"sidebartitle">=E6=88=91=E7=9A=84=E9=93=BE=E6=8E=A5 | My =
+Links</H2>
+  <DIV class=3D"textwidget">
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://asktom.oracle.com/" target=3D"_blank">Ask =
+Tom</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.anysql.net/" =
+target=3D"_blank">D.C.B.A</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.oracledba.com.cn/"=20
+  target=3D"_blank">David.Guo</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.ixdba.com/" target=3D"_blank">DBA =
+story</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.dbaroad.com/" =
+target=3D"_blank">DBA=E4=B9=8B=E8=B7=AF</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.eygle.com/" =
+target=3D"_blank">eygle</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.itpub.net/list.html"=20
+  target=3D"_blank">ITPUB=E8=AE=BA=E5=9D=9B</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.dbform.com/" =
+target=3D"_blank">Kamus</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.ningoo.net/" =
+target=3D"_blank">NinGoo</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.oracleblog.org/" =
+target=3D"_blank">=E5=A4=A9=E5=A0=82=E5=90=91=E5=B7=A6=20
+  DBA=E5=90=91=E5=8F=B3</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.zhihong.org/" =
+target=3D"_blank">=E6=95=B0=E6=8D=AE=E5=B7=A5=E4=BA=BA</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://laoxiong.net/" =
+target=3D"_blank">=E8=80=81=E7=86=8A=E7=9A=84=E4=B8=89=E5=88=86=E5=9C=B0<=
+/A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.niubro.com/" =
+target=3D"_blank">=E7=89=9B=E5=93=A5=E7=9A=84=E8=8C=B6=E5=87=A0</A></LI><=
+/UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.oracledatabase12g.com/" =
+target=3D"_blank">Maclean=20
+    =
+Liu=E7=9A=84=E4=B8=AA=E4=BA=BA=E6=8A=80=E6=9C=AF=E5=8D=9A=E5=AE=A2</A></L=
+I></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://space.itpub.net/16179598/"=20
+    target=3D"_blank">yellowlee</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.kinggoo.com/" =
+target=3D"_blank">Kinggoo</A></LI></UL>
+  <UL class=3D"linkcat">
+    <LI><A href=3D"http://www.dbasky.com/"=20
+  target=3D"_blank">dbasky</A></LI></UL></DIV></DIV>
+  <DIV id=3D"text-3" class=3D"widget widget_text">
+  <H2 class=3D"sidebartitle">=E8=AE=A2=E9=98=85=E6=9B=B4=E6=96=B0 | =
+Feed</H2>
+  <DIV class=3D"textwidget">=20
+<SCRIPT language=3D"javascript">/*<![CDATA[*/<!-- main_sub=3D"c1s13"; -->=0A=
+more_subs=3D"google_02,xianguo_02,zhuaxia_02,youdao_02,yahoo_02,nazha_02,=
+qq_02";=0A=
+is_new=3D"yes";/*]]>*/</SCRIPT>
+  =20
+<SCRIPT language=3D"javascript" =
+src=3D"http://www.feedsky.com/jsout/publishlist_v2.js?burl=3Ddbtan&amp;ou=
+t_html=3Dtrue"></SCRIPT>
+  =20
+  <LI class=3D"rss"><A href=3D"http://www.dbtan.com/feed">All Posts =
+Feed</A></LI>
+  <LI class=3D"rss"><A href=3D"http://www.dbtan.com/comments/feed">All =
+Comments=20
+  Feed</A></LI></DIV></DIV></UL></DIV> =EF=BB=BF
+<HR class=3D"clear">
+</DIV></DIV>
+<DIV id=3D"footerbg">
+<DIV id=3D"footer">
+<DIV class=3D"footer-recent-posts">
+<H4>Recent Posts</H4>
+<UL>
+  <LI> <STRONG><A title=3D"Permanent link to How To Automate Cleanup Of =
+Dead Connections And INACTIVE Sessions [ID 206007.1]"=20
+  =
+href=3D"http://www.dbtan.com/2010/09/dead-connections-_or_inactive-sessio=
+ns.html"=20
+  rel=3D"bookmark">How To Automate Cleanup Of Dead Connections And =
+INACTIVE=20
+  Sessions [ID 206007.1]</A></STRONG><BR> <SMALL>09-15-2010</SMALL></LI>
+  <LI> <STRONG><A title=3D"Permanent link to =
+=E8=AE=A4=E9=A2=86=E5=8D=9A=E5=AE=A2 dbtan =E8=B0=88DB" =
+href=3D"http://www.dbtan.com/2010/06/claim-blog.html"=20
+  rel=3D"bookmark">=E8=AE=A4=E9=A2=86=E5=8D=9A=E5=AE=A2 dbtan =
+=E8=B0=88DB</A></STRONG><BR> <SMALL>06-20-2010</SMALL></LI>
+  <LI> <STRONG><A title=3D"Permanent link to Oracle 10g/11g =
+Latch=E6=9C=BA=E5=88=B6=E7=9A=84=E5=8F=98=E5=8C=96" =
+href=3D"http://www.dbtan.com/2010/05/oracle-10g11g-latch.html"=20
+  rel=3D"bookmark">Oracle 10g/11g =
+Latch=E6=9C=BA=E5=88=B6=E7=9A=84=E5=8F=98=E5=8C=96</A></STRONG><BR>=20
+  <SMALL>05-13-2010</SMALL></LI>
+  <LI> <STRONG><A title=3D"Permanent link to Latch =
+Free=EF=BC=88=E9=97=A9=E9=94=81=E9=87=8A=E6=94=BE=EF=BC=89" =
+href=3D"http://www.dbtan.com/2010/05/latch-free.html"=20
+  rel=3D"bookmark">Latch =
+Free=EF=BC=88=E9=97=A9=E9=94=81=E9=87=8A=E6=94=BE=EF=BC=89</A></STRONG><B=
+R>=20
+<SMALL>05-13-2010</SMALL></LI>
+  <LI> <STRONG><A title=3D"Permanent link to Enqueue =
+=EF=BC=88=E9=98=9F=E5=88=97=E7=AD=89=E5=BE=85=EF=BC=89" =
+href=3D"http://www.dbtan.com/2010/05/enqueue.html"=20
+  rel=3D"bookmark">Enqueue =
+=EF=BC=88=E9=98=9F=E5=88=97=E7=AD=89=E5=BE=85=EF=BC=89</A></STRONG><BR>=20
+<SMALL>05-13-2010</SMALL></LI></UL></DIV>
+<DIV class=3D"footer-recent-comments">
+<H4>Recent Comments</H4>
+<UL>
+  <LI><STRONG><A title=3D"on direct path read/write =
+=EF=BC=88=E7=9B=B4=E6=8E=A5=E8=B7=AF=E5=BE=84=E8=AF=BB=EF=BC=8F=E5=86=99=EF=
+=BC=89" =
+href=3D"http://www.dbtan.com/2010/04/direct-path-readwrite.html#comment-9=
+681">dongcs</A></STRONG>:=20
+  =
+=E6=AD=A4=E6=96=87=E5=86=99=E7=9A=84=E5=BE=88=E5=A5=BD=EF=BC=8C=E5=BE=88=E5=
+=A5=BD=EF=BC=81...</LI>
+  <LI><STRONG><A title=3D"on =
+commit=E5=81=9A=E4=BA=86=E4=BB=80=E4=B9=88=EF=BC=9F" =
+href=3D"http://www.dbtan.com/2009/12/what-has-commit-made.html#comment-86=
+71">xiejitao</A></STRONG>:=20
+  =
+=E5=86=99=E7=9A=84=E4=B8=8D=E9=94=99=EF=BC=8C=E9=A1=B6=E9=A1=B6=E3=80=82=E3=
+=80=82=E3=80=82=E3=80=82=E3=80=82=E3=80=82=E3=80=82=E3=80=82=E3=80=82=E3=80=
+=82=E3=80=82...</LI>
+  <LI><STRONG><A title=3D"on =E8=AE=A4=E9=A2=86=E5=8D=9A=E5=AE=A2 dbtan =
+=E8=B0=88DB" =
+href=3D"http://www.dbtan.com/2010/06/claim-blog.html#comment-7328">dbtan<=
+/A></STRONG>:=20
+  @chen, =
+=E6=84=9F=E8=B0=A2=E4=BD=A0=E7=9A=84=E5=85=B3=E6=B3=A8=EF=BC=8C=E6=88=91=E4=
+=BC=9A=E5=B0=BD=E5=BF=AB=E5=A4=84=E7=90=86=E7=9A=84=E3=80=82...</LI>
+  <LI><STRONG><A title=3D"on =E8=AE=A4=E9=A2=86=E5=8D=9A=E5=AE=A2 dbtan =
+=E8=B0=88DB" =
+href=3D"http://www.dbtan.com/2010/06/claim-blog.html#comment-7327">chen</=
+A></STRONG>:=20
+  =
+=E6=82=A8=E5=A5=BD=EF=BC=8C=E6=88=91=E8=AF=95=E7=9D=80=E5=9C=A8QQ=E9=82=AE=
+=E7=AE=B1=E9=87=8C=E8=AE=A2=E9=98=85=E4=BA=86=E6=82=A8=E7=9A=84=E5=8D=9A=E5=
+=AE=A2=EF=BC=8C=E4=BD=86=E6=98=AF=E5=8F=91=E7=8E=B0=E5=85=B6=E4=B8=AD=E7=9A=
+=84=E5=9B=BE=E7=89=87=E5=9D=87=E6=97=A0=E6=B3=95=E6=98=BE=E7=A4=BA=EF=BC=8C=
+=E7=82=B9=E5=87=BB=E5=9B=BE=E7=89=87=E6=89=93=E5=BC=80=E5=90=8E=E6=9C=89=E9=
+=98=B2=E7=9B=97=E9=93=BE=E6=8F=90=E7=A4=BA=EF=BC=8C=E5=B9=B6=E7=9B=B4=E6=8E=
+=A5=E8=B7=B3=E8=BD=AC=E5=9B=9E=E5=88=B0=E9=A6=96=E9=A1=B5=E3=80=82...</LI=
+>
+  <LI><STRONG><A title=3D"on db file sequential read =
+=EF=BC=88=E6=95=B0=E6=8D=AE=E6=96=87=E4=BB=B6=E9=A1=BA=E5=BA=8F=E8=AF=BB=E5=
+=8F=96=EF=BC=89" =
+href=3D"http://www.dbtan.com/2010/04/db-file-sequential-read.html#comment=
+-3573">dbtan</A></STRONG>:=20
+  =E8=B0=A2=E8=B0=A2 =E6=9C=A8=E5=8C=A0Charlie =
+=E7=9A=84=E9=BC=93=E5=8A=B1=EF=BC=8C=E7=BB=A7=E7=BB=AD=E5=8A=AA=E5=8A=9B=EF=
+=BC=81...</LI></UL></DIV>
+<DIV class=3D"footer-meta">
+<H4>Meta</H4>
+<UL>
+  <LI><A =
+href=3D"http://www.dbtan.com/wp-login.php">=E7=99=BB=E5=BD=95</A></LI>
+  <LI><A title=3D"This page validates as XHTML 1.0 Transitional" =
+href=3D"http://validator.w3.org/check/referer">Valid=20
+  <ABBR title=3D"eXtensible HyperText Markup =
+Language">XHTML</ABBR></A></LI>
+  <LI><A =
+href=3D"http://www.anysystem.com/workgroup-servers-sunfire-v440.html">Sun=
+=20
+  Fire V440</A></LI>
+  <LI><A title=3D"Powered by WordPress, state-of-the-art semantic =
+personal publishing platform."=20
+  href=3D"http://wordpress.org/">WordPress</A></LI>
+  <LI class=3D"rss"><A href=3D"http://dbtan.com/feed">Entries =
+RSS</A></LI>
+  <LI class=3D"rss"><A href=3D"http://dbtan.com/comments/feed">Comments=20
+RSS</A></LI></UL></DIV>
+<HR class=3D"clear">
+</DIV>
+<DIV id=3D"credits">
+<DIV class=3D"alignleft"><A title=3D"Wordpress Themes" =
+href=3D"http://www.justskins.com/themes/wordpress-themes/">Wordpress=20
+Themes</A> by <A title=3D"Windows Vista Install" =
+href=3D"http://www.realgeek.com/forums/sitemap/f-16.html">Windows=20
+Vista Installation</A> Forums</DIV>
+<DIV class=3D"alignright">Copyright =C2=A9 2010 <A=20
+href=3D"http://dbtan.com/">http://dbtan.com/</A>. All rights=20
+reserved.</DIV></DIV></DIV>=20
+<SCRIPT type=3D"text/javascript">var gaJsHost =3D (("https:" =3D=3D =
+document.location.protocol) ? "https://ssl." : "http://www.");=0A=
+document.write(unescape("%3Cscript src=3D'" + gaJsHost + =
+"google-analytics.com/ga.js' =
+type=3D'text/javascript'%3E%3C/script%3E"));</SCRIPT>
+=20
+<SCRIPT type=3D"text/javascript">try {=0A=
+var pageTracker =3D _gat._getTracker("UA-10742085-2");=0A=
+pageTracker._trackPageview();=0A=
+} catch(err) {}</SCRIPT>
+<!-- Dynamic page generated in 0.551 seconds. --><!-- Cached page =
+generated by WP-Super-Cache on 2012-02-13 13:46:05 --><!-- Compression =
+=3D gzip --></BODY></HTML>
+
+------=_NextPart_000_0015_01CCEB22.C359CF00
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://dbtan.com/dbtan/blog_pic/dbfilescatteredreaddbfilescatteredread_14616/clip_image004_thumb.gif
+
+R0lGODlhfwD+APcAAAAAAAAAIAAAMgAAMwAyMgAzMyAAADIAACMAMjMAMzIyACMsMiMsMygvMj4g
+KDMzLzMzMwAAURsbWwAzUAAyUQAybDMzZgBEdzJRUVEAAFEAMlsbI2wyAHM+G2gvL2wyMlEAUVFR
+MlFRbGxsUWZmZgBRhTJsnFFsnGZmmVGFhVGFsWychWyFsWiTumycsX6csYVRAIxhL5xsMoVRUaN7
+UIWFbLGFUbGFW7GcbLSgc4WFhZmZmYWFsZycsYWxsZyxsbGFhbGcnLGxhbGxnKe6sbS0oLGxsbGx
+tLGxtrG0tLSxsbW0tLqxsbi6uJmZzJmZ/8zMzMzM/////zMzMzMzZjMzmTMzzDMz/zNmADNmMzNm
+ZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/
+mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZm
+zGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb/
+/5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZ
+AJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwA
+M8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZ
+ZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8A
+mf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+Z
+zP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zAAAACH5BAEAAP8ALAAAAAB/AP4A
+AAj/AP8JHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuX
+MGPKnEmzJkUAOHPiFJkz5YGeAnXuFAgBwAAABhXkLIAUIQAIQaFGFNoQqMmeO4FqtTow61CDWL86
+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
+k065hUmok6x4jIv3iCjJfqBHlFC5lS8Zlf8fuYQnyZF7qJD1SJOYGJVPmZZbaYg0yXdjd4+el49g
++JVEqJZKSJdSSXnZSHdJqY6sqHtoaZcvmXtIqI+rSJXWqJHYaIkeqZVK+JhR8ARcqZWFeJTYqJJm
+WZSCaZdMSJN6mZE14YsbmZOa+ZWQGZN4WYjgl497qXR9uZK355WbiZpQCYeHiZFWKZZGmZqTGZiQ
+yZtg6IToSJaUZ5FnOZtp2ZltSXlw6YF4N5eOyZmUaZtuiZCvSZOAiZyDCZWGWYG4eY1X6Xg8xJu/
+uYWSWZ6pGZYbKYrEqYosqZnaSZtsaZHV2ZyVSJotaZpNCZPASZ2WyZftiZFLKZvx2Zu26Z1bDJmb
+65mD+SmH5dmVa0mU6nmZAQqbgtiSBQqh8zmVzHmTcfmcx6mfatmfhlidSBmgShl82ZmhXliYOIig
+fqmgnHiJ5MmUUXmeNjqdTbiY7GkTNZmZGMqiEeqZn/9pn6NZkA0ah6fJnzq6mv/pmijqlwM6mQXq
+lQdqe4gJmjSxoNm4m9FJoF0om+m5o+G5A5hpnPAppHeJiPTZoYqJjyBamg4qnWO6mpR3oj7KkBY6
+iKFnhCxKmIgYhlj6nYoZnjT6pZOJo2IqoWQqlmZaoUBal2q6hJ5Zn1OIk0hao74Zpk1qlHYIpWSZ
+pVO6pNpppRuKkbUXIYaalXj5oJy6pnQ5oawnIUSqj0GqpspZqxTilnGapKgnmCRqp3uHdxVSq0To
+pxkKqAbpmf/wqBbCmOOJqJCpqENqkjg4q2bGisc5qZTKioJGmpRJpUwKnOD3D2PZZ44YhtzqlGxp
+rqz/JnrmOqcwOZTKOqQCAa/GRoubOq8jGgXndhD7+ZSh9w/4+q8Ge7AIm7DH1hdBQRoImxzJERjz
+YbDWYR5woR3VwSCzcbDM4RUSWxyQ8RzJ9hXj0R7R8Rmw8RPjMR7S1rGVkR4vux7XVrHVkRoC8R2v
+YR0HFBr7MbPCQRbmcRw986/UYR67kR8HAhukwbDnBrHP4RsTq7BSO7VUW7VWe7VYm7Vau7Vc27Ve
+y2k6NhZhCxKh8RBFex0YMSyNNraD4RUC4AJGELdyG7dDwAESWwJzG7cycBNsq2Z962di8QAqYARD
+0AER4ANGgAMHEAAAEBpFYQJ6ixMGQBmZoR5fFB1J/zs0hZEZIMsShIETkFu3h2sENgC0bxu3MAAA
+BHAA58EerjscvxGyMssSzsEYeCu6iJu6WTEBI/APFUAEhMsBC7ACHlAXRwEX/HEX46G2t7EYOQse
+l4ESo2sEMlABP1C3b1u3kBu8p5u3ifsT0ysDeJu3QgACiEu9eAEA20u9AsAX44u6ABC+g6u41ku9
+0nu+RpAEQOADQpABbysEPDC3dTu4easEOOAA3Ru3+6u4p6sDRtAERnAERhADZ/sTLSC3SQC/KsAE
+MCABPqAERkADAJC9PSC3M4C/MKAh6iu3MLC9/du9MrC+NpAC5hu3pZsT7wsDBPzCcOu9N9wV7zu3
+4v9btwDwvtjbw95rw+P2HgdAwHXLAIMrBBsgAC+AvuuruBfwA0tAuo9BwEXAAQgAt1KcwHN7A0ir
+AkggtzkwFwSMwUawBDDQAEicxIprEm1cutbLw/07vVxcv9/7Dyqgw3Jbuni7x/grxIPSxkbQv6rL
+AklsBDBAxj78txQRxHLLw95LxH4sxOs7t4a8yBkwukS8vYrbyXKLAyeQxJhculGcAfWbuidhyqAs
+yUSMFIpsw5tsBEFwvRwwuqV7uqXLxzLAx3RbAxowx/B7uqkLuYp7uIq7xE5xy97LyEPRvUSMAQfg
+x+KbxIJsw/8wvs8MAHc8wkqxvow8vUPwASEAABQjIAI/ELd1nBJi9R7rQVaOcbRkIbv1HL1f28/+
+/M8AHdAUEhAAOw==
+
+------=_NextPart_000_0015_01CCEB22.C359CF00
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://dbtan.com/dbtan/blog_pic/dbfilescatteredreaddbfilescatteredread_14616/clip_image002.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkI
+CQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQ
+EBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAEqAcQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9SLH/
+AI8YP+uMf8qsVXsf+PGD/rjH/KrFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUVwup/Gr4RaFqEml6r8TPDdrdwP5c8cmox/uHx0kfOI/+B0roDuq
+K8+vvjB4N02f7Dp/9p6/LGqO50PTbjUUhR/ub5IEKJnn5Cc1Efjx8PJ1MWk3mratqEf+v0vT9Hu5
+761/672/l+Zb/wDbTZWftKfcD0aiuR8M/EPw54teez02W8tL+0j3TWGo2UlldRp2kMciAlM/xj5M
+9666tU09gCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAwNd/4/F/
+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
+7/x+L/1zX+ZooA//2Q==
+
+------=_NextPart_000_0015_01CCEB22.C359CF00
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.dbtan.com/wp-content/cache/autoptimize/autoptimize_1a82de1a1b615ec33a4f43ade17b309e.php
+
+body {
+	background: rgb(243, 253, 238); font: 75%/150% "Trebuchet MS", Tahoma, =
+Arial; margin: 0px auto; padding: 0px; text-align: center; color: =
+rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+a {
+	color: rgb(0, 102, 204); text-decoration: none;
+}
+a:visited {
+	color: rgb(0, 102, 204); text-decoration: none;
+}
+a:hover {
+	background: rgb(255, 255, 204); color: rgb(12, 114, 162); =
+border-bottom-color: rgb(221, 221, 170); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+img {
+	border: currentColor;
+}
+p {
+	margin: 0px; padding: 6px 0px;
+}
+h1 {
+	font: lighter 2.4em/1.2em Georgia, "Times New Roman", Times, serif; =
+margin: 0px; height: 60px; color: rgb(255, 255, 255); font-size-adjust: =
+none; font-stretch: normal;
+}
+h1 a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+h1 a:visited {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+h1 a:hover {
+	border: currentColor; color: rgb(255, 255, 255); text-decoration: none;
+}
+h2 {
+	font: lighter 2em/1em Georgia, "Times New Roman", Times, serif; margin: =
+0px 0px 2px; width: 100%; color: rgb(53, 101, 32); padding-bottom: 3px; =
+border-bottom-color: rgb(53, 101, 32); border-bottom-width: 1px; =
+border-bottom-style: dotted; font-size-adjust: none; font-stretch: =
+normal;
+}
+h2 a {
+	color: rgb(53, 101, 32); text-decoration: none;
+}
+h2 a:visited {
+	color: rgb(53, 101, 32); text-decoration: none;
+}
+h2 a:hover {
+	color: rgb(53, 101, 32); text-decoration: none;
+}
+h3 {
+	font: 140%/100% "Trebuchet MS", Tahoma, Arial; margin: 10px 0px 5px; =
+color: rgb(12, 114, 162); font-size-adjust: none; font-stretch: normal;
+}
+h4 {
+	font: 130%/100% "Trebuchet MS", Tahoma, Arial; margin: 10px 0px 5px; =
+color: rgb(117, 141, 56); font-size-adjust: none; font-stretch: normal;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+#wrapper {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/content=
+-bg.gif") repeat-x rgb(255, 255, 255); margin: 0px auto; width: 1000px; =
+text-align: left; border-top-color: rgb(255, 255, 255); =
+border-top-width: 1px; border-top-style: solid;
+}
+#page {
+	margin: 0px auto; width: 100%; text-align: left;
+}
+#header {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/head-bg=
+.gif") repeat-x rgb(106, 170, 78); margin: 0px auto; width: 1000px; =
+height: 110px; text-align: left; color: rgb(209, 102, 131); =
+border-top-color: rgb(34, 45, 45); border-top-width: 5px; =
+border-top-style: solid; position: relative;
+}
+#headerimg {
+	margin: 0px auto; padding: 10px 0px 0px 10px; width: 970px; height: =
+60px; text-align: left; position: relative;
+}
+#headerimg .description {
+	text-align: left; bottom: 3px; color: rgb(246, 245, 238); font-size: =
+14px; position: absolute;
+}
+#navi {
+	margin: 10px auto 0px; width: 970px; height: 30px; text-align: left; =
+line-height: normal;
+}
+#nav {
+	list-style: none; margin: 0px 3px; padding: 0px; text-align: left; =
+float: right;
+}
+#nav li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/navtabr=
+.png") no-repeat right top; margin: 0px 3px; height: 30px; float: left; =
+white-space: nowrap;
+}
+#nav .page_item a {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/navtabl=
+.png") no-repeat left top; font: bold 12px/30px Arial, Helvetica, =
+sans-serif; padding: 0px 10px; color: rgb(53, 101, 32); text-decoration: =
+none; display: block; font-size-adjust: none; font-stretch: normal;
+}
+#nav li:hover {
+	background-position: 100% -30px;
+}
+#nav .page_item a:hover {
+	background-position: 0px -30px; border: currentColor;
+}
+#nav li.current_page_item {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/navtaba=
+ctiver.png") no-repeat right top; color: rgb(53, 101, 32); =
+text-decoration: none; border-bottom-color: rgb(238, 252, 231); =
+border-bottom-width: 1px; border-bottom-style: solid;
+}
+#nav .current_page_item a {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/navtaba=
+ctivel.png") no-repeat left top; color: rgb(53, 101, 32); =
+text-decoration: none;
+}
+#nav .current_page_item a:visited {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/navtaba=
+ctivel.png") no-repeat left top; color: rgb(53, 101, 32); =
+text-decoration: none;
+}
+#content {
+	padding: 10px 0px 30px 13px; width: 765px; text-align: left; overflow: =
+hidden; float: left;
+}
+#content img {
+	padding: 5px; border: 1px solid rgb(211, 234, 243);
+}
+.post {
+	text-align: left; padding-top: 15px; clear: both;
+}
+.post-date {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/date-bg=
+.gif") no-repeat; width: 45px; height: 49px; float: left;
+}
+.post-month {
+	text-align: center; color: rgb(255, 255, 255); text-transform: =
+uppercase; line-height: 11px; padding-top: 2px; font-size: 11px; =
+margin-left: -3px; display: block;
+}
+.post-day {
+	text-align: center; color: rgb(153, 153, 153); text-transform: =
+uppercase; line-height: 18px; padding-top: 7px; font-size: 18px; =
+margin-left: -3px; display: block;
+}
+.entry {
+=09
+}
+.post-cat {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-ca=
+tegory.gif") no-repeat left; padding-left: 20px; float: left;
+}
+.post-tag {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-ca=
+tegory.gif") no-repeat left; padding-left: 20px; margin-left: 40px; =
+float: left;
+}
+.post-comments {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-co=
+mments.gif") no-repeat left bottom; padding-left: 20px; float: right;
+}
+.post-calendar {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-ca=
+lendar.gif") no-repeat left; color: rgb(153, 153, 153); padding-left: =
+20px; font-size: 95%; float: right;
+}
+.post-content {
+	padding-top: 10px; clear: both;
+}
+.post-info {
+	background: rgb(243, 252, 230); font: bold 12px/normal "Trebuchet MS", =
+"Tahoma", sans-serif; padding: 10px; height: 15px; color: rgb(120, 157, =
+71); border-top-color: rgb(219, 239, 193); border-bottom-color: rgb(219, =
+239, 193); border-top-width: 1px; border-bottom-width: 3px; =
+border-top-style: solid; border-bottom-style: solid; font-size-adjust: =
+none; font-stretch: normal;
+}
+.post-info a {
+	color: rgb(120, 157, 71); text-decoration: underline;
+}
+.post-info a:hover {
+	border: currentColor; color: rgb(70, 106, 24); text-decoration: =
+underline;
+}
+.post-content blockquote {
+	background: 0px 0px rgb(238, 243, 247); margin: 0px; padding: 3px; =
+border: 1px solid rgb(196, 209, 230); font-family: "Courier New"; =
+overflow-y: hidden; -moz-background-clip: border; =
+-moz-background-inline-policy: continuous; -moz-background-origin: =
+padding;
+}
+.post-content blockquote p {
+	padding: 3px;
+}
+.navigation {
+	padding: 10px 0px; text-align: left; clear: both;
+}
+.navigation a {
+	color: rgb(89, 119, 14);
+}
+.navigation a:visited {
+	color: rgb(89, 119, 14);
+}
+.previous-entries a {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-na=
+v-left.gif") no-repeat left; padding-left: 18px; float: left;
+}
+.next-entries a {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-na=
+v-right.gif") no-repeat right; padding-right: 18px; float: right;
+}
+#comments {
+	padding: 10px 0px 5px; text-align: left; clear: both; =
+border-bottom-color: rgb(67, 149, 188); border-bottom-width: 1px; =
+border-bottom-style: dotted;
+}
+#respond {
+	padding: 10px 0px 5px; text-align: left; clear: both; =
+border-bottom-color: rgb(67, 149, 188); border-bottom-width: 1px; =
+border-bottom-style: dotted;
+}
+.commentlist {
+	margin: 10px 0px; text-align: left; line-height: 130%; padding-left: =
+20px;
+}
+.commentlist li {
+	padding: 10px 10px 0px;
+}
+.commentlist .alt {
+	background: rgb(243, 252, 230); border: 1px dotted rgb(219, 239, 193);
+}
+.commentlist cite {
+	font-size: 120%; font-style: normal; font-weight: bold;
+}
+.commentlist cite a {
+	font-size: 120%; font-style: normal; font-weight: bold;
+}
+.commentlist cite a:visited {
+	font-size: 120%; font-style: normal; font-weight: bold;
+}
+.commentlist small {
+	font-size: 87%; margin-bottom: 5px; display: block;
+}
+#commentform {
+	font: 110%/normal Arial, Helvetica, sans-serif; text-align: left; =
+margin-top: 10px; font-size-adjust: none; font-stretch: normal;
+}
+#commentform p {
+	margin: 0px; padding: 6px 0px;
+}
+#commentform label {
+	color: rgb(120, 120, 120); font-size: 87%;
+}
+#commentform input {
+	background: rgb(243, 252, 230); padding: 3px; border: 1px dotted =
+rgb(208, 208, 191); width: 200px; margin-top: 3px;
+}
+#commentform textarea {
+	background: rgb(243, 252, 230); padding: 2px; border: 1px solid =
+rgb(219, 239, 193); width: 485px; height: 115px; margin-top: 3px;
+}
+#commentform textarea:focus {
+	background: rgb(255, 255, 255);
+}
+#commentform input[type=3D'text']:focus {
+	background: rgb(255, 255, 255);
+}
+#commentform #submit {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/btn-bg.=
+gif") no-repeat; font: bold 12px/normal Arial, Helvetica, sans-serif; =
+border: 1px solid rgb(171, 213, 150); width: 144px; height: 28px; color: =
+rgb(53, 101, 32); float: right; cursor: pointer; font-size-adjust: none; =
+font-stretch: normal;
+}
+#sidebar {
+	padding: 7px 10px 20px 0px; width: 200px; text-align: left; color: =
+rgb(102, 102, 102); overflow: hidden; float: right;
+}
+#sidebar h2 {
+	font: bold 1em/normal Arial, Helvetica, FreeSans, clean, sans-serif; =
+color: rgb(53, 101, 32); margin-bottom: 5px; border-bottom-color: =
+rgb(219, 239, 193); border-bottom-width: 1px; border-bottom-style: =
+solid; font-size-adjust: none; font-stretch: normal;
+}
+#sidebar .sidebartitle {
+	font: bold 1em/normal Arial, Helvetica, FreeSans, clean, sans-serif; =
+color: rgb(53, 101, 32); margin-bottom: 5px; border-bottom-color: =
+rgb(219, 239, 193); border-bottom-width: 1px; border-bottom-style: =
+solid; font-size-adjust: none; font-stretch: normal;
+}
+#sidebar a:hover {
+	border: currentColor;
+}
+#sidebar a {
+	color: rgb(53, 101, 32); text-decoration: none;
+}
+#sidebar a:visited {
+	color: rgb(53, 101, 32); text-decoration: none;
+}
+#sidebar li a:hover {
+	color: rgb(53, 101, 32); text-decoration: none; border-bottom-color: =
+rgb(221, 221, 170); border-bottom-width: 1px; border-bottom-style: =
+solid;
+}
+.widget {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/widget-=
+bg.gif") repeat-x right bottom rgb(255, 255, 255); padding: 5px 10px =
+10px; border: 2px solid rgb(219, 239, 193); text-align: left; =
+margin-bottom: 10px;
+}
+#sidebar ul {
+	margin: 0px; padding: 0px;
+}
+#sidebar ul li {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor;
+}
+#sidebar ul li ul {
+	margin: 0px; padding: 0px;
+}
+#sidebar ul li ul li {
+	padding: 2px 0px; border-bottom-color: rgb(219, 239, 193); =
+border-bottom-width: 1px; border-bottom-style: solid;
+}
+#sidebar ul li ul li ul li {
+	padding: 1px 0px 1px 10px; border: currentColor;
+}
+ul.linkcat li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-bl=
+ogroll.gif") no-repeat left !important; padding-left: 20px !important;
+}
+div.linkcat li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-bl=
+ogroll.gif") no-repeat left !important; padding-left: 20px !important;
+}
+ul.list-cat li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-ca=
+tegory.gif") no-repeat left !important; padding-left: 20px !important;
+}
+div.widget_categories li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-ca=
+tegory.gif") no-repeat left !important; padding-left: 20px !important;
+}
+ul.list-archives div {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-mo=
+nthly-archive.gif") no-repeat !important; padding-left: 20px !important;
+}
+li.widget_archives li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-mo=
+nthly-archive.gif") no-repeat !important; padding-left: 20px !important;
+}
+ul.list-page li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-pa=
+ge.gif") no-repeat left !important; padding-left: 20px !important;
+}
+div.widget_pages li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-pa=
+ge.gif") no-repeat left !important; padding-left: 20px !important;
+}
+li.widget_recent_entries li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-pa=
+ge.gif") no-repeat left !important; padding-left: 20px !important;
+}
+ul.list-page li ul div {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-pa=
+ge-arrow.gif") no-repeat !important; padding-left: 10px !important;
+}
+li.widget_pages li ul li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-pa=
+ge-arrow.gif") no-repeat !important; padding-left: 10px !important;
+}
+div.widget_recent_comments li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-re=
+cent-comments.gif") no-repeat !important; padding-left: 20px !important;
+}
+div.widget_calendar td {
+	padding: 1px 5px;
+}
+.textwidget {
+	padding-top: 5px;
+}
+#search {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/search-=
+bg.png") no-repeat; margin: -70px 20px 0px 0px; width: 200px; height: =
+31px; text-align: center; float: right;
+}
+#searchform {
+	margin: 3px 0px 0px; text-align: left;
+}
+#searchform br {
+	display: none;
+}
+#searchform #s {
+	background: rgb(255, 255, 255); padding: 3px 5px 0px; border: 1px solid =
+rgb(106, 169, 78); width: 130px; height: 17px; color: rgb(0, 0, 0); =
+font-weight: normal; margin-right: 2px;
+}
+#searchform input {
+	font: bold 12px/normal Arial, Helvetica, sans-serif; border: =
+currentColor; height: 16px; color: rgb(255, 255, 255); vertical-align: =
+middle; font-size-adjust: none; font-stretch: normal;
+}
+#footerbg {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/footer-=
+bg.gif") repeat-x rgb(255, 255, 255); margin: 0px auto; width: 1000px; =
+text-align: left; padding-bottom: 20px; clear: both; border-top-color: =
+rgb(171, 213, 150); border-top-width: 1px; border-top-style: solid;
+}
+#footer {
+	margin: 0px auto; width: 970px; text-align: left; color: rgb(48, 48, =
+48); line-height: 130%; font-size: 95%;
+}
+#footer a {
+	color: rgb(53, 101, 32);
+}
+#footer a:visited {
+	color: rgb(53, 101, 32);
+}
+#footer h4 {
+	font: 146%/100% "Trebuchet MS", Tahoma, Arial; margin: 10px 0px 5px; =
+color: rgb(53, 101, 32); font-size-adjust: none; font-stretch: normal;
+}
+.footer-recent-comments {
+	width: 240px; margin-left: 10px; float: left;
+}
+.footer-recent-comments ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.footer-recent-comments ul li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-fo=
+oter-icon.gif") no-repeat 5px 4px; padding: 0px 0px 10px 20px;
+}
+.footer-recent-posts {
+	width: 240px; margin-left: 10px; float: left;
+}
+.footer-recent-posts strong {
+	line-height: 135%; font-size: 107%; font-weight: bold;
+}
+.footer-recent-posts ul {
+	list-style: none; margin: 0px; padding: 0px; line-height: 110%; =
+font-size: 92%;
+}
+.footer-recent-posts ul li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-fo=
+oter-icon.gif") no-repeat 5px 4px; padding: 0px 0px 10px 20px;
+}
+.footer-meta {
+	width: 220px; margin-left: 10px; float: right;
+}
+.footer-meta strong {
+	line-height: 135%; font-size: 107%; font-weight: bold;
+}
+.footer-meta ul {
+	list-style: none; margin: 0px; padding: 0px; line-height: 110%; =
+font-size: 92%;
+}
+.footer-meta ul li {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-fo=
+oter-icon.gif") no-repeat 5px 4px; padding: 0px 0px 10px 20px; =
+line-height: 135%; font-size: 107%; font-weight: bold;
+}
+#credits {
+	margin: 0px auto; width: 970px; text-align: left; color: rgb(48, 48, =
+48); line-height: 120%; font-size: 85%;
+}
+#credits a {
+	color: rgb(53, 101, 32);
+}
+#credit a:visited {
+	color: rgb(53, 101, 32);
+}
+.footer-meta ul li.rss {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-rs=
+s.gif") no-repeat left 2px; padding: 0px 0px 10px 20px;
+}
+.loginout {
+	background: =
+url("http://www.dbtan.com/wp-content/themes/webby-green-10/images/mini-lo=
+ginout.gif") no-repeat left; padding-bottom: 2px; padding-left: 18px; =
+margin-left: 8px;
+}
+.center {
+	text-align: center;
+}
+img.center {
+	margin-right: auto; margin-left: auto; display: block;
+}
+img[align=3D'center'] {
+	margin-right: auto; margin-left: auto; display: block;
+}
+.alignleft {
+	float: left;
+}
+img.alignleft {
+	margin: 2px 10px 5px 0px; float: left;
+}
+img[align=3D'left'] {
+	margin: 2px 10px 5px 0px; float: left;
+}
+.alignright {
+	float: right;
+}
+img.alignright {
+	margin: 2px 0px 5px 10px; float: right;
+}
+img[align=3D'right'] {
+	margin: 2px 0px 5px 10px; float: right;
+}
+.clear {
+	clear: both;
+}
+hr.clear {
+	margin: 0px; padding: 0px; clear: both; visibility: hidden;
+}
+#easy-archives .ea-closed {
+	display: none;
+}
+#easy-archives .ea-open-button {
+	width: 16px; height: 16px; float: left; display: block; cursor: =
+pointer;
+}
+#easy-archives .ea-closed-button {
+	width: 16px; height: 16px; float: left; display: block; cursor: =
+pointer;
+}
+#easy-archives .ea-open-button {
+	background: =
+url("http://www.dbtan.com/wp-content/plugins/wp-easyarchives/img/icons.pn=
+g") no-repeat 0px -100px;
+}
+#easy-archives .ea-closed-button {
+	background: =
+url("http://www.dbtan.com/wp-content/plugins/wp-easyarchives/img/icons.pn=
+g") no-repeat 0px 0px;
+}
+#easy-archives .ea-detail {
+	font-weight: bolder;
+}
+#easy-archives .ea-month {
+	padding-bottom: 10px;
+}
+#easy-archives .ea-month li {
+	list-style: none;
+}
+#easy-archives em {
+	color: rgb(153, 153, 153); font-size: 90%; font-style: normal; =
+margin-left: 5px;
+}
+#easy-archives .ea-filter {
+	height: 24px; padding-bottom: 10px;
+}
+#easy-archives .ea-year {
+	font-weight: bolder;
+}
+#easy-archives .ea-author {
+	font-weight: bolder;
+}
+#easy-archives .ea-loader {
+	background: =
+url("http://www.dbtan.com/wp-content/plugins/wp-easyarchives/img/ajax-loa=
+der.gif") no-repeat left; height: 16px; line-height: 16px; padding-left: =
+24px; margin-left: 10px;
+}
+#easy-archives .ea-filter select {
+	margin-right: 10px;
+}
+#easy-archives .ea-filter input {
+	margin-right: 10px;
+}
+
+------=_NextPart_000_0015_01CCEB22.C359CF00
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.dbtan.com/wp-content/cache/autoptimize/autoptimize_6ef79a411e9159ecd22bda467cbf3d6e.php
+
+body {
+	font: 75%/150% "Trebuchet MS", Tahoma, Arial; margin: 0px 20px; =
+padding: 0px; color: rgb(0, 0, 0); font-size-adjust: none; font-stretch: =
+normal;
+}
+a {
+	color: rgb(12, 114, 162); text-decoration: none;
+}
+a:visited {
+	color: rgb(12, 114, 162); text-decoration: none;
+}
+p {
+	margin: 0px; padding: 0px 0px 15px;
+}
+h1 {
+	font: bold 36px/100% "Trebuchet MS", Tahoma, Arial; margin: 0px; =
+text-align: right; padding-bottom: 3px; font-size-adjust: none; =
+font-stretch: normal;
+}
+h1 a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+h1 a:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+h2 {
+	font: 190%/100% "Trebuchet MS", Tahoma, Arial; margin: 0px; color: =
+rgb(12, 114, 162); letter-spacing: -1px; font-size-adjust: none; =
+font-stretch: normal;
+}
+h2 a {
+	color: rgb(12, 114, 162); text-decoration: none;
+}
+h2 a:visited {
+	color: rgb(12, 114, 162); text-decoration: none;
+}
+h3 {
+	font: 140%/100% "Trebuchet MS", Tahoma, Arial; margin: 10px 0px 5px; =
+color: rgb(12, 114, 162); font-size-adjust: none; font-stretch: normal;
+}
+h4 {
+	font: 130%/100% "Trebuchet MS", Tahoma, Arial; margin: 10px 0px 5px; =
+font-size-adjust: none; font-stretch: normal;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+#header {
+	border-bottom-color: rgb(89, 120, 10); border-bottom-width: 3px; =
+border-bottom-style: solid;
+}
+#headerimg {
+	width: auto;
+}
+#headerimg .description {
+	text-align: right; color: rgb(102, 102, 102); padding-bottom: 3px; =
+font-size: 14px;
+}
+#nav {
+	display: none;
+}
+#content {
+	padding: 10px 0px 30px; width: 100%;
+}
+.post {
+	padding-top: 10px; clear: both;
+}
+.post-date {
+	color: rgb(102, 102, 102); text-transform: uppercase; font-size: 11px;
+}
+.post-cat {
+	font-size: 95%; float: left;
+}
+.post-comments {
+	font-size: 95%; float: right;
+}
+.post-calendar {
+	font-size: 95%; float: right;
+}
+.post-content {
+	padding-top: 10px; clear: both;
+}
+.navigation {
+	clear: both; margin-top: 10px; border-top-color: rgb(153, 153, 153); =
+border-top-width: 1px; border-top-style: solid;
+}
+.navigation a {
+	color: rgb(12, 114, 162);
+}
+.navigation a:visited {
+	color: rgb(12, 114, 162);
+}
+.previous-entries {
+	float: left;
+}
+.next-entries {
+	float: right;
+}
+#comments {
+	display: none;
+}
+#respond {
+	display: none;
+}
+.commentlist {
+	margin: 10px 0px; line-height: 130%; padding-left: 20px;
+}
+.commentlist li {
+	padding: 5px 10px;
+}
+.commentlist .alt {
+	background: rgb(241, 254, 219);
+}
+.commentlist cite {
+	color: rgb(24, 136, 184); font-size: 120%; font-style: normal; =
+font-weight: bold;
+}
+.commentlist cite a {
+	color: rgb(24, 136, 184); font-size: 120%; font-style: normal; =
+font-weight: bold;
+}
+.commentlist cite a:visited {
+	color: rgb(24, 136, 184); font-size: 120%; font-style: normal; =
+font-weight: bold;
+}
+.commentlist small {
+	font-size: 87%; margin-bottom: 5px; display: block;
+}
+#commentform {
+	display: none;
+}
+#sidebar {
+	display: none;
+}
+#searchform {
+	display: none;
+}
+#footer {
+	display: none;
+}
+#credits {
+	display: none;
+}
+.center {
+	text-align: center;
+}
+img.center {
+	margin-right: auto; margin-left: auto; display: block;
+}
+a img.center {
+	margin-right: auto; margin-left: auto; display: block;
+}
+.alignleft {
+	float: left;
+}
+img.alignleft {
+	margin: 4px 10px 5px 0px; float: left;
+}
+a img.alignleft {
+	margin: 4px 10px 5px 0px; float: left;
+}
+.alignright {
+	float: right;
+}
+img.alignright {
+	margin: 4px 10px 5px 0px; float: right;
+}
+a img.alignright {
+	margin: 4px 10px 5px 0px; float: right;
+}
+.clear {
+	clear: both;
+}
+hr.clear {
+	margin: 0px; padding: 0px; clear: both; visibility: hidden;
+}
+
+------=_NextPart_000_0015_01CCEB22.C359CF00
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.dbtan.com/wp-content/cache/autoptimize/autoptimize_5dd2cfb2e107b782565bfe7574cd0e2b.php
+
+.wp-pagenavi {
+	clear: both;
+}
+.wp-pagenavi a {
+	margin: 2px; padding: 3px 5px; border: 1px solid rgb(191, 191, 191); =
+text-decoration: none;
+}
+.wp-pagenavi span {
+	margin: 2px; padding: 3px 5px; border: 1px solid rgb(191, 191, 191); =
+text-decoration: none;
+}
+.wp-pagenavi a:hover {
+	border-color: rgb(0, 0, 0);
+}
+.wp-pagenavi span.current {
+	border-color: rgb(0, 0, 0);
+}
+.wp-pagenavi span.current {
+	font-weight: bold;
+}
+.editComment {
+	display: inline;
+}
+.editableComment {
+	display: inline;
+}
+.textComment {
+	display: inline;
+}
+.comment-childs {
+	margin: 5px 2px 2px 4px; padding: 4px 2px 2px 4px; border: 1px solid =
+rgb(153, 153, 153); background-color: white;
+}
+.chalt {
+	background-color: rgb(226, 226, 226);
+}
+#newcomment {
+	border: 1px dashed rgb(119, 119, 119); width: 90%;
+}
+#newcommentsubmit {
+	color: red;
+}
+.adminreplycomment {
+	margin: 4px; padding: 4px; border: 1px dashed rgb(119, 119, 119); =
+width: 99%;
+}
+.mvccls {
+	color: rgb(153, 153, 153);
+}
+
+------=_NextPart_000_0015_01CCEB22.C359CF00
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://apis.google.com/js/plusone.js
+
+window.___jsl=3Dwindow.___jsl||{};=0A=
+window.___jsl.h=3Dwindow.___jsl.h||'m;\/_\/apps-static\/_\/js\/gapi\/__fe=
+atures__\/rt=3Dj\/ver=3Dkt9NhMpz4l0.zh_CN.\/sv=3D1\/am=3D!w0zm5LZwGzmIwUV=
+xKA\/d=3D1\/';=0A=
+window.___jsl.l=3D[];=0A=
+window.___gpq=3D[];=0A=
+window.gapi=3Dwindow.gapi||{};=0A=
+window.gapi.plusone=3Dwindow.gapi.plusone||(function(){=0A=
+  function f(n){return function(){window.___gpq.push(n,arguments)}}=0A=
+  return{go:f('go'),render:f('render')}})();=0A=
+function __bsld(){var =
+p=3Dwindow.gapi.plusone=3Dwindow.googleapisv0.plusone;var =
+f;while(f=3Dwindow.___gpq.shift()){=0A=
+  p[f]&&p[f].apply(p,window.___gpq.shift())}=0A=
+p=3Dwindow.gapi.plus=3Dwindow.googleapisv0.plus;while(f=3Dwindow.___gbq.s=
+hift()){=0A=
+  p[f]&&p[f].apply(p,window.___gbq.shift())}=0A=
+var parseTags =3D gapi.config.get('parsetags') || =
+gapi.config.get('gwidget/parsetags');if =
+(parseTags!=3D=3D'explicit'){gapi.plusone.go();}}=0A=
+window.___gbq=3D[];=0A=
+window.gapi.plus=3Dwindow.gapi.plus||(function(){=0A=
+  function f(n){return function(){window.___gbq.push(n,arguments)}}=0A=
+  return{go:f('go'),render:f('render')}})();=0A=
+window['___jsl'] =3D window['___jsl'] || {};window['___jsl']['uc'] =3D =
+'https:\/\/apis.google.com\/js\/plusone.js';window['___jsl']['u'] =3D =
+'https:\/\/apis.google.com\/js\/plusone.js';window['___jsl']['f'] =3D =
+['googleapis.client','plusone','gcm_ppb'];window['___jsl']['ms'] =3D =
+'https://apis.google.com';(window['___jsl']['ci'] =3D =
+(window['___jsl']['ci'] || =
+[])).push({"gwidget":{"parsetags":"onload"},"lexps":[17,33,38,36,7,40,41,=
+29,46,47,44,15],"report":{},"iframes":{"additnow":{"url":"https://apis.go=
+ogle.com/additnow/additnow.html"},"sharebox":{"params":{"json":"&"},"url"=
+:":socialhost:/:session_prefix:_/sharebox/dialog"},"plus":{"url":":social=
+host:/u/:session_index:/_/pages/badge"},":socialhost:":"https://plusone.g=
+oogle.com","plusone_m":{"url":":socialhost:/:session_prefix:_/+1/fastbutt=
+on","params":{"count":"","size":"","url":""}},"card":{"params":{"s":"#","=
+userid":"&"},"url":":socialhost:/u/:session_index:/_/hovercard/card"},":s=
+ignuphost:":"https://plus.google.com","plusone":{"url":":socialhost:/:ses=
+sion_prefix:_/+1/fastbutton","params":{"count":"","size":"","url":""}}},"=
+isPlusUser":false,"googleapis.config":{"requestCache":{"enabled":true},"m=
+ethods":{"chili.people.list":true,"pos.plusones.list":true,"pos.plusones.=
+get":true,"chili.people.get":true,"pos.plusones.insert":true,"chili.activ=
+ities.list":true,"pos.plusones.delete":true,"chili.activities.get":true,"=
+chili.activities.search":true,"pos.plusones.getSignupState":true},"versio=
+ns":{"chili":"v1","pos":"v1"},"rpc":"/rpc","transport":{"isProxyShared":t=
+rue},"sessionCache":{"enabled":true},"root-1p":"https://clients6.google.c=
+om","root":"https://www.googleapis.com","xd3":"/static/proxy.html","devel=
+operKey":"AIzaSyCKSbrvQasunBoV16zDH9R33D88CeLr9gQ","auth":{"useInterimAut=
+h":false}}});var =
+gapi=3Dwindow.gapi||{};gapi.client=3Dwindow.gapi&&window.gapi.client||{};=0A=
+window.gapi=3Dwindow.gapi||{};=0A=
+(function(){var A=3Dvoid 0,B=3Dvoid =
+0,C=3D"___jsl",U=3D"h",D=3D"l",V=3D"m",E=3D"ms",W=3D"ci",X=3D"cu",Y=3D"c"=
+,Z=3D"cm",$=3D"o",n=3D"p",o=3D"q",F=3D"lc",G=3D"Q",s=3D"I",t=3D"il",u=3D"=
+_",v=3D"https://ssl.gstatic.com",aa=3D"/webclient/js",ba=3D"/webclient/js=
+x/",H=3D"https://apis.google.com",I=3D".js",ca=3D"gcjs-3p",da=3D/^(https?=
+:)?\/\/([^/:@]*)(:[0-9]+)?(\/[\w.,:!=3D/-]*)(\?[^#]*)?(#.*)?$/,J=3D/^[?#]=
+([^&]*&)*jsh=3D([^&]*)/,K=3D"d",p=3D"r",ea=3D"f",q=3D"m",L=3D"n",fa=3D"sy=
+nc",ga=3D"callback",ha=3D"config",ia=3D"_ci",w=3D"nodep",M=3D"gapi.load: =
+",N=3Dfunction(a,b){A&&A(a,b);throw M+=0A=
+a+(b&&" "+b);},O=3Dfunction(a){B&&B(a);var =
+b=3Dwindow.console;b&&b.warn(M+a)},ja=3Dfunction(a,b,c){a=3Da[U];if(b=3Db=
+&&J.exec(b)||c&&J.exec(c))try{a=3DdecodeURIComponent(b[2])}catch(d){O("In=
+valid hint "+b[2])}return a},P=3Dfunction(a){a.sort();for(var =
+b=3D0;b<a.length;)!a[b]||b&&a[b]=3D=3Da[b-1]?a.splice(b,1):++b},Q=3Dfunct=
+ion(a,b){for(var =
+c=3D{},d=3D0;d<b.length;d++)c[b[d]]=3D!0;for(d=3D0;d<a.length;d++)if(!c.h=
+asOwnProperty(a[d]))return!1;return!0},ka=3Dfunction(a){if("loading"!=3Dd=
+ocument.readyState)return!1;if("undefined"!=3Dtypeof =
+window.___gapisync)return window.___gapisync;=0A=
+if(a&&(a=3Da[fa],"undefined"!=3Dtypeof a))return a;for(var =
+a=3Ddocument.getElementsByTagName("meta"),b=3D0,c;c=3Da[b];++b)if("genera=
+tor"=3D=3Dc.getAttribute("name")&&"blogger"=3D=3Dc.getAttribute("content"=
+))return!0;return!1},R=3Dfunction(a,b){if(ka(a))document.write('<script =
+src=3D"'+encodeURI(b)+'"><\/script>');else{var =
+c=3Db,d=3Ddocument.createElement("script");d.setAttribute("src",c);d.asyn=
+c=3D!0;c=3Ddocument.getElementsByTagName("script")[0];c.parentNode.insert=
+Before(d,c)}},S=3Dfunction(a,b,c,d,e,f){var g=3Dc.shift(),h;h=3Dg=3D=3D=0A=
+p?v:g=3D=3Dq?d[E]||H:(h=3Dc.shift())&&h.replace(/\/+$/,"");var =
+j;g=3D=3Dp?(j=3Dc.shift(),j=3D(j.indexOf(ba)?aa+"/":"")+j):j=3Dc.shift();=
+var =
+i=3Dg=3D=3DK,k=3Di&&c.shift()||ca,c=3Di&&c.shift();if(g=3D=3DK)f=3Db,b=3D=
+j,e=3Dk,a=3D"/"+a.join(":")+(f.length?"!"+f.join(":"):"")+I+"?container=3D=
+"+e+"&c=3D2&jsload=3D0",b&&(a+=3D"&r=3D"+b),"d"=3D=3Dc&&(a+=3D"&debug=3D1=
+");else =
+if(g=3D=3Dp||g=3D=3Dea)f=3Db,b=3Dj,a=3D(b.indexOf("/")?"/":"")+b+"/"+a.jo=
+in("__")+(f.length?"--"+f.join("__"):"")+I;else =
+if(g=3D=3Dq||g=3D=3DL)b=3Dj,a=3Da.join(",").replace(/\./g,"_").replace(/-=
+/g,"_"),a=3Db.replace("__features__",=0A=
+a),a=3De[w]?a.replace("/d=3D1/","/d=3D0/"):a,f&&(a.match(/\/$/)||(a+=3D"/=
+"),a+=3D"cb=3Dgapi."+encodeURIComponent(f));else return O("Unknown hint =
+type =
+"+g),"";if(!h)return"";h+=3Da;a=3Dh;f=3Dd;if(b=3Dd=3Dda.exec(a))if(b=3D!/=
+\.\.|\/\//.test(d[4]))b:if(b=3Da,d=3Dd[2],g=3D=3Dp)b=3Db.substr(0,v.lengt=
+h)=3D=3Dv;else =
+if(g=3D=3Dq)d=3Df[E]||H,b=3Db.substr(0,d.length)=3D=3Dd;else{g=3Df[V];if(=
+d&&g){g=3Dg.split(",");f=3D0;for(b=3Dg.length;f<b;++f)if(e=3Dg[f],c=3Dd.l=
+astIndexOf(e),(0=3D=3Dc||"."=3D=3De.charAt(0)||"."=3D=3Dd.charAt(c-1))&&d=
+.length-e.length=3D=3Dc){b=3D!0;break b}}b=3D!1}b||N("Invalid URI",=0A=
+a);return =
+h},x=3Dfunction(a,b,c){c&&(a[b]=3Da[b]||[]).push(c)},y=3Dfunction(a){a[o]=
+&&0<a[o].length&&(window.gapi.load||T).apply(null,a[o].shift())},r=3Dfunc=
+tion(a){if(a)try{a()}catch(b){return b}return =
+null},m=3Dwindow.gapi,la=3Dfunction(){if(m[u])return m[u];var =
+a;if((a=3DObject.create)&&/\[native =
+code\]/.test(a))a=3Da(null);else{a=3D{};for(var b in a)a[b]=3Dvoid =
+0}return m[u]=3Da},ma=3Dfunction(a,b,c,d,e){var =
+f=3De[G]=3De[G]||[],g=3De[F]=3De[F]||{};f.push([a,b,d]);m[c]=3Dfunction(b=
+){m[c]=3Dvoid 0;if(!g[a]){g[a]=3Db;for(var b=3Df,d=3Dg,=0A=
+i=3De,k;b[0]&&d[b[0][0]];){var =
+l=3Db.shift();z(l[2],i);d[l[0]].call(window,la());d[l[0]]=3D!0;(l=3Dr(l[1=
+]))&&!k&&(k=3Dl)}i[n]=3Dvoid 0;y(i);if(k)throw =
+k;}}},z=3Dfunction(a,b){var =
+c=3Da[ia];x(b,W,c);c=3Da[ha];m.config?m.config.update(c):x(b,X,c)},na=3Df=
+unction(a){a[s]||(a[s]=3D0);return"loaded"+a[s]++},T=3Dfunction(a,b){var =
+c,d=3D{};"function"!=3D=3Dtypeof b?(d=3Db||{},c=3Dd[ga]):c=3Db;var =
+e=3Dwindow[C]=3Dwindow[C]||{},f=3Dja(e,window.location.search,window.loca=
+tion.hash),g=3Df&&!!f.match(/\/gapi\/|ms=3Dgapi/);if(e[n])x(e,o,[a,b]);el=
+se{f||N("No hint present",=0A=
+"");var =
+h=3Df.split(";"),j=3Dh[0]=3D=3Dq||h[0]=3D=3DL,f=3D[],i=3D[];e[t]&&"functi=
+on"=3D=3D=3Dtypeof =
+e[t]?(f=3De[t](a),d[w]=3D1):(f=3Da.split(":"),d[w]||P(f),i=3De[D]=3De[D]|=
+|[],P(i));if(g){if(!Q(f,i)&&(g=3Dna(e),h=3DS(f,i,h,e,d,g))){e[n]=3Df;ma(h=
+,c,g,d,e);i.push.apply(i,f);R(d,h);return}z(d,e);if(c)var =
+k=3Dr(c)}else{z(d,e);if(!Q(f,i)){var =
+l=3Dj?Z:Y;if(h=3DS(f,i,h,e,d,null)){e[n]=3Df;e[$]=3D1;e[l]=3Dfunction(){e=
+[n]=3Dvoid 0;e[l]=3Dvoid 0;var a=3Dr(c);y(e);if(a)throw =
+a;};i.push.apply(i,f);R(d,h);return}}k=3Dr(c)}y(e);if(k)throw =
+k;}};gapi.loader=3D{load:T}})();=0A=
+gapi.load=3Dgapi.loader.load;=0A=
+(window.gapi=3Dwindow.gapi||{}).load=3Dwindow.___jsl&&window.___jsl.il&&w=
+indow.gapi.load||gapi.load;=0A=
+gapi.load('googleapis.client:plusone:gcm_ppb', {'callback': =
+window['__bsld']  =
+});if(window['__gapi_jstiming__']){window['__gapi_jstiming__']['load']['t=
+ick']('blt');}
+------=_NextPart_000_0015_01CCEB22.C359CF00
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.dbtan.com/wp-content/plugins/wp-thread-comment/wp-thread-comment.js.php?jsver=common
+
+var rpPel =3D null;=0A=
+var Commentarea =3D null;=0A=
+=0A=
+function $s(){=0A=
+	if(arguments.length =3D=3D 1)=0A=
+		return get$(arguments[0]);=0A=
+	=0A=
+	var elements =3D [];=0A=
+	$c(arguments).each(function(el){elements.push(get$(el));});=0A=
+=0A=
+	return elements;=0A=
+}=0A=
+=0A=
+function get$(el){=0A=
+	if(typeof el =3D=3D 'string')=0A=
+		el =3D document.getElementById(el);=0A=
+	return el;=0A=
+}=0A=
+=0A=
+function $c(array){=0A=
+	var nArray =3D [];=0A=
+	for (i=3D0;el=3Darray[i];i++) nArray.push(el);=0A=
+	return nArray;=0A=
+}=0A=
+=0A=
+function commentarea(){=0A=
+	var fi =3D $s(commentformid).getElementsByTagName('textarea');=0A=
+	for(var i=3D0; i<fi.length; i++ ){=0A=
+			if(fi[i].name =3D=3D 'comment'){=0A=
+				return fi[i];=0A=
+			}=0A=
+	}=0A=
+	return null;=0A=
+}=0A=
+=0A=
+function movecfm(event,Id,dp,author){=0A=
+	var cfm =3D $s(commentformid);=0A=
+=0A=
+	if(cfm =3D=3D null){=0A=
+	  	alert("ERROR:\nCan't find the 'commentformid' div.");=0A=
+		return false;=0A=
+	}=0A=
+=0A=
+	var reRootElement =3D $s("cancel_reply");=0A=
+=0A=
+	if(reRootElement =3D=3D null){=0A=
+		alert("Error:\nNo anchor tag called 'cancel_reply'.");=0A=
+		return false;=0A=
+	}=0A=
+	=0A=
+	var replyId =3D $s("comment_reply_ID");=0A=
+	=0A=
+	if(replyId =3D=3D null){=0A=
+		alert("Error:\nNo form field called 'comment_reply_ID'.");=0A=
+		return false;=0A=
+	}=0A=
+=0A=
+	var dpId =3D $s("comment_reply_dp");=0A=
+=0A=
+	if(Commentarea =3D=3D null)=0A=
+		Commentarea =3D commentarea();=0A=
+=0A=
+	if(parseInt(Id)){=0A=
+		if(cfm.style.display =3D=3D "none"){=0A=
+			alert("New Comment is submiting, please wait a moment");=0A=
+			return false;=0A=
+		}=0A=
+=0A=
+		if(event =3D=3D null)=0A=
+              event =3D window.event;=0A=
+=0A=
+		rpPel =3D event.srcElement? event.srcElement : event.target;=0A=
+		rpPel =3D rpPel.parentNode.parentNode;=0A=
+=0A=
+		var OId =3D $s("comment-"+Id);=0A=
+		if(OId =3D=3D null){=0A=
+			//alert("Error:\nNo comment called 'comment-xxx'.");=0A=
+			//return false;=0A=
+			OId =3D rpPel;=0A=
+		}=0A=
+=0A=
+		replyId.value =3D Id;=0A=
+		if(dpId)=0A=
+			dpId.value =3D dp;=0A=
+		reRootElement.style.display =3D "block";=0A=
+=0A=
+		if($s("cfmguid") =3D=3D null){=0A=
+			var c =3D document.createElement("div");=0A=
+			c.id =3D "cfmguid";=0A=
+			c.style.display =3D "none";=0A=
+			cfm.parentNode.insertBefore(c,cfm);=0A=
+		}=0A=
+		cfm.parentNode.removeChild(cfm);=0A=
+		OId.appendChild(cfm);=0A=
+=0A=
+		if(Commentarea && Commentarea.display !=3D "none"){=0A=
+			Commentarea.focus();=0A=
+			if(atreply =3D=3D 'author')=0A=
+				Commentarea.value =3D '@' + author + ', ';=0A=
+			else if(atreply =3D=3D 'authorlink')=0A=
+				Commentarea.value =3D '<a href=3D"#comment-' + Id + '">@' + author + =
+'</a>, ';=0A=
+		}=0A=
+=0A=
+		cfm.style.display =3D "block";=0A=
+	}else{=0A=
+		replyId.value =3D "0";=0A=
+		if(dpId)=0A=
+			dpId.value =3D "0";=0A=
+		reRootElement.style.display =3D "none";=0A=
+			=0A=
+		var c =3D $s("cfmguid");=0A=
+		if(c){=0A=
+			cfm.parentNode.removeChild(cfm);=0A=
+			c.parentNode.insertBefore(cfm,c);=0A=
+		}=0A=
+=0A=
+		if(parseInt(dp) && Commentarea && Commentarea.display !=3D "none"){=0A=
+			Commentarea.focus();=0A=
+			//Commentarea.value =3D '';=0A=
+		}=0A=
+	}=0A=
+	return true;=0A=
+}=0A=
+
+------=_NextPart_000_0015_01CCEB22.C359CF00
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.feedsky.com/jsout/publishlist_v2.js?burl=dbtan&out_html=true
+
+=0A=
+burl=3D"dbtan";=0A=
+pub_url=3D"http://feed.dbtan.com";=0A=
+fn_uri=3D"";=0A=
+feed_subs=3D[{c1s11:['c1s11','http://img.feedsky.com/images/icon_sub_c1s1=
+1.gif','http://feed.dbtan.com','feedsky'],c1s13:['c1s13','http://img.feed=
+sky.com/images/icon_sub_c1s13.gif','http://feed.dbtan.com','feedsky'],c1s=
+12:['c1s12','http://img.feedsky.com/images/icon_sub_c1s12.gif','http://fe=
+ed.dbtan.com','feedsky'],c1s14:['c1s14','http://img.feedsky.com/images/ic=
+on_sub_c1s14.gif','http://feed.dbtan.com','feedsky'],c1s14d:['c1s14d','ht=
+tp://img.feedsky.com/images/icon_sub_c1s14_d.gif','http://feed.dbtan.com'=
+,'feedsky'],c1s15:['c1s15','http://img.feedsky.com/images/icon_sub_c1s15.=
+gif','http://feed.dbtan.com','feedsky'],c1s15d:['c1s15d','http://img.feed=
+sky.com/images/icon_sub_c1s15_d.gif','http://feed.dbtan.com','feedsky'],s=
+pace3:['space3','html','<br /><br =
+/>'],c1s66:['c1s66','http://img.feedsky.com/images/icon_sub_c1s66.gif','h=
+ttp://feed.dbtan.com','feedsky'],c1s68:['c1s68','http://img.feedsky.com/i=
+mages/icon_sub_c1s68.gif','http://feed.dbtan.com','feedsky'],c1s67:['c1s6=
+7','http://img.feedsky.com/images/icon_sub_c1s67.gif','http://feed.dbtan.=
+com','feedsky'],c1s16:['c1s16','http://img.feedsky.com/images/icon_sub_c1=
+s16.gif','http://feed.dbtan.com','feedsky'],c1s16d:['c1s16d','http://img.=
+feedsky.com/images/icon_sub_c1s16_d.gif','http://feed.dbtan.com','feedsky=
+'],c1s17:['c1s17','http://img.feedsky.com/images/icon_sub_c1s17.gif','htt=
+p://feed.dbtan.com','feedsky'],c1s17d:['c1s17d','http://img.feedsky.com/i=
+mages/icon_sub_c1s17_d.gif','http://feed.dbtan.com','feedsky']},{zhuaxia_=
+01:['zhuaxia_01','http://img.feedsky.com/images/icon_subshot01_zhuaxia.gi=
+f','http://www.zhuaxia.com/add_channel.php?url=3D'+encodeURI('http://feed=
+.dbtan.com')+'','&#25235;&#34430;'],pageflakes_01:['pageflakes_01','http:=
+//img.feedsky.com/images/icon_subshot01_pageflakes.gif','http://www.pagef=
+lakes.com/subscribe.aspx?url=3D'+encodeURI('http://feed.dbtan.com')+'','p=
+ageflakes'],rojo_01:['rojo_01','http://img.feedsky.com/images/icon_subsho=
+t01_rojo.gif','http://www.rojo.com/add-subscription?resource=3D'+encodeUR=
+I('http://feed.dbtan.com')+'','Rojo'],gougou_01:['gougou_01','http://img.=
+feedsky.com/images/icon_subshot01_gougou.gif',''+encodeURI('http://feed.d=
+btan.com')+'','&#29399;&#29399;'],google_01:['google_01','http://img.feed=
+sky.com/images/icon_subshot01_google.gif','http://fusion.google.com/add?f=
+eedurl=3D'+encodeURI('http://feed.dbtan.com')+'','google =
+reader'],netvibes_01:['netvibes_01','http://img.feedsky.com/images/icon_s=
+ubshot01_netvibes.gif','http://www.netvibes.com/subscribe.php?url=3D'+enc=
+odeURI('http://feed.dbtan.com')+'','netvibes'],yahoo_01:['yahoo_01','http=
+://img.feedsky.com/images/icon_subshot01_yahoo.gif','http://add.my.yahoo.=
+com/rss?url=3D'+encodeURI('http://feed.dbtan.com')+'','my =
+yahoo'],newsgator_01:['newsgator_01','http://img.feedsky.com/images/icon_=
+subshot01_newsgator.gif','http://www.newsgator.com/ngs/subscriber/subfext=
+.aspx?url=3D'+encodeURI('http://feed.dbtan.com')+'','newsgator'],blogline=
+s_01:['bloglines_01','http://img.feedsky.com/images/icon_subshot01_blogli=
+nes.gif','http://www.bloglines.com/sub/'+encodeURI('http://feed.dbtan.com=
+')+'','bloglines'],xianguo_01:['xianguo_01','http://img.feedsky.com/image=
+s/icon_subshot01_xianguo.gif','http://www.xianguo.com/subscribe.php?url=3D=
+'+encodeURI('http://feed.dbtan.com')+'','&#40092;&#26524;'],nazha_01:['na=
+zha_01','http://img.feedsky.com/images/icon_subshot01_nazha.gif','http://=
+inezha.com/add?url=3D'+encodeURI('http://feed.dbtan.com')+'','&#21738;&#2=
+1522;'],youdao_01:['youdao_01','http://img.feedsky.com/images/icon_subsho=
+t01_youdao.gif','http://reader.youdao.com/b.do?keyfrom=3Dfeedsky&url=3D'+=
+encodeURI('http://feed.dbtan.com')+'','&#26377;&#36947;'],qq_01:['qq_01',=
+'http://img.feedsky.com/images/icon_subshot01_qq.gif','http://mail.qq.com=
+/cgi-bin/feed?u=3D'+encodeURI('http://feed.dbtan.com')+'','QQ&#37038;&#31=
+665;'],douban_01:['douban_01','http://img.feedsky.com/images/icon_subshot=
+01_douban.gif','http://9.douban.com/reader/subscribe?url=3D'+encodeURI('h=
+ttp://feed.dbtan.com')+'','&#20061;&#28857;'],bangkan_01:['bangkan_01','h=
+ttp://img.feedsky.com/images/icon_subshot01_580k.gif','http://www.580k.co=
+m/myLook/NewStakeOut_Submit.aspx?cm=3D1&WebUrl=3D'+encodeURI('http://feed=
+.dbtan.com')+'','&#24110;&#30475;'],space3:['space3','html','<br =
+class=3D"cleaner"/>'],zhuaxia_02:['zhuaxia_02','http://img.feedsky.com/im=
+ages/icon_subshot02_zhuaxia.gif','http://www.zhuaxia.com/add_channel.php?=
+url=3D'+encodeURI('http://feed.dbtan.com')+'','&#25235;&#34430;'],pagefla=
+kes_02:['pageflakes_02','http://img.feedsky.com/images/icon_subshot02_pag=
+eflakes.gif','http://www.pageflakes.com/subscribe.aspx?url=3D'+encodeURI(=
+'http://feed.dbtan.com')+'','pageflakes'],rojo_02:['rojo_02','http://img.=
+feedsky.com/images/icon_subshot02_rojo.gif','http://www.rojo.com/add-subs=
+cription?resource=3D'+encodeURI('http://feed.dbtan.com')+'','Rojo'],gougo=
+u_02:['gougou_02','http://img.feedsky.com/images/icon_subshot02_gougou.gi=
+f',''+encodeURI('http://feed.dbtan.com')+'','&#29399;&#29399;'],google_02=
+:['google_02','http://img.feedsky.com/images/icon_subshot02_google.gif','=
+http://fusion.google.com/add?feedurl=3D'+encodeURI('http://feed.dbtan.com=
+')+'','google =
+reader'],netvibes_02:['netvibes_02','http://img.feedsky.com/images/icon_s=
+ubshot02_netvibes.gif','http://www.netvibes.com/subscribe.php?url=3D'+enc=
+odeURI('http://feed.dbtan.com')+'','netvibes'],yahoo_02:['yahoo_02','http=
+://img.feedsky.com/images/icon_subshot02_yahoo.gif','http://add.my.yahoo.=
+com/rss?url=3D'+encodeURI('http://feed.dbtan.com')+'','my =
+yahoo'],newsgator_02:['newsgator_02','http://img.feedsky.com/images/icon_=
+subshot02_newsgator.gif','http://www.newsgator.com/ngs/subscriber/subfext=
+.aspx?url=3D'+encodeURI('http://feed.dbtan.com')+'','newsgator'],blogline=
+s_02:['bloglines_02','http://img.feedsky.com/images/icon_subshot02_blogli=
+nes.gif','http://www.bloglines.com/sub/'+encodeURI('http://feed.dbtan.com=
+')+'','bloglines'],xianguo_02:['xianguo_02','http://img.feedsky.com/image=
+s/icon_subshot02_xianguo.gif','http://www.xianguo.com/subscribe.php?url=3D=
+'+encodeURI('http://feed.dbtan.com')+'','&#40092;&#26524;'],nazha_02:['na=
+zha_02','http://img.feedsky.com/images/icon_subshot02_nazha.gif','http://=
+inezha.com/add?url=3D'+encodeURI('http://feed.dbtan.com')+'','&#21738;&#2=
+1522;'],youdao_02:['youdao_02','http://img.feedsky.com/images/icon_subsho=
+t02_youdao.gif','http://reader.youdao.com/b.do?keyfrom=3Dfeedsky&url=3D'+=
+encodeURI('http://feed.dbtan.com')+'','&#26377;&#36947;'],qq_02:['qq_02',=
+'http://img.feedsky.com/images/icon_subshot02_qq.gif','http://mail.qq.com=
+/cgi-bin/feed?u=3D'+encodeURI('http://feed.dbtan.com')+'','QQ&#37038;&#31=
+665;'],douban_02:['douban_02','http://img.feedsky.com/images/icon_subshot=
+02_douban.gif','http://9.douban.com/reader/subscribe?url=3D'+encodeURI('h=
+ttp://feed.dbtan.com')+'','&#20061;&#28857;'],bangkan_02:['bangkan_02','h=
+ttp://img.feedsky.com/images/icon_subshot02_580k.gif','http://www.580k.co=
+m/myLook/NewStakeOut_Submit.aspx?cm=3D1&WebUrl=3D'+encodeURI('http://feed=
+.dbtan.com')+'','&#24110;&#30475;']}];=0A=
+=0A=
+function fs_render_publish_pic(div){=0A=
+	if(typeof(main_sub)!=3D"string"){=0A=
+		main_sub=3D"";=0A=
+	}=0A=
+	if(typeof(more_subs)!=3D"string"){=0A=
+		more_subs=3D"";=0A=
+	}=0A=
+	if(typeof(is_new)!=3D"string"){=0A=
+		is_new=3D"no";=0A=
+	}=0A=
+	var html=3Dnew Array();=0A=
+	var sub=3Dfeed_subs[0][main_sub];=0A=
+	if(sub){=0A=
+		var k=3Dsub[0]; //sub key=0A=
+		var s=3Dsub[1]; //image src=0A=
+		var l=3Dsub[2]; //sub link=0A=
+		var n=3Dsub[3]; //sub name=0A=
+		if(s){=0A=
+			if(is_new=3D=3D"yes"){=0A=
+				html[html.length]=3D'<a href=3D"'+l+'" target=3D"_blank"><img =
+border=3D"0" src=3D"'+s+'" alt=3D"'+n+'" vspace=3D"2"  =
+style=3D"margin-bottom:3px" ></a>';=0A=
+			}else{=0A=
+				html[html.length]=3D'<a href=3D"'+l+'"><img border=3D"0" =
+src=3D"'+s+'" alt=3D"'+n+'" vspace=3D"2"  style=3D"margin-bottom:3px" =
+></a>';=0A=
+			}=0A=
+		}else{=0A=
+			if(is_new=3D=3D"yes"){=0A=
+				html[html.length]=3D'<a href=3D"'+l+'" target=3D"_blank">'+n+'</a>';=0A=
+			}else{=0A=
+				html[html.length]=3D'<a href=3D"'+l+'">'+n+'</a>';=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+	if(more_subs!=3D""){=0A=
+		selecteds=3Dmore_subs.split(",");=0A=
+		for(i=3D0;i<selecteds.length;i++){=0A=
+			var sub=3Dfeed_subs[1][selecteds[i]];=0A=
+			var k=3Dsub[0]; //sub key=0A=
+			var s=3Dsub[1]; //image src=0A=
+			var l=3Dsub[2]; //sub link=0A=
+			var n=3Dsub[3]; //sub name=0A=
+			if(sub){=0A=
+				if(is_new=3D=3D"yes"){=0A=
+					html[html.length]=3D'<a href=3D"'+l+'" target=3D"_blank"><img =
+border=3D"0" src=3D"'+s+'" alt=3D"'+n+'" vspace=3D"2" =
+style=3D"margin-bottom:3px" ></a>';=0A=
+				}else{=0A=
+					html[html.length]=3D'<a href=3D"'+l+'"><img border=3D"0" =
+src=3D"'+s+'" alt=3D"'+n+'" vspace=3D"2" style=3D"margin-bottom:3px" =
+></a>';=0A=
+				}=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+	if(typeof(div)=3D=3D"string"){=0A=
+		var box=3Ddocument.getElementById(div);=0A=
+	}else{=0A=
+		var box=3Ddiv;=0A=
+	}=0A=
+	if(box){=0A=
+		box.innerHTML=3Dhtml.join("<br />");=0A=
+	}else{=0A=
+		document.write(html.join("<br />"));=0A=
+	}=0A=
+}=0A=
+fs_render_publish_pic()
+------=_NextPart_000_0015_01CCEB22.C359CF00--
